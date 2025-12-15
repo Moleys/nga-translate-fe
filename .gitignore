@@ -1,0 +1,11 @@
+/vendor/
+/temp/*
+!temp/.gitkeep
+composer.lock
+.env
+.DS_Store
+Thumbs.db
+node_modules
+dist
+.vercel
+.vercel

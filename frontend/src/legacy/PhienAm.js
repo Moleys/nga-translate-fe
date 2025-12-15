@@ -1,0 +1,37867 @@
+const PhienAm = [{
+	zh: "第",
+	vi: "đệ"
+}, {
+	zh: "九",
+	vi: "cửu"
+}, {
+	zh: "章",
+	vi: "chương"
+}, {
+	zh: "以",
+	vi: "dĩ"
+}, {
+	zh: "战",
+	vi: "chiến"
+}, {
+	zh: "养",
+	vi: "dưỡng"
+}, {
+	zh: "三",
+	vi: "tam"
+}, {
+	zh: "人",
+	vi: "nhân"
+}, {
+	zh: "在",
+	vi: "tại"
+}, {
+	zh: "城",
+	vi: "thành"
+}, {
+	zh: "外",
+	vi: "ngoại"
+}, {
+	zh: "隐",
+	vi: "ẩn"
+}, {
+	zh: "秘",
+	vi: "bí"
+}, {
+	zh: "处",
+	vi: "xử"
+}, {
+	zh: "大",
+	vi: "đại"
+}, {
+	zh: "睡",
+	vi: "thụy"
+}, {
+	zh: "一",
+	vi: "nhất"
+}, {
+	zh: "觉",
+	vi: "giác"
+}, {
+	zh: "到",
+	vi: "đáo"
+}, {
+	zh: "天",
+	vi: "thiên"
+}, {
+	zh: "黑",
+	vi: "hắc"
+}, {
+	zh: "时",
+	vi: "thì"
+}, {
+	zh: "才",
+	vi: "tài"
+}, {
+	zh: "翻",
+	vi: "phiên"
+}, {
+	zh: "墙",
+	vi: "tường"
+}, {
+	zh: "入",
+	vi: "nhập"
+}, {
+	zh: "随",
+	vi: "tùy"
+}, {
+	zh: "便",
+	vi: "tiện"
+}, {
+	zh: "找",
+	vi: "hoa"
+}, {
+	zh: "间",
+	vi: "gian"
+}, {
+	zh: "饭",
+	vi: "phạn"
+}, {
+	zh: "馆",
+	vi: "quán"
+}, {
+	zh: "吃",
+	vi: "cật"
+}, {
+	zh: "顿",
+	vi: "đốn"
+}, {
+	zh: "顺",
+	vi: "thuận"
+}, {
+	zh: "商",
+	vi: "thương"
+}, {
+	zh: "量",
+	vi: "lượng"
+}, {
+	zh: "计",
+	vi: "kế"
+}, {
+	zh: "向",
+	vi: "hướng"
+}, {
+	zh: "变",
+	vi: "biến"
+}, {
+	zh: "成",
+	vi: "thành"
+}, {
+	zh: "的",
+	vi: "đích"
+}, {
+	zh: "和",
+	vi: "hòa"
+}, {
+	zh: "黄",
+	vi: "hoàng"
+}, {
+	zh: "脸",
+	vi: "kiểm"
+}, {
+	zh: "丑",
+	vi: "sửu"
+}, {
+	zh: "汉",
+	vi: "hán"
+}, {
+	zh: "道",
+	vi: "đạo"
+}, {
+	zh: "要",
+	vi: "yếu"
+}, {
+	zh: "证",
+	vi: "chứng"
+}, {
+	zh: "实",
+	vi: "thực"
+}, {
+	zh: "我",
+	vi: "ngã"
+}, {
+	zh: "话",
+	vi: "thoại"
+}, {
+	zh: "并",
+	vi: "tịnh"
+}, {
+	zh: "不",
+	vi: "bất"
+}, {
+	zh: "困",
+	vi: "khốn"
+}, {
+	zh: "难",
+	vi: "nan"
+}, {
+	zh: "只",
+	vi: "chích"
+}, {
+	zh: "作",
+	vi: "tác"
+}, {
+	zh: "个",
+	vi: "cá"
+}, {
+	zh: "测",
+	vi: "trắc"
+}, {
+	zh: "试",
+	vi: "thí"
+}, {
+	zh: "可",
+	vi: "khả"
+}, {
+	zh: "知",
+	vi: "tri"
+}, {
+	zh: "是",
+	vi: "thị"
+}, {
+	zh: "否",
+	vi: "phủ"
+}, {
+	zh: "出",
+	vi: "xuất"
+}, {
+	zh: "卖",
+	vi: "mại"
+}, {
+	zh: "两",
+	vi: "lưỡng"
+}, {
+	zh: "感",
+	vi: "cảm"
+}, {
+	zh: "有",
+	vi: "hữu"
+}, {
+	zh: "趣",
+	vi: "thú"
+}, {
+	zh: "连",
+	vi: "liên"
+}, {
+	zh: "忙",
+	vi: "mang"
+}, {
+	zh: "问",
+	vi: "vấn"
+}, {
+	zh: "为",
+	vi: "vi"
+}, {
+	zh: "了",
+	vi: "liễu"
+}, {
+	zh: "把",
+	vi: "bả"
+}, {
+	zh: "握",
+	vi: "ác"
+}, {
+	zh: "形",
+	vi: "hình"
+}, {
+	zh: "势",
+	vi: "thế"
+}, {
+	zh: "们",
+	vi: "môn"
+}, {
+	zh: "各",
+	vi: "các"
+}, {
+	zh: "重",
+	vi: "trọng"
+}, {
+	zh: "中",
+	vi: "trung"
+}, {
+	zh: "均",
+	vi: "quân"
+}, {
+	zh: "设",
+	vi: "thiết"
+}, {
+	zh: "线",
+	vi: "tuyến"
+}, {
+	zh: "眼",
+	vi: "nhãn"
+}, {
+	zh: "他",
+	vi: "tha"
+}, {
+	zh: "多",
+	vi: "đa"
+}, {
+	zh: "家",
+	vi: "gia"
+}, {
+	zh: "身",
+	vi: "thân"
+}, {
+	zh: "份",
+	vi: "phân"
+}, {
+	zh: "掩",
+	vi: "yểm"
+}, {
+	zh: "饰",
+	vi: "sức"
+}, {
+	zh: "这",
+	vi: "giá"
+}, {
+	zh: "样",
+	vi: "dạng"
+}, {
+	zh: "听",
+	vi: "thính"
+}, {
+	zh: "命",
+	vi: "mệnh"
+}, {
+	zh: "于",
+	vi: "vu"
+}, {
+	zh: "上",
+	vi: "thượng"
+}, {
+	zh: "著",
+	vi: "trứ"
+}, {
+	zh: "安",
+	vi: "an"
+}, {
+	zh: "排",
+	vi: "bài"
+}, {
+	zh: "潜",
+	vi: "tiềm"
+}, {
+	zh: "返",
+	vi: "phản"
+}, {
+	zh: "再",
+	vi: "tái"
+}, {
+	zh: "看",
+	vi: "khán"
+}, {
+	zh: "行",
+	vi: "hành"
+}, {
+	zh: "能",
+	vi: "năng"
+}, {
+	zh: "保",
+	vi: "bảo"
+}, {
+	zh: "密",
+	vi: "mật"
+}, {
+	zh: "当",
+	vi: "đương"
+}, {
+	zh: "推",
+	vi: "thôi"
+}, {
+	zh: "想",
+	vi: "tưởng"
+}, {
+	zh: "杀",
+	vi: "sát"
+}, {
+	zh: "点",
+	vi: "điểm"
+}, {
+	zh: "头",
+	vi: "đầu"
+}, {
+	zh: "同",
+	vi: "đồng"
+}, {
+	zh: "意",
+	vi: "ý"
+}, {
+	zh: "失",
+	vi: "thất"
+}, {
+	zh: "好",
+	vi: "hảo"
+}, {
+	zh: "方",
+	vi: "phương"
+}, {
+	zh: "法",
+	vi: "pháp"
+}, {
+	zh: "日",
+	vi: "nhật"
+}, {
+	zh: "怎",
+	vi: "chẩm"
+}, {
+	zh: "从",
+	vi: "tòng"
+}, {
+	zh: "神",
+	vi: "thần"
+}, {
+	zh: "鬼",
+	vi: "quỷ"
+}, {
+	zh: "来",
+	vi: "lai"
+}, {
+	zh: "溜",
+	vi: "lưu"
+}, {
+	zh: "微",
+	vi: "vi"
+}, {
+	zh: "笑",
+	vi: "tiếu"
+}, {
+	zh: "兄",
+	vi: "huynh"
+}, {
+	zh: "思",
+	vi: "tư"
+}, {
+	zh: "虑",
+	vi: "lự"
+}, {
+	zh: "非",
+	vi: "phi"
+}, {
+	zh: "常",
+	vi: "thường"
+}, {
+	zh: "缜",
+	vi: "chẩn"
+}, {
+	zh: "明",
+	vi: "minh"
+}, {
+	zh: "白",
+	vi: "bạch"
+}, {
+	zh: "你",
+	vi: "nhĩ"
+}, {
+	zh: "含",
+	vi: "hàm"
+}, {
+	zh: "面",
+	vi: "diện"
+}, {
+	zh: "内",
+	vi: "nội"
+}, {
+	zh: "奸",
+	vi: "gian"
+}, {
+	zh: "对",
+	vi: "đối"
+}, {
+	zh: "吧",
+	vi: "ba"
+}, {
+	zh: "略",
+	vi: "lược"
+}, {
+	zh: "尬",
+	vi: "giới"
+}, {
+	zh: "直",
+	vi: "trực"
+}, {
+	zh: "接",
+	vi: "tiếp"
+}, {
+	zh: "嘛",
+	vi: "ma"
+}, {
+	zh: "尴",
+	vi: "dam"
+}, {
+	zh: "坦",
+	vi: "thản"
+}, {
+	zh: "言",
+	vi: "ngôn"
+}, {
+	zh: "既",
+	vi: "ký"
+}, {
+	zh: "诚",
+	vi: "thành"
+}, {
+	zh: "合",
+	vi: "hợp"
+}, {
+	zh: "就",
+	vi: "tựu"
+}, {
+	zh: "用",
+	vi: "dụng"
+}, {
+	zh: "客",
+	vi: "khách"
+}, {
+	zh: "气",
+	vi: "khí"
+}, {
+	zh: "位",
+	vi: "vị"
+}, {
+	zh: "虽",
+	vi: "tuy"
+}, {
+	zh: "认",
+	vi: "nhận"
+}, {
+	zh: "识",
+	vi: "thức"
+}, {
+	zh: "深",
+	vi: "thâm"
+}, {
+	zh: "初",
+	vi: "sơ"
+}, {
+	zh: "碰",
+	vi: "bính"
+}, {
+	zh: "且",
+	vi: "thả"
+}, {
+	zh: "立",
+	vi: "lập"
+}, {
+	zh: "状",
+	vi: "trạng"
+}, {
+	zh: "态",
+	vi: "thái"
+}, {
+	zh: "但",
+	vi: "đãn"
+}, {
+	zh: "却",
+	vi: "khước"
+}, {
+	zh: "早",
+	vi: "tảo"
+}, {
+	zh: "惺",
+	vi: "tinh"
+}, {
+	zh: "相",
+	vi: "tương"
+}, {
+	zh: "之",
+	vi: "chi"
+}, {
+	zh: "心",
+	vi: "tâm"
+}, {
+	zh: "定",
+	vi: "định"
+}, {
+	zh: "乃",
+	vi: "nãi"
+}, {
+	zh: "英",
+	vi: "anh"
+}, {
+	zh: "雄",
+	vi: "hùng"
+}, {
+	zh: "辈",
+	vi: "bối"
+}, {
+	zh: "则",
+	vi: "tắc"
+}, {
+	zh: "绝",
+	vi: "tuyệt"
+}, {
+	zh: "会",
+	vi: "hội"
+}, {
+	zh: "与",
+	vi: "dữ"
+}, {
+	zh: "提",
+	vi: "đề"
+}, {
+	zh: "议",
+	vi: "nghị"
+}, {
+	zh: "欣",
+	vi: "hân"
+}, {
+	zh: "然",
+	vi: "nhiên"
+}, {
+	zh: "那",
+	vi: "na"
+}, {
+	zh: "更",
+	vi: "canh"
+}, {
+	zh: "老",
+	vi: "lão"
+}, {
+	zh: "离",
+	vi: "ly"
+}, {
+	zh: "开",
+	vi: "khai"
+}, {
+	zh: "事",
+	vi: "sự"
+}, {
+	zh: "瞒",
+	vi: "man"
+}, {
+	zh: "过",
+	vi: "quá"
+}, {
+	zh: "朋",
+	vi: "bằng"
+}, {
+	zh: "友",
+	vi: "hữu"
+}, {
+	zh: "没",
+	vi: "một"
+}, {
+	zh: "打",
+	vi: "đả"
+}, {
+	zh: "算",
+	vi: "toán"
+}, {
+	zh: "长",
+	vi: "trường"
+}, {
+	zh: "期",
+	vi: "kỳ"
+}, {
+	zh: "何",
+	vi: "hà"
+}, {
+	zh: "叫",
+	vi: "khiếu"
+}, {
+	zh: "康",
+	vi: "khang"
+}, {
+	zh: "鞘",
+	vi: "sao"
+}, {
+	zh: "利",
+	vi: "lợi"
+}, {
+	zh: "此",
+	vi: "thử"
+}, {
+	zh: "智",
+	vi: "trí"
+}, {
+	zh: "谋",
+	vi: "mưu"
+}, {
+	zh: "武",
+	vi: "võ"
+}, {
+	zh: "功",
+	vi: "công"
+}, {
+	zh: "选",
+	vi: "tuyển"
+}, {
+	zh: "小",
+	vi: "tiểu"
+}, {
+	zh: "苤",
+	vi: "phiết"
+}, {
+	zh: "下",
+	vi: "hạ"
+}, {
+	zh: "整",
+	vi: "chỉnh"
+}, {
+	zh: "正",
+	vi: "chính"
+}, {
+	zh: "由",
+	vi: "do"
+}, {
+	zh: "策",
+	vi: "sách"
+}, {
+	zh: "划",
+	vi: "hoa"
+}, {
+	zh: "若",
+	vi: "nhược"
+}, {
+	zh: "说",
+	vi: "thuyết"
+}, {
+	zh: "生",
+	vi: "sinh"
+}, {
+	zh: "性",
+	vi: "tính"
+}, {
+	zh: "情",
+	vi: "tình"
+}, {
+	zh: "或",
+	vi: "hoặc"
+}, {
+	zh: "夺",
+	vi: "đoạt"
+}, {
+	zh: "得",
+	vi: "đắc"
+}, {
+	zh: "她",
+	vi: "tha"
+}, {
+	zh: "芳",
+	vi: "phương"
+}, {
+	zh: "弟",
+	vi: "đệ"
+}, {
+	zh: "亲",
+	vi: "thân"
+}, {
+	zh: "致",
+	vi: "trí"
+}, {
+	zh: "误",
+	vi: "ngộ"
+}, {
+	zh: "陷",
+	vi: "hãm"
+}, {
+	zh: "阱",
+	vi: "tịnh"
+}, {
+	zh: "其",
+	vi: "kỳ"
+}, {
+	zh: "尚",
+	vi: "thượng"
+}, {
+	zh: "如",
+	vi: "như"
+}, {
+	zh: "转",
+	vi: "chuyển"
+}, {
+	zh: "折",
+	vi: "chiết"
+}, {
+	zh: "又",
+	vi: "hựu"
+}, {
+	zh: "扯",
+	vi: "xả"
+}, {
+	zh: "土",
+	vi: "thổ"
+}, {
+	zh: "关",
+	vi: "quan"
+}, {
+	zh: "系",
+	vi: "hệ"
+}, {
+	zh: "穿",
+	vi: "xuyên"
+}, {
+	zh: "针",
+	vi: "châm"
+}, {
+	zh: "引",
+	vi: "dẫn"
+}, {
+	zh: "派",
+	vi: "phái"
+}, {
+	zh: "触",
+	vi: "xúc"
+}, {
+	zh: "边",
+	vi: "biên"
+}, {
+	zh: "负",
+	vi: "phụ"
+}, {
+	zh: "都",
+	vi: "đô"
+}, {
+	zh: "责",
+	vi: "trách"
+}, {
+	zh: "腹",
+	vi: "phúc"
+}, {
+	zh: "本",
+	vi: "bản"
+}, {
+	zh: "亦",
+	vi: "diệc"
+}, {
+	zh: "错",
+	vi: "thác"
+}, {
+	zh: "发",
+	vi: "phát"
+}, {
+	zh: "种",
+	vi: "chủng"
+}, {
+	zh: "怀",
+	vi: "hoài"
+}, {
+	zh: "疑",
+	vi: "nghi"
+}, {
+	zh: "至",
+	vi: "chí"
+}, {
+	zh: "甚",
+	vi: "thậm"
+}, {
+	zh: "么",
+	vi: "yêu"
+}, {
+	zh: "勾",
+	vi: "câu"
+}, {
+	zh: "通",
+	vi: "thông"
+}, {
+	zh: "仍",
+	vi: "nhưng"
+}, {
+	zh: "未",
+	vi: "vị"
+}, {
+	zh: "风",
+	vi: "phong"
+}, {
+	zh: "被",
+	vi: "bị"
+}, {
+	zh: "隆",
+	vi: "long"
+}, {
+	zh: "列",
+	vi: "liệt"
+}, {
+	zh: "邪",
+	vi: "tà"
+}, {
+	zh: "八",
+	vi: "bát"
+}, {
+	zh: "高",
+	vi: "cao"
+}, {
+	zh: "手",
+	vi: "thủ"
+}, {
+	zh: "胖",
+	vi: "bàn"
+}, {
+	zh: "子",
+	vi: "tử"
+}, {
+	zh: "冯",
+	vi: "phùng"
+}, {
+	zh: "缓",
+	vi: "hoãn"
+}, {
+	zh: "摇",
+	vi: "dao"
+}, {
+	zh: "双",
+	vi: "song"
+}, {
+	zh: "目",
+	vi: "mục"
+}, {
+	zh: "射",
+	vi: "xạ"
+}, {
+	zh: "注",
+	vi: "chú"
+}, {
+	zh: "色",
+	vi: "sắc"
+}, {
+	zh: "扼",
+	vi: "ách"
+}, {
+	zh: "解",
+	vi: "giải"
+}, {
+	zh: "释",
+	vi: "thích"
+}, {
+	zh: "番",
+	vi: "phiên"
+}, {
+	zh: "后",
+	vi: "hậu"
+}, {
+	zh: "夥",
+	vi: "khỏa"
+}, {
+	zh: "父",
+	vi: "phụ"
+}, {
+	zh: "女",
+	vi: "nữ"
+}, {
+	zh: "切",
+	vi: "thiết"
+}, {
+	zh: "暗",
+	vi: "ám"
+}, {
+	zh: "消",
+	vi: "tiêu"
+}, {
+	zh: "息",
+	vi: "tức"
+}, {
+	zh: "所",
+	vi: "sở"
+}, {
+	zh: "动",
+	vi: "động"
+}, {
+	zh: "全",
+	vi: "toàn"
+}, {
+	zh: "掌",
+	vi: "chưởng"
+}, {
+	zh: "而",
+	vi: "nhi"
+}, {
+	zh: "广",
+	vi: "quảng"
+}, {
+	zh: "竟",
+	vi: "cánh"
+}, {
+	zh: "借",
+	vi: "tá"
+}, {
+	zh: "刀",
+	vi: "đao"
+}, {
+	zh: "毒",
+	vi: "độc"
+}, {
+	zh: "呆",
+	vi: "ngốc"
+}, {
+	zh: "住",
+	vi: "trụ"
+}, {
+	zh: "半",
+	vi: "bán"
+}, {
+	zh: "晌",
+	vi: "thưởng"
+}, {
+	zh: "懂",
+	vi: "đổng"
+}, {
+	zh: "苦",
+	vi: "khổ"
+}, {
+	zh: "恐",
+	vi: "khủng"
+}, {
+	zh: "怕",
+	vi: "phạ"
+}, {
+	zh: "破",
+	vi: "phá"
+}, {
+	zh: "脑",
+	vi: "não"
+}, {
+	zh: "袋",
+	vi: "đại"
+}, {
+	zh: "透",
+	vi: "thấu"
+}, {
+	zh: "键",
+	vi: "kiện"
+}, {
+	zh: "像",
+	vi: "tượng"
+}, {
+	zh: "醒",
+	vi: "tỉnh"
+}, {
+	zh: "般",
+	vi: "bàn"
+}, {
+	zh: "里",
+	vi: "lý"
+}, {
+	zh: "远",
+	vi: "viễn"
+}, {
+	zh: "互",
+	vi: "hỗ"
+}, {
+	zh: "产",
+	vi: "sản"
+}, {
+	zh: "自",
+	vi: "tự"
+}, {
+	zh: "敝",
+	vi: "tệ"
+}, {
+	zh: "国",
+	vi: "quốc"
+}, {
+	zh: "久",
+	vi: "cửu"
+}, {
+	zh: "经",
+	vi: "kinh"
+}, {
+	zh: "训",
+	vi: "huấn"
+}, {
+	zh: "练",
+	vi: "luyện"
+}, {
+	zh: "灵",
+	vi: "linh"
+}, {
+	zh: "鹞",
+	vi: "diêu"
+}, {
+	zh: "鹰",
+	vi: "ưng"
+}, {
+	zh: "飞",
+	vi: "phi"
+}, {
+	zh: "数",
+	vi: "số"
+}, {
+	zh: "迅",
+	vi: "tấn"
+}, {
+	zh: "速",
+	vi: "tốc"
+}, {
+	zh: "传",
+	vi: "truyện"
+}, {
+	zh: "递",
+	vi: "đệ"
+}, {
+	zh: "别",
+	vi: "biệt"
+}, {
+	zh: "鸟",
+	vi: "điểu"
+}, {
+	zh: "儿",
+	vi: "nhi"
+}, {
+	zh: "袭",
+	vi: "tập"
+}, {
+	zh: "虞",
+	vi: "ngu"
+}, {
+	zh: "空",
+	vi: "không"
+}, {
+	zh: "场",
+	vi: "tràng"
+}, {
+	zh: "最",
+	vi: "tối"
+}, {
+	zh: "帮",
+	vi: "bang"
+}, {
+	zh: "容",
+	vi: "dung"
+}, {
+	zh: "厉",
+	vi: "lệ"
+}, {
+	zh: "害",
+	vi: "hại"
+}, {
+	zh: "扁",
+	vi: "biển"
+}, {
+	zh: "毛",
+	vi: "mao"
+}, {
+	zh: "畜",
+	vi: "súc"
+}, {
+	zh: "牲",
+	vi: "sinh"
+}, {
+	zh: "它",
+	vi: "tha"
+}, {
+	zh: "迷",
+	vi: "mê"
+}, {
+	zh: "途",
+	vi: "đồ"
+}, {
+	zh: "吗",
+	vi: "mạ"
+}, {
+	zh: "做",
+	vi: "tố"
+}, {
+	zh: "套",
+	vi: "sáo"
+}, {
+	zh: "特",
+	vi: "đặc"
+}, {
+	zh: "比",
+	vi: "bỉ"
+}, {
+	zh: "山",
+	vi: "sơn"
+}, {
+	zh: "川",
+	vi: "xuyên"
+}, {
+	zh: "河",
+	vi: "hà"
+}, {
+	zh: "流",
+	vi: "lưu"
+}, {
+	zh: "辨",
+	vi: "biện"
+}, {
+	zh: "配",
+	vi: "phối"
+}, {
+	zh: "赞",
+	vi: "tán"
+}, {
+	zh: "语",
+	vi: "ngữ"
+}, {
+	zh: "惜",
+	vi: "tích"
+}, {
+	zh: "承",
+	vi: "thừa"
+}, {
+	zh: "祖",
+	vi: "tổ"
+}, {
+	zh: "技",
+	vi: "kỹ"
+}, {
+	zh: "露",
+	vi: "lộ"
+}, {
+	zh: "二",
+	vi: "nhị"
+}, {
+	zh: "悠",
+	vi: "du"
+}, {
+	zh: "往",
+	vi: "vãng"
+}, {
+	zh: "考",
+	vi: "khảo"
+}, {
+	zh: "应",
+	vi: "ứng"
+}, {
+	zh: "违",
+	vi: "vi"
+}, {
+	zh: "背",
+	vi: "bối"
+}, {
+	zh: "宗",
+	vi: "tông"
+}, {
+	zh: "令",
+	vi: "lệnh"
+}, {
+	zh: "研",
+	vi: "nghiên"
+}, {
+	zh: "究",
+	vi: "cứu"
+}, {
+	zh: "领",
+	vi: "lĩnh"
+}, {
+	zh: "乾",
+	vi: "càn"
+}, {
+	zh: "咳",
+	vi: "khái"
+}, {
+	zh: "声",
+	vi: "thanh"
+}, {
+	zh: "指",
+	vi: "chỉ"
+}, {
+	zh: "己",
+	vi: "kỷ"
+}, {
+	zh: "联",
+	vi: "liên"
+}, {
+	zh: "力",
+	vi: "lực"
+}, {
+	zh: "太",
+	vi: "thái"
+}, {
+	zh: "丰",
+	vi: "phong"
+}, {
+	zh: "富",
+	vi: "phú"
+}, {
+	zh: "很",
+	vi: "ngận"
+}, {
+	zh: "易",
+	vi: "dịch"
+}, {
+	zh: "岔",
+	vi: "xóa"
+}, {
+	zh: "十",
+	vi: "thập"
+}, {
+	zh: "万",
+	vi: "vạn"
+}, {
+	zh: "千",
+	vi: "thiên"
+}, {
+	zh: "摆",
+	vi: "bãi"
+}, {
+	zh: "干",
+	vi: "cán"
+}, {
+	zh: "回",
+	vi: "hồi"
+}, {
+	zh: "少",
+	vi: "thiếu"
+}, {
+	zh: "夜",
+	vi: "dạ"
+}, {
+	zh: "际",
+	vi: "tế"
+}, {
+	zh: "也",
+	vi: "dã"
+}, {
+	zh: "因",
+	vi: "nhân"
+}, {
+	zh: "前",
+	vi: "tiền"
+}, {
+	zh: "起",
+	vi: "khởi"
+}, {
+	zh: "程",
+	vi: "trình"
+}, {
+	zh: "理",
+	vi: "lý"
+}, {
+	zh: "该",
+	vi: "cai"
+}, {
+	zh: "信",
+	vi: "tín"
+}, {
+	zh: "足",
+	vi: "túc"
+}, {
+	zh: "分",
+	vi: "phân"
+}, {
+	zh: "析",
+	vi: "tích"
+}, {
+	zh: "已",
+	vi: "dĩ"
+}, {
+	zh: "假",
+	vi: "giả"
+}, {
+	zh: "唯",
+	vi: "duy"
+}, {
+	zh: "标",
+	vi: "tiêu"
+}, {
+	zh: "死",
+	vi: "tử"
+}, {
+	zh: "机",
+	vi: "cơ"
+}, {
+	zh: "渔",
+	vi: "ngư"
+}, {
+	zh: "饵",
+	vi: "nhị"
+}, {
+	zh: "钓",
+	vi: "điếu"
+}, {
+	zh: "反",
+	vi: "phản"
+}, {
+	zh: "主",
+	vi: "chủ"
+}, {
+	zh: "先",
+	vi: "tiên"
+}, {
+	zh: "决",
+	vi: "quyết"
+}, {
+	zh: "条",
+	vi: "điều"
+}, {
+	zh: "件",
+	vi: "kiện"
+}, {
+	zh: "追",
+	vi: "truy"
+}, {
+	zh: "兵",
+	vi: "binh"
+}, {
+	zh: "免",
+	vi: "miễn"
+}, {
+	zh: "进",
+	vi: "tiến"
+}, {
+	zh: "受",
+	vi: "thụ"
+}, {
+	zh: "敌",
+	vi: "địch"
+}, {
+	zh: "劣",
+	vi: "liệt"
+}, {
+	zh: "境",
+	vi: "cảnh"
+}, {
+	zh: "皱",
+	vi: "trứu"
+}, {
+	zh: "眉",
+	vi: "mi"
+}, {
+	zh: "截",
+	vi: "tiệt"
+}, {
+	zh: "果",
+	vi: "quả"
+}, {
+	zh: "附",
+	vi: "phụ"
+}, {
+	zh: "近",
+	vi: "cận"
+}, {
+	zh: "某",
+	vi: "mỗ"
+}, {
+	zh: "务",
+	vi: "vụ"
+}, {
+	zh: "肯",
+	vi: "khẳng"
+}, {
+	zh: "遭",
+	vi: "tao"
+}, {
+	zh: "确",
+	vi: "xác"
+}, {
+	zh: "例",
+	vi: "lệ"
+}, {
+	zh: "监",
+	vi: "giám"
+}, {
+	zh: "视",
+	vi: "thị"
+}, {
+	zh: "静",
+	vi: "tĩnh"
+}, {
+	zh: "等",
+	vi: "đẳng"
+}, {
+	zh: "寻",
+	vi: "tầm"
+}, {
+	zh: "去",
+	vi: "khứ"
+}, {
+	zh: "止",
+	vi: "chỉ"
+}, {
+	zh: "节",
+	vi: "tiết"
+}, {
+	zh: "枝",
+	vi: "chi"
+}, {
+	zh: "惹",
+	vi: "nhạ"
+}, {
+	zh: "简",
+	vi: "giản"
+}, {
+	zh: "单",
+	vi: "đơn"
+}, {
+	zh: "清",
+	vi: "thanh"
+}, {
+	zh: "楚",
+	vi: "sở"
+}, {
+	zh: "汗",
+	vi: "hãn"
+}, {
+	zh: "四",
+	vi: "tứ"
+}, {
+	zh: "侍",
+	vi: "thị"
+}, {
+	zh: "门",
+	vi: "môn"
+}, {
+	zh: "师",
+	vi: "sư"
+}, {
+	zh: "跟",
+	vi: "cân"
+}, {
+	zh: "影",
+	vi: "ảnh"
+}, {
+	zh: "龙",
+	vi: "long"
+}, {
+	zh: "卷",
+	vi: "quyển"
+}, {
+	zh: "挡",
+	vi: "đáng"
+}, {
+	zh: "任",
+	vi: "nhậm"
+}, {
+	zh: "加",
+	vi: "gia"
+}, {
+	zh: "拚",
+	vi: "biện"
+}, {
+	zh: "败",
+	vi: "bại"
+}, {
+	zh: "俱",
+	vi: "câu"
+}, {
+	zh: "伤",
+	vi: "thương"
+}, {
+	zh: "幸",
+	vi: "hạnh"
+}, {
+	zh: "运",
+	vi: "vận"
+}, {
+	zh: "况",
+	vi: "huống"
+}, {
+	zh: "兼",
+	vi: "kiêm"
+}, {
+	zh: "桓",
+	vi: "hoàn"
+}, {
+	zh: "绽",
+	vi: "trán"
+}, {
+	zh: "根",
+	vi: "căn"
+}, {
+	zh: "淡",
+	vi: "đạm"
+}, {
+	zh: "题",
+	vi: "đề"
+}, {
+	zh: "愕",
+	vi: "ngạc"
+}, {
+	zh: "猜",
+	vi: "sai"
+}, {
+	zh: "即",
+	vi: "tức"
+}, {
+	zh: "刚",
+	vi: "cương"
+}, {
+	zh: "代",
+	vi: "đại"
+}, {
+	zh: "犬",
+	vi: "khuyển"
+}, {
+	zh: "守",
+	vi: "thủ"
+}, {
+	zh: "口",
+	vi: "khẩu"
+}, {
+	zh: "永",
+	vi: "vĩnh"
+}, {
+	zh: "刺",
+	vi: "thứ"
+}, {
+	zh: "段",
+	vi: "đoạn"
+}, {
+	zh: "付",
+	vi: "phó"
+}, {
+	zh: "仲",
+	vi: "trọng"
+}, {
+	zh: "将",
+	vi: "tương"
+}, {
+	zh: "掉",
+	vi: "điệu"
+}, {
+	zh: "硬",
+	vi: "ngạnh"
+}, {
+	zh: "涌",
+	vi: "dũng"
+}, {
+	zh: "尊",
+	vi: "tôn"
+}, {
+	zh: "敬",
+	vi: "kính"
+}, {
+	zh: "肃",
+	vi: "túc"
+}, {
+	zh: "怪",
+	vi: "quái"
+}, {
+	zh: "纵",
+	vi: "tung"
+}, {
+	zh: "横",
+	vi: "hoành"
+}, {
+	zh: "倒",
+	vi: "đảo"
+}, {
+	zh: "愚",
+	vi: "ngu"
+}, {
+	zh: "蠢",
+	vi: "xuẩn"
+}, {
+	zh: "旋",
+	vi: "toàn"
+}, {
+	zh: "请",
+	vi: "thỉnh"
+}, {
+	zh: "恕",
+	vi: "thứ"
+}, {
+	zh: "犯",
+	vi: "phạm"
+}, {
+	zh: "箸",
+	vi: "trứ"
+}, {
+	zh: "冒",
+	vi: "mạo"
+}, {
+	zh: "奇",
+	vi: "kỳ"
+}, {
+	zh: "险",
+	vi: "hiểm"
+}, {
+	zh: "逃",
+	vi: "đào"
+}, {
+	zh: "畏",
+	vi: "úy"
+}, {
+	zh: "缩",
+	vi: "súc"
+}, {
+	zh: "今",
+	vi: "kim"
+}, {
+	zh: "照",
+	vi: "chiếu"
+}, {
+	zh: "办",
+	vi: "bạn"
+}, {
+	zh: "必",
+	vi: "tất"
+}, {
+	zh: "须",
+	vi: "tu"
+}, {
+	zh: "支",
+	vi: "chi"
+}, {
+	zh: "持",
+	vi: "trì"
+}, {
+	zh: "族",
+	vi: "tộc"
+}, {
+	zh: "奈",
+	vi: "nại"
+}, {
+	zh: "叹",
+	vi: "thán"
+}, {
+	zh: "首",
+	vi: "thủ"
+}, {
+	zh: "尾",
+	vi: "vĩ"
+}, {
+	zh: "百",
+	vi: "bách"
+}, {
+	zh: "倍",
+	vi: "bội"
+}, {
+	zh: "暴",
+	vi: "bạo"
+}, {
+	zh: "藏",
+	vi: "tàng"
+}, {
+	zh: "围",
+	vi: "vi"
+}, {
+	zh: "攻",
+	vi: "công"
+}, {
+	zh: "击",
+	vi: "kích"
+}, {
+	zh: "见",
+	vi: "kiến"
+}, {
+	zh: "光",
+	vi: "quang"
+}, {
+	zh: "惫",
+	vi: "bại"
+}, {
+	zh: "表",
+	vi: "biểu"
+}, {
+	zh: "讲",
+	vi: "giảng"
+}, {
+	zh: "择",
+	vi: "trạch"
+}, {
+	zh: "王",
+	vi: "vương"
+}, {
+	zh: "义",
+	vi: "nghĩa"
+}, {
+	zh: "采",
+	vi: "thải"
+}, {
+	zh: "取",
+	vi: "thủ"
+}, {
+	zh: "筋",
+	vi: "cân"
+}, {
+	zh: "妙",
+	vi: "diệu"
+}, {
+	zh: "姑",
+	vi: "cô"
+}, {
+	zh: "名",
+	vi: "danh"
+}, {
+	zh: "拍",
+	vi: "phách"
+}, {
+	zh: "台",
+	vi: "đài"
+}, {
+	zh: "愧",
+	vi: "quý"
+}, {
+	zh: "完",
+	vi: "hoàn"
+}, {
+	zh: "摸",
+	vi: "mạc"
+}, {
+	zh: "还",
+	vi: "hoàn"
+}, {
+	zh: "创",
+	vi: "sang"
+}, {
+	zh: "堂",
+	vi: "đường"
+}, {
+	zh: "哈",
+	vi: "cáp"
+}, {
+	zh: "凭",
+	vi: "bằng"
+}, {
+	zh: "字",
+	vi: "tự"
+}, {
+	zh: "混",
+	vi: "hỗn"
+}, {
+	zh: "似",
+	vi: "tự"
+}, {
+	zh: "水",
+	vi: "thủy"
+}, {
+	zh: "乳",
+	vi: "nhũ"
+}, {
+	zh: "交",
+	vi: "giao"
+}, {
+	zh: "融",
+	vi: "dung"
+}, {
+	zh: "权",
+	vi: "quyền"
+}, {
+	zh: "斗",
+	vi: "đấu"
+}, {
+	zh: "争",
+	vi: "tranh"
+}, {
+	zh: "倾",
+	vi: "khuynh"
+}, {
+	zh: "轧",
+	vi: "yết"
+}, {
+	zh: "震",
+	vi: "chấn"
+}, {
+	zh: "撼",
+	vi: "hám"
+}, {
+	zh: "望",
+	vi: "vọng"
+}, {
+	zh: "现",
+	vi: "hiện"
+}, {
+	zh: "马",
+	vi: "mã"
+}, {
+	zh: "称",
+	vi: "xưng"
+}, {
+	zh: "够",
+	vi: "cú"
+}, {
+	zh: "共",
+	vi: "cộng"
+}, {
+	zh: "批",
+	vi: "phê"
+}, {
+	zh: "歼",
+	vi: "tiêm"
+}, {
+	zh: "灭",
+	vi: "diệt"
+}, {
+	zh: "属",
+	vi: "thuộc"
+}, {
+	zh: "忌",
+	vi: "kỵ"
+}, {
+	zh: "制",
+	vi: "chế"
+}, {
+	zh: "造",
+	vi: "tạo"
+}, {
+	zh: "矛",
+	vi: "mâu"
+}, {
+	zh: "盾",
+	vi: "thuẫn"
+}, {
+	zh: "冲",
+	vi: "trùng"
+}, {
+	zh: "突",
+	vi: "đột"
+}, {
+	zh: "存",
+	vi: "tồn"
+}, {
+	zh: "乎",
+	vi: "hồ"
+}, {
+	zh: "伸",
+	vi: "thân"
+}, {
+	zh: "搭",
+	vi: "đáp"
+}, {
+	zh: "肩",
+	vi: "kiên"
+}, {
+	zh: "凑",
+	vi: "thấu"
+}, {
+	zh: "故",
+	vi: "cố"
+}, {
+	zh: "谓",
+	vi: "vị"
+}, {
+	zh: "愈",
+	vi: "dũ"
+}, {
+	zh: "勇",
+	vi: "dũng"
+}, {
+	zh: "基",
+	vi: "cơ"
+}, {
+	zh: "精",
+	vi: "tinh"
+}, {
+	zh: "些",
+	vi: "ta"
+}, {
+	zh: "送",
+	vi: "tống"
+}, {
+	zh: "助",
+	vi: "trợ"
+}, {
+	zh: "修",
+	vi: "tu"
+}, {
+	zh: "宜",
+	vi: "nghi"
+}, {
+	zh: "莫",
+	vi: "mạc"
+}, {
+	zh: "体",
+	vi: "thể"
+}, {
+	zh: "塞",
+	vi: "tắc"
+}, {
+	zh: "民",
+	vi: "dân"
+}, {
+	zh: "狠",
+	vi: "ngoan"
+}, {
+	zh: "血",
+	vi: "huyết"
+}, {
+	zh: "液",
+	vi: "dịch"
+}, {
+	zh: "闻",
+	vi: "văn"
+}, {
+	zh: "激",
+	vi: "kích"
+}, {
+	zh: "丈",
+	vi: "trượng"
+}, {
+	zh: "豪",
+	vi: "hào"
+}, {
+	zh: "奋",
+	vi: "phấn"
+}, {
+	zh: "刻",
+	vi: "khắc"
+}, {
+	zh: "寸",
+	vi: "thốn"
+}, {
+	zh: "赴",
+	vi: "phó"
+}, {
+	zh: "油",
+	vi: "du"
+}, {
+	zh: "镬",
+	vi: "hoạch"
+}, {
+	zh: "奉",
+	vi: "phụng"
+}, {
+	zh: "陪",
+	vi: "bồi"
+}, {
+	zh: "底",
+	vi: "để"
+}, {
+	zh: "圣",
+	vi: "thánh"
+}, {
+	zh: "答",
+	vi: "đáp"
+}, {
+	zh: "仙",
+	vi: "tiên"
+}, {
+	zh: "佛",
+	vi: "phật"
+}, {
+	zh: "强",
+	vi: "cường"
+}, {
+	zh: "秃",
+	vi: "ngốc"
+}, {
+	zh: "哩",
+	vi: "lý"
+}, {
+	zh: "抽",
+	vi: "trừu"
+}, {
+	zh: "凉",
+	vi: "lương"
+}, {
+	zh: "登",
+	vi: "đăng"
+}, {
+	zh: "减",
+	vi: "giảm"
+}, {
+	zh: "昔",
+	vi: "tích"
+}, {
+	zh: "年",
+	vi: "niên"
+}, {
+	zh: "落",
+	vi: "lạc"
+}, {
+	zh: "荒",
+	vi: "hoang"
+}, {
+	zh: "僧",
+	vi: "tăng"
+}, {
+	zh: "讶",
+	vi: "nhạ"
+}, {
+	zh: "真",
+	vi: "chân"
+}, {
+	zh: "留",
+	vi: "lưu"
+}, {
+	zh: "桩",
+	vi: "thung"
+}, {
+	zh: "另",
+	vi: "lánh"
+}, {
+	zh: "隋",
+	vi: "tùy"
+}, {
+	zh: "廷",
+	vi: "đình"
+}, {
+	zh: "右",
+	vi: "hữu"
+}, {
+	zh: "禄",
+	vi: "lộc"
+}, {
+	zh: "夫",
+	vi: "phu"
+}, {
+	zh: "护",
+	vi: "hộ"
+}, {
+	zh: "北",
+	vi: "bắc"
+}, {
+	zh: "蕃",
+	vi: "phiền"
+}, {
+	zh: "军",
+	vi: "quân"
+}, {
+	zh: "裴",
+	vi: "bùi"
+}, {
+	zh: "矩",
+	vi: "củ"
+}, {
+	zh: "地",
+	vi: "địa"
+}, {
+	zh: "工",
+	vi: "công"
+}, {
+	zh: "盖",
+	vi: "cái"
+}, {
+	zh: "世",
+	vi: "thế"
+}, {
+	zh: "文",
+	vi: "văn"
+}, {
+	zh: "凡",
+	vi: "phàm"
+}, {
+	zh: "响",
+	vi: "hưởng"
+}, {
+	zh: "改",
+	vi: "cải"
+}, {
+	zh: "历",
+	vi: "lịch"
+}, {
+	zh: "史",
+	vi: "sử"
+}, {
+	zh: "图",
+	vi: "đồ"
+}, {
+	zh: "恰",
+	vi: "kháp"
+}, {
+	zh: "曹",
+	vi: "tào"
+}, {
+	zh: "叛",
+	vi: "bạn"
+}, {
+	zh: "结",
+	vi: "kết"
+}, {
+	zh: "忠",
+	vi: "trung"
+}, {
+	zh: "耿",
+	vi: "cảnh"
+}, {
+	zh: "公",
+	vi: "công"
+}, {
+	zh: "临",
+	vi: "lâm"
+}, {
+	zh: "终",
+	vi: "chung"
+}, {
+	zh: "遗",
+	vi: "di"
+}, {
+	zh: "拿",
+	vi: "nã"
+}, {
+	zh: "颅",
+	vi: "lô"
+}, {
+	zh: "祭",
+	vi: "tế"
+}, {
+	zh: "奠",
+	vi: "điện"
+}, {
+	zh: "趟",
+	vi: "tranh"
+}, {
+	zh: "趁",
+	vi: "sấn"
+}, {
+	zh: "热",
+	vi: "nhiệt"
+}, {
+	zh: "闹",
+	vi: "nháo"
+}, {
+	zh: "伦",
+	vi: "luân"
+}, {
+	zh: "景",
+	vi: "cảnh"
+}, {
+	zh: "染",
+	vi: "nhiễm"
+}, {
+	zh: "崇",
+	vi: "sùng"
+}, {
+	zh: "遂",
+	vi: "toại"
+}, {
+	zh: "仅",
+	vi: "cận"
+}, {
+	zh: "抛",
+	vi: "phao"
+}, {
+	zh: "兴",
+	vi: "hưng"
+}, {
+	zh: "低",
+	vi: "đê"
+}, {
+	zh: "呢",
+	vi: "ni"
+}, {
+	zh: "啦",
+	vi: "lạp"
+}, {
+	zh: "浑",
+	vi: "hồn"
+}, {
+	zh: "沸",
+	vi: "phí"
+}, {
+	zh: "腾",
+	vi: "đằng"
+}, {
+	zh: "骂",
+	vi: "mạ"
+}, {
+	zh: "句",
+	vi: "cú"
+}, {
+	zh: "粗",
+	vi: "thô"
+}, {
+	zh: "断",
+	vi: "đoạn"
+}, {
+	zh: "痛",
+	vi: "thống"
+}, {
+	zh: "快",
+	vi: "khoái"
+}, {
+	zh: "逢",
+	vi: "phùng"
+}, {
+	zh: "遇",
+	vi: "ngộ"
+}, {
+	zh: "扣",
+	vi: "khấu"
+}, {
+	zh: "傻",
+	vi: "sỏa"
+}, {
+	zh: "耳",
+	vi: "nhĩ"
+}, {
+	zh: "柳",
+	vi: "liễu"
+}, {
+	zh: "花",
+	vi: "hoa"
+}, {
+	zh: "洞",
+	vi: "động"
+}, {
+	zh: "添",
+	vi: "thiêm"
+}, {
+	zh: "酒",
+	vi: "tửu"
+}, {
+	zh: "亏",
+	vi: "khuy"
+}, {
+	zh: "旅",
+	vi: "lữ"
+}, {
+	zh: "享",
+	vi: "hưởng"
+}, {
+	zh: "靠",
+	vi: "kháo"
+}, {
+	zh: "沉",
+	vi: "trầm"
+}, {
+	zh: "吟",
+	vi: "ngâm"
+}, {
+	zh: "总",
+	vi: "tổng"
+}, {
+	zh: "跋",
+	vi: "bạt"
+}, {
+	zh: "者",
+	vi: "giả"
+}, {
+	zh: "旦",
+	vi: "đán"
+}, {
+	zh: "索",
+	vi: "tác"
+}, {
+	zh: "片",
+	vi: "phiến"
+}, {
+	zh: "路",
+	vi: "lộ"
+}, {
+	zh: "码",
+	vi: "mã"
+}, {
+	zh: "曾",
+	vi: "tằng"
+}, {
+	zh: "仔",
+	vi: "tử"
+}, {
+	zh: "细",
+	vi: "tế"
+}, {
+	zh: "泊",
+	vi: "bạc"
+}, {
+	zh: "船",
+	vi: "thuyền"
+}, {
+	zh: "艘",
+	vi: "tao"
+}, {
+	zh: "挂",
+	vi: "quải"
+}, {
+	zh: "士",
+	vi: "sĩ"
+}, {
+	zh: "旗",
+	vi: "kỳ"
+}, {
+	zh: "帜",
+	vi: "xí"
+}, {
+	zh: "良",
+	vi: "lương"
+}, {
+	zh: "美",
+	vi: "mỹ"
+}, {
+	zh: "招",
+	vi: "chiêu"
+}, {
+	zh: "牌",
+	vi: "bài"
+}, {
+	zh: "瞩",
+	vi: "chúc"
+}, {
+	zh: "车",
+	vi: "xa"
+}, {
+	zh: "鉴",
+	vi: "giám"
+}, {
+	zh: "使",
+	vi: "sử"
+}, {
+	zh: "赶",
+	vi: "cản"
+}, {
+	zh: "无",
+	vi: "vô"
+}, {
+	zh: "掳",
+	vi: "lỗ"
+}, {
+	zh: "劫",
+	vi: "kiếp"
+}, {
+	zh: "戒",
+	vi: "giới"
+}, {
+	zh: "备",
+	vi: "bị"
+}, {
+	zh: "让",
+	vi: "nhượng"
+}, {
+	zh: "游",
+	vi: "du"
+}, {
+	zh: "痴",
+	vi: "si"
+}, {
+	zh: "梦",
+	vi: "mộng"
+}, {
+	zh: "耸",
+	vi: "tủng"
+}, {
+	zh: "胛",
+	vi: "giáp"
+}, {
+	zh: "环",
+	vi: "hoàn"
+}, {
+	zh: "扫",
+	vi: "tảo"
+}, {
+	zh: "铺",
+	vi: "phô"
+}, {
+	zh: "稀",
+	vi: "hi"
+}, {
+	zh: "疏",
+	vi: "sơ"
+}, {
+	zh: "顾",
+	vi: "cố"
+}, {
+	zh: "颇",
+	vi: "pha"
+}, {
+	zh: "迁",
+	vi: "thiên"
+}, {
+	zh: "座",
+	vi: "tọa"
+}, {
+	zh: "仿",
+	vi: "phảng"
+}, {
+	zh: "域",
+	vi: "vực"
+}, {
+	zh: "旺",
+	vi: "vượng"
+}, {
+	zh: "毕",
+	vi: "tất"
+}, {
+	zh: "市",
+	vi: "thị"
+}, {
+	zh: "占",
+	vi: "chiêm"
+}, {
+	zh: "紧",
+	vi: "khẩn"
+}, {
+	zh: "陆",
+	vi: "lục"
+}, {
+	zh: "逼",
+	vi: "bức"
+}, {
+	zh: "优",
+	vi: "ưu"
+}, {
+	zh: "物",
+	vi: "vật"
+}, {
+	zh: "饶",
+	vi: "nhiêu"
+}, {
+	zh: "平",
+	vi: "bình"
+}, {
+	zh: "姓",
+	vi: "tính"
+}, {
+	zh: "活",
+	vi: "hoạt"
+}, {
+	zh: "管",
+	vi: "quản"
+}, {
+	zh: "谁",
+	vi: "thùy"
+}, {
+	zh: "统",
+	vi: "thống"
+}, {
+	zh: "治",
+	vi: "trị"
+}, {
+	zh: "举",
+	vi: "cử"
+}, {
+	zh: "杯",
+	vi: "bôi"
+}, {
+	zh: "凝",
+	vi: "ngưng"
+}, {
+	zh: "洌",
+	vi: "liệt"
+}, {
+	zh: "担",
+	vi: "đam"
+}, {
+	zh: "妃",
+	vi: "phi"
+}, {
+	zh: "暄",
+	vi: "huyên"
+}, {
+	zh: "诈",
+	vi: "trá"
+}, {
+	zh: "德",
+	vi: "đức"
+}, {
+	zh: "偷",
+	vi: "thâu"
+}, {
+	zh: "东",
+	vi: "đông"
+}, {
+	zh: "西",
+	vi: "tây"
+}, {
+	zh: "荆",
+	vi: "kinh"
+}, {
+	zh: "罪",
+	vi: "tội"
+}, {
+	zh: "歉",
+	vi: "khiểm"
+}, {
+	zh: "甘",
+	vi: "cam"
+}, {
+	zh: "范",
+	vi: "phạm"
+}, {
+	zh: "卫",
+	vi: "vệ"
+}, {
+	zh: "步",
+	vi: "bộ"
+}, {
+	zh: "钉",
+	vi: "đinh"
+}, {
+	zh: "妄",
+	vi: "vọng"
+}, {
+	zh: "挫",
+	vi: "tỏa"
+}, {
+	zh: "威",
+	vi: "uy"
+}, {
+	zh: "岂",
+	vi: "khởi"
+}, {
+	zh: "皆",
+	vi: "giai"
+}, {
+	zh: "喝",
+	vi: "hát"
+}, {
+	zh: "嘿",
+	vi: "hắc"
+}, {
+	zh: "避",
+	vi: "tị"
+}, {
+	zh: "示",
+	vi: "kỳ"
+}, {
+	zh: "敢",
+	vi: "cảm"
+}, {
+	zh: "饮",
+	vi: "ẩm"
+}, {
+	zh: "尽",
+	vi: "tận"
+}, {
+	zh: "店",
+	vi: "điếm"
+}, {
+	zh: "饱",
+	vi: "bão"
+}, {
+	zh: "食",
+	vi: "thực"
+}, {
+	zh: "醉",
+	vi: "túy"
+}, {
+	zh: "剩",
+	vi: "thặng"
+}, {
+	zh: "冷",
+	vi: "lãnh"
+}, {
+	zh: "除",
+	vi: "trừ"
+}, {
+	zh: "狗",
+	vi: "cẩu"
+}, {
+	zh: "窝",
+	vi: "oa"
+}, {
+	zh: "予",
+	vi: "dư"
+}, {
+	zh: "室",
+	vi: "thất"
+}, {
+	zh: "需",
+	vi: "nhu"
+}, {
+	zh: "求",
+	vi: "cầu"
+}, {
+	zh: "渴",
+	vi: "khát"
+}, {
+	zh: "拥",
+	vi: "ủng"
+}, {
+	zh: "娇",
+	vi: "kiều"
+}, {
+	zh: "妻",
+	vi: "thê"
+}, {
+	zh: "爱",
+	vi: "ái"
+}, {
+	zh: "乐",
+	vi: "nhạc"
+}, {
+	zh: "希",
+	vi: "hi"
+}, {
+	zh: "倦",
+	vi: "quyện"
+}, {
+	zh: "雨",
+	vi: "vũ"
+}, {
+	zh: "温",
+	vi: "ôn"
+}, {
+	zh: "暖",
+	vi: "noãn"
+}, {
+	zh: "香",
+	vi: "hương"
+}, {
+	zh: "洁",
+	vi: "khiết"
+}, {
+	zh: "佳",
+	vi: "giai"
+}, {
+	zh: "唉",
+	vi: "ai"
+}, {
+	zh: "柔",
+	vi: "nhu"
+}, {
+	zh: "姐",
+	vi: "tả"
+}, {
+	zh: "复",
+	vi: "phục"
+}, {
+	zh: "锐",
+	vi: "nhuệ"
+}, {
+	zh: "石",
+	vi: "thạch"
+}, {
+	zh: "青",
+	vi: "thanh"
+}, {
+	zh: "璇",
+	vi: "tuyền"
+}, {
+	zh: "愿",
+	vi: "nguyện"
+}, {
+	zh: "谐",
+	vi: "hài"
+}, {
+	zh: "颤",
+	vi: "chiến"
+}, {
+	zh: "忍",
+	vi: "nhẫn"
+}, {
+	zh: "告",
+	vi: "cáo"
+}, {
+	zh: "诉",
+	vi: "tố"
+}, {
+	zh: "走",
+	vi: "tẩu"
+}, {
+	zh: "始",
+	vi: "thủy"
+}, {
+	zh: "益",
+	vi: "ích"
+}, {
+	zh: "书",
+	vi: "thư"
+}, {
+	zh: "录",
+	vi: "lục"
+}, {
+	zh: "记",
+	vi: "ký"
+}, {
+	zh: "月",
+	vi: "nguyệt"
+}, {
+	zh: "谈",
+	vi: "đàm"
+}, {
+	zh: "描",
+	vi: "miêu"
+}, {
+	zh: "述",
+	vi: "thuật"
+}, {
+	zh: "音",
+	vi: "âm"
+}, {
+	zh: "赋",
+	vi: "phú"
+}, {
+	zh: "象",
+	vi: "tượng"
+}, {
+	zh: "奏",
+	vi: "tấu"
+}, {
+	zh: "曲",
+	vi: "khúc"
+}, {
+	zh: "宅",
+	vi: "trạch"
+}, {
+	zh: "蝙",
+	vi: "biên"
+}, {
+	zh: "蝠",
+	vi: "bức"
+}, {
+	zh: "府",
+	vi: "phủ"
+}, {
+	zh: "异",
+	vi: "dị"
+}, {
+	zh: "超",
+	vi: "siêu"
+}, {
+	zh: "箫",
+	vi: "tiêu"
+}, {
+	zh: "艺",
+	vi: "nghệ"
+}, {
+	zh: "次",
+	vi: "thứ"
+}, {
+	zh: "限",
+	vi: "hạn"
+}, {
+	zh: "陈",
+	vi: "trần"
+}, {
+	zh: "尤",
+	vi: "vưu"
+}, {
+	zh: "晓",
+	vi: "hiểu"
+}, {
+	zh: "皿",
+	vi: "mãnh"
+}, {
+	zh: "恨",
+	vi: "hận"
+}, {
+	zh: "写",
+	vi: "tả"
+}, {
+	zh: "後",
+	vi: "hậu"
+}, {
+	zh: "婉",
+	vi: "uyển"
+}, {
+	zh: "凄",
+	vi: "thê"
+}, {
+	zh: "腔",
+	vi: "khang"
+}, {
+	zh: "滥",
+	vi: "lạm"
+}, {
+	zh: "调",
+	vi: "điều"
+}, {
+	zh: "区",
+	vi: "khu"
+}, {
+	zh: "肺",
+	vi: "phế"
+}, {
+	zh: "腑",
+	vi: "phủ"
+}, {
+	zh: "韵",
+	vi: "vận"
+}, {
+	zh: "斧",
+	vi: "phủ"
+}, {
+	zh: "哀",
+	vi: "ai"
+}, {
+	zh: "界",
+	vi: "giới"
+}, {
+	zh: "聆",
+	vi: "linh"
+}, {
+	zh: "踏",
+	vi: "đạp"
+}, {
+	zh: "禁",
+	vi: "cấm"
+}, {
+	zh: "幻",
+	vi: "huyễn"
+}, {
+	zh: "置",
+	vi: "trí"
+}, {
+	zh: "窗",
+	vi: "song"
+}, {
+	zh: "朵",
+	vi: "đóa"
+}, {
+	zh: "鲜",
+	vi: "tiên"
+}, {
+	zh: "放",
+	vi: "phóng"
+}, {
+	zh: "楼",
+	vi: "lâu"
+}, {
+	zh: "隔",
+	vi: "cách"
+}, {
+	zh: "阂",
+	vi: "ngại"
+}, {
+	zh: "澈",
+	vi: "triệt"
+}, {
+	zh: "粉",
+	vi: "phấn"
+}, {
+	zh: "碎",
+	vi: "toái"
+}, {
+	zh: "亢",
+	vi: "kháng"
+}, {
+	zh: "昂",
+	vi: "ngang"
+}, {
+	zh: "扬",
+	vi: "dương"
+}, {
+	zh: "彷",
+	vi: "bàng"
+}, {
+	zh: "洄",
+	vi: "hồi"
+}, {
+	zh: "渊",
+	vi: "uyên"
+}, {
+	zh: "海",
+	vi: "hải"
+}, {
+	zh: "缠",
+	vi: "triền"
+}, {
+	zh: "每",
+	vi: "mỗi"
+}, {
+	zh: "符",
+	vi: "phù"
+}, {
+	zh: "烙",
+	vi: "lạc"
+}, {
+	zh: "衔",
+	vi: "hàm"
+}, {
+	zh: "丝",
+	vi: "ti"
+}, {
+	zh: "毫",
+	vi: "hào"
+}, {
+	zh: "瑕",
+	vi: "hà"
+}, {
+	zh: "疵",
+	vi: "tỳ"
+}, {
+	zh: "泛",
+	vi: "phiếm"
+}, {
+	zh: "乏",
+	vi: "phạp"
+}, {
+	zh: "摄",
+	vi: "nhiếp"
+}, {
+	zh: "魂",
+	vi: "hồn"
+}, {
+	zh: "魄",
+	vi: "phách"
+}, {
+	zh: "嗉",
+	vi: "tố"
+}, {
+	zh: "召",
+	vi: "triệu"
+}, {
+	zh: "教",
+	vi: "giáo"
+}, {
+	zh: "抑",
+	vi: "ức"
+}, {
+	zh: "独",
+	vi: "độc"
+}, {
+	zh: "夕",
+	vi: "tịch"
+}, {
+	zh: "阳",
+	vi: "dương"
+}, {
+	zh: "绵",
+	vi: "miên"
+}, {
+	zh: "怜",
+	vi: "liên"
+}, {
+	zh: "慕",
+	vi: "mộ"
+}, {
+	zh: "惘",
+	vi: "võng"
+}, {
+	zh: "弧",
+	vi: "hồ"
+}, {
+	zh: "寂",
+	vi: "tịch"
+}, {
+	zh: "翱",
+	vi: "cao"
+}, {
+	zh: "翔",
+	vi: "tường"
+}, {
+	zh: "於",
+	vi: "vu"
+}, {
+	zh: "原",
+	vi: "nguyên"
+}, {
+	zh: "壤",
+	vi: "nhưỡng"
+}, {
+	zh: "迂",
+	vi: "vu"
+}, {
+	zh: "净",
+	vi: "tịnh"
+}, {
+	zh: "延",
+	vi: "diên"
+}, {
+	zh: "展",
+	vi: "triển"
+}, {
+	zh: "跨",
+	vi: "khóa"
+}, {
+	zh: "越",
+	vi: "việt"
+}, {
+	zh: "局",
+	vi: "cục"
+}, {
+	zh: "宫",
+	vi: "cung"
+}, {
+	zh: "脱",
+	vi: "thoát"
+}, {
+	zh: "亡",
+	vi: "vong"
+}, {
+	zh: "辞",
+	vi: "từ"
+}, {
+	zh: "噩",
+	vi: "ngạc"
+}, {
+	zh: "幅",
+	vi: "phúc"
+}, {
+	zh: "忆",
+	vi: "ức"
+}, {
+	zh: "浮",
+	vi: "phù"
+}, {
+	zh: "绪",
+	vi: "tự"
+}, {
+	zh: "挈",
+	vi: "khiết"
+}, {
+	zh: "闯",
+	vi: "sấm"
+}, {
+	zh: "律",
+	vi: "luật"
+}, {
+	zh: "剔",
+	vi: "dịch"
+}, {
+	zh: "荷",
+	vi: "hà"
+}, {
+	zh: "叶",
+	vi: "diệp"
+}, {
+	zh: "滴",
+	vi: "tích"
+}, {
+	zh: "晶",
+	vi: "tinh"
+}, {
+	zh: "莹",
+	vi: "oánh"
+}, {
+	zh: "珠",
+	vi: "châu"
+}, {
+	zh: "抹",
+	vi: "mạt"
+}, {
+	zh: "斜",
+	vi: "tà"
+}, {
+	zh: "继",
+	vi: "kế"
+}, {
+	zh: "续",
+	vi: "tục"
+}, {
+	zh: "玉",
+	vi: "ngọc"
+}, {
+	zh: "搁",
+	vi: "các"
+}, {
+	zh: "林",
+	vi: "lâm"
+}, {
+	zh: "木",
+	vi: "mộc"
+}, {
+	zh: "缝",
+	vi: "phùng"
+}, {
+	zh: "隙",
+	vi: "khích"
+}, {
+	zh: "洒",
+	vi: "sái"
+}, {
+	zh: "皎",
+	vi: "hiểu"
+}, {
+	zh: "灿",
+	vi: "xán"
+}, {
+	zh: "烂",
+	vi: "lạn"
+}, {
+	zh: "徐",
+	vi: "từ"
+}, {
+	zh: "轮",
+	vi: "luân"
+}, {
+	zh: "廓",
+	vi: "khuếch"
+}, {
+	zh: "框",
+	vi: "khuông"
+}, {
+	zh: "烈",
+	vi: "liệt"
+}, {
+	zh: "画",
+	vi: "họa"
+}, {
+	zh: "幽",
+	vi: "u"
+}, {
+	zh: "萦",
+	vi: "oanh"
+}, {
+	zh: "绕",
+	vi: "nhiễu"
+}, {
+	zh: "填",
+	vi: "điền"
+}, {
+	zh: "满",
+	vi: "mãn"
+}, {
+	zh: "漩",
+	vi: "tuyền"
+}, {
+	zh: "休",
+	vi: "hưu"
+}, {
+	zh: "忘",
+	vi: "vong"
+}, {
+	zh: "轻",
+	vi: "khinh"
+}, {
+	zh: "垂",
+	vi: "thùy"
+}, {
+	zh: "螃",
+	vi: "bàng"
+}, {
+	zh: "献",
+	vi: "hiến"
+}, {
+	zh: "给",
+	vi: "cấp"
+}, {
+	zh: "堡",
+	vi: "bảo"
+}, {
+	zh: "飘",
+	vi: "phiêu"
+}, {
+	zh: "滋",
+	vi: "tư"
+}, {
+	zh: "味",
+	vi: "vị"
+}, {
+	zh: "朝",
+	vi: "triều"
+}, {
+	zh: "瞧",
+	vi: "tiều"
+}, {
+	zh: "漫",
+	vi: "mạn"
+}, {
+	zh: "诸",
+	vi: "chư"
+}, {
+	zh: "央",
+	vi: "ương"
+}, {
+	zh: "奴",
+	vi: "nô"
+}, {
+	zh: "吹",
+	vi: "xuy"
+}, {
+	zh: "乘",
+	vi: "thừa"
+}, {
+	zh: "诺",
+	vi: "nặc"
+}, {
+	zh: "善",
+	vi: "thiện"
+}, {
+	zh: "介",
+	vi: "giới"
+}, {
+	zh: "雅",
+	vi: "nhã"
+}, {
+	zh: "纯",
+	vi: "thuần"
+}, {
+	zh: "呼",
+	vi: "hô"
+}, {
+	zh: "吸",
+	vi: "hấp"
+}, {
+	zh: "波",
+	vi: "ba"
+}, {
+	zh: "拂",
+	vi: "phất"
+}, {
+	zh: "荡",
+	vi: "đãng"
+}, {
+	zh: "甜",
+	vi: "điềm"
+}, {
+	zh: "带",
+	vi: "đái"
+}, {
+	zh: "馨",
+	vi: "hinh"
+}, {
+	zh: "较",
+	vi: "giác"
+}, {
+	zh: "旱",
+	vi: "hạn"
+}, {
+	zh: "胸",
+	vi: "hung"
+}, {
+	zh: "狭",
+	vi: "hiệp"
+}, {
+	zh: "窄",
+	vi: "trách"
+}, {
+	zh: "徒",
+	vi: "đồ"
+}, {
+	zh: "歌",
+	vi: "ca"
+}, {
+	zh: "麽",
+	vi: "ma"
+}, {
+	zh: "贪",
+	vi: "tham"
+}, {
+	zh: "陇",
+	vi: "lũng"
+}, {
+	zh: "蜀",
+	vi: "thục"
+}, {
+	zh: "坐",
+	vi: "tọa"
+}, {
+	zh: "牙",
+	vi: "nha"
+}, {
+	zh: "窥",
+	vi: "khuy"
+}, {
+	zh: "勿",
+	vi: "vật"
+}, {
+	zh: "缺",
+	vi: "khuyết"
+}, {
+	zh: "移",
+	vi: "di"
+}, {
+	zh: "仰",
+	vi: "ngưỡng"
+}, {
+	zh: "唇",
+	vi: "thần"
+}, {
+	zh: "启",
+	vi: "khải"
+}, {
+	zh: "词",
+	vi: "từ"
+}, {
+	zh: "睛",
+	vi: "tình"
+}, {
+	zh: "盯",
+	vi: "trành"
+}, {
+	zh: "差",
+	vi: "soa"
+}, {
+	zh: "跳",
+	vi: "khiêu"
+}, {
+	zh: "卓",
+	vi: "trác"
+}, {
+	zh: "旁",
+	vi: "bàng"
+}, {
+	zh: "许",
+	vi: "hứa"
+}, {
+	zh: "俯",
+	vi: "phủ"
+}, {
+	zh: "揉",
+	vi: "nhu"
+}, {
+	zh: "丽",
+	vi: "lệ"
+}, {
+	zh: "亮",
+	vi: "lượng"
+}, {
+	zh: "弯",
+	vi: "loan"
+}, {
+	zh: "盼",
+	vi: "phán"
+}, {
+	zh: "妍",
+	vi: "nghiên"
+}, {
+	zh: "丹",
+	vi: "đan"
+}, {
+	zh: "梨",
+	vi: "lê"
+}, {
+	zh: "颊",
+	vi: "giáp"
+}, {
+	zh: "秀",
+	vi: "tú"
+}, {
+	zh: "脖",
+	vi: "bột"
+}, {
+	zh: "颈",
+	vi: "cảnh"
+}, {
+	zh: "倏",
+	vi: "thúc"
+}, {
+	zh: "诱",
+	vi: "dụ"
+}, {
+	zh: "雪",
+	vi: "tuyết"
+}, {
+	zh: "肤",
+	vi: "phu"
+}, {
+	zh: "距",
+	vi: "cự"
+}, {
+	zh: "遥",
+	vi: "diêu"
+}, {
+	zh: "纱",
+	vi: "sa"
+}, {
+	zh: "阵",
+	vi: "trận"
+}, {
+	zh: "吻",
+	vi: "vẫn"
+}, {
+	zh: "探",
+	vi: "tham"
+}, {
+	zh: "纤",
+	vi: "tiêm"
+}, {
+	zh: "肚",
+	vi: "đỗ"
+}, {
+	zh: "耐",
+	vi: "nại"
+}, {
+	zh: "烦",
+	vi: "phiền"
+}, {
+	zh: "鞋",
+	vi: "hài"
+}, {
+	zh: "笨",
+	vi: "bổn"
+}, {
+	zh: "拙",
+	vi: "chuyết"
+}, {
+	zh: "靴",
+	vi: "ngoa"
+}, {
+	zh: "盘",
+	vi: "bàn"
+}, {
+	zh: "膝",
+	vi: "tất"
+}, {
+	zh: "脊",
+	vi: "tích"
+}, {
+	zh: "挨",
+	vi: "ai"
+}, {
+	zh: "舒",
+	vi: "thư"
+}, {
+	zh: "服",
+	vi: "phục"
+}, {
+	zh: "梢",
+	vi: "sao"
+}, {
+	zh: "虚",
+	vi: "hư"
+}, {
+	zh: "茫",
+	vi: "mang"
+}, {
+	zh: "圆",
+	vi: "viên"
+}, {
+	zh: "浩",
+	vi: "hạo"
+}, {
+	zh: "瀚",
+	vi: "hãn"
+}, {
+	zh: "候",
+	vi: "hậu"
+}, {
+	zh: "素",
+	vi: "tố"
+}, {
+	zh: "欢",
+	vi: "hoan"
+}, {
+	zh: "喜",
+	vi: "hỉ"
+}, {
+	zh: "晚",
+	vi: "vãn"
+}, {
+	zh: "替",
+	vi: "thế"
+}, {
+	zh: "昏",
+	vi: "hôn"
+}, {
+	zh: "愁",
+	vi: "sầu"
+}, {
+	zh: "恒",
+	vi: "hằng"
+}, {
+	zh: "星",
+	vi: "tinh"
+}, {
+	zh: "驰",
+	vi: "trì"
+}, {
+	zh: "收",
+	vi: "thu"
+}, {
+	zh: "观",
+	vi: "quan"
+}, {
+	zh: "剧",
+	vi: "kịch"
+}, {
+	zh: "迎",
+	vi: "nghênh"
+}, {
+	zh: "浅",
+	vi: "thiển"
+}, {
+	zh: "薄",
+	vi: "bạc"
+}, {
+	zh: "判",
+	vi: "phán"
+}, {
+	zh: "谨",
+	vi: "cẩn"
+}, {
+	zh: "俏",
+	vi: "tiếu"
+}, {
+	zh: "腿",
+	vi: "thối"
+}, {
+	zh: "喳",
+	vi: "tra"
+}, {
+	zh: "瓜",
+	vi: "qua"
+}, {
+	zh: "男",
+	vi: "nam"
+}, {
+	zh: "敏",
+	vi: "mẫn"
+}, {
+	zh: "郎",
+	vi: "lang"
+}, {
+	zh: "格",
+	vi: "cách"
+}, {
+	zh: "度",
+	vi: "độ"
+}, {
+	zh: "压",
+	vi: "áp"
+}, {
+	zh: "灼",
+	vi: "chước"
+}, {
+	zh: "涡",
+	vi: "qua"
+}, {
+	zh: "皮",
+	vi: "bì"
+}, {
+	zh: "警",
+	vi: "cảnh"
+}, {
+	zh: "惕",
+	vi: "dịch"
+}, {
+	zh: "刁",
+	vi: "điêu"
+}, {
+	zh: "钻",
+	vi: "toản"
+}, {
+	zh: "赐",
+	vi: "tứ"
+}, {
+	zh: "措",
+	vi: "thố"
+}, {
+	zh: "及",
+	vi: "cập"
+}, {
+	zh: "芒",
+	vi: "mang"
+}, {
+	zh: "闪",
+	vi: "thiểm"
+}, {
+	zh: "蹙",
+	vi: "túc"
+}, {
+	zh: "拖",
+	vi: "tha"
+}, {
+	zh: "案",
+	vi: "án"
+}, {
+	zh: "红",
+	vi: "hồng"
+}, {
+	zh: "慌",
+	vi: "hoảng"
+}, {
+	zh: "脚",
+	vi: "cước"
+}, {
+	zh: "烟",
+	vi: "yên"
+}, {
+	zh: "火",
+	vi: "hỏa"
+}, {
+	zh: "攀",
+	vi: "phàn"
+}, {
+	zh: "趋",
+	vi: "xu"
+}, {
+	zh: "骛",
+	vi: "vụ"
+}, {
+	zh: "睐",
+	vi: "lãi"
+}, {
+	zh: "荣",
+	vi: "vinh"
+}, {
+	zh: "耀",
+	vi: "diệu"
+}, {
+	zh: "娘",
+	vi: "nương"
+}, {
+	zh: "矫",
+	vi: "kiểu"
+}, {
+	zh: "伪",
+	vi: "ngụy"
+}, {
+	zh: "栈",
+	vi: "sạn"
+}, {
+	zh: "崖",
+	vi: "nhai"
+}, {
+	zh: "泻",
+	vi: "tả"
+}, {
+	zh: "瀑",
+	vi: "bộc"
+}, {
+	zh: "驻",
+	vi: "trú"
+}, {
+	zh: "赏",
+	vi: "thưởng"
+}, {
+	zh: "费",
+	vi: "phí"
+}, {
+	zh: "迹",
+	vi: "tích"
+}, {
+	zh: "咄",
+	vi: "đốt"
+}, {
+	zh: "锋",
+	vi: "phong"
+}, {
+	zh: "弄",
+	vi: "lộng"
+}, {
+	zh: "乱",
+	vi: "loạn"
+}, {
+	zh: "架",
+	vi: "giá"
+}, {
+	zh: "论",
+	vi: "luận"
+}, {
+	zh: "媸",
+	vi: "xuy"
+}, {
+	zh: "锺",
+	vi: "chung"
+}, {
+	zh: "谷",
+	vi: "cốc"
+}, {
+	zh: "伴",
+	vi: "bạn"
+}, {
+	zh: "坟",
+	vi: "phần"
+}, {
+	zh: "茔",
+	vi: "oanh"
+}, {
+	zh: "兜",
+	vi: "đâu"
+}, {
+	zh: "浇",
+	vi: "kiêu"
+}, {
+	zh: "谢",
+	vi: "tạ"
+}, {
+	zh: "噗",
+	vi: "phốc"
+}, {
+	zh: "众",
+	vi: "chúng"
+}, {
+	zh: "七",
+	vi: "thất"
+}, {
+	zh: "准",
+	vi: "chuẩn"
+}, {
+	zh: "晨",
+	vi: "thần"
+}, {
+	zh: "帆",
+	vi: "phàm"
+}, {
+	zh: "南",
+	vi: "nam"
+}, {
+	zh: "侧",
+	vi: "trắc"
+}, {
+	zh: "洋",
+	vi: "dương"
+}, {
+	zh: "溶",
+	vi: "dong"
+}, {
+	zh: "辰",
+	vi: "thần"
+}, {
+	zh: "吊",
+	vi: "điếu"
+}, {
+	zh: "碍",
+	vi: "ngại"
+}, {
+	zh: "吩",
+	vi: "phân"
+}, {
+	zh: "咐",
+	vi: "phù"
+}, {
+	zh: "驶",
+	vi: "sử"
+}, {
+	zh: "岸",
+	vi: "ngạn"
+}, {
+	zh: "航",
+	vi: "hàng"
+}, {
+	zh: "术",
+	vi: "thuật"
+}, {
+	zh: "纳",
+	vi: "nạp"
+}, {
+	zh: "左",
+	vi: "tả"
+}, {
+	zh: "雾",
+	vi: "vụ"
+}, {
+	zh: "馀",
+	vi: "dư"
+}, {
+	zh: "模",
+	vi: "mô"
+}, {
+	zh: "糊",
+	vi: "hồ"
+}, {
+	zh: "巨",
+	vi: "cự"
+}, {
+	zh: "馄",
+	vi: "hồn"
+}, {
+	zh: "号",
+	vi: "hào"
+}, {
+	zh: "专",
+	vi: "chuyên"
+}, {
+	zh: "型",
+	vi: "hình"
+}, {
+	zh: "稳",
+	vi: "ổn"
+}, {
+	zh: "几",
+	vi: "kỷ"
+}, {
+	zh: "筹",
+	vi: "trù"
+}, {
+	zh: "依",
+	vi: "y"
+}, {
+	zh: "五",
+	vi: "ngũ"
+}, {
+	zh: "甩",
+	vi: "súy"
+}, {
+	zh: "斤",
+	vi: "cân"
+}, {
+	zh: "虎",
+	vi: "hổ"
+}, {
+	zh: "估",
+	vi: "cổ"
+}, {
+	zh: "拾",
+	vi: "thập"
+}, {
+	zh: "舰",
+	vi: "hạm"
+}, {
+	zh: "拟",
+	vi: "nghĩ"
+}, {
+	zh: "舟",
+	vi: "chu"
+}, {
+	zh: "勉",
+	vi: "miễn"
+}, {
+	zh: "唔",
+	vi: "ngô"
+}, {
+	zh: "式",
+	vi: "thức"
+}, {
+	zh: "古",
+	vi: "cổ"
+}, {
+	zh: "惯",
+	vi: "quán"
+}, {
+	zh: "蛋",
+	vi: "đản"
+}, {
+	zh: "聚",
+	vi: "tụ"
+}, {
+	zh: "忖",
+	vi: "thốn"
+}, {
+	zh: "舌",
+	vi: "thiệt"
+}, {
+	zh: "伙",
+	vi: "hỏa"
+}, {
+	zh: "尖",
+	vi: "tiêm"
+}, {
+	zh: "阔",
+	vi: "khoát"
+}, {
+	zh: "甲",
+	vi: "giáp"
+}, {
+	zh: "板",
+	vi: "bản"
+}, {
+	zh: "桅",
+	vi: "ngôi"
+}, {
+	zh: "构",
+	vi: "cấu"
+}, {
+	zh: "浪",
+	vi: "lãng"
+}, {
+	zh: "徵",
+	vi: "trưng"
+}, {
+	zh: "忽",
+	vi: "hốt"
+}, {
+	zh: "咒",
+	vi: "chú"
+}, {
+	zh: "嵌",
+	vi: "khảm"
+}, {
+	zh: "圈",
+	vi: "quyển"
+}, {
+	zh: "哂",
+	vi: "sẩn"
+}, {
+	zh: "噢",
+	vi: "úc"
+}, {
+	zh: "呈",
+	vi: "trình"
+}, {
+	zh: "瞬",
+	vi: "thuấn"
+}, {
+	zh: "着",
+	vi: "trứ"
+}, {
+	zh: "料",
+	vi: "liêu"
+}, {
+	zh: "午",
+	vi: "ngọ"
+}, {
+	zh: "匆",
+	vi: "thông"
+}, {
+	zh: "疾",
+	vi: "tật"
+}, {
+	zh: "仗",
+	vi: "trượng"
+}, {
+	zh: "竹",
+	vi: "trúc"
+}, {
+	zh: "谦",
+	vi: "khiêm"
+}, {
+	zh: "陵",
+	vi: "lăng"
+}, {
+	zh: "斟",
+	vi: "châm"
+}, {
+	zh: "酌",
+	vi: "chước"
+}, {
+	zh: "膜",
+	vi: "mô"
+}, {
+	zh: "昨",
+	vi: "tạc"
+}, {
+	zh: "仪",
+	vi: "nghi"
+}, {
+	zh: "鼻",
+	vi: "tị"
+}, {
+	zh: "灰",
+	vi: "hôi"
+}, {
+	zh: "俗",
+	vi: "tục"
+}, {
+	zh: "云",
+	vi: "vân"
+}, {
+	zh: "营",
+	vi: "doanh"
+}, {
+	zh: "翼",
+	vi: "dực"
+}, {
+	zh: "谅",
+	vi: "lượng"
+}, {
+	zh: "包",
+	vi: "bao"
+}, {
+	zh: "括",
+	vi: "quát"
+}, {
+	zh: "驾",
+	vi: "giá"
+}, {
+	zh: "嫌",
+	vi: "hiềm"
+}, {
+	zh: "巧",
+	vi: "xảo"
+}, {
+	zh: "渡",
+	vi: "độ"
+}, {
+	zh: "眸",
+	vi: "mâu"
+}, {
+	zh: "乡",
+	vi: "hương"
+}, {
+	zh: "糕",
+	vi: "cao"
+}, {
+	zh: "饼",
+	vi: "bính"
+}, {
+	zh: "坡",
+	vi: "pha"
+}, {
+	zh: "捱",
+	vi: "nhai"
+}, {
+	zh: "昼",
+	vi: "trú"
+}, {
+	zh: "充",
+	vi: "sung"
+}, {
+	zh: "化",
+	vi: "hóa"
+}, {
+	zh: "急",
+	vi: "cấp"
+}, {
+	zh: "逞",
+	vi: "sính"
+}, {
+	zh: "踪",
+	vi: "tung"
+}, {
+	zh: "顶",
+	vi: "đỉnh"
+}, {
+	zh: "晴",
+	vi: "tình"
+}, {
+	zh: "涛",
+	vi: "đào"
+}, {
+	zh: "祥",
+	vi: "tường"
+}, {
+	zh: "逐",
+	vi: "trục"
+}, {
+	zh: "冠",
+	vi: "quan"
+}, {
+	zh: "层",
+	vi: "tằng"
+}, {
+	zh: "礁",
+	vi: "tiều"
+}, {
+	zh: "犹",
+	vi: "do"
+}, {
+	zh: "悸",
+	vi: "quý"
+}, {
+	zh: "舷",
+	vi: "huyền"
+}, {
+	zh: "降",
+	vi: "hàng"
+}, {
+	zh: "坏",
+	vi: "phôi"
+}, {
+	zh: "拐",
+	vi: "quải"
+}, {
+	zh: "部",
+	vi: "bộ"
+}, {
+	zh: "捕",
+	vi: "bộ"
+}, {
+	zh: "捉",
+	vi: "tróc"
+}, {
+	zh: "骤",
+	vi: "sậu"
+}, {
+	zh: "增",
+	vi: "tăng"
+}, {
+	zh: "胁",
+	vi: "hiếp"
+}, {
+	zh: "危",
+	vi: "nguy"
+}, {
+	zh: "器",
+	vi: "khí"
+}, {
+	zh: "弩",
+	vi: "nỗ"
+}, {
+	zh: "箭",
+	vi: "tiễn"
+}, {
+	zh: "投",
+	vi: "đầu"
+}, {
+	zh: "封",
+	vi: "phong"
+}, {
+	zh: "尘",
+	vi: "trần"
+}, {
+	zh: "股",
+	vi: "cổ"
+}, {
+	zh: "埋",
+	vi: "mai"
+}, {
+	zh: "挖",
+	vi: "oạt"
+}, {
+	zh: "泥",
+	vi: "nê"
+}, {
+	zh: "松",
+	vi: "tùng"
+}, {
+	zh: "腥",
+	vi: "tinh"
+}, {
+	zh: "凶",
+	vi: "hung"
+}, {
+	zh: "斥",
+	vi: "xích"
+}, {
+	zh: "抗",
+	vi: "kháng"
+}, {
+	zh: "拒",
+	vi: "cự"
+}, {
+	zh: "偶",
+	vi: "ngẫu"
+}, {
+	zh: "诛",
+	vi: "tru"
+}, {
+	zh: "怨",
+	vi: "oán"
+}, {
+	zh: "酬",
+	vi: "thù"
+}, {
+	zh: "拔",
+	vi: "bạt"
+}, {
+	zh: "舱",
+	vi: "thương"
+}, {
+	zh: "甫",
+	vi: "phủ"
+}, {
+	zh: "抵",
+	vi: "để"
+}, {
+	zh: "涯",
+	vi: "nhai"
+}, {
+	zh: "概",
+	vi: "khái"
+}, {
+	zh: "念",
+	vi: "niệm"
+}, {
+	zh: "泽",
+	vi: "trạch"
+}, {
+	zh: "贯",
+	vi: "quán"
+}, {
+	zh: "潇",
+	vi: "tiêu"
+}, {
+	zh: "豁",
+	vi: "khoát"
+}, {
+	zh: "达",
+	vi: "đạt"
+}, {
+	zh: "跃",
+	vi: "dược"
+}, {
+	zh: "彻",
+	vi: "triệt"
+}, {
+	zh: "眠",
+	vi: "miên"
+}, {
+	zh: "遍",
+	vi: "biến"
+}, {
+	zh: "滚",
+	vi: "cổn"
+}, {
+	zh: "熟",
+	vi: "thục"
+}, {
+	zh: "叙",
+	vi: "tự"
+}, {
+	zh: "覆",
+	vi: "phúc"
+}, {
+	zh: "敲",
+	vi: "xao"
+}, {
+	zh: "读",
+	vi: "độc"
+}, {
+	zh: "酸",
+	vi: "toan"
+}, {
+	zh: "志",
+	vi: "chí"
+}, {
+	zh: "偏",
+	vi: "thiên"
+}, {
+	zh: "辣",
+	vi: "lạt"
+}, {
+	zh: "胃",
+	vi: "vị"
+}, {
+	zh: "据",
+	vi: "cư"
+}, {
+	zh: "奥",
+	vi: "áo"
+}, {
+	zh: "换",
+	vi: "hoán"
+}, {
+	zh: "胎",
+	vi: "thai"
+}, {
+	zh: "骨",
+	vi: "cốt"
+}, {
+	zh: "洗",
+	vi: "tẩy"
+}, {
+	zh: "髓",
+	vi: "tủy"
+}, {
+	zh: "短",
+	vi: "đoản"
+}, {
+	zh: "母",
+	vi: "mẫu"
+}, {
+	zh: "六",
+	vi: "lục"
+}, {
+	zh: "循",
+	vi: "tuần"
+}, {
+	zh: "序",
+	vi: "tự"
+}, {
+	zh: "渐",
+	vi: "tiệm"
+}, {
+	zh: "炼",
+	vi: "luyện"
+}, {
+	zh: "脉",
+	vi: "mạch"
+}, {
+	zh: "挥",
+	vi: "huy"
+}, {
+	zh: "诀",
+	vi: "quyết"
+}, {
+	zh: "尝",
+	vi: "thường"
+}, {
+	zh: "验",
+	vi: "nghiệm"
+}, {
+	zh: "迳",
+	vi: "kính"
+}, {
+	zh: "晰",
+	vi: "tích"
+}, {
+	zh: "仇",
+	vi: "cừu"
+}, {
+	zh: "帘",
+	vi: "liêm"
+}, {
+	zh: "站",
+	vi: "trạm"
+}, {
+	zh: "蝴",
+	vi: "hồ"
+}, {
+	zh: "蝶",
+	vi: "điệp"
+}, {
+	zh: "宽",
+	vi: "khoan"
+}, {
+	zh: "袍",
+	vi: "bào"
+}, {
+	zh: "布",
+	vi: "bố"
+}, {
+	zh: "极",
+	vi: "cực"
+}, {
+	zh: "具",
+	vi: "cụ"
+}, {
+	zh: "慑",
+	vi: "nhiếp"
+}, {
+	zh: "庆",
+	vi: "khánh"
+}, {
+	zh: "沫",
+	vi: "mạt"
+}, {
+	zh: "溅",
+	vi: "tiên"
+}, {
+	zh: "咆",
+	vi: "bào"
+}, {
+	zh: "哮",
+	vi: "hao"
+}, {
+	zh: "舵",
+	vi: "đà"
+}, {
+	zh: "束",
+	vi: "thúc"
+}, {
+	zh: "缚",
+	vi: "phược"
+}, {
+	zh: "浓",
+	vi: "nùng"
+}, {
+	zh: "周",
+	vi: "chu"
+}, {
+	zh: "碧",
+	vi: "bích"
+}, {
+	zh: "绿",
+	vi: "lục"
+}, {
+	zh: "冰",
+	vi: "băng"
+}, {
+	zh: "寒",
+	vi: "hàn"
+}, {
+	zh: "咸",
+	vi: "hàm"
+}, {
+	zh: "湿",
+	vi: "thấp"
+}, {
+	zh: "峻",
+	vi: "tuấn"
+}, {
+	zh: "轰",
+	vi: "oanh"
+}, {
+	zh: "块",
+	vi: "khối"
+}, {
+	zh: "逾",
+	vi: "du"
+}, {
+	zh: "弹",
+	vi: "đạn"
+}, {
+	zh: "绳",
+	vi: "thằng"
+}, {
+	zh: "歪",
+	vi: "oai"
+}, {
+	zh: "颗",
+	vi: "khỏa"
+}, {
+	zh: "销",
+	vi: "tiêu"
+}, {
+	zh: "报",
+	vi: "báo"
+}, {
+	zh: "砸",
+	vi: "tạp"
+}, {
+	zh: "糟",
+	vi: "tao"
+}, {
+	zh: "躲",
+	vi: "đóa"
+}, {
+	zh: "倚",
+	vi: "ỷ"
+}, {
+	zh: "赖",
+	vi: "lại"
+}, {
+	zh: "衡",
+	vi: "hành"
+}, {
+	zh: "箍",
+	vi: "cô"
+}, {
+	zh: "施",
+	vi: "thi"
+}, {
+	zh: "散",
+	vi: "tán"
+}, {
+	zh: "撒",
+	vi: "tát"
+}, {
+	zh: "迫",
+	vi: "bách"
+}, {
+	zh: "弓",
+	vi: "cung"
+}, {
+	zh: "齐",
+	vi: "tề"
+}, {
+	zh: "堪",
+	vi: "kham"
+}, {
+	zh: "组",
+	vi: "tổ"
+}, {
+	zh: "燃",
+	vi: "nhiên"
+}, {
+	zh: "坚",
+	vi: "kiên"
+}, {
+	zh: "蓦",
+	vi: "mạch"
+}, {
+	zh: "戟",
+	vi: "kích"
+}, {
+	zh: "胆",
+	vi: "đảm"
+}, {
+	zh: "割",
+	vi: "cát"
+}, {
+	zh: "贼",
+	vi: "tặc"
+}, {
+	zh: "金",
+	vi: "kim"
+}, {
+	zh: "讨",
+	vi: "thảo"
+}, {
+	zh: "叱",
+	vi: "sất"
+}, {
+	zh: "臻",
+	vi: "trăn"
+}, {
+	zh: "级",
+	vi: "cấp"
+}, {
+	zh: "擅",
+	vi: "thiện"
+}, {
+	zh: "质",
+	vi: "chất"
+}, {
+	zh: "彬",
+	vi: "bân"
+}, {
+	zh: "参",
+	vi: "tham"
+}, {
+	zh: "俊",
+	vi: "tuấn"
+}, {
+	zh: "群",
+	vi: "quần"
+}, {
+	zh: "捣",
+	vi: "đảo"
+}, {
+	zh: "残",
+	vi: "tàn"
+}, {
+	zh: "砾",
+	vi: "lịch"
+}, {
+	zh: "印",
+	vi: "ấn"
+}, {
+	zh: "宇",
+	vi: "vũ"
+}, {
+	zh: "宙",
+	vi: "trụ"
+}, {
+	zh: "脏",
+	vi: "tạng"
+}, {
+	zh: "扩",
+	vi: "khoách"
+}, {
+	zh: "详",
+	vi: "tường"
+}, {
+	zh: "阅",
+	vi: "duyệt"
+}, {
+	zh: "拇",
+	vi: "mẫu"
+}, {
+	zh: "慧",
+	vi: "tuệ"
+}, {
+	zh: "纬",
+	vi: "vĩ"
+}, {
+	zh: "衣",
+	vi: "y"
+}, {
+	zh: "学",
+	vi: "học"
+}, {
+	zh: "牛",
+	vi: "ngưu"
+}, {
+	zh: "习",
+	vi: "tập"
+}, {
+	zh: "迥",
+	vi: "huýnh"
+}, {
+	zh: "径",
+	vi: "kính"
+}, {
+	zh: "督",
+	vi: "đốc"
+}, {
+	zh: "喉",
+	vi: "hầu"
+}, {
+	zh: "脐",
+	vi: "tề"
+}, {
+	zh: "殖",
+	vi: "thực"
+}, {
+	zh: "阴",
+	vi: "âm"
+}, {
+	zh: "穴",
+	vi: "huyệt"
+}, {
+	zh: "杂",
+	vi: "tạp"
+}, {
+	zh: "践",
+	vi: "tiễn"
+}, {
+	zh: "塑",
+	vi: "tố"
+}, {
+	zh: "徽",
+	vi: "huy"
+}, {
+	zh: "契",
+	vi: "khế"
+}, {
+	zh: "拳",
+	vi: "quyền"
+}, {
+	zh: "叉",
+	vi: "xoa"
+}, {
+	zh: "瞑",
+	vi: "minh"
+}, {
+	zh: "窍",
+	vi: "khiếu"
+}, {
+	zh: "贫",
+	vi: "bần"
+}, {
+	zh: "穷",
+	vi: "cùng"
+}, {
+	zh: "携",
+	vi: "huề"
+}, {
+	zh: "宝",
+	vi: "bảo"
+}, {
+	zh: "库",
+	vi: "khố"
+}, {
+	zh: "狂",
+	vi: "cuồng"
+}, {
+	zh: "沦",
+	vi: "luân"
+}, {
+	zh: "锁",
+	vi: "tỏa"
+}, {
+	zh: "匙",
+	vi: "thi"
+}, {
+	zh: "竖",
+	vi: "thụ"
+}, {
+	zh: "莲",
+	vi: "liên"
+}, {
+	zh: "井",
+	vi: "tỉnh"
+}, {
+	zh: "掬",
+	vi: "cúc"
+}, {
+	zh: "绞",
+	vi: "giảo"
+}, {
+	zh: "归",
+	vi: "quy"
+}, {
+	zh: "缥",
+	vi: "phiếu"
+}, {
+	zh: "缈",
+	vi: "miểu"
+}, {
+	zh: "恍",
+	vi: "hoảng"
+}, {
+	zh: "惚",
+	vi: "hốt"
+}, {
+	zh: "渺",
+	vi: "miểu"
+}, {
+	zh: "冥",
+	vi: "minh"
+}, {
+	zh: "崩",
+	vi: "băng"
+}, {
+	zh: "溃",
+	vi: "hội"
+}, {
+	zh: "笃",
+	vi: "đốc"
+}, {
+	zh: "藉",
+	vi: "tạ"
+}, {
+	zh: "艇",
+	vi: "đĩnh"
+}, {
+	zh: "载",
+	vi: "tái"
+}, {
+	zh: "汹",
+	vi: "hung"
+}, {
+	zh: "怒",
+	vi: "nộ"
+}, {
+	zh: "猛",
+	vi: "mãnh"
+}, {
+	zh: "劲",
+	vi: "kình"
+}, {
+	zh: "翘",
+	vi: "kiều"
+}, {
+	zh: "峰",
+	vi: "phong"
+}, {
+	zh: "掠",
+	vi: "lược"
+}, {
+	zh: "滑",
+	vi: "hoạt"
+}, {
+	zh: "瞪",
+	vi: "trừng"
+}, {
+	zh: "恃",
+	vi: "thị"
+}, {
+	zh: "沙",
+	vi: "sa"
+}, {
+	zh: "滩",
+	vi: "than"
+}, {
+	zh: "坑",
+	vi: "khanh"
+}, {
+	zh: "档",
+	vi: "đương"
+}, {
+	zh: "奔",
+	vi: "bôn"
+}, {
+	zh: "矢",
+	vi: "thỉ"
+}, {
+	zh: "居",
+	vi: "cư"
+}, {
+	zh: "撞",
+	vi: "chàng"
+}, {
+	zh: "乖",
+	vi: "quai"
+}, {
+	zh: "喊",
+	vi: "hảm"
+}, {
+	zh: "夷",
+	vi: "di"
+}, {
+	zh: "损",
+	vi: "tổn"
+}, {
+	zh: "爆",
+	vi: "bạo"
+}, {
+	zh: "僮",
+	vi: "đồng"
+}, {
+	zh: "迟",
+	vi: "trì"
+}, {
+	zh: "凌",
+	vi: "lăng"
+}, {
+	zh: "迸",
+	vi: "bính"
+}, {
+	zh: "铁",
+	vi: "thiết"
+}, {
+	zh: "呜",
+	vi: "ô"
+}, {
+	zh: "角",
+	vi: "giác"
+}, {
+	zh: "捏",
+	vi: "niết"
+}, {
+	zh: "懈",
+	vi: "giải"
+}, {
+	zh: "挚",
+	vi: "chí"
+}, {
+	zh: "升",
+	vi: "thăng"
+}, {
+	zh: "尺",
+	vi: "xích"
+}, {
+	zh: "仓",
+	vi: "thương"
+}, {
+	zh: "皇",
+	vi: "hoàng"
+}, {
+	zh: "阻",
+	vi: "trở"
+}, {
+	zh: "堕",
+	vi: "đọa"
+}, {
+	zh: "冉",
+	vi: "nhiễm"
+}, {
+	zh: "惑",
+	vi: "hoặc"
+}, {
+	zh: "狼",
+	vi: "lang"
+}, {
+	zh: "狈",
+	vi: "bái"
+}, {
+	zh: "卒",
+	vi: "tốt"
+}, {
+	zh: "挟",
+	vi: "hiệp"
+}, {
+	zh: "胜",
+	vi: "thắng"
+}, {
+	zh: "臂",
+	vi: "tí"
+}, {
+	zh: "麻",
+	vi: "ma"
+}, {
+	zh: "侵",
+	vi: "xâm"
+}, {
+	zh: "厚",
+	vi: "hậu"
+}, {
+	zh: "螺",
+	vi: "loa"
+}, {
+	zh: "屑",
+	vi: "tiết"
+}, {
+	zh: "笔",
+	vi: "bút"
+}, {
+	zh: "哗",
+	vi: "hoa"
+}, {
+	zh: "酝",
+	vi: "uấn"
+}, {
+	zh: "酿",
+	vi: "nhưỡng"
+}, {
+	zh: "积",
+	vi: "tích"
+}, {
+	zh: "蓄",
+	vi: "súc"
+}, {
+	zh: "乌",
+	vi: "ô"
+}, {
+	zh: "笼",
+	vi: "lung"
+}, {
+	zh: "罩",
+	vi: "tráo"
+}, {
+	zh: "抓",
+	vi: "trảo"
+}, {
+	zh: "匹",
+	vi: "thất"
+}, {
+	zh: "扑",
+	vi: "phác"
+}, {
+	zh: "蛇",
+	vi: "xà"
+}, {
+	zh: "惊",
+	vi: "kinh"
+}, {
+	zh: "骇",
+	vi: "hãi"
+}, {
+	zh: "诡",
+	vi: "quỷ"
+}, {
+	zh: "劈",
+	vi: "phách"
+}, {
+	zh: "溯",
+	vi: "tố"
+}, {
+	zh: "欲",
+	vi: "dục"
+}, {
+	zh: "盈",
+	vi: "doanh"
+}, {
+	zh: "呛",
+	vi: "sang"
+}, {
+	zh: "电",
+	vi: "điện"
+}, {
+	zh: "芷",
+	vi: "chỉ"
+}, {
+	zh: "暂",
+	vi: "tạm"
+}, {
+	zh: "稍",
+	vi: "sảo"
+}, {
+	zh: "耽",
+	vi: "đam"
+}, {
+	zh: "拉",
+	vi: "lạp"
+}, {
+	zh: "救",
+	vi: "cứu"
+}, {
+	zh: "捎",
+	vi: "sao"
+}, {
+	zh: "裂",
+	vi: "liệt"
+}, {
+	zh: "颠",
+	vi: "điên"
+}, {
+	zh: "簸",
+	vi: "bá"
+}, {
+	zh: "掷",
+	vi: "trịch"
+}, {
+	zh: "肆",
+	vi: "tứ"
+}, {
+	zh: "尸",
+	vi: "thi"
+}, {
+	zh: "蜂",
+	vi: "phong"
+}, {
+	zh: "纷",
+	vi: "phân"
+}, {
+	zh: "跌",
+	vi: "điệt"
+}, {
+	zh: "栏",
+	vi: "lan"
+}, {
+	zh: "振",
+	vi: "chấn"
+}, {
+	zh: "聋",
+	vi: "lung"
+}, {
+	zh: "嘶",
+	vi: "tê"
+}, {
+	zh: "显",
+	vi: "hiển"
+}, {
+	zh: "待",
+	vi: "đãi"
+}, {
+	zh: "剑",
+	vi: "kiếm"
+}, {
+	zh: "儒",
+	vi: "nho"
+}, {
+	zh: "斯",
+	vi: "tư"
+}, {
+	zh: "悍",
+	vi: "hãn"
+}, {
+	zh: "铮",
+	vi: "tranh"
+}, {
+	zh: "锵",
+	vi: "thương"
+}, {
+	zh: "网",
+	vi: "võng"
+}, {
+	zh: "吭",
+	vi: "hàng"
+}, {
+	zh: "退",
+	vi: "thối"
+}, {
+	zh: "韧",
+	vi: "nhận"
+}, {
+	zh: "懔",
+	vi: "lẫm"
+}, {
+	zh: "遁",
+	vi: "độn"
+}, {
+	zh: "颓",
+	vi: "đồi"
+}, {
+	zh: "夹",
+	vi: "giáp"
+}, {
+	zh: "惨",
+	vi: "thảm"
+}, {
+	zh: "蓬",
+	vi: "bồng"
+}, {
+	zh: "壁",
+	vi: "bích"
+}, {
+	zh: "晦",
+	vi: "hối"
+}, {
+	zh: "椽",
+	vi: "chuyên"
+}, {
+	zh: "征",
+	vi: "chinh"
+}, {
+	zh: "堵",
+	vi: "đổ"
+}, {
+	zh: "玩",
+	vi: "ngoạn"
+}, {
+	zh: "掀",
+	vi: "hiên"
+}, {
+	zh: "固",
+	vi: "cố"
+}, {
+	zh: "严",
+	vi: "nghiêm"
+}, {
+	zh: "摧",
+	vi: "tồi"
+}, {
+	zh: "桶",
+	vi: "dũng"
+}, {
+	zh: "恋",
+	vi: "luyến"
+}, {
+	zh: "晃",
+	vi: "hoảng"
+}, {
+	zh: "晕",
+	vi: "vựng"
+}, {
+	zh: "喻",
+	vi: "dụ"
+}, {
+	zh: "闲",
+	vi: "nhàn"
+}, {
+	zh: "喀",
+	vi: "khách"
+}, {
+	zh: "喇",
+	vi: "lạt"
+}, {
+	zh: "君",
+	vi: "quân"
+}, {
+	zh: "珍",
+	vi: "trân"
+}, {
+	zh: "妥",
+	vi: "thỏa"
+}, {
+	zh: "贴",
+	vi: "thiếp"
+}, {
+	zh: "泰",
+	vi: "thái"
+}, {
+	zh: "停",
+	vi: "đình"
+}, {
+	zh: "肠",
+	vi: "tràng"
+}, {
+	zh: "懵",
+	vi: "mộng"
+}, {
+	zh: "灾",
+	vi: "tai"
+}, {
+	zh: "殿",
+	vi: "điện"
+}, {
+	zh: "拣",
+	vi: "giản"
+}, {
+	zh: "澄",
+	vi: "trừng"
+}, {
+	zh: "睁",
+	vi: "tĩnh"
+}, {
+	zh: "砰",
+	vi: "phanh"
+}, {
+	zh: "塔",
+	vi: "tháp"
+}, {
+	zh: "庭",
+	vi: "đình"
+}, {
+	zh: "园",
+	vi: "viên"
+}, {
+	zh: "挺",
+	vi: "đĩnh"
+}, {
+	zh: "伟",
+	vi: "vĩ"
+}, {
+	zh: "慢",
+	vi: "mạn"
+}, {
+	zh: "袖",
+	vi: "tụ"
+}, {
+	zh: "扰",
+	vi: "nhiễu"
+}, {
+	zh: "普",
+	vi: "phổ"
+}, {
+	zh: "衲",
+	vi: "nạp"
+}, {
+	zh: "职",
+	vi: "chức"
+}, {
+	zh: "庄",
+	vi: "trang"
+}, {
+	zh: "梁",
+	vi: "lương"
+}, {
+	zh: "闭",
+	vi: "bế"
+}, {
+	zh: "敛",
+	vi: "liễm"
+}, {
+	zh: "劳",
+	vi: "lao"
+}, {
+	zh: "佝",
+	vi: "câu"
+}, {
+	zh: "鼓",
+	vi: "cổ"
+}, {
+	zh: "哄",
+	vi: "hống"
+}, {
+	zh: "刹",
+	vi: "sát"
+}, {
+	zh: "椎",
+	vi: "chuy"
+}, {
+	zh: "逊",
+	vi: "tốn"
+}, {
+	zh: "魔",
+	vi: "ma"
+}, {
+	zh: "伏",
+	vi: "phục"
+}, {
+	zh: "妖",
+	vi: "yêu"
+}, {
+	zh: "效",
+	vi: "hiệu"
+}, {
+	zh: "淌",
+	vi: "thảng"
+}, {
+	zh: "慈",
+	vi: "từ"
+}, {
+	zh: "缘",
+	vi: "duyên"
+}, {
+	zh: "悟",
+	vi: "ngộ"
+}, {
+	zh: "什",
+	vi: "thập"
+}, {
+	zh: "禅",
+	vi: "thiền"
+}, {
+	zh: "顽",
+	vi: "ngoan"
+}, {
+	zh: "迦",
+	vi: "già"
+}, {
+	zh: "悲",
+	vi: "bi"
+}, {
+	zh: "悯",
+	vi: "mẫn"
+}, {
+	zh: "咬",
+	vi: "giảo"
+}, {
+	zh: "类",
+	vi: "loại"
+}, {
+	zh: "哑",
+	vi: "ách"
+}, {
+	zh: "罢",
+	vi: "bãi"
+}, {
+	zh: "歹",
+	vi: "ngạt"
+}, {
+	zh: "恶",
+	vi: "ác"
+}, {
+	zh: "察",
+	vi: "sát"
+}, {
+	zh: "邃",
+	vi: "thúy"
+}, {
+	zh: "慎",
+	vi: "thận"
+}, {
+	zh: "罕",
+	vi: "hãn"
+}, {
+	zh: "寺",
+	vi: "tự"
+}, {
+	zh: "吐",
+	vi: "thổ"
+}, {
+	zh: "岁",
+	vi: "tuế"
+}, {
+	zh: "龄",
+	vi: "linh"
+}, {
+	zh: "呃",
+	vi: "ách"
+}, {
+	zh: "镇",
+	vi: "trấn"
+}, {
+	zh: "胡",
+	vi: "hồ"
+}, {
+	zh: "童",
+	vi: "đồng"
+}, {
+	zh: "岩",
+	vi: "nham"
+}, {
+	zh: "繁",
+	vi: "phồn"
+}, {
+	zh: "舍",
+	vi: "xá"
+}, {
+	zh: "祠",
+	vi: "từ"
+}, {
+	zh: "篑",
+	vi: "quĩ"
+}, {
+	zh: "恭",
+	vi: "cung"
+}, {
+	zh: "疲",
+	vi: "bì"
+}, {
+	zh: "爬",
+	vi: "ba"
+}, {
+	zh: "络",
+	vi: "lạc"
+}, {
+	zh: "元",
+	vi: "nguyên"
+}, {
+	zh: "灯",
+	vi: "đăng"
+}, {
+	zh: "枯",
+	vi: "khô"
+}, {
+	zh: "挣",
+	vi: "tránh"
+}, {
+	zh: "扎",
+	vi: "trát"
+}, {
+	zh: "磨",
+	vi: "ma"
+}, {
+	zh: "毅",
+	vi: "nghị"
+}, {
+	zh: "蚁",
+	vi: "nghĩ"
+}, {
+	zh: "噬",
+	vi: "phệ"
+}, {
+	zh: "肌",
+	vi: "cơ"
+}, {
+	zh: "秋",
+	vi: "thu"
+}, {
+	zh: "朗",
+	vi: "lãng"
+}, {
+	zh: "弃",
+	vi: "khí"
+}, {
+	zh: "防",
+	vi: "phòng"
+}, {
+	zh: "裹",
+	vi: "khỏa"
+}, {
+	zh: "纸",
+	vi: "chỉ"
+}, {
+	zh: "浸",
+	vi: "tẩm"
+}, {
+	zh: "托",
+	vi: "thác"
+}, {
+	zh: "悔",
+	vi: "hối"
+}, {
+	zh: "诓",
+	vi: "cuống"
+}, {
+	zh: "骗",
+	vi: "phiến"
+}, {
+	zh: "竭",
+	vi: "kiệt"
+}, {
+	zh: "累",
+	vi: "luy"
+}, {
+	zh: "欠",
+	vi: "khiếm"
+}, {
+	zh: "遑",
+	vi: "hoàng"
+}, {
+	zh: "锣",
+	vi: "la"
+}, {
+	zh: "眩",
+	vi: "huyễn"
+}, {
+	zh: "锄",
+	vi: "sừ"
+}, {
+	zh: "孔",
+	vi: "khổng"
+}, {
+	zh: "维",
+	vi: "duy"
+}, {
+	zh: "寥",
+	vi: "liêu"
+}, {
+	zh: "罗",
+	vi: "la"
+}, {
+	zh: "适",
+	vi: "thích"
+}, {
+	zh: "肉",
+	vi: "nhục"
+}, {
+	zh: "筏",
+	vi: "phiệt"
+}, {
+	zh: "蕴",
+	vi: "uẩn"
+}, {
+	zh: "沟",
+	vi: "câu"
+}, {
+	zh: "袈",
+	vi: "ca"
+}, {
+	zh: "裟",
+	vi: "sa"
+}, {
+	zh: "茅",
+	vi: "mao"
+}, {
+	zh: "规",
+	vi: "quy"
+}, {
+	zh: "森",
+	vi: "sâm"
+}, {
+	zh: "霸",
+	vi: "bá"
+}, {
+	zh: "牢",
+	vi: "lao"
+}, {
+	zh: "棍",
+	vi: "côn"
+}, {
+	zh: "辛",
+	vi: "tân"
+}, {
+	zh: "撑",
+	vi: "xanh"
+}, {
+	zh: "农",
+	vi: "nông"
+}, {
+	zh: "耕",
+	vi: "canh"
+}, {
+	zh: "彩",
+	vi: "thải"
+}, {
+	zh: "斑",
+	vi: "ban"
+}, {
+	zh: "斓",
+	vi: "lan"
+}, {
+	zh: "披",
+	vi: "phi"
+}, {
+	zh: "羊",
+	vi: "dương"
+}, {
+	zh: "褂",
+	vi: "quái"
+}, {
+	zh: "裙",
+	vi: "quần"
+}, {
+	zh: "曳",
+	vi: "duệ"
+}, {
+	zh: "裤",
+	vi: "khố"
+}, {
+	zh: "绑",
+	vi: "bảng"
+}, {
+	zh: "虫",
+	vi: "trùng"
+}, {
+	zh: "蚊",
+	vi: "văn"
+}, {
+	zh: "帕",
+	vi: "mạt"
+}, {
+	zh: "苏",
+	vi: "tô"
+}, {
+	zh: "缴",
+	vi: "chước"
+}, {
+	zh: "怯",
+	vi: "khiếp"
+}, {
+	zh: "堆",
+	vi: "đôi"
+}, {
+	zh: "搏",
+	vi: "bác"
+}, {
+	zh: "叽",
+	vi: "kỷ"
+}, {
+	zh: "咕",
+	vi: "cô"
+}, {
+	zh: "噜",
+	vi: "lỗ"
+}, {
+	zh: "珑",
+	vi: "lung"
+}, {
+	zh: "串",
+	vi: "xuyến"
+}, {
+	zh: "醋",
+	vi: "thố"
+}, {
+	zh: "译",
+	vi: "dịch"
+}, {
+	zh: "篇",
+	vi: "thiên"
+}, {
+	zh: "貌",
+	vi: "mạo"
+}, {
+	zh: "钮",
+	vi: "nữu"
+}, {
+	zh: "端",
+	vi: "đoan"
+}, {
+	zh: "巴",
+	vi: "ba"
+}, {
+	zh: "泼",
+	vi: "bát"
+}, {
+	zh: "呻",
+	vi: "thân"
+}, {
+	zh: "典",
+	vi: "điển"
+}, {
+	zh: "涉",
+	vi: "thiệp"
+}, {
+	zh: "曰",
+	vi: "viết"
+}, {
+	zh: "辟",
+	vi: "tịch"
+}, {
+	zh: "籍",
+	vi: "tịch"
+}, {
+	zh: "蕾",
+	vi: "lôi"
+}, {
+	zh: "岭",
+	vi: "lĩnh"
+}, {
+	zh: "姿",
+	vi: "tư"
+}, {
+	zh: "驱",
+	vi: "khu"
+}, {
+	zh: "病",
+	vi: "bệnh"
+}, {
+	zh: "狮",
+	vi: "sư"
+}, {
+	zh: "瓶",
+	vi: "bình"
+}, {
+	zh: "陋",
+	vi: "lậu"
+}, {
+	zh: "寮",
+	vi: "liêu"
+}, {
+	zh: "映",
+	vi: "ánh"
+}, {
+	zh: "抬",
+	vi: "sĩ"
+}, {
+	zh: "抢",
+	vi: "thưởng"
+}, {
+	zh: "惶",
+	vi: "hoàng"
+}, {
+	zh: "村",
+	vi: "thôn"
+}, {
+	zh: "朴",
+	vi: "phác"
+}, {
+	zh: "旧",
+	vi: "cựu"
+}, {
+	zh: "价",
+	vi: "giới"
+}, {
+	zh: "钱",
+	vi: "tiền"
+}, {
+	zh: "懒",
+	vi: "lại"
+}, {
+	zh: "腰",
+	vi: "yêu"
+}, {
+	zh: "耗",
+	vi: "háo"
+}, {
+	zh: "屋",
+	vi: "ốc"
+}, {
+	zh: "房",
+	vi: "phòng"
+}, {
+	zh: "鸡",
+	vi: "kê"
+}, {
+	zh: "烛",
+	vi: "chúc"
+}, {
+	zh: "蔽",
+	vi: "tế"
+}, {
+	zh: "焚",
+	vi: "phần"
+}, {
+	zh: "烧",
+	vi: "thiêu"
+}, {
+	zh: "疤",
+	vi: "ba"
+}, {
+	zh: "侠",
+	vi: "hiệp"
+}, {
+	zh: "街",
+	vi: "nhai"
+}, {
+	zh: "址",
+	vi: "chỉ"
+}, {
+	zh: "拼",
+	vi: "bính"
+}, {
+	zh: "品",
+	vi: "phẩm"
+}, {
+	zh: "新",
+	vi: "tân"
+}, {
+	zh: "溪",
+	vi: "khê"
+}, {
+	zh: "寄",
+	vi: "ký"
+}, {
+	zh: "户",
+	vi: "hộ"
+}, {
+	zh: "贵",
+	vi: "quý"
+}, {
+	zh: "江",
+	vi: "giang"
+}, {
+	zh: "湖",
+	vi: "hồ"
+}, {
+	zh: "敞",
+	vi: "sưởng"
+}, {
+	zh: "沿",
+	vi: "duyên"
+}, {
+	zh: "赫",
+	vi: "hách"
+}, {
+	zh: "惦",
+	vi: "điếm"
+}, {
+	zh: "郑",
+	vi: "trịnh"
+}, {
+	zh: "谎",
+	vi: "hoang"
+}, {
+	zh: "播",
+	vi: "bá"
+}, {
+	zh: "欺",
+	vi: "khi"
+}, {
+	zh: "约",
+	vi: "ước"
+}, {
+	zh: "倌",
+	vi: "quan"
+}, {
+	zh: "巷",
+	vi: "hạng"
+}, {
+	zh: "草",
+	vi: "thảo"
+}, {
+	zh: "厢",
+	vi: "sương"
+}, {
+	zh: "撤",
+	vi: "triệt"
+}, {
+	zh: "淫",
+	vi: "dâm"
+}, {
+	zh: "酷",
+	vi: "khốc"
+}, {
+	zh: "盛",
+	vi: "thịnh"
+}, {
+	zh: "田",
+	vi: "điền"
+}, {
+	zh: "野",
+	vi: "dã"
+}, {
+	zh: "树",
+	vi: "thụ"
+}, {
+	zh: "狞",
+	vi: "nanh"
+}, {
+	zh: "掣",
+	vi: "xế"
+}, {
+	zh: "绰",
+	vi: "xước"
+}, {
+	zh: "装",
+	vi: "trang"
+}, {
+	zh: "僚",
+	vi: "liêu"
+}, {
+	zh: "货",
+	vi: "hóa"
+}, {
+	zh: "咽",
+	vi: "yết"
+}, {
+	zh: "毙",
+	vi: "tễ"
+}, {
+	zh: "丛",
+	vi: "tùng"
+}, {
+	zh: "赤",
+	vi: "xích"
+}, {
+	zh: "裸",
+	vi: "lỏa"
+}, {
+	zh: "卧",
+	vi: "ngọa"
+}, {
+	zh: "摔",
+	vi: "suất"
+}, {
+	zh: "啸",
+	vi: "khiếu"
+}, {
+	zh: "泄",
+	vi: "tiết"
+}, {
+	zh: "辜",
+	vi: "cô"
+}, {
+	zh: "弱",
+	vi: "nhược"
+}, {
+	zh: "愤",
+	vi: "phẫn"
+}, {
+	zh: "捷",
+	vi: "tiệp"
+}, {
+	zh: "膛",
+	vi: "thang"
+}, {
+	zh: "喂",
+	vi: "uy"
+}, {
+	zh: "匝",
+	vi: "táp"
+}, {
+	zh: "喷",
+	vi: "phún"
+}, {
+	zh: "涮",
+	vi: "xuyến"
+}, {
+	zh: "魅",
+	vi: "mị"
+}, {
+	zh: "插",
+	vi: "sáp"
+}, {
+	zh: "扭",
+	vi: "nữu"
+}, {
+	zh: "豆",
+	vi: "đậu"
+}, {
+	zh: "额",
+	vi: "ngạch"
+}, {
+	zh: "卵",
+	vi: "noãn"
+}, {
+	zh: "爷",
+	vi: "gia"
+}, {
+	zh: "冶",
+	vi: "dã"
+}, {
+	zh: "鱼",
+	vi: "ngư"
+}, {
+	zh: "嘴",
+	vi: "chủy"
+}, {
+	zh: "踢",
+	vi: "thích"
+}, {
+	zh: "屁",
+	vi: "thí"
+}, {
+	zh: "扮",
+	vi: "phẫn"
+}, {
+	zh: "拦",
+	vi: "lan"
+}, {
+	zh: "赔",
+	vi: "bồi"
+}, {
+	zh: "催",
+	vi: "thôi"
+}, {
+	zh: "促",
+	vi: "xúc"
+}, {
+	zh: "怏",
+	vi: "ưởng"
+}, {
+	zh: "礼",
+	vi: "lễ"
+}, {
+	zh: "怠",
+	vi: "đãi"
+}, {
+	zh: "闷",
+	vi: "muộn"
+}, {
+	zh: "哼",
+	vi: "hanh"
+}, {
+	zh: "膊",
+	vi: "bạc"
+}, {
+	zh: "授",
+	vi: "thụ"
+}, {
+	zh: "卑",
+	vi: "ti"
+}, {
+	zh: "获",
+	vi: "hoạch"
+}, {
+	zh: "亭",
+	vi: "đình"
+}, {
+	zh: "殊",
+	vi: "thù"
+}, {
+	zh: "废",
+	vi: "phế"
+}, {
+	zh: "伶",
+	vi: "linh"
+}, {
+	zh: "综",
+	vi: "tống"
+}, {
+	zh: "帝",
+	vi: "đế"
+}, {
+	zh: "爹",
+	vi: "đa"
+}, {
+	zh: "葛",
+	vi: "cát"
+}, {
+	zh: "黯",
+	vi: "ảm"
+}, {
+	zh: "聊",
+	vi: "liêu"
+}, {
+	zh: "侄",
+	vi: "điệt"
+}, {
+	zh: "委",
+	vi: "ủy"
+}, {
+	zh: "嚷",
+	vi: "nhượng"
+}, {
+	zh: "焰",
+	vi: "diễm"
+}, {
+	zh: "俚",
+	vi: "lý"
+}, {
+	zh: "嫁",
+	vi: "giá"
+}, {
+	zh: "祸",
+	vi: "họa"
+}, {
+	zh: "粮",
+	vi: "lương"
+}, {
+	zh: "爪",
+	vi: "trảo"
+}, {
+	zh: "烬",
+	vi: "tẫn"
+}, {
+	zh: "猎",
+	vi: "liệp"
+}, {
+	zh: "峙",
+	vi: "trì"
+}, {
+	zh: "矮",
+	vi: "ải"
+}, {
+	zh: "扇",
+	vi: "phiến"
+}, {
+	zh: "睹",
+	vi: "đổ"
+}, {
+	zh: "艳",
+	vi: "diễm"
+}, {
+	zh: "窈",
+	vi: "yểu"
+}, {
+	zh: "窕",
+	vi: "điệu"
+}, {
+	zh: "凛",
+	vi: "lẫm"
+}, {
+	zh: "纡",
+	vi: "hu"
+}, {
+	zh: "卜",
+	vi: "bặc"
+}, {
+	zh: "帅",
+	vi: "soái"
+}, {
+	zh: "巡",
+	vi: "tuần"
+}, {
+	zh: "涂",
+	vi: "đồ"
+}, {
+	zh: "炭",
+	vi: "thán"
+}, {
+	zh: "集",
+	vi: "tập"
+}, {
+	zh: "贤",
+	vi: "hiền"
+}, {
+	zh: "忧",
+	vi: "ưu"
+}, {
+	zh: "搜",
+	vi: "sưu"
+}, {
+	zh: "揽",
+	vi: "lãm"
+}, {
+	zh: "俩",
+	vi: "lưỡng"
+}, {
+	zh: "政",
+	vi: "chính"
+}, {
+	zh: "济",
+	vi: "tế"
+}, {
+	zh: "寨",
+	vi: "trại"
+}, {
+	zh: "账",
+	vi: "trướng"
+}, {
+	zh: "吓",
+	vi: "hách"
+}, {
+	zh: "哲",
+	vi: "triết"
+}, {
+	zh: "润",
+	vi: "nhuận"
+}, {
+	zh: "劝",
+	vi: "khuyến"
+}, {
+	zh: "艰",
+	vi: "gian"
+}, {
+	zh: "抖",
+	vi: "đẩu"
+}, {
+	zh: "洪",
+	vi: "hồng"
+}, {
+	zh: "擒",
+	vi: "cầm"
+}, {
+	zh: "狡",
+	vi: "giảo"
+}, {
+	zh: "猾",
+	vi: "hoạt"
+}, {
+	zh: "枪",
+	vi: "thương"
+}, {
+	zh: "剌",
+	vi: "lạt"
+}, {
+	zh: "削",
+	vi: "tước"
+}, {
+	zh: "呐",
+	vi: "nột"
+}, {
+	zh: "雀",
+	vi: "tước"
+}, {
+	zh: "纪",
+	vi: "kỷ"
+}, {
+	zh: "仳",
+	vi: "tỷ"
+}, {
+	zh: "援",
+	vi: "viên"
+}, {
+	zh: "讯",
+	vi: "tấn"
+}, {
+	zh: "桃",
+	vi: "đào"
+}, {
+	zh: "输",
+	vi: "thâu"
+}, {
+	zh: "熊",
+	vi: "hùng"
+}, {
+	zh: "锢",
+	vi: "cố"
+}, {
+	zh: "嗖",
+	vi: "sưu"
+}, {
+	zh: "粒",
+	vi: "lạp"
+}, {
+	zh: "砍",
+	vi: "khảm"
+}, {
+	zh: "虹",
+	vi: "hồng"
+}, {
+	zh: "乍",
+	vi: "sạ"
+}, {
+	zh: "窖",
+	vi: "diếu"
+}, {
+	zh: "崔",
+	vi: "thôi"
+}, {
+	zh: "丧",
+	vi: "tang"
+}, {
+	zh: "控",
+	vi: "khống"
+}, {
+	zh: "挤",
+	vi: "tễ"
+}, {
+	zh: "蹑",
+	vi: "nhiếp"
+}, {
+	zh: "寡",
+	vi: "quả"
+}, {
+	zh: "滞",
+	vi: "trệ"
+}, {
+	zh: "夸",
+	vi: "khoa"
+}, {
+	zh: "慝",
+	vi: "thắc"
+}, {
+	zh: "銮",
+	vi: "loan"
+}, {
+	zh: "咚",
+	vi: "đông"
+}, {
+	zh: "匾",
+	vi: "biển"
+}, {
+	zh: "辉",
+	vi: "huy"
+}, {
+	zh: "煌",
+	vi: "hoàng"
+}, {
+	zh: "宾",
+	vi: "tân"
+}, {
+	zh: "殷",
+	vi: "ân"
+}, {
+	zh: "勤",
+	vi: "cần"
+}, {
+	zh: "建",
+	vi: "kiến"
+}, {
+	zh: "筑",
+	vi: "trúc"
+}, {
+	zh: "阶",
+	vi: "giai"
+}, {
+	zh: "苑",
+	vi: "uyển"
+}, {
+	zh: "壮",
+	vi: "tráng"
+}, {
+	zh: "辆",
+	vi: "lượng"
+}, {
+	zh: "华",
+	vi: "hoa"
+}, {
+	zh: "踵",
+	vi: "chủng"
+}, {
+	zh: "邻",
+	vi: "lân"
+}, {
+	zh: "院",
+	vi: "viện"
+}, {
+	zh: "预",
+	vi: "dự"
+}, {
+	zh: "订",
+	vi: "đính"
+}, {
+	zh: "官",
+	vi: "quan"
+}, {
+	zh: "霉",
+	vi: "môi"
+}, {
+	zh: "棋",
+	vi: "kỳ"
+}, {
+	zh: "舞",
+	vi: "vũ"
+}, {
+	zh: "抱",
+	vi: "bão"
+}, {
+	zh: "焦",
+	vi: "tiêu"
+}, {
+	zh: "啼",
+	vi: "đề"
+}, {
+	zh: "春",
+	vi: "xuân"
+}, {
+	zh: "杏",
+	vi: "hạnh"
+}, {
+	zh: "慰",
+	vi: "úy"
+}, {
+	zh: "孤",
+	vi: "cô"
+}, {
+	zh: "痕",
+	vi: "ngân"
+}, {
+	zh: "潺",
+	vi: "sàn"
+}, {
+	zh: "叮",
+	vi: "đinh"
+}, {
+	zh: "嘱",
+	vi: "chúc"
+}, {
+	zh: "宏",
+	vi: "hoành"
+}, {
+	zh: "雕",
+	vi: "điêu"
+}, {
+	zh: "楝",
+	vi: "luyện"
+}, {
+	zh: "搂",
+	vi: "lâu"
+}, {
+	zh: "丙",
+	vi: "bính"
+}, {
+	zh: "唤",
+	vi: "hoán"
+}, {
+	zh: "哥",
+	vi: "ca"
+}, {
+	zh: "谱",
+	vi: "phổ"
+}, {
+	zh: "侯",
+	vi: "hầu"
+}, {
+	zh: "爽",
+	vi: "sảng"
+}, {
+	zh: "颜",
+	vi: "nhan"
+}, {
+	zh: "桂",
+	vi: "quế"
+}, {
+	zh: "梅",
+	vi: "mai"
+}, {
+	zh: "杞",
+	vi: "kỷ"
+}, {
+	zh: "梓",
+	vi: "tử"
+}, {
+	zh: "椅",
+	vi: "y"
+}, {
+	zh: "张",
+	vi: "trương"
+}, {
+	zh: "筝",
+	vi: "tranh"
+}, {
+	zh: "银",
+	vi: "ngân"
+}, {
+	zh: "闾",
+	vi: "lư"
+}, {
+	zh: "圃",
+	vi: "phố"
+}, {
+	zh: "榭",
+	vi: "tạ"
+}, {
+	zh: "池",
+	vi: "trì"
+}, {
+	zh: "沼",
+	vi: "chiểu"
+}, {
+	zh: "妓",
+	vi: "kỹ"
+}, {
+	zh: "唱",
+	vi: "xướng"
+}, {
+	zh: "旖",
+	vi: "y"
+}, {
+	zh: "旎",
+	vi: "nỉ"
+}, {
+	zh: "弦",
+	vi: "huyền"
+}, {
+	zh: "宁",
+	vi: "ninh"
+}, {
+	zh: "窃",
+	vi: "thiết"
+}, {
+	zh: "抉",
+	vi: "quyết"
+}, {
+	zh: "嗅",
+	vi: "khứu"
+}, {
+	zh: "薰",
+	vi: "huân"
+}, {
+	zh: "怩",
+	vi: "ny"
+}, {
+	zh: "软",
+	vi: "nhuyễn"
+}, {
+	zh: "供",
+	vi: "cung"
+}, {
+	zh: "豫",
+	vi: "dự"
+}, {
+	zh: "玻",
+	vi: "pha"
+}, {
+	zh: "蔓",
+	vi: "mạn"
+}, {
+	zh: "洽",
+	vi: "hiệp"
+}, {
+	zh: "莺",
+	vi: "oanh"
+}, {
+	zh: "燕",
+	vi: "yến"
+}, {
+	zh: "琴",
+	vi: "cầm"
+}, {
+	zh: "询",
+	vi: "tuân"
+}, {
+	zh: "彼",
+	vi: "bỉ"
+}, {
+	zh: "婢",
+	vi: "tỳ"
+}, {
+	zh: "拜",
+	vi: "bái"
+}, {
+	zh: "驭",
+	vi: "ngự"
+}, {
+	zh: "漂",
+	vi: "phiêu"
+}, {
+	zh: "傲",
+	vi: "ngạo"
+}, {
+	zh: "肘",
+	vi: "trửu"
+}, {
+	zh: "衫",
+	vi: "sam"
+}, {
+	zh: "襟",
+	vi: "khâm"
+}, {
+	zh: "纹",
+	vi: "văn"
+}, {
+	zh: "捆",
+	vi: "khổn"
+}, {
+	zh: "坎",
+	vi: "khảm"
+}, {
+	zh: "挽",
+	vi: "vãn"
+}, {
+	zh: "按",
+	vi: "án"
+}, {
+	zh: "躯",
+	vi: "khu"
+}, {
+	zh: "福",
+	vi: "phúc"
+}, {
+	zh: "铃",
+	vi: "linh"
+}, {
+	zh: "健",
+	vi: "kiện"
+}, {
+	zh: "啊",
+	vi: "a"
+}, {
+	zh: "婴",
+	vi: "anh"
+}, {
+	zh: "孩",
+	vi: "hài"
+}, {
+	zh: "怫",
+	vi: "phật"
+}, {
+	zh: "拨",
+	vi: "bát"
+}, {
+	zh: "淙",
+	vi: "tông"
+}, {
+	zh: "申",
+	vi: "thân"
+}, {
+	zh: "脆",
+	vi: "thúy"
+}, {
+	zh: "躺",
+	vi: "thảng"
+}, {
+	zh: "渗",
+	vi: "sấm"
+}, {
+	zh: "坍",
+	vi: "than"
+}, {
+	zh: "塌",
+	vi: "tháp"
+}, {
+	zh: "怖",
+	vi: "phố"
+}, {
+	zh: "检",
+	vi: "kiểm"
+}, {
+	zh: "暇",
+	vi: "hạ"
+}, {
+	zh: "闺",
+	vi: "khuê"
+}, {
+	zh: "寞",
+	vi: "mịch"
+}, {
+	zh: "憧",
+	vi: "sung"
+}, {
+	zh: "憬",
+	vi: "cảnh"
+}, {
+	zh: "袱",
+	vi: "phục"
+}, {
+	zh: "团",
+	vi: "đoàn"
+}, {
+	zh: "媚",
+	vi: "mị"
+}, {
+	zh: "丫",
+	vi: "nha"
+}, {
+	zh: "佩",
+	vi: "bội"
+}, {
+	zh: "衬",
+	vi: "sấn"
+}, {
+	zh: "屏",
+	vi: "bình"
+}, {
+	zh: "蛮",
+	vi: "man"
+}, {
+	zh: "焕",
+	vi: "hoán"
+}, {
+	zh: "睫",
+	vi: "tiệp"
+}, {
+	zh: "坛",
+	vi: "đàn"
+}, {
+	zh: "敷",
+	vi: "phu"
+}, {
+	zh: "衍",
+	vi: "diễn"
+}, {
+	zh: "恼",
+	vi: "não"
+}, {
+	zh: "饴",
+	vi: "di"
+}, {
+	zh: "悬",
+	vi: "huyền"
+}, {
+	zh: "枕",
+	vi: "chẩm"
+}, {
+	zh: "扶",
+	vi: "phù"
+}, {
+	zh: "腮",
+	vi: "tai"
+}, {
+	zh: "俘",
+	vi: "phu"
+}, {
+	zh: "虏",
+	vi: "lỗ"
+}, {
+	zh: "擦",
+	vi: "sát"
+}, {
+	zh: "垣",
+	vi: "viên"
+}, {
+	zh: "瓦",
+	vi: "ngõa"
+}, {
+	zh: "潮",
+	vi: "triều"
+}, {
+	zh: "寇",
+	vi: "khấu"
+}, {
+	zh: "僻",
+	vi: "tích"
+}, {
+	zh: "酣",
+	vi: "hàm"
+}, {
+	zh: "员",
+	vi: "viên"
+}, {
+	zh: "补",
+	vi: "bổ"
+}, {
+	zh: "矣",
+	vi: "hĩ"
+}, {
+	zh: "轴",
+	vi: "trục"
+}, {
+	zh: "寿",
+	vi: "thọ"
+}, {
+	zh: "颌",
+	vi: "cáp"
+}, {
+	zh: "哧",
+	vi: "xích"
+}, {
+	zh: "惧",
+	vi: "cụ"
+}, {
+	zh: "溺",
+	vi: "nịch"
+}, {
+	zh: "财",
+	vi: "tài"
+}, {
+	zh: "资",
+	vi: "tư"
+}, {
+	zh: "源",
+	vi: "nguyên"
+}, {
+	zh: "巩",
+	vi: "củng"
+}, {
+	zh: "宿",
+	vi: "túc"
+}, {
+	zh: "宰",
+	vi: "tể"
+}, {
+	zh: "查",
+	vi: "tra"
+}, {
+	zh: "纠",
+	vi: "củ"
+}, {
+	zh: "涩",
+	vi: "sáp"
+}, {
+	zh: "巢",
+	vi: "sào"
+}, {
+	zh: "戴",
+	vi: "đái"
+}, {
+	zh: "幢",
+	vi: "tràng"
+}, {
+	zh: "恩",
+	vi: "ân"
+}, {
+	zh: "咿",
+	vi: "y"
+}, {
+	zh: "钟",
+	vi: "chung"
+}, {
+	zh: "瘦",
+	vi: "sấu"
+}, {
+	zh: "苍",
+	vi: "thương"
+}, {
+	zh: "咪",
+	vi: "mễ"
+}, {
+	zh: "槛",
+	vi: "hạm"
+}, {
+	zh: "柬",
+	vi: "giản"
+}, {
+	zh: "漆",
+	vi: "tất"
+}, {
+	zh: "厅",
+	vi: "sảnh"
+}, {
+	zh: "岳",
+	vi: "nhạc"
+}, {
+	zh: "盟",
+	vi: "minh"
+}, {
+	zh: "祝",
+	vi: "chúc"
+}, {
+	zh: "婆",
+	vi: "bà"
+}, {
+	zh: "遣",
+	vi: "khiển"
+}, {
+	zh: "恻",
+	vi: "trắc"
+}, {
+	zh: "蒜",
+	vi: "toán"
+}, {
+	zh: "侥",
+	vi: "nghiêu"
+}, {
+	zh: "妇",
+	vi: "phụ"
+}, {
+	zh: "轩",
+	vi: "hiên"
+}, {
+	zh: "鼎",
+	vi: "đỉnh"
+}, {
+	zh: "誓",
+	vi: "thệ"
+}, {
+	zh: "幌",
+	vi: "hoảng"
+}, {
+	zh: "煞",
+	vi: "sát"
+}, {
+	zh: "值",
+	vi: "trị"
+}, {
+	zh: "疗",
+	vi: "liệu"
+}, {
+	zh: "肥",
+	vi: "phì"
+}, {
+	zh: "拢",
+	vi: "long"
+}, {
+	zh: "炙",
+	vi: "chích"
+}, {
+	zh: "毁",
+	vi: "hủy"
+}, {
+	zh: "卸",
+	vi: "tá"
+}, {
+	zh: "囊",
+	vi: "nang"
+}, {
+	zh: "匪",
+	vi: "phỉ"
+}, {
+	zh: "夏",
+	vi: "hạ"
+}, {
+	zh: "暌",
+	vi: "khuê"
+}, {
+	zh: "竺",
+	vi: "trúc"
+}, {
+	zh: "谛",
+	vi: "đế"
+}, {
+	zh: "衷",
+	vi: "trung"
+}, {
+	zh: "妒",
+	vi: "đố"
+}, {
+	zh: "锥",
+	vi: "trùy"
+}, {
+	zh: "揭",
+	vi: "yết"
+}, {
+	zh: "唐",
+	vi: "đường"
+}, {
+	zh: "赌",
+	vi: "đổ"
+}, {
+	zh: "剂",
+	vi: "tề"
+}, {
+	zh: "宣",
+	vi: "tuyên"
+}, {
+	zh: "悦",
+	vi: "duyệt"
+}, {
+	zh: "舐",
+	vi: "thỉ"
+}, {
+	zh: "押",
+	vi: "áp"
+}, {
+	zh: "仆",
+	vi: "phó"
+}, {
+	zh: "率",
+	vi: "suất"
+}, {
+	zh: "绍",
+	vi: "thiệu"
+}, {
+	zh: "粹",
+	vi: "túy"
+}, {
+	zh: "扛",
+	vi: "giang"
+}, {
+	zh: "惟",
+	vi: "duy"
+}, {
+	zh: "蛾",
+	vi: "nga"
+}, {
+	zh: "丁",
+	vi: "đinh"
+}, {
+	zh: "蛔",
+	vi: "hồi"
+}, {
+	zh: "雷",
+	vi: "lôi"
+}, {
+	zh: "霆",
+	vi: "đình"
+}, {
+	zh: "钧",
+	vi: "quân"
+}, {
+	zh: "吉",
+	vi: "cát"
+}, {
+	zh: "导",
+	vi: "đạo"
+}, {
+	zh: "倘",
+	vi: "thảng"
+}, {
+	zh: "肢",
+	vi: "chi"
+}, {
+	zh: "挑",
+	vi: "khiêu"
+}, {
+	zh: "烁",
+	vi: "thước"
+}, {
+	zh: "硕",
+	vi: "thạc"
+}, {
+	zh: "紫",
+	vi: "tử"
+}, {
+	zh: "戏",
+	vi: "hí"
+}, {
+	zh: "席",
+	vi: "tịch"
+}, {
+	zh: "访",
+	vi: "phóng"
+}, {
+	zh: "噤",
+	vi: "cấm"
+}, {
+	zh: "蝉",
+	vi: "thiền"
+}, {
+	zh: "弥",
+	vi: "di"
+}, {
+	zh: "氛",
+	vi: "phân"
+}, {
+	zh: "植",
+	vi: "thực"
+}, {
+	zh: "姊",
+	vi: "tỷ"
+}, {
+	zh: "臀",
+	vi: "đồn"
+}, {
+	zh: "瞳",
+	vi: "đồng"
+}, {
+	zh: "稽",
+	vi: "kê"
+}, {
+	zh: "谊",
+	vi: "nghị"
+}, {
+	zh: "私",
+	vi: "tư"
+}, {
+	zh: "壳",
+	vi: "xác"
+}, {
+	zh: "龟",
+	vi: "quy"
+}, {
+	zh: "亳",
+	vi: "bạc"
+}, {
+	zh: "惭",
+	vi: "tàm"
+}, {
+	zh: "羡",
+	vi: "tiện"
+}, {
+	zh: "织",
+	vi: "chức"
+}, {
+	zh: "逸",
+	vi: "dật"
+}, {
+	zh: "屈",
+	vi: "khuất"
+}, {
+	zh: "凹",
+	vi: "ao"
+}, {
+	zh: "膨",
+	vi: "bành"
+}, {
+	zh: "胀",
+	vi: "trướng"
+}, {
+	zh: "箕",
+	vi: "cơ"
+}, {
+	zh: "霎",
+	vi: "siếp"
+}, {
+	zh: "戾",
+	vi: "lệ"
+}, {
+	zh: "蜘",
+	vi: "tri"
+}, {
+	zh: "蛛",
+	vi: "chu"
+}, {
+	zh: "汇",
+	vi: "hối"
+}, {
+	zh: "庞",
+	vi: "bàng"
+}, {
+	zh: "敦",
+	vi: "đôn"
+}, {
+	zh: "踩",
+	vi: "thải"
+}, {
+	zh: "御",
+	vi: "ngự"
+}, {
+	zh: "副",
+	vi: "phó"
+}, {
+	zh: "鸦",
+	vi: "nha"
+}, {
+	zh: "鹏",
+	vi: "bằng"
+}, {
+	zh: "翅",
+	vi: "sí"
+}, {
+	zh: "症",
+	vi: "chứng"
+}, {
+	zh: "药",
+	vi: "dược"
+}, {
+	zh: "克",
+	vi: "khắc"
+}, {
+	zh: "椭",
+	vi: "thỏa"
+}, {
+	zh: "袂",
+	vi: "mệ"
+}, {
+	zh: "嘲",
+	vi: "trào"
+}, {
+	zh: "缕",
+	vi: "lũ"
+}, {
+	zh: "诣",
+	vi: "nghệ"
+}, {
+	zh: "跄",
+	vi: "thương"
+}, {
+	zh: "踉",
+	vi: "lương"
+}, {
+	zh: "箱",
+	vi: "tương"
+}, {
+	zh: "搬",
+	vi: "bàn"
+}, {
+	zh: "奕",
+	vi: "dịch"
+}, {
+	zh: "鏖",
+	vi: "ao"
+}, {
+	zh: "拆",
+	vi: "sách"
+}, {
+	zh: "拈",
+	vi: "niêm"
+}, {
+	zh: "扳",
+	vi: "ban"
+}, {
+	zh: "吼",
+	vi: "hống"
+}, {
+	zh: "氨",
+	vi: "an"
+}, {
+	zh: "揍",
+	vi: "tấu"
+}, {
+	zh: "恙",
+	vi: "dạng"
+}, {
+	zh: "骚",
+	vi: "tao"
+}, {
+	zh: "氏",
+	vi: "thị"
+}, {
+	zh: "弋",
+	vi: "dặc"
+}, {
+	zh: "呵",
+	vi: "a"
+}, {
+	zh: "鹿",
+	vi: "lộc"
+}, {
+	zh: "佑",
+	vi: "hữu"
+}, {
+	zh: "炽",
+	vi: "sí"
+}, {
+	zh: "偌",
+	vi: "nhạ"
+}, {
+	zh: "竿",
+	vi: "can"
+}, {
+	zh: "崭",
+	vi: "tiệm"
+}, {
+	zh: "屠",
+	vi: "đồ"
+}, {
+	zh: "叔",
+	vi: "thúc"
+}, {
+	zh: "畅",
+	vi: "sướng"
+}, {
+	zh: "愉",
+	vi: "du"
+}, {
+	zh: "洛",
+	vi: "lạc"
+}, {
+	zh: "郡",
+	vi: "quận"
+}, {
+	zh: "捺",
+	vi: "nại"
+}, {
+	zh: "兮",
+	vi: "hề"
+}, {
+	zh: "鸿",
+	vi: "hồng"
+}, {
+	zh: "瞥",
+	vi: "miết"
+}, {
+	zh: "桥",
+	vi: "kiều"
+}, {
+	zh: "塘",
+	vi: "đường"
+}, {
+	zh: "拱",
+	vi: "củng"
+}, {
+	zh: "吁",
+	vi: "hu"
+}, {
+	zh: "郊",
+	vi: "giao"
+}, {
+	zh: "岛",
+	vi: "đảo"
+}, {
+	zh: "椰",
+	vi: "gia"
+}, {
+	zh: "季",
+	vi: "quý"
+}, {
+	zh: "汁",
+	vi: "trấp"
+}, {
+	zh: "眺",
+	vi: "thiếu"
+}, {
+	zh: "娑",
+	vi: "sa"
+}, {
+	zh: "甸",
+	vi: "điện"
+}, {
+	zh: "漾",
+	vi: "dạng"
+}, {
+	zh: "缤",
+	vi: "tân"
+}, {
+	zh: "珊",
+	vi: "san"
+}, {
+	zh: "瑚",
+	vi: "hô"
+}, {
+	zh: "聪",
+	vi: "thông"
+}, {
+	zh: "跪",
+	vi: "quỵ"
+}, {
+	zh: "耍",
+	vi: "sái"
+}, {
+	zh: "茶",
+	vi: "trà"
+}, {
+	zh: "辱",
+	vi: "nhục"
+}, {
+	zh: "膳",
+	vi: "thiện"
+}, {
+	zh: "桀",
+	vi: "kiệt"
+}, {
+	zh: "殁",
+	vi: "một"
+}, {
+	zh: "厌",
+	vi: "yếm"
+}, {
+	zh: "朱",
+	vi: "chu"
+}, {
+	zh: "萤",
+	vi: "huỳnh"
+}, {
+	zh: "菜",
+	vi: "thái"
+}, {
+	zh: "刘",
+	vi: "lưu"
+}, {
+	zh: "阖",
+	vi: "hạp"
+}, {
+	zh: "匡",
+	vi: "khuông"
+}, {
+	zh: "李",
+	vi: "lý"
+}, {
+	zh: "捧",
+	vi: "phủng"
+}, {
+	zh: "评",
+	vi: "bình"
+}, {
+	zh: "阁",
+	vi: "các"
+}, {
+	zh: "樽",
+	vi: "tôn"
+}, {
+	zh: "彰",
+	vi: "chương"
+}, {
+	zh: "齿",
+	vi: "xỉ"
+}, {
+	zh: "馒",
+	vi: "man"
+}, {
+	zh: "绘",
+	vi: "hội"
+}, {
+	zh: "徜",
+	vi: "thảng"
+}, {
+	zh: "徉",
+	vi: "dương"
+}, {
+	zh: "逍",
+	vi: "tiêu"
+}, {
+	zh: "旨",
+	vi: "chỉ"
+}, {
+	zh: "幼",
+	vi: "ấu"
+}, {
+	zh: "誉",
+	vi: "dự"
+}, {
+	zh: "昭",
+	vi: "chiêu"
+}, {
+	zh: "买",
+	vi: "mãi"
+}, {
+	zh: "赚",
+	vi: "trám"
+}, {
+	zh: "床",
+	vi: "sàng"
+}, {
+	zh: "队",
+	vi: "đội"
+}, {
+	zh: "堤",
+	vi: "đê"
+}, {
+	zh: "频",
+	vi: "tần"
+}, {
+	zh: "棚",
+	vi: "bằng"
+}, {
+	zh: "帐",
+	vi: "trướng"
+}, {
+	zh: "媳",
+	vi: "tức"
+}, {
+	zh: "材",
+	vi: "tài"
+}, {
+	zh: "碇",
+	vi: "đĩnh"
+}, {
+	zh: "蹄",
+	vi: "đề"
+}, {
+	zh: "骑",
+	vi: "kỵ"
+}, {
+	zh: "杆",
+	vi: "can"
+}, {
+	zh: "嵯",
+	vi: "tha"
+}, {
+	zh: "峨",
+	vi: "nga"
+}, {
+	zh: "叠",
+	vi: "điệp"
+}, {
+	zh: "翠",
+	vi: "thúy"
+}, {
+	zh: "巍",
+	vi: "nguy"
+}, {
+	zh: "缭",
+	vi: "liễu"
+}, {
+	zh: "梯",
+	vi: "thê"
+}, {
+	zh: "冬",
+	vi: "đông"
+}, {
+	zh: "澎",
+	vi: "bành"
+}, {
+	zh: "湃",
+	vi: "phái"
+}, {
+	zh: "峭",
+	vi: "tiễu"
+}, {
+	zh: "滔",
+	vi: "thao"
+}, {
+	zh: "旷",
+	vi: "khoáng"
+}, {
+	zh: "逗",
+	vi: "đậu"
+}, {
+	zh: "庙",
+	vi: "miếu"
+}, {
+	zh: "峡",
+	vi: "hạp"
+}, {
+	zh: "崎",
+	vi: "khi"
+}, {
+	zh: "刖",
+	vi: "ngoạt"
+}, {
+	zh: "岗",
+	vi: "cương"
+}, {
+	zh: "锲",
+	vi: "khiết"
+}, {
+	zh: "伯",
+	vi: "bá"
+}, {
+	zh: "浊",
+	vi: "trọc"
+}, {
+	zh: "滇",
+	vi: "điền"
+}, {
+	zh: "杰",
+	vi: "kiệt"
+}, {
+	zh: "嘻",
+	vi: "hi"
+}, {
+	zh: "蜿",
+	vi: "uyển"
+}, {
+	zh: "蜓",
+	vi: "đình"
+}, {
+	zh: "柱",
+	vi: "trụ"
+}, {
+	zh: "吠",
+	vi: "phệ"
+}, {
+	zh: "绣",
+	vi: "tú"
+}, {
+	zh: "陌",
+	vi: "mạch"
+}, {
+	zh: "宋",
+	vi: "tống"
+}, {
+	zh: "暮",
+	vi: "mộ"
+}, {
+	zh: "执",
+	vi: "chấp"
+}, {
+	zh: "蹦",
+	vi: "bính"
+}, {
+	zh: "嗤",
+	vi: "xuy"
+}, {
+	zh: "杨",
+	vi: "dương"
+}, {
+	zh: "州",
+	vi: "châu"
+}, {
+	zh: "黛",
+	vi: "đại"
+}, {
+	zh: "博",
+	vi: "bác"
+}, {
+	zh: "革",
+	vi: "cách"
+}, {
+	zh: "署",
+	vi: "thự"
+}, {
+	zh: "霞",
+	vi: "hà"
+}, {
+	zh: "牵",
+	vi: "khiên"
+}, {
+	zh: "骜",
+	vi: "ngao"
+}, {
+	zh: "驯",
+	vi: "tuần"
+}, {
+	zh: "桌",
+	vi: "trác"
+}, {
+	zh: "漠",
+	vi: "mạc"
+}, {
+	zh: "吞",
+	vi: "thôn"
+}, {
+	zh: "演",
+	vi: "diễn"
+}, {
+	zh: "俐",
+	vi: "lỵ"
+}, {
+	zh: "冤",
+	vi: "oan"
+}, {
+	zh: "贝",
+	vi: "bối"
+}, {
+	zh: "怔",
+	vi: "chinh"
+}, {
+	zh: "眷",
+	vi: "quyến"
+}, {
+	zh: "抚",
+	vi: "phủ"
+}, {
+	zh: "羞",
+	vi: "tu"
+}, {
+	zh: "婿",
+	vi: "tế"
+}, {
+	zh: "秤",
+	vi: "xứng"
+}, {
+	zh: "萌",
+	vi: "manh"
+}, {
+	zh: "恢",
+	vi: "khôi"
+}, {
+	zh: "奖",
+	vi: "tưởng"
+}, {
+	zh: "励",
+	vi: "lệ"
+}, {
+	zh: "撮",
+	vi: "toát"
+}, {
+	zh: "秦",
+	vi: "tần"
+}, {
+	zh: "斩",
+	vi: "trảm"
+}, {
+	zh: "焉",
+	vi: "yên"
+}, {
+	zh: "赢",
+	vi: "doanh"
+}, {
+	zh: "遮",
+	vi: "già"
+}, {
+	zh: "坊",
+	vi: "phường"
+}, {
+	zh: "尿",
+	vi: "niệu"
+}, {
+	zh: "咙",
+	vi: "lung"
+}, {
+	zh: "啄",
+	vi: "trác"
+}, {
+	zh: "妨",
+	vi: "phương"
+}, {
+	zh: "褪",
+	vi: "thốn"
+}, {
+	zh: "倪",
+	vi: "nghê"
+}, {
+	zh: "壶",
+	vi: "hồ"
+}, {
+	zh: "韩",
+	vi: "hàn"
+}, {
+	zh: "贸",
+	vi: "mậu"
+}, {
+	zh: "撇",
+	vi: "phiết"
+}, {
+	zh: "觅",
+	vi: "mịch"
+}, {
+	zh: "喘",
+	vi: "suyễn"
+}, {
+	zh: "樱",
+	vi: "anh"
+}, {
+	zh: "懑",
+	vi: "muộn"
+}, {
+	zh: "税",
+	vi: "thuế"
+}, {
+	zh: "盆",
+	vi: "bồn"
+}, {
+	zh: "栽",
+	vi: "tài"
+}, {
+	zh: "嘘",
+	vi: "hư"
+}, {
+	zh: "撕",
+	vi: "tê"
+}, {
+	zh: "哭",
+	vi: "khốc"
+}, {
+	zh: "泪",
+	vi: "lệ"
+}, {
+	zh: "酩",
+	vi: "mính"
+}, {
+	zh: "酊",
+	vi: "đính"
+}, {
+	zh: "揣",
+	vi: "sủy"
+}, {
+	zh: "摩",
+	vi: "ma"
+}, {
+	zh: "阀",
+	vi: "phiệt"
+}, {
+	zh: "骄",
+	vi: "kiêu"
+}, {
+	zh: "咯",
+	vi: "lạc"
+}, {
+	zh: "棘",
+	vi: "cức"
+}, {
+	zh: "捂",
+	vi: "ô"
+}, {
+	zh: "跺",
+	vi: "đọa"
+}, {
+	zh: "羁",
+	vi: "ky"
+}, {
+	zh: "糜",
+	vi: "mi"
+}, {
+	zh: "瞻",
+	vi: "chiêm"
+}, {
+	zh: "募",
+	vi: "mộ"
+}, {
+	zh: "娶",
+	vi: "thú"
+}, {
+	zh: "鸽",
+	vi: "cáp"
+}, {
+	zh: "杲",
+	vi: "cảo"
+}, {
+	zh: "苗",
+	vi: "miêu"
+}, {
+	zh: "柄",
+	vi: "bính"
+}, {
+	zh: "翟",
+	vi: "địch"
+}, {
+	zh: "炉",
+	vi: "lô"
+}, {
+	zh: "磊",
+	vi: "lỗi"
+}, {
+	zh: "阿",
+	vi: "a"
+}, {
+	zh: "踞",
+	vi: "cứ"
+}, {
+	zh: "拓",
+	vi: "thác"
+}, {
+	zh: "舶",
+	vi: "bạc"
+}, {
+	zh: "岖",
+	vi: "khu"
+}, {
+	zh: "储",
+	vi: "trữ"
+}, {
+	zh: "泉",
+	vi: "tuyền"
+}, {
+	zh: "泡",
+	vi: "phao"
+}, {
+	zh: "辅",
+	vi: "phụ"
+}, {
+	zh: "擞",
+	vi: "tẩu"
+}, {
+	zh: "捍",
+	vi: "hãn"
+}, {
+	zh: "鞭",
+	vi: "tiên"
+}, {
+	zh: "跑",
+	vi: "bào"
+}, {
+	zh: "鹭",
+	vi: "lộ"
+}, {
+	zh: "柩",
+	vi: "cữu"
+}, {
+	zh: "葬",
+	vi: "táng"
+}, {
+	zh: "僵",
+	vi: "cương"
+}, {
+	zh: "帽",
+	vi: "mạo"
+}, {
+	zh: "倩",
+	vi: "thiến"
+}, {
+	zh: "颧",
+	vi: "quyền"
+}, {
+	zh: "褶",
+	vi: "điệp"
+}, {
+	zh: "锦",
+	vi: "cẩm"
+}, {
+	zh: "黝",
+	vi: "ửu"
+}, {
+	zh: "郁",
+	vi: "úc"
+}, {
+	zh: "咎",
+	vi: "cữu"
+}, {
+	zh: "戚",
+	vi: "thích"
+}, {
+	zh: "悻",
+	vi: "hãnh"
+}, {
+	zh: "讥",
+	vi: "cơ"
+}, {
+	zh: "惋",
+	vi: "oản"
+}, {
+	zh: "嘉",
+	vi: "gia"
+}, {
+	zh: "咧",
+	vi: "liệt"
+}, {
+	zh: "嗡",
+	vi: "ông"
+}, {
+	zh: "伐",
+	vi: "phạt"
+}, {
+	zh: "灌",
+	vi: "quán"
+}, {
+	zh: "坪",
+	vi: "bình"
+}, {
+	zh: "峥",
+	vi: "tranh"
+}, {
+	zh: "嵘",
+	vi: "vanh"
+}, {
+	zh: "檐",
+	vi: "diêm"
+}, {
+	zh: "苟",
+	vi: "cẩu"
+}, {
+	zh: "匠",
+	vi: "tượng"
+}, {
+	zh: "钝",
+	vi: "độn"
+}, {
+	zh: "霍",
+	vi: "hoắc"
+}, {
+	zh: "舂",
+	vi: "thung"
+}, {
+	zh: "尔",
+	vi: "nhĩ"
+}, {
+	zh: "驳",
+	vi: "bác"
+}, {
+	zh: "娜",
+	vi: "na"
+}, {
+	zh: "倔",
+	vi: "quật"
+}, {
+	zh: "傅",
+	vi: "phó"
+}, {
+	zh: "省",
+	vi: "tỉnh"
+}, {
+	zh: "摘",
+	vi: "trích"
+}, {
+	zh: "刃",
+	vi: "nhận"
+}, {
+	zh: "靖",
+	vi: "tĩnh"
+}, {
+	zh: "臭",
+	vi: "xú"
+}, {
+	zh: "沛",
+	vi: "phái"
+}, {
+	zh: "廊",
+	vi: "lang"
+}, {
+	zh: "荫",
+	vi: "ấm"
+}, {
+	zh: "茂",
+	vi: "mậu"
+}, {
+	zh: "勃",
+	vi: "bột"
+}, {
+	zh: "株",
+	vi: "chu"
+}, {
+	zh: "槐",
+	vi: "hòe"
+}, {
+	zh: "伞",
+	vi: "tán"
+}, {
+	zh: "诗",
+	vi: "thi"
+}, {
+	zh: "蓝",
+	vi: "lam"
+}, {
+	zh: "屹",
+	vi: "ngật"
+}, {
+	zh: "髻",
+	vi: "kế"
+}, {
+	zh: "睥",
+	vi: "bễ"
+}, {
+	zh: "睨",
+	vi: "nghễ"
+}, {
+	zh: "笋",
+	vi: "duẩn"
+}, {
+	zh: "兢",
+	vi: "căng"
+}, {
+	zh: "锻",
+	vi: "đoán"
+}, {
+	zh: "盅",
+	vi: "chung"
+}, {
+	zh: "骰",
+	vi: "đầu"
+}, {
+	zh: "缅",
+	vi: "miễn"
+}, {
+	zh: "恳",
+	vi: "khẩn"
+}, {
+	zh: "嬴",
+	vi: "doanh"
+}, {
+	zh: "盎",
+	vi: "áng"
+}, {
+	zh: "诌",
+	vi: "sưu"
+}, {
+	zh: "鲁",
+	vi: "lỗ"
+}, {
+	zh: "孺",
+	vi: "nhụ"
+}, {
+	zh: "喃",
+	vi: "nam"
+}, {
+	zh: "唬",
+	vi: "hổ"
+}, {
+	zh: "鬓",
+	vi: "tấn"
+}, {
+	zh: "霜",
+	vi: "sương"
+}, {
+	zh: "衰",
+	vi: "suy"
+}, {
+	zh: "匀",
+	vi: "quân"
+}, {
+	zh: "匈",
+	vi: "hung"
+}, {
+	zh: "虐",
+	vi: "ngược"
+}, {
+	zh: "弑",
+	vi: "thí"
+}, {
+	zh: "篡",
+	vi: "soán"
+}, {
+	zh: "朽",
+	vi: "hủ"
+}, {
+	zh: "业",
+	vi: "nghiệp"
+}, {
+	zh: "漏",
+	vi: "lậu"
+}, {
+	zh: "踱",
+	vi: "đạc"
+}, {
+	zh: "魏",
+	vi: "ngụy"
+}, {
+	zh: "协",
+	vi: "hiệp"
+}, {
+	zh: "摊",
+	vi: "than"
+}, {
+	zh: "谬",
+	vi: "mậu"
+}, {
+	zh: "渠",
+	vi: "cừ"
+}, {
+	zh: "贩",
+	vi: "phiến"
+}, {
+	zh: "耻",
+	vi: "sỉ"
+}, {
+	zh: "铣",
+	vi: "tiển"
+}, {
+	zh: "蒙",
+	vi: "mông"
+}, {
+	zh: "嫖",
+	vi: "phiêu"
+}, {
+	zh: "贱",
+	vi: "tiện"
+}, {
+	zh: "稚",
+	vi: "trĩ"
+}, {
+	zh: "媒",
+	vi: "môi"
+}, {
+	zh: "腐",
+	vi: "hủ"
+}, {
+	zh: "柏",
+	vi: "bách"
+}, {
+	zh: "铜",
+	vi: "đồng"
+}, {
+	zh: "宛",
+	vi: "uyển"
+}, {
+	zh: "眨",
+	vi: "trát"
+}, {
+	zh: "仁",
+	vi: "nhân"
+}, {
+	zh: "屡",
+	vi: "lũ"
+}, {
+	zh: "侦",
+	vi: "trinh"
+}, {
+	zh: "簿",
+	vi: "bộ"
+}, {
+	zh: "册",
+	vi: "sách"
+}, {
+	zh: "唾",
+	vi: "thóa"
+}, {
+	zh: "纭",
+	vi: "vân"
+}, {
+	zh: "匿",
+	vi: "nặc"
+}, {
+	zh: "聘",
+	vi: "sính"
+}, {
+	zh: "鹤",
+	vi: "hạc"
+}, {
+	zh: "唳",
+	vi: "lệ"
+}, {
+	zh: "邀",
+	vi: "yêu"
+}, {
+	zh: "嬉",
+	vi: "hi"
+}, {
+	zh: "吱",
+	vi: "chi"
+}, {
+	zh: "吵",
+	vi: "sảo"
+}, {
+	zh: "泳",
+	vi: "vịnh"
+}, {
+	zh: "鲸",
+	vi: "kình"
+}, {
+	zh: "绸",
+	vi: "trù"
+}, {
+	zh: "缎",
+	vi: "đoạn"
+}, {
+	zh: "羽",
+	vi: "vũ"
+}, {
+	zh: "篮",
+	vi: "lam"
+}, {
+	zh: "歇",
+	vi: "hiết"
+}, {
+	zh: "审",
+	vi: "thẩm"
+}, {
+	zh: "铿",
+	vi: "khanh"
+}, {
+	zh: "汪",
+	vi: "uông"
+}, {
+	zh: "浃",
+	vi: "tiếp"
+}, {
+	zh: "湘",
+	vi: "tương"
+}, {
+	zh: "刎",
+	vi: "vẫn"
+}, {
+	zh: "售",
+	vi: "thụ"
+}, {
+	zh: "械",
+	vi: "giới"
+}, {
+	zh: "垒",
+	vi: "lũy"
+}, {
+	zh: "浴",
+	vi: "dục"
+}, {
+	zh: "咦",
+	vi: "di"
+}, {
+	zh: "努",
+	vi: "nỗ"
+}, {
+	zh: "巅",
+	vi: "điên"
+}, {
+	zh: "窜",
+	vi: "thoán"
+}, {
+	zh: "漱",
+	vi: "sấu"
+}, {
+	zh: "寓",
+	vi: "ngụ"
+}, {
+	zh: "淋",
+	vi: "lâm"
+}, {
+	zh: "漓",
+	vi: "li"
+}, {
+	zh: "梧",
+	vi: "ngô"
+}, {
+	zh: "搞",
+	vi: "cảo"
+}, {
+	zh: "铅",
+	vi: "duyên"
+}, {
+	zh: "咋",
+	vi: "trách"
+}, {
+	zh: "伽",
+	vi: "già"
+}, {
+	zh: "阙",
+	vi: "khuyết"
+}, {
+	zh: "悄",
+	vi: "tiễu"
+}, {
+	zh: "晋",
+	vi: "tấn"
+}, {
+	zh: "窠",
+	vi: "khoa"
+}, {
+	zh: "臼",
+	vi: "cữu"
+}, {
+	zh: "庖",
+	vi: "bào"
+}, {
+	zh: "羚",
+	vi: "linh"
+}, {
+	zh: "腕",
+	vi: "oản"
+}, {
+	zh: "吾",
+	vi: "ngô"
+}, {
+	zh: "宠",
+	vi: "sủng"
+}, {
+	zh: "葫",
+	vi: "hồ"
+}, {
+	zh: "芦",
+	vi: "lô"
+}, {
+	zh: "钜",
+	vi: "cự"
+}, {
+	zh: "款",
+	vi: "khoản"
+}, {
+	zh: "锭",
+	vi: "đĩnh"
+}, {
+	zh: "狐",
+	vi: "hồ"
+}, {
+	zh: "狸",
+	vi: "ly"
+}, {
+	zh: "猪",
+	vi: "trư"
+}, {
+	zh: "戈",
+	vi: "qua"
+}, {
+	zh: "垮",
+	vi: "khoa"
+}, {
+	zh: "毗",
+	vi: "bì"
+}, {
+	zh: "剪",
+	vi: "tiễn"
+}, {
+	zh: "烫",
+	vi: "năng"
+}, {
+	zh: "镂",
+	vi: "lũ"
+}, {
+	zh: "砖",
+	vi: "chuyên"
+}, {
+	zh: "媲",
+	vi: "bễ"
+}, {
+	zh: "妾",
+	vi: "thiếp"
+}, {
+	zh: "梳",
+	vi: "sơ"
+}, {
+	zh: "肴",
+	vi: "hào"
+}, {
+	zh: "厨",
+	vi: "trù"
+}, {
+	zh: "筵",
+	vi: "diên"
+}, {
+	zh: "醇",
+	vi: "thuần"
+}, {
+	zh: "琥",
+	vi: "hổ"
+}, {
+	zh: "珀",
+	vi: "phách"
+}, {
+	zh: "曼",
+	vi: "mạn"
+}, {
+	zh: "碗",
+	vi: "oản"
+}, {
+	zh: "碟",
+	vi: "điệp"
+}, {
+	zh: "陕",
+	vi: "thiểm"
+}, {
+	zh: "盏",
+	vi: "trản"
+}, {
+	zh: "釉",
+	vi: "dứu"
+}, {
+	zh: "粟",
+	vi: "túc"
+}, {
+	zh: "盂",
+	vi: "vu"
+}, {
+	zh: "蹩",
+	vi: "biệt"
+}, {
+	zh: "愫",
+	vi: "tố"
+}, {
+	zh: "筷",
+	vi: "khoái"
+}, {
+	zh: "酥",
+	vi: "tô"
+}, {
+	zh: "疙",
+	vi: "ngật"
+}, {
+	zh: "榜",
+	vi: "bảng"
+}, {
+	zh: "恣",
+	vi: "tứ"
+}, {
+	zh: "轨",
+	vi: "quỹ"
+}, {
+	zh: "脂",
+	vi: "chi"
+}, {
+	zh: "芙",
+	vi: "phù"
+}, {
+	zh: "蓉",
+	vi: "dung"
+}, {
+	zh: "穆",
+	vi: "mục"
+}, {
+	zh: "鬲",
+	vi: "cách"
+}, {
+	zh: "零",
+	vi: "linh"
+}, {
+	zh: "叨",
+	vi: "thao"
+}, {
+	zh: "操",
+	vi: "thao"
+}, {
+	zh: "粥",
+	vi: "chúc"
+}, {
+	zh: "杖",
+	vi: "trượng"
+}, {
+	zh: "脾",
+	vi: "tỳ"
+}, {
+	zh: "渝",
+	vi: "du"
+}, {
+	zh: "迈",
+	vi: "mại"
+}, {
+	zh: "眶",
+	vi: "khuông"
+}, {
+	zh: "嫂",
+	vi: "tẩu"
+}, {
+	zh: "喽",
+	vi: "lâu"
+}, {
+	zh: "梗",
+	vi: "ngạnh"
+}, {
+	zh: "沾",
+	vi: "triêm"
+}, {
+	zh: "蹬",
+	vi: "đặng"
+}, {
+	zh: "厮",
+	vi: "tư"
+}, {
+	zh: "赠",
+	vi: "tặng"
+}, {
+	zh: "科",
+	vi: "khoa"
+}, {
+	zh: "涵",
+	vi: "hàm"
+}, {
+	zh: "班",
+	vi: "ban"
+}, {
+	zh: "狱",
+	vi: "ngục"
+}, {
+	zh: "颂",
+	vi: "tụng"
+}, {
+	zh: "偕",
+	vi: "giai"
+}, {
+	zh: "痒",
+	vi: "dương"
+}, {
+	zh: "熬",
+	vi: "ngao"
+}, {
+	zh: "碌",
+	vi: "lục"
+}, {
+	zh: "瞎",
+	vi: "hạt"
+}, {
+	zh: "氓",
+	vi: "manh"
+}, {
+	zh: "钩",
+	vi: "câu"
+}, {
+	zh: "舢",
+	vi: "san"
+}, {
+	zh: "胪",
+	vi: "lư"
+}, {
+	zh: "驴",
+	vi: "lư"
+}, {
+	zh: "哨",
+	vi: "tiếu"
+}, {
+	zh: "卡",
+	vi: "tạp"
+}, {
+	zh: "桨",
+	vi: "tưởng"
+}, {
+	zh: "悉",
+	vi: "tất"
+}, {
+	zh: "陶",
+	vi: "đào"
+}, {
+	zh: "医",
+	vi: "y"
+}, {
+	zh: "稔",
+	vi: "nhẫm"
+}, {
+	zh: "孙",
+	vi: "tôn"
+}, {
+	zh: "澡",
+	vi: "táo"
+}, {
+	zh: "宴",
+	vi: "yến"
+}, {
+	zh: "核",
+	vi: "hạch"
+}, {
+	zh: "纶",
+	vi: "luân"
+}, {
+	zh: "遵",
+	vi: "tuân"
+}, {
+	zh: "豹",
+	vi: "báo"
+}, {
+	zh: "涎",
+	vi: "tiên"
+}, {
+	zh: "谄",
+	vi: "siểm"
+}, {
+	zh: "赛",
+	vi: "tái"
+}, {
+	zh: "签",
+	vi: "thiêm"
+}, {
+	zh: "编",
+	vi: "biên"
+}, {
+	zh: "购",
+	vi: "cấu"
+}, {
+	zh: "鼠",
+	vi: "thử"
+}, {
+	zh: "馅",
+	vi: "hãm"
+}, {
+	zh: "胯",
+	vi: "khố"
+}, {
+	zh: "棒",
+	vi: "bổng"
+}, {
+	zh: "慨",
+	vi: "khái"
+}, {
+	zh: "丢",
+	vi: "đâu"
+}, {
+	zh: "谵",
+	vi: "chiêm"
+}, {
+	zh: "贾",
+	vi: "giả"
+}, {
+	zh: "轿",
+	vi: "kiệu"
+}, {
+	zh: "项",
+	vi: "hạng"
+}, {
+	zh: "社",
+	vi: "xã"
+}, {
+	zh: "秩",
+	vi: "trật"
+}, {
+	zh: "弊",
+	vi: "tệ"
+}, {
+	zh: "挞",
+	vi: "thát"
+}, {
+	zh: "弛",
+	vi: "thỉ"
+}, {
+	zh: "吏",
+	vi: "lại"
+}, {
+	zh: "污",
+	vi: "ô"
+}, {
+	zh: "梭",
+	vi: "toa"
+}, {
+	zh: "绮",
+	vi: "khỉ"
+}, {
+	zh: "佣",
+	vi: "dung"
+}, {
+	zh: "婪",
+	vi: "lam"
+}, {
+	zh: "佯",
+	vi: "dương"
+}, {
+	zh: "扒",
+	vi: "bái"
+}, {
+	zh: "撬",
+	vi: "khiêu"
+}, {
+	zh: "橙",
+	vi: "tranh"
+}, {
+	zh: "蒲",
+	vi: "bồ"
+}, {
+	zh: "玲",
+	vi: "linh"
+}, {
+	zh: "谙",
+	vi: "am"
+}, {
+	zh: "砌",
+	vi: "thế"
+}, {
+	zh: "搪",
+	vi: "đường"
+}, {
+	zh: "憋",
+	vi: "biệt"
+}, {
+	zh: "剀",
+	vi: "cai"
+}, {
+	zh: "颔",
+	vi: "hạm"
+}, {
+	zh: "厂",
+	vi: "hán"
+}, {
+	zh: "簧",
+	vi: "hoàng"
+}, {
+	zh: "瘾",
+	vi: "ẩn"
+}, {
+	zh: "晏",
+	vi: "yến"
+}, {
+	zh: "棺",
+	vi: "quan"
+}, {
+	zh: "妹",
+	vi: "muội"
+}, {
+	zh: "谇",
+	vi: "tối"
+}, {
+	zh: "迭",
+	vi: "điệt"
+}, {
+	zh: "赊",
+	vi: "xa"
+}, {
+	zh: "榄",
+	vi: "lãm"
+}, {
+	zh: "镜",
+	vi: "kính"
+}, {
+	zh: "垫",
+	vi: "điếm"
+}, {
+	zh: "姗",
+	vi: "san"
+}, {
+	zh: "睽",
+	vi: "khuê"
+}, {
+	zh: "掏",
+	vi: "đào"
+}, {
+	zh: "啥",
+	vi: "xá"
+}, {
+	zh: "啪",
+	vi: "ba"
+}, {
+	zh: "默",
+	vi: "mặc"
+}, {
+	zh: "徨",
+	vi: "hoàng"
+}, {
+	zh: "拭",
+	vi: "thức"
+}, {
+	zh: "哝",
+	vi: "nông"
+}, {
+	zh: "氅",
+	vi: "sưởng"
+}, {
+	zh: "拧",
+	vi: "ninh"
+}, {
+	zh: "犷",
+	vi: "quánh"
+}, {
+	zh: "巫",
+	vi: "vu"
+}, {
+	zh: "膀",
+	vi: "bàng"
+}, {
+	zh: "锟",
+	vi: "côn"
+}, {
+	zh: "揩",
+	vi: "khai"
+}, {
+	zh: "呀",
+	vi: "nha"
+}, {
+	zh: "侣",
+	vi: "lữ"
+}, {
+	zh: "辩",
+	vi: "biện"
+}, {
+	zh: "幡",
+	vi: "phiên"
+}, {
+	zh: "魁",
+	vi: "khôi"
+}, {
+	zh: "竞",
+	vi: "cạnh"
+}, {
+	zh: "兆",
+	vi: "triệu"
+}, {
+	zh: "踌",
+	vi: "trù"
+}, {
+	zh: "躇",
+	vi: "trừ"
+}, {
+	zh: "碓",
+	vi: "đối"
+}, {
+	zh: "慷",
+	vi: "khảng"
+}, {
+	zh: "傍",
+	vi: "bàng"
+}, {
+	zh: "凯",
+	vi: "khải"
+}, {
+	zh: "惩",
+	vi: "trừng"
+}, {
+	zh: "簇",
+	vi: "thốc"
+}, {
+	zh: "杳",
+	vi: "yểu"
+}, {
+	zh: "憾",
+	vi: "hám"
+}, {
+	zh: "萍",
+	vi: "bình"
+}, {
+	zh: "阎",
+	vi: "diêm"
+}, {
+	zh: "伺",
+	vi: "tý"
+}, {
+	zh: "婷",
+	vi: "đình"
+}, {
+	zh: "飕",
+	vi: "sưu"
+}, {
+	zh: "梵",
+	vi: "phạm"
+}, {
+	zh: "诵",
+	vi: "tụng"
+}, {
+	zh: "杵",
+	vi: "xử"
+}, {
+	zh: "逆",
+	vi: "nghịch"
+}, {
+	zh: "窘",
+	vi: "quẫn"
+}, {
+	zh: "奢",
+	vi: "xa"
+}, {
+	zh: "囚",
+	vi: "tù"
+}, {
+	zh: "孽",
+	vi: "nghiệt"
+}, {
+	zh: "斋",
+	vi: "trai"
+}, {
+	zh: "螳",
+	vi: "đường"
+}, {
+	zh: "臣",
+	vi: "thần"
+}, {
+	zh: "譬",
+	vi: "thí"
+}, {
+	zh: "锅",
+	vi: "oa"
+}, {
+	zh: "灶",
+	vi: "táo"
+}, {
+	zh: "炫",
+	vi: "huyễn"
+}, {
+	zh: "潭",
+	vi: "đàm"
+}, {
+	zh: "寐",
+	vi: "mị"
+}, {
+	zh: "剥",
+	vi: "bác"
+}, {
+	zh: "蝓",
+	vi: "du"
+}, {
+	zh: "癸",
+	vi: "quý"
+}, {
+	zh: "蹒",
+	vi: "bàn"
+}, {
+	zh: "凿",
+	vi: "tạc"
+}, {
+	zh: "蚂",
+	vi: "mã"
+}, {
+	zh: "烘",
+	vi: "hồng"
+}, {
+	zh: "膈",
+	vi: "cách"
+}, {
+	zh: "嫩",
+	vi: "nộn"
+}, {
+	zh: "饿",
+	vi: "ngạ"
+}, {
+	zh: "眯",
+	vi: "mị"
+}, {
+	zh: "屎",
+	vi: "thỉ"
+}, {
+	zh: "腻",
+	vi: "nị"
+}, {
+	zh: "攘",
+	vi: "nhương"
+}, {
+	zh: "絮",
+	vi: "nhứ"
+}, {
+	zh: "唆",
+	vi: "toa"
+}, {
+	zh: "冽",
+	vi: "liệt"
+}, {
+	zh: "乒",
+	vi: "binh"
+}, {
+	zh: "馔",
+	vi: "soạn"
+}, {
+	zh: "疯",
+	vi: "phong"
+}, {
+	zh: "疼",
+	vi: "đông"
+}, {
+	zh: "函",
+	vi: "hàm"
+}, {
+	zh: "镖",
+	vi: "tiêu"
+}, {
+	zh: "涨",
+	vi: "trướng"
+}, {
+	zh: "盐",
+	vi: "diêm"
+}, {
+	zh: "箩",
+	vi: "la"
+}, {
+	zh: "孑",
+	vi: "kiết"
+}, {
+	zh: "矶",
+	vi: "ki"
+}, {
+	zh: "逝",
+	vi: "thệ"
+}, {
+	zh: "霪",
+	vi: "dâm"
+}, {
+	zh: "叁",
+	vi: "tam"
+}, {
+	zh: "餐",
+	vi: "xan"
+}, {
+	zh: "票",
+	vi: "phiếu"
+}, {
+	zh: "逶",
+	vi: "uy"
+}, {
+	zh: "尼",
+	vi: "ni"
+}, {
+	zh: "庵",
+	vi: "am"
+}, {
+	zh: "邑",
+	vi: "ấp"
+}, {
+	zh: "邦",
+	vi: "bang"
+}, {
+	zh: "裁",
+	vi: "tài"
+}, {
+	zh: "牍",
+	vi: "độc"
+}, {
+	zh: "狩",
+	vi: "thú"
+}, {
+	zh: "惠",
+	vi: "huệ"
+}, {
+	zh: "页",
+	vi: "hiệt"
+}, {
+	zh: "础",
+	vi: "sở"
+}, {
+	zh: "嘀",
+	vi: "đích"
+}, {
+	zh: "鄙",
+	vi: "bỉ"
+}, {
+	zh: "辽",
+	vi: "liêu"
+}, {
+	zh: "湍",
+	vi: "thoan"
+}, {
+	zh: "丞",
+	vi: "thừa"
+}, {
+	zh: "哉",
+	vi: "tai"
+}, {
+	zh: "觑",
+	vi: "thứ"
+}, {
+	zh: "厥",
+	vi: "quyết"
+}, {
+	zh: "勒",
+	vi: "lặc"
+}, {
+	zh: "猝",
+	vi: "thốt"
+}, {
+	zh: "飨",
+	vi: "hưởng"
+}, {
+	zh: "璧",
+	vi: "bích"
+}, {
+	zh: "挪",
+	vi: "na"
+}, {
+	zh: "抄",
+	vi: "sao"
+}, {
+	zh: "辙",
+	vi: "triệt"
+}, {
+	zh: "捞",
+	vi: "lao"
+}, {
+	zh: "刮",
+	vi: "quát"
+}, {
+	zh: "仟",
+	vi: "thiên"
+}, {
+	zh: "患",
+	vi: "hoạn"
+}, {
+	zh: "憎",
+	vi: "tăng"
+}, {
+	zh: "肖",
+	vi: "tiêu"
+}, {
+	zh: "沈",
+	vi: "thẩm"
+}, {
+	zh: "恪",
+	vi: "khác"
+}, {
+	zh: "洲",
+	vi: "châu"
+}, {
+	zh: "绩",
+	vi: "tích"
+}, {
+	zh: "镭",
+	vi: "lôi"
+}, {
+	zh: "莞",
+	vi: "hoàn"
+}, {
+	zh: "攫",
+	vi: "quặc"
+}, {
+	zh: "偃",
+	vi: "yển"
+}, {
+	zh: "屯",
+	vi: "truân"
+}, {
+	zh: "嗔",
+	vi: "sân"
+}, {
+	zh: "嗦",
+	vi: "sách"
+}, {
+	zh: "牧",
+	vi: "mục"
+}, {
+	zh: "杜",
+	vi: "đỗ"
+}, {
+	zh: "煎",
+	vi: "tiên"
+}, {
+	zh: "拘",
+	vi: "câu"
+}, {
+	zh: "搅",
+	vi: "giảo"
+}, {
+	zh: "弁",
+	vi: "biện"
+}, {
+	zh: "枉",
+	vi: "uổng"
+}, {
+	zh: "迢",
+	vi: "điều"
+}, {
+	zh: "薛",
+	vi: "tiết"
+}, {
+	zh: "董",
+	vi: "đổng"
+}, {
+	zh: "蛊",
+	vi: "cổ"
+}, {
+	zh: "隘",
+	vi: "ải"
+}, {
+	zh: "彭",
+	vi: "bành"
+}, {
+	zh: "幕",
+	vi: "mạc"
+}, {
+	zh: "澜",
+	vi: "lan"
+}, {
+	zh: "襄",
+	vi: "tương"
+}, {
+	zh: "溢",
+	vi: "dật"
+}, {
+	zh: "蝗",
+	vi: "hoàng"
+}, {
+	zh: "瞟",
+	vi: "phiêu"
+}, {
+	zh: "圳",
+	vi: "quyến"
+}, {
+	zh: "刑",
+	vi: "hình"
+}, {
+	zh: "殃",
+	vi: "ương"
+}, {
+	zh: "弘",
+	vi: "hoằng"
+}, {
+	zh: "蹲",
+	vi: "tồn"
+}, {
+	zh: "瞰",
+	vi: "khám"
+}, {
+	zh: "惮",
+	vi: "đạn"
+}, {
+	zh: "肝",
+	vi: "can"
+}, {
+	zh: "剖",
+	vi: "phẩu"
+}, {
+	zh: "氤",
+	vi: "nhân"
+}, {
+	zh: "氲",
+	vi: "uân"
+}, {
+	zh: "镳",
+	vi: "tiêu"
+}, {
+	zh: "霾",
+	vi: "mai"
+}, {
+	zh: "嗣",
+	vi: "tự"
+}, {
+	zh: "炀",
+	vi: "dương"
+}, {
+	zh: "怂",
+	vi: "túng"
+}, {
+	zh: "恿",
+	vi: "dũng"
+}, {
+	zh: "砂",
+	vi: "sa"
+}, {
+	zh: "汤",
+	vi: "thang"
+}, {
+	zh: "疮",
+	vi: "sang"
+}, {
+	zh: "呓",
+	vi: "nghệ"
+}, {
+	zh: "笠",
+	vi: "lạp"
+}, {
+	zh: "裕",
+	vi: "dụ"
+}, {
+	zh: "淆",
+	vi: "hào"
+}, {
+	zh: "歧",
+	vi: "kỳ"
+}, {
+	zh: "睚",
+	vi: "nhai"
+}, {
+	zh: "铲",
+	vi: "sạn"
+}, {
+	zh: "刊",
+	vi: "khan"
+}, {
+	zh: "赵",
+	vi: "triệu"
+}, {
+	zh: "逮",
+	vi: "đãi"
+}, {
+	zh: "霏",
+	vi: "phi"
+}, {
+	zh: "兔",
+	vi: "thỏ"
+}, {
+	zh: "沮",
+	vi: "tự"
+}, {
+	zh: "绥",
+	vi: "tuy"
+}, {
+	zh: "庇",
+	vi: "tí"
+}, {
+	zh: "徘",
+	vi: "bồi"
+}, {
+	zh: "徊",
+	vi: "hồi"
+}, {
+	zh: "诧",
+	vi: "sá"
+}, {
+	zh: "伊",
+	vi: "y"
+}, {
+	zh: "睾",
+	vi: "cao"
+}, {
+	zh: "呱",
+	vi: "oa"
+}, {
+	zh: "剁",
+	vi: "đóa"
+}, {
+	zh: "萃",
+	vi: "tụy"
+}, {
+	zh: "魇",
+	vi: "yểm"
+}, {
+	zh: "枭",
+	vi: "kiêu"
+}, {
+	zh: "臆",
+	vi: "ức"
+}, {
+	zh: "链",
+	vi: "liên"
+}, {
+	zh: "磁",
+	vi: "từ"
+}, {
+	zh: "瘤",
+	vi: "lựu"
+}, {
+	zh: "黎",
+	vi: "lê"
+}, {
+	zh: "戳",
+	vi: "trạc"
+}, {
+	zh: "骠",
+	vi: "phiếu"
+}, {
+	zh: "炮",
+	vi: "pháo"
+}, {
+	zh: "麾",
+	vi: "huy"
+}, {
+	zh: "踝",
+	vi: "hõa"
+}, {
+	zh: "霄",
+	vi: "tiêu"
+}, {
+	zh: "晒",
+	vi: "sái"
+}, {
+	zh: "熏",
+	vi: "huân"
+}, {
+	zh: "喟",
+	vi: "vị"
+}, {
+	zh: "役",
+	vi: "dịch"
+}, {
+	zh: "噱",
+	vi: "cược"
+}, {
+	zh: "躁",
+	vi: "táo"
+}, {
+	zh: "墨",
+	vi: "mặc"
+}, {
+	zh: "厘",
+	vi: "ly"
+}, {
+	zh: "拗",
+	vi: "ảo"
+}, {
+	zh: "鳅",
+	vi: "thu"
+}, {
+	zh: "企",
+	vi: "xí"
+}, {
+	zh: "苛",
+	vi: "hà"
+}, {
+	zh: "胴",
+	vi: "đỗng"
+}, {
+	zh: "厄",
+	vi: "ách"
+}, {
+	zh: "曝",
+	vi: "bộc"
+}, {
+	zh: "粱",
+	vi: "lương"
+}, {
+	zh: "磋",
+	vi: "tha"
+}, {
+	zh: "垠",
+	vi: "ngân"
+}, {
+	zh: "汲",
+	vi: "cấp"
+}, {
+	zh: "勘",
+	vi: "khám"
+}, {
+	zh: "疚",
+	vi: "cứu"
+}, {
+	zh: "揖",
+	vi: "ấp"
+}, {
+	zh: "驿",
+	vi: "dịch"
+}, {
+	zh: "沽",
+	vi: "cô"
+}, {
+	zh: "衅",
+	vi: "hấn"
+}, {
+	zh: "贺",
+	vi: "hạ"
+}, {
+	zh: "铢",
+	vi: "thù"
+}, {
+	zh: "羯",
+	vi: "yết"
+}, {
+	zh: "俟",
+	vi: "sĩ"
+}, {
+	zh: "吕",
+	vi: "lữ"
+}, {
+	zh: "腴",
+	vi: "du"
+}, {
+	zh: "嫡",
+	vi: "đích"
+}, {
+	zh: "呷",
+	vi: "hạp"
+}, {
+	zh: "叩",
+	vi: "khấu"
+}, {
+	zh: "嫔",
+	vi: "tần"
+}, {
+	zh: "翁",
+	vi: "ông"
+}, {
+	zh: "躬",
+	vi: "cung"
+}, {
+	zh: "伍",
+	vi: "ngũ"
+}, {
+	zh: "棉",
+	vi: "miên"
+}, {
+	zh: "渍",
+	vi: "tí"
+}, {
+	zh: "淳",
+	vi: "thuần"
+}, {
+	zh: "涅",
+	vi: "niết"
+}, {
+	zh: "觊",
+	vi: "ký"
+}, {
+	zh: "觎",
+	vi: "du"
+}, {
+	zh: "夭",
+	vi: "yêu"
+}, {
+	zh: "兽",
+	vi: "thú"
+}, {
+	zh: "瘟",
+	vi: "ôn"
+}, {
+	zh: "疫",
+	vi: "dịch"
+}, {
+	zh: "偿",
+	vi: "thường"
+}, {
+	zh: "彦",
+	vi: "ngạn"
+}, {
+	zh: "昆",
+	vi: "côn"
+}, {
+	zh: "艮",
+	vi: "cấn"
+}, {
+	zh: "猴",
+	vi: "hầu"
+}, {
+	zh: "尉",
+	vi: "úy"
+}, {
+	zh: "丘",
+	vi: "khâu"
+}, {
+	zh: "崛",
+	vi: "quật"
+}, {
+	zh: "囗",
+	vi: "vi"
+}, {
+	zh: "柯",
+	vi: "kha"
+}, {
+	zh: "箧",
+	vi: "khiếp"
+}, {
+	zh: "彪",
+	vi: "bưu"
+}, {
+	zh: "黥",
+	vi: "kình"
+}, {
+	zh: "俦",
+	vi: "trù"
+}, {
+	zh: "泣",
+	vi: "khấp"
+}, {
+	zh: "丨",
+	vi: "cổn"
+}, {
+	zh: "涕",
+	vi: "thế"
+}, {
+	zh: "銎",
+	vi: "khung"
+}, {
+	zh: "赳",
+	vi: "củ"
+}, {
+	zh: "瞠",
+	vi: "sinh"
+}, {
+	zh: "锤",
+	vi: "chùy"
+}, {
+	zh: "末",
+	vi: "mạt"
+}, {
+	zh: "脓",
+	vi: "nùng"
+}, {
+	zh: "稠",
+	vi: "trù"
+}, {
+	zh: "洵",
+	vi: "tuân"
+}, {
+	zh: "洼",
+	vi: "oa"
+}, {
+	zh: "囔",
+	vi: "nang"
+}, {
+	zh: "浜",
+	vi: "banh"
+}, {
+	zh: "饥",
+	vi: "cơ"
+}, {
+	zh: "亘",
+	vi: "tuyên"
+}, {
+	zh: "亟",
+	vi: "cức"
+}, {
+	zh: "孟",
+	vi: "mạnh"
+}, {
+	zh: "驼",
+	vi: "đà"
+}, {
+	zh: "庶",
+	vi: "thứ"
+}, {
+	zh: "枢",
+	vi: "xu"
+}, {
+	zh: "葱",
+	vi: "thông"
+}, {
+	zh: "鳞",
+	vi: "lân"
+}, {
+	zh: "栉",
+	vi: "trất"
+}, {
+	zh: "辖",
+	vi: "hạt"
+}, {
+	zh: "贡",
+	vi: "cống"
+}, {
+	zh: "廉",
+	vi: "liêm"
+}, {
+	zh: "嘈",
+	vi: "tào"
+}, {
+	zh: "晔",
+	vi: "diệp"
+}, {
+	zh: "癞",
+	vi: "lại"
+}, {
+	zh: "蛤",
+	vi: "cáp"
+}, {
+	zh: "蟆",
+	vi: "mô"
+}, {
+	zh: "鹅",
+	vi: "nga"
+}, {
+	zh: "澳",
+	vi: "úc"
+}, {
+	zh: "啖",
+	vi: "đạm"
+}, {
+	zh: "荏",
+	vi: "nhẫm"
+}, {
+	zh: "掺",
+	vi: "sảm"
+}, {
+	zh: "舴",
+	vi: "trách"
+}, {
+	zh: "榻",
+	vi: "tháp"
+}, {
+	zh: "淑",
+	vi: "thục"
+}, {
+	zh: "嗫",
+	vi: "chiếp"
+}, {
+	zh: "嚅",
+	vi: "nhu"
+}, {
+	zh: "愎",
+	vi: "phức"
+}, {
+	zh: "司",
+	vi: "ty"
+}, {
+	zh: "隹",
+	vi: "chuy"
+}, {
+	zh: "寝",
+	vi: "tẩm"
+}, {
+	zh: "痊",
+	vi: "thuyên"
+}, {
+	zh: "祈",
+	vi: "kỳ"
+}, {
+	zh: "淞",
+	vi: "tùng"
+}, {
+	zh: "窒",
+	vi: "trất"
+}, {
+	zh: "铩",
+	vi: "sát"
+}, {
+	zh: "泠",
+	vi: "linh"
+}, {
+	zh: "喙",
+	vi: "uế"
+}, {
+	zh: "粑",
+	vi: "ba"
+}, {
+	zh: "党",
+	vi: "đảng"
+}, {
+	zh: "俾",
+	vi: "tỷ"
+}, {
+	zh: "绷",
+	vi: "banh"
+}, {
+	zh: "忱",
+	vi: "thầm"
+}, {
+	zh: "巳",
+	vi: "tị"
+}, {
+	zh: "届",
+	vi: "giới"
+}, {
+	zh: "姻",
+	vi: "nhân"
+}, {
+	zh: "兰",
+	vi: "lan"
+}, {
+	zh: "卤",
+	vi: "lỗ"
+}, {
+	zh: "莽",
+	vi: "mãng"
+}, {
+	zh: "檀",
+	vi: "đàn"
+}, {
+	zh: "螓",
+	vi: "tần"
+}, {
+	zh: "姚",
+	vi: "diêu"
+}, {
+	zh: "盗",
+	vi: "đạo"
+}, {
+	zh: "余",
+	vi: "dư"
+}, {
+	zh: "肋",
+	vi: "lặc"
+}, {
+	zh: "婚",
+	vi: "hôn"
+}, {
+	zh: "球",
+	vi: "cầu"
+}, {
+	zh: "惰",
+	vi: "nọa"
+}, {
+	zh: "祷",
+	vi: "đảo"
+}, {
+	zh: "戮",
+	vi: "lục"
+}, {
+	zh: "籁",
+	vi: "lại"
+}, {
+	zh: "蜒",
+	vi: "diên"
+}, {
+	zh: "枷",
+	vi: "gia"
+}, {
+	zh: "伎",
+	vi: "kỹ"
+}, {
+	zh: "忡",
+	vi: "xung"
+}, {
+	zh: "磐",
+	vi: "bàn"
+}, {
+	zh: "蹈",
+	vi: "đạo"
+}, {
+	zh: "婀",
+	vi: "a"
+}, {
+	zh: "庐",
+	vi: "lư"
+}, {
+	zh: "殛",
+	vi: "cức"
+}, {
+	zh: "豕",
+	vi: "thỉ"
+}, {
+	zh: "犄",
+	vi: "cơ"
+}, {
+	zh: "债",
+	vi: "trái"
+}, {
+	zh: "寰",
+	vi: "hoàn"
+}, {
+	zh: "龈",
+	vi: "ngân"
+}, {
+	zh: "嗟",
+	vi: "ta"
+}, {
+	zh: "滕",
+	vi: "đằng"
+}, {
+	zh: "闳",
+	vi: "hoành"
+}, {
+	zh: "讽",
+	vi: "phúng"
+}, {
+	zh: "缸",
+	vi: "hang"
+}, {
+	zh: "矗",
+	vi: "súc"
+}, {
+	zh: "忝",
+	vi: "thiểm"
+}, {
+	zh: "倥",
+	vi: "không"
+}, {
+	zh: "嫦",
+	vi: "thường"
+}, {
+	zh: "龋",
+	vi: "củ"
+}, {
+	zh: "悴",
+	vi: "tụy"
+}, {
+	zh: "肭",
+	vi: "nạp"
+}, {
+	zh: "趾",
+	vi: "chỉ"
+}, {
+	zh: "浚",
+	vi: "tuấn"
+}, {
+	zh: "烤",
+	vi: "khảo"
+}, {
+	zh: "帛",
+	vi: "bạch"
+}, {
+	zh: "徙",
+	vi: "tỷ"
+}, {
+	zh: "嗷",
+	vi: "ngao"
+}, {
+	zh: "乓",
+	vi: "bàng"
+}, {
+	zh: "菏",
+	vi: "hà"
+}, {
+	zh: "米",
+	vi: "mễ"
+}, {
+	zh: "炊",
+	vi: "xuy"
+}, {
+	zh: "嗓",
+	vi: "tảng"
+}, {
+	zh: "闩",
+	vi: "soan"
+}, {
+	zh: "帷",
+	vi: "duy"
+}, {
+	zh: "榴",
+	vi: "lưu"
+}, {
+	zh: "雁",
+	vi: "nhạn"
+}, {
+	zh: "姘",
+	vi: "phanh"
+}, {
+	zh: "杭",
+	vi: "hàng"
+}, {
+	zh: "唏",
+	vi: "hí"
+}, {
+	zh: "腼",
+	vi: "điến"
+}, {
+	zh: "腆",
+	vi: "thiển"
+}, {
+	zh: "斐",
+	vi: "phỉ"
+}, {
+	zh: "炎",
+	vi: "viêm"
+}, {
+	zh: "睦",
+	vi: "mục"
+}, {
+	zh: "培",
+	vi: "bồi"
+}, {
+	zh: "掘",
+	vi: "quật"
+}, {
+	zh: "鼾",
+	vi: "hãn"
+}, {
+	zh: "蚕",
+	vi: "tàm"
+}, {
+	zh: "懊",
+	vi: "áo"
+}, {
+	zh: "恫",
+	vi: "đỗng"
+}, {
+	zh: "蜜",
+	vi: "mật"
+}, {
+	zh: "鹑",
+	vi: "thuần"
+}, {
+	zh: "兀",
+	vi: "ngột"
+}, {
+	zh: "囿",
+	vi: "hữu"
+}, {
+	zh: "莘",
+	vi: "tân"
+}, {
+	zh: "驷",
+	vi: "tứ"
+}, {
+	zh: "牺",
+	vi: "hi"
+}, {
+	zh: "萧",
+	vi: "tiêu"
+}, {
+	zh: "喏",
+	vi: "nhạ"
+}, {
+	zh: "哽",
+	vi: "ngạnh"
+}, {
+	zh: "鸣",
+	vi: "minh"
+}, {
+	zh: "蹊",
+	vi: "hề"
+}, {
+	zh: "辗",
+	vi: "triển"
+}, {
+	zh: "阑",
+	vi: "lan"
+}, {
+	zh: "逛",
+	vi: "cuống"
+}, {
+	zh: "惆",
+	vi: "trù"
+}, {
+	zh: "怅",
+	vi: "trướng"
+}, {
+	zh: "柴",
+	vi: "sài"
+}, {
+	zh: "卿",
+	vi: "khanh"
+}, {
+	zh: "坠",
+	vi: "trụy"
+}, {
+	zh: "偻",
+	vi: "lũ"
+}, {
+	zh: "骏",
+	vi: "tuấn"
+}, {
+	zh: "谗",
+	vi: "sàm"
+}, {
+	zh: "京",
+	vi: "kinh"
+}, {
+	zh: "纲",
+	vi: "cương"
+}, {
+	zh: "陡",
+	vi: "đẩu"
+}, {
+	zh: "赘",
+	vi: "chuế"
+}, {
+	zh: "彝",
+	vi: "di"
+}, {
+	zh: "愀",
+	vi: "thiểu"
+}, {
+	zh: "毋",
+	vi: "vô"
+}, {
+	zh: "庸",
+	vi: "dung"
+}, {
+	zh: "渲",
+	vi: "tuyển"
+}, {
+	zh: "叵",
+	vi: "phả"
+}, {
+	zh: "摒",
+	vi: "bính"
+}, {
+	zh: "妮",
+	vi: "ny"
+}, {
+	zh: "殡",
+	vi: "tấn"
+}, {
+	zh: "婕",
+	vi: "tiệp"
+}, {
+	zh: "纾",
+	vi: "thư"
+}, {
+	zh: "尹",
+	vi: "doãn"
+}, {
+	zh: "蛟",
+	vi: "giao"
+}, {
+	zh: "凤",
+	vi: "phượng"
+}, {
+	zh: "乔",
+	vi: "kiều"
+}, {
+	zh: "斡",
+	vi: "oát"
+}, {
+	zh: "峦",
+	vi: "loan"
+}, {
+	zh: "校",
+	vi: "hiệu"
+}, {
+	zh: "诋",
+	vi: "để"
+}, {
+	zh: "诿",
+	vi: "ủy"
+}, {
+	zh: "堰",
+	vi: "yển"
+}, {
+	zh: "捐",
+	vi: "quyên"
+}, {
+	zh: "邱",
+	vi: "khâu"
+}, {
+	zh: "饷",
+	vi: "hướng"
+}, {
+	zh: "障",
+	vi: "chướng"
+}, {
+	zh: "津",
+	vi: "tân"
+}, {
+	zh: "沐",
+	vi: "mộc"
+}, {
+	zh: "蒂",
+	vi: "đế"
+}, {
+	zh: "暧",
+	vi: "ái"
+}, {
+	zh: "昧",
+	vi: "muội"
+}, {
+	zh: "窑",
+	vi: "diêu"
+}, {
+	zh: "奶",
+	vi: "nãi"
+}, {
+	zh: "鞑",
+	vi: "thát"
+}, {
+	zh: "妞",
+	vi: "nữu"
+}, {
+	zh: "疆",
+	vi: "cương"
+}, {
+	zh: "谕",
+	vi: "dụ"
+}, {
+	zh: "骁",
+	vi: "kiêu"
+}, {
+	zh: "骞",
+	vi: "khiên"
+}, {
+	zh: "钢",
+	vi: "cương"
+}, {
+	zh: "罚",
+	vi: "phạt"
+}, {
+	zh: "擎",
+	vi: "kình"
+}, {
+	zh: "诞",
+	vi: "đản"
+}, {
+	zh: "莪",
+	vi: "nga"
+}, {
+	zh: "忾",
+	vi: "hi"
+}, {
+	zh: "宵",
+	vi: "tiêu"
+}, {
+	zh: "蚤",
+	vi: "tảo"
+}, {
+	zh: "虱",
+	vi: "sắt"
+}, {
+	zh: "谣",
+	vi: "dao"
+}, {
+	zh: "允",
+	vi: "doãn"
+}, {
+	zh: "吝",
+	vi: "lận"
+}, {
+	zh: "瑰",
+	vi: "côi"
+}, {
+	zh: "笙",
+	vi: "sanh"
+}, {
+	zh: "逻",
+	vi: "la"
+}, {
+	zh: "茉",
+	vi: "mạt"
+}, {
+	zh: "敕",
+	vi: "sắc"
+}, {
+	zh: "陀",
+	vi: "đà"
+}, {
+	zh: "纥",
+	vi: "hột"
+}, {
+	zh: "雍",
+	vi: "ung"
+}, {
+	zh: "掖",
+	vi: "dịch"
+}, {
+	zh: "髯",
+	vi: "nhiêm"
+}, {
+	zh: "羹",
+	vi: "canh"
+}, {
+	zh: "邢",
+	vi: "hình"
+}, {
+	zh: "馊",
+	vi: "sưu"
+}, {
+	zh: "履",
+	vi: "lý"
+}, {
+	zh: "栖",
+	vi: "tê"
+}, {
+	zh: "窦",
+	vi: "đậu"
+}, {
+	zh: "忿",
+	vi: "phẫn"
+}, {
+	zh: "罔",
+	vi: "võng"
+}, {
+	zh: "倡",
+	vi: "xướng"
+}, {
+	zh: "偎",
+	vi: "ôi"
+}, {
+	zh: "泱",
+	vi: "ương"
+}, {
+	zh: "阐",
+	vi: "xiển"
+}, {
+	zh: "橹",
+	vi: "lỗ"
+}, {
+	zh: "骥",
+	vi: "ký"
+}, {
+	zh: "枥",
+	vi: "lịch"
+}, {
+	zh: "爵",
+	vi: "tước"
+}, {
+	zh: "吒",
+	vi: "trá"
+}, {
+	zh: "哕",
+	vi: "uyết"
+}, {
+	zh: "殆",
+	vi: "đãi"
+}, {
+	zh: "喔",
+	vi: "ác"
+}, {
+	zh: "泯",
+	vi: "mẫn"
+}, {
+	zh: "绾",
+	vi: "oản"
+}, {
+	zh: "茧",
+	vi: "kiển"
+}, {
+	zh: "觐",
+	vi: "cận"
+}, {
+	zh: "铭",
+	vi: "minh"
+}, {
+	zh: "咀",
+	vi: "trớ"
+}, {
+	zh: "嚼",
+	vi: "tước"
+}, {
+	zh: "袅",
+	vi: "niểu"
+}, {
+	zh: "瓣",
+	vi: "biện"
+}, {
+	zh: "絷",
+	vi: "trập"
+}, {
+	zh: "憨",
+	vi: "hàm"
+}, {
+	zh: "抿",
+	vi: "mân"
+}, {
+	zh: "蒸",
+	vi: "chưng"
+}, {
+	zh: "篁",
+	vi: "hoàng"
+}, {
+	zh: "淬",
+	vi: "thối"
+}, {
+	zh: "诙",
+	vi: "khôi"
+}, {
+	zh: "孰",
+	vi: "thục"
+}, {
+	zh: "臃",
+	vi: "ung"
+}, {
+	zh: "肿",
+	vi: "thũng"
+}, {
+	zh: "玑",
+	vi: "cơ"
+}, {
+	zh: "棕",
+	vi: "tông"
+}, {
+	zh: "冀",
+	vi: "ký"
+}, {
+	zh: "姣",
+	vi: "giảo"
+}, {
+	zh: "踹",
+	vi: "đoán"
+}, {
+	zh: "旬",
+	vi: "tuần"
+}, {
+	zh: "雩",
+	vi: "vu"
+}, {
+	zh: "瘫",
+	vi: "than"
+}, {
+	zh: "痪",
+	vi: "hoán"
+}, {
+	zh: "糖",
+	vi: "đường"
+}, {
+	zh: "韦",
+	vi: "vi"
+}, {
+	zh: "驮",
+	vi: "đà"
+}, {
+	zh: "黜",
+	vi: "truất"
+}, {
+	zh: "菩",
+	vi: "bồ"
+}, {
+	zh: "萨",
+	vi: "tát"
+}, {
+	zh: "炷",
+	vi: "chú"
+}, {
+	zh: "乞",
+	vi: "khất"
+}, {
+	zh: "涧",
+	vi: "giản"
+}, {
+	zh: "栗",
+	vi: "lật"
+}, {
+	zh: "槌",
+	vi: "chùy"
+}, {
+	zh: "诟",
+	vi: "cấu"
+}, {
+	zh: "唰",
+	vi: "bá"
+}, {
+	zh: "柑",
+	vi: "cam"
+}, {
+	zh: "稿",
+	vi: "cảo"
+}, {
+	zh: "垦",
+	vi: "khẩn"
+}, {
+	zh: "涸",
+	vi: "hạc"
+}, {
+	zh: "鹃",
+	vi: "quyên"
+}, {
+	zh: "荸",
+	vi: "bột"
+}, {
+	zh: "蹶",
+	vi: "quyết"
+}, {
+	zh: "遽",
+	vi: "cự"
+}, {
+	zh: "袒",
+	vi: "đản"
+}, {
+	zh: "嫣",
+	vi: "yên"
+}, {
+	zh: "眈",
+	vi: "đam"
+}, {
+	zh: "汝",
+	vi: "nhữ"
+}, {
+	zh: "孜",
+	vi: "tư"
+}, {
+	zh: "彤",
+	vi: "đồng"
+}, {
+	zh: "晤",
+	vi: "ngộ"
+}, {
+	zh: "隼",
+	vi: "chuẩn"
+}, {
+	zh: "缔",
+	vi: "đế"
+}, {
+	zh: "隅",
+	vi: "ngung"
+}, {
+	zh: "屉",
+	vi: "thế"
+}, {
+	zh: "悭",
+	vi: "khan"
+}, {
+	zh: "仕",
+	vi: "sĩ"
+}, {
+	zh: "欧",
+	vi: "âu"
+}, {
+	zh: "伉",
+	vi: "kháng"
+}, {
+	zh: "俪",
+	vi: "lệ"
+}, {
+	zh: "篷",
+	vi: "bồng"
+}, {
+	zh: "蔚",
+	vi: "úy"
+}, {
+	zh: "朔",
+	vi: "sóc"
+}, {
+	zh: "潼",
+	vi: "đồng"
+}, {
+	zh: "渭",
+	vi: "vị"
+}, {
+	zh: "烽",
+	vi: "phong"
+}, {
+	zh: "瓮",
+	vi: "úng"
+}, {
+	zh: "熄",
+	vi: "tức"
+}, {
+	zh: "唷",
+	vi: "dục"
+}, {
+	zh: "县",
+	vi: "huyện"
+}, {
+	zh: "诊",
+	vi: "chẩn"
+}, {
+	zh: "锚",
+	vi: "miêu"
+}, {
+	zh: "缉",
+	vi: "tập"
+}, {
+	zh: "娴",
+	vi: "nhàn"
+}, {
+	zh: "昌",
+	vi: "xương"
+}, {
+	zh: "骡",
+	vi: "loa"
+}, {
+	zh: "璋",
+	vi: "chương"
+}, {
+	zh: "荐",
+	vi: "tiến"
+}, {
+	zh: "愣",
+	vi: "lăng"
+}, {
+	zh: "鷉",
+	vi: "thể"
+}, {
+	zh: "菁",
+	vi: "tinh"
+}, {
+	zh: "哦",
+	vi: "nga"
+}, {
+	zh: "仑",
+	vi: "lôn"
+}, {
+	zh: "奂",
+	vi: "hoán"
+}, {
+	zh: "纫",
+	vi: "nhân"
+}, {
+	zh: "腋",
+	vi: "dịch"
+}, {
+	zh: "吴",
+	vi: "ngô"
+}, {
+	zh: "涔",
+	vi: "sầm"
+}, {
+	zh: "辄",
+	vi: "triếp"
+}, {
+	zh: "俨",
+	vi: "nghiễm"
+}, {
+	zh: "灸",
+	vi: "cứu"
+}, {
+	zh: "馋",
+	vi: "sàm"
+}, {
+	zh: "挎",
+	vi: "khoá"
+}, {
+	zh: "钦",
+	vi: "khâm"
+}, {
+	zh: "诬",
+	vi: "vu"
+}, {
+	zh: "蔑",
+	vi: "miệt"
+}, {
+	zh: "泅",
+	vi: "tù"
+}, {
+	zh: "盒",
+	vi: "hạp"
+}, {
+	zh: "萎",
+	vi: "nuy"
+}, {
+	zh: "膏",
+	vi: "cao"
+}, {
+	zh: "肓",
+	vi: "hoang"
+}, {
+	zh: "盲",
+	vi: "manh"
+}, {
+	zh: "嫉",
+	vi: "tật"
+}, {
+	zh: "荟",
+	vi: "oái"
+}, {
+	zh: "嶂",
+	vi: "chướng"
+}, {
+	zh: "磅",
+	vi: "bàng"
+}, {
+	zh: "礴",
+	vi: "bạc"
+}, {
+	zh: "尧",
+	vi: "nghiêu"
+}, {
+	zh: "迤",
+	vi: "dĩ"
+}, {
+	zh: "沃",
+	vi: "ốc"
+}, {
+	zh: "泾",
+	vi: "kính"
+}, {
+	zh: "刿",
+	vi: "quế"
+}, {
+	zh: "灞",
+	vi: "bá"
+}, {
+	zh: "澧",
+	vi: "lễ"
+}, {
+	zh: "涝",
+	vi: "lạo"
+}, {
+	zh: "纽",
+	vi: "nữu"
+}, {
+	zh: "郭",
+	vi: "quách"
+}, {
+	zh: "鲫",
+	vi: "tức"
+}, {
+	zh: "枋",
+	vi: "phương"
+}, {
+	zh: "缮",
+	vi: "thiện"
+}, {
+	zh: "纨",
+	vi: "hoàn"
+}, {
+	zh: "嚣",
+	vi: "hiêu"
+}, {
+	zh: "侗",
+	vi: "đồng"
+}, {
+	zh: "翩",
+	vi: "phiên"
+}, {
+	zh: "览",
+	vi: "lãm"
+}, {
+	zh: "戥",
+	vi: "đẳng"
+}, {
+	zh: "绢",
+	vi: "quyên"
+}, {
+	zh: "脯",
+	vi: "bô"
+}, {
+	zh: "燥",
+	vi: "táo"
+}, {
+	zh: "撩",
+	vi: "liêu"
+}, {
+	zh: "呕",
+	vi: "ẩu"
+}, {
+	zh: "娆",
+	vi: "nhiêu"
+}, {
+	zh: "娥",
+	vi: "nga"
+}, {
+	zh: "姬",
+	vi: "cơ"
+}, {
+	zh: "俞",
+	vi: "du"
+}, {
+	zh: "胄",
+	vi: "trụ"
+}, {
+	zh: "楫",
+	vi: "tiếp"
+}, {
+	zh: "缬",
+	vi: "hiệt"
+}, {
+	zh: "蹭",
+	vi: "thặng"
+}, {
+	zh: "侮",
+	vi: "vũ"
+}, {
+	zh: "袄",
+	vi: "áo"
+}, {
+	zh: "畔",
+	vi: "bạn"
+}, {
+	zh: "曙",
+	vi: "thự"
+}, {
+	zh: "溟",
+	vi: "minh"
+}, {
+	zh: "钒",
+	vi: "phàm"
+}, {
+	zh: "匕",
+	vi: "chủy"
+}, {
+	zh: "枚",
+	vi: "mai"
+}, {
+	zh: "炬",
+	vi: "cự"
+}, {
+	zh: "鹊",
+	vi: "thước"
+}, {
+	zh: "亨",
+	vi: "hanh"
+}, {
+	zh: "罹",
+	vi: "ly"
+}, {
+	zh: "妤",
+	vi: "dư"
+}, {
+	zh: "矿",
+	vi: "khoáng"
+}, {
+	zh: "孝",
+	vi: "hiếu"
+}, {
+	zh: "谒",
+	vi: "yết"
+}, {
+	zh: "膘",
+	vi: "phiêu"
+}, {
+	zh: "捻",
+	vi: "niệp"
+}, {
+	zh: "赧",
+	vi: "noản"
+}, {
+	zh: "朕",
+	vi: "trẫm"
+}, {
+	zh: "铡",
+	vi: "trát"
+}, {
+	zh: "赦",
+	vi: "xá"
+}, {
+	zh: "磺",
+	vi: "hoàng"
+}, {
+	zh: "燎",
+	vi: "liệu"
+}, {
+	zh: "茗",
+	vi: "mính"
+}, {
+	zh: "阈",
+	vi: "quắc"
+}, {
+	zh: "噪",
+	vi: "táo"
+}, {
+	zh: "卉",
+	vi: "hủy"
+}, {
+	zh: "纣",
+	vi: "trụ"
+}, {
+	zh: "禀",
+	vi: "bẩm"
+}, {
+	zh: "姨",
+	vi: "di"
+}, {
+	zh: "麝",
+	vi: "xạ"
+}, {
+	zh: "馥",
+	vi: "phức"
+}, {
+	zh: "蜗",
+	vi: "oa"
+}, {
+	zh: "癖",
+	vi: "phích"
+}, {
+	zh: "藕",
+	vi: "ngẫu"
+}, {
+	zh: "虔",
+	vi: "kiền"
+}, {
+	zh: "颖",
+	vi: "dĩnh"
+}, {
+	zh: "豚",
+	vi: "đồn"
+}, {
+	zh: "殒",
+	vi: "vẫn"
+}, {
+	zh: "冻",
+	vi: "đống"
+}, {
+	zh: "茎",
+	vi: "hành"
+}, {
+	zh: "捡",
+	vi: "kiểm"
+}, {
+	zh: "哪",
+	vi: "na"
+}, {
+	zh: "拷",
+	vi: "khảo"
+}, {
+	zh: "诅",
+	vi: "trớ"
+}, {
+	zh: "贞",
+	vi: "trinh"
+}, {
+	zh: "锈",
+	vi: "tú"
+}, {
+	zh: "禹",
+	vi: "vũ"
+}, {
+	zh: "舅",
+	vi: "cữu"
+}, {
+	zh: "啻",
+	vi: "thí"
+}, {
+	zh: "撰",
+	vi: "soạn"
+}, {
+	zh: "莱",
+	vi: "lai"
+}, {
+	zh: "皑",
+	vi: "ngai"
+}, {
+	zh: "绚",
+	vi: "huyến"
+}, {
+	zh: "谏",
+	vi: "gián"
+}, {
+	zh: "讣",
+	vi: "phó"
+}, {
+	zh: "厕",
+	vi: "xí"
+}, {
+	zh: "颀",
+	vi: "kỳ"
+}, {
+	zh: "滟",
+	vi: "diễm"
+}, {
+	zh: "馏",
+	vi: "lựu"
+}, {
+	zh: "蚀",
+	vi: "thực"
+}, {
+	zh: "殉",
+	vi: "tuẫn"
+}, {
+	zh: "薪",
+	vi: "tân"
+}, {
+	zh: "凋",
+	vi: "điêu"
+}, {
+	zh: "丸",
+	vi: "hoàn"
+}, {
+	zh: "浆",
+	vi: "tương"
+}, {
+	zh: "犀",
+	vi: "tê"
+}, {
+	zh: "苔",
+	vi: "đài"
+}, {
+	zh: "丕",
+	vi: "phi"
+}, {
+	zh: "炸",
+	vi: "tạc"
+}, {
+	zh: "琉",
+	vi: "lưu"
+}, {
+	zh: "璃",
+	vi: "ly"
+}, {
+	zh: "楹",
+	vi: "doanh"
+}, {
+	zh: "橡",
+	vi: "tượng"
+}, {
+	zh: "鹫",
+	vi: "thứu"
+}, {
+	zh: "贿",
+	vi: "hối"
+}, {
+	zh: "赂",
+	vi: "lộ"
+}, {
+	zh: "猿",
+	vi: "viên"
+}, {
+	zh: "裳",
+	vi: "thường"
+}, {
+	zh: "币",
+	vi: "tệ"
+}, {
+	zh: "铸",
+	vi: "chú"
+}, {
+	zh: "兑",
+	vi: "đoái"
+}, {
+	zh: "菲",
+	vi: "phi"
+}, {
+	zh: "孕",
+	vi: "dựng"
+}, {
+	zh: "腊",
+	vi: "tịch"
+}, {
+	zh: "镶",
+	vi: "tương"
+}, {
+	zh: "秽",
+	vi: "uế"
+}, {
+	zh: "俸",
+	vi: "bổng"
+}, {
+	zh: "菊",
+	vi: "cúc"
+}, {
+	zh: "篱",
+	vi: "ly"
+}, {
+	zh: "咏",
+	vi: "vịnh"
+}, {
+	zh: "阕",
+	vi: "khuyết"
+}, {
+	zh: "揪",
+	vi: "thu"
+}, {
+	zh: "骋",
+	vi: "sính"
+}, {
+	zh: "涤",
+	vi: "địch"
+}, {
+	zh: "卯",
+	vi: "mão"
+}, {
+	zh: "瘀",
+	vi: "ứ"
+}, {
+	zh: "滤",
+	vi: "lự"
+}, {
+	zh: "讳",
+	vi: "húy"
+}, {
+	zh: "诏",
+	vi: "chiếu"
+}, {
+	zh: "邸",
+	vi: "để"
+}, {
+	zh: "抡",
+	vi: "luân"
+}, {
+	zh: "忐",
+	vi: "thảm"
+}, {
+	zh: "忑",
+	vi: "thắc"
+}, {
+	zh: "遏",
+	vi: "át"
+}, {
+	zh: "锗",
+	vi: "giả"
+}, {
+	zh: "跷",
+	vi: "khiêu"
+}, {
+	zh: "昵",
+	vi: "nật"
+}, {
+	zh: "衙",
+	vi: "nha"
+}, {
+	zh: "育",
+	vi: "dục"
+}, {
+	zh: "鸭",
+	vi: "áp"
+}, {
+	zh: "蚌",
+	vi: "bạng"
+}, {
+	zh: "懦",
+	vi: "nọa"
+}, {
+	zh: "殴",
+	vi: "ẩu"
+}, {
+	zh: "锨",
+	vi: "hân"
+}, {
+	zh: "嚎",
+	vi: "hào"
+}, {
+	zh: "缨",
+	vi: "anh"
+}, {
+	zh: "秉",
+	vi: "bỉnh"
+}, {
+	zh: "讫",
+	vi: "cật"
+}, {
+	zh: "荼",
+	vi: "đồ"
+}, {
+	zh: "攸",
+	vi: "du"
+}, {
+	zh: "绎",
+	vi: "dịch"
+}, {
+	zh: "蓖",
+	vi: "tỳ"
+}, {
+	zh: "箐",
+	vi: "thiến"
+}, {
+	zh: "筒",
+	vi: "đồng"
+}, {
+	zh: "跎",
+	vi: "đà"
+}, {
+	zh: "俳",
+	vi: "bài"
+}, {
+	zh: "沧",
+	vi: "thương"
+}, {
+	zh: "桑",
+	vi: "tang"
+}, {
+	zh: "裘",
+	vi: "cừu"
+}, {
+	zh: "瞿",
+	vi: "cù"
+}, {
+	zh: "骼",
+	vi: "cách"
+}, {
+	zh: "腩",
+	vi: "nạm"
+}, {
+	zh: "姥",
+	vi: "mụ"
+}, {
+	zh: "槿",
+	vi: "cận"
+}, {
+	zh: "圜",
+	vi: "viên"
+}, {
+	zh: "凸",
+	vi: "đột"
+}, {
+	zh: "诲",
+	vi: "hối"
+}, {
+	zh: "撷",
+	vi: "hiệt"
+}, {
+	zh: "圭",
+	vi: "khuê"
+}, {
+	zh: "臬",
+	vi: "nghiệt"
+}, {
+	zh: "淹",
+	vi: "yêm"
+}, {
+	zh: "罐",
+	vi: "quán"
+}, {
+	zh: "倨",
+	vi: "cứ"
+}, {
+	zh: "椿",
+	vi: "xuân"
+}, {
+	zh: "骸",
+	vi: "hài"
+}, {
+	zh: "忤",
+	vi: "ngỗ"
+}, {
+	zh: "皓",
+	vi: "hạo"
+}, {
+	zh: "侃",
+	vi: "khản"
+}, {
+	zh: "馑",
+	vi: "cận"
+}, {
+	zh: "贬",
+	vi: "biếm"
+}, {
+	zh: "绺",
+	vi: "lữu"
+}, {
+	zh: "琬",
+	vi: "uyển"
+}, {
+	zh: "摺",
+	vi: "triệp"
+}, {
+	zh: "钵",
+	vi: "bát"
+}, {
+	zh: "恁",
+	vi: "nhẫm"
+}, {
+	zh: "葵",
+	vi: "quỳ"
+}, {
+	zh: "飙",
+	vi: "tiêu"
+}, {
+	zh: "濯",
+	vi: "trạc"
+}, {
+	zh: "颐",
+	vi: "di"
+}, {
+	zh: "褥",
+	vi: "nhục"
+}, {
+	zh: "掸",
+	vi: "đạn"
+}, {
+	zh: "煽",
+	vi: "phiến"
+}, {
+	zh: "粲",
+	vi: "sán"
+}, {
+	zh: "恺",
+	vi: "khải"
+}, {
+	zh: "谜",
+	vi: "mê"
+}, {
+	zh: "淄",
+	vi: "truy"
+}, {
+	zh: "贰",
+	vi: "nhị"
+}, {
+	zh: "颁",
+	vi: "ban"
+}, {
+	zh: "谀",
+	vi: "du"
+}, {
+	zh: "榷",
+	vi: "các"
+}, {
+	zh: "柜",
+	vi: "quỹ"
+}, {
+	zh: "勋",
+	vi: "huân"
+}, {
+	zh: "棱",
+	vi: "lăng"
+}, {
+	zh: "痞",
+	vi: "bĩ"
+}, {
+	zh: "帖",
+	vi: "thiếp"
+}, {
+	zh: "鸨",
+	vi: "bảo"
+}, {
+	zh: "凰",
+	vi: "hoàng"
+}, {
+	zh: "兹",
+	vi: "tư"
+}, {
+	zh: "玛",
+	vi: "mã"
+}, {
+	zh: "瑙",
+	vi: "não"
+}, {
+	zh: "靡",
+	vi: "mỹ"
+}, {
+	zh: "豌",
+	vi: "oản"
+}, {
+	zh: "酉",
+	vi: "dậu"
+}, {
+	zh: "嬷",
+	vi: "ma"
+}, {
+	zh: "栩",
+	vi: "hủ"
+}, {
+	zh: "裨",
+	vi: "bì"
+}, {
+	zh: "挠",
+	vi: "nạo"
+}, {
+	zh: "怡",
+	vi: "di"
+}, {
+	zh: "刷",
+	vi: "xoát"
+}, {
+	zh: "鸳",
+	vi: "uyên"
+}, {
+	zh: "鸯",
+	vi: "ương"
+}, {
+	zh: "逡",
+	vi: "thuân"
+}, {
+	zh: "淘",
+	vi: "đào"
+}, {
+	zh: "汰",
+	vi: "thái"
+}, {
+	zh: "熠",
+	vi: "dập"
+}, {
+	zh: "淮",
+	vi: "hoài"
+}, {
+	zh: "娱",
+	vi: "ngu"
+}, {
+	zh: "巾",
+	vi: "cân"
+}, {
+	zh: "皂",
+	vi: "tạo"
+}, {
+	zh: "傩",
+	vi: "na"
+}, {
+	zh: "伥",
+	vi: "trành"
+}, {
+	zh: "韶",
+	vi: "thiều"
+}, {
+	zh: "篝",
+	vi: "câu"
+}, {
+	zh: "戌",
+	vi: "tuất"
+}, {
+	zh: "禽",
+	vi: "cầm"
+}, {
+	zh: "啕",
+	vi: "đào"
+}, {
+	zh: "颦",
+	vi: "tần"
+}, {
+	zh: "妆",
+	vi: "trang"
+}, {
+	zh: "镑",
+	vi: "bàng"
+}, {
+	zh: "溱",
+	vi: "trăn"
+}, {
+	zh: "矜",
+	vi: "căng"
+}, {
+	zh: "诨",
+	vi: "ngộn"
+}, {
+	zh: "笺",
+	vi: "tiên"
+}, {
+	zh: "迓",
+	vi: "nhạ"
+}, {
+	zh: "晁",
+	vi: "triều"
+}, {
+	zh: "翦",
+	vi: "tiễn"
+}, {
+	zh: "驸",
+	vi: "phụ"
+}, {
+	zh: "拌",
+	vi: "phan"
+}, {
+	zh: "裾",
+	vi: "cư"
+}, {
+	zh: "萼",
+	vi: "ngạc"
+}, {
+	zh: "扔",
+	vi: "nhưng"
+}, {
+	zh: "昴",
+	vi: "mão"
+}, {
+	zh: "巽",
+	vi: "tốn"
+}, {
+	zh: "馁",
+	vi: "nỗi"
+}, {
+	zh: "帚",
+	vi: "trửu"
+}, {
+	zh: "憔",
+	vi: "tiều"
+}, {
+	zh: "疡",
+	vi: "dương"
+}, {
+	zh: "佗",
+	vi: "đà"
+}, {
+	zh: "磬",
+	vi: "khánh"
+}, {
+	zh: "黏",
+	vi: "niêm"
+}, {
+	zh: "赃",
+	vi: "tang"
+}, {
+	zh: "褊",
+	vi: "biển"
+}, {
+	zh: "瑞",
+	vi: "thụy"
+}, {
+	zh: "亥",
+	vi: "hợi"
+}, {
+	zh: "祟",
+	vi: "túy"
+}, {
+	zh: "蛭",
+	vi: "điệt"
+}, {
+	zh: "炒",
+	vi: "sao"
+}, {
+	zh: "酱",
+	vi: "tương"
+}, {
+	zh: "牝",
+	vi: "tẫn"
+}, {
+	zh: "姹",
+	vi: "xá"
+}, {
+	zh: "蟋",
+	vi: "tất"
+}, {
+	zh: "蟀",
+	vi: "xuất"
+}, {
+	zh: "缀",
+	vi: "chuế"
+}, {
+	zh: "喑",
+	vi: "âm"
+}, {
+	zh: "囫",
+	vi: "hốt"
+}, {
+	zh: "囵",
+	vi: "luân"
+}, {
+	zh: "枣",
+	vi: "tảo"
+}, {
+	zh: "杷",
+	vi: "ba"
+}, {
+	zh: "怦",
+	vi: "phanh"
+}, {
+	zh: "恬",
+	vi: "điềm"
+}, {
+	zh: "券",
+	vi: "khoán"
+}, {
+	zh: "辕",
+	vi: "viên"
+}, {
+	zh: "殚",
+	vi: "đàn"
+}, {
+	zh: "菇",
+	vi: "cô"
+}, {
+	zh: "毡",
+	vi: "chiên"
+}, {
+	zh: "剿",
+	vi: "tiễu"
+}, {
+	zh: "蹴",
+	vi: "xúc"
+}, {
+	zh: "哺",
+	vi: "bộ"
+}, {
+	zh: "雇",
+	vi: "cố"
+}, {
+	zh: "搠",
+	vi: "sóc"
+}, {
+	zh: "螂",
+	vi: "lang"
+}, {
+	zh: "棵",
+	vi: "khỏa"
+}, {
+	zh: "芬",
+	vi: "phân"
+}, {
+	zh: "隗",
+	vi: "ngỗi"
+}, {
+	zh: "帼",
+	vi: "quắc"
+}, {
+	zh: "揶",
+	vi: "gia"
+}, {
+	zh: "揄",
+	vi: "du"
+}, {
+	zh: "霹",
+	vi: "phích"
+}, {
+	zh: "雳",
+	vi: "lịch"
+}, {
+	zh: "硝",
+	vi: "tiêu"
+}, {
+	zh: "硫",
+	vi: "lưu"
+}, {
+	zh: "砒",
+	vi: "tỳ"
+}, {
+	zh: "墟",
+	vi: "khư"
+}, {
+	zh: "婶",
+	vi: "thẩm"
+}, {
+	zh: "俭",
+	vi: "kiệm"
+}, {
+	zh: "艾",
+	vi: "ngải"
+}, {
+	zh: "摈",
+	vi: "bấn"
+}, {
+	zh: "舔",
+	vi: "thiểm"
+}, {
+	zh: "狰",
+	vi: "tranh"
+}, {
+	zh: "悚",
+	vi: "tủng"
+}, {
+	zh: "枫",
+	vi: "phong"
+}, {
+	zh: "罡",
+	vi: "cương"
+}, {
+	zh: "鳖",
+	vi: "miết"
+}, {
+	zh: "戎",
+	vi: "nhung"
+}, {
+	zh: "拯",
+	vi: "chửng"
+}, {
+	zh: "廖",
+	vi: "liêu"
+}, {
+	zh: "藤",
+	vi: "đằng"
+}, {
+	zh: "庚",
+	vi: "canh"
+}, {
+	zh: "棠",
+	vi: "đường"
+}, {
+	zh: "靶",
+	vi: "bá"
+}, {
+	zh: "湾",
+	vi: "loan"
+}, {
+	zh: "墩",
+	vi: "đôn"
+}, {
+	zh: "浙",
+	vi: "chiết"
+}, {
+	zh: "玺",
+	vi: "tỳ"
+}, {
+	zh: "妩",
+	vi: "vũ"
+}, {
+	zh: "谚",
+	vi: "ngạn"
+}, {
+	zh: "驹",
+	vi: "câu"
+}, {
+	zh: "楞",
+	vi: "lăng"
+}, {
+	zh: "咔",
+	vi: "ca"
+}, {
+	zh: "嚓",
+	vi: "sát"
+}, {
+	zh: "嘟",
+	vi: "đô"
+}, {
+	zh: "傀",
+	vi: "khôi"
+}, {
+	zh: "儡",
+	vi: "lỗi"
+}, {
+	zh: "颉",
+	vi: "hiệt"
+}, {
+	zh: "佐",
+	vi: "tá"
+}, {
+	zh: "鄂",
+	vi: "ngạc"
+}, {
+	zh: "肾",
+	vi: "thận"
+}, {
+	zh: "痰",
+	vi: "đàm"
+}, {
+	zh: "舆",
+	vi: "dư"
+}, {
+	zh: "鹬",
+	vi: "duật"
+}, {
+	zh: "赝",
+	vi: "nhạn"
+}, {
+	zh: "蔺",
+	vi: "lận"
+}, {
+	zh: "戍",
+	vi: "thú"
+}, {
+	zh: "昙",
+	vi: "đàm"
+}, {
+	zh: "衢",
+	vi: "cù"
+}, {
+	zh: "菌",
+	vi: "khuẩn"
+}, {
+	zh: "谶",
+	vi: "sấm"
+}, {
+	zh: "哎",
+	vi: "ai"
+}, {
+	zh: "漉",
+	vi: "lộc"
+}, {
+	zh: "搓",
+	vi: "tha"
+}, {
+	zh: "哆",
+	vi: "sỉ"
+}, {
+	zh: "呸",
+	vi: "phi"
+}, {
+	zh: "闸",
+	vi: "áp"
+}, {
+	zh: "笈",
+	vi: "cấp"
+}, {
+	zh: "煤",
+	vi: "môi"
+}, {
+	zh: "葙",
+	vi: "tương"
+}, {
+	zh: "琳",
+	vi: "lâm"
+}, {
+	zh: "琅",
+	vi: "lang"
+}, {
+	zh: "钳",
+	vi: "kiềm"
+}, {
+	zh: "您",
+	vi: "nâm"
+}, {
+	zh: "蠃",
+	vi: "lỏa"
+}, {
+	zh: "涣",
+	vi: "hoán"
+}, {
+	zh: "嗒",
+	vi: "tháp"
+}, {
+	zh: "坤",
+	vi: "khôn"
+}, {
+	zh: "涫",
+	vi: "loan"
+}, {
+	zh: "槽",
+	vi: "tào"
+}, {
+	zh: "黠",
+	vi: "hiệt"
+}, {
+	zh: "羿",
+	vi: "nghệ"
+}, {
+	zh: "荥",
+	vi: "huỳnh"
+}, {
+	zh: "嗜",
+	vi: "thị"
+}, {
+	zh: "缆",
+	vi: "lãm"
+}, {
+	zh: "熙",
+	vi: "hi"
+}, {
+	zh: "嵬",
+	vi: "ngôi"
+}, {
+	zh: "忏",
+	vi: "sám"
+}, {
+	zh: "瞄",
+	vi: "miểu"
+}, {
+	zh: "扪",
+	vi: "môn"
+}, {
+	zh: "谭",
+	vi: "đàm"
+}, {
+	zh: "埸",
+	vi: "dịch"
+}, {
+	zh: "颢",
+	vi: "hạo"
+}, {
+	zh: "菱",
+	vi: "lăng"
+}, {
+	zh: "怛",
+	vi: "đát"
+}, {
+	zh: "叼",
+	vi: "điêu"
+}, {
+	zh: "墓",
+	vi: "mộ"
+}, {
+	zh: "蛰",
+	vi: "chập"
+}, {
+	zh: "濒",
+	vi: "tần"
+}, {
+	zh: "蜮",
+	vi: "vực"
+}, {
+	zh: "鹘",
+	vi: "cốt"
+}, {
+	zh: "遨",
+	vi: "ngao"
+}, {
+	zh: "鹄",
+	vi: "hộc"
+}, {
+	zh: "翌",
+	vi: "dực"
+}, {
+	zh: "浦",
+	vi: "phổ"
+}, {
+	zh: "茈",
+	vi: "sài"
+}, {
+	zh: "赈",
+	vi: "chẩn"
+}, {
+	zh: "罟",
+	vi: "cổ"
+}, {
+	zh: "咫",
+	vi: "chỉ"
+}, {
+	zh: "荤",
+	vi: "huân"
+}, {
+	zh: "栅",
+	vi: "sách"
+}, {
+	zh: "怵",
+	vi: "truật"
+}, {
+	zh: "晖",
+	vi: "huy"
+}, {
+	zh: "琢",
+	vi: "trác"
+}, {
+	zh: "岐",
+	vi: "kỳ"
+}, {
+	zh: "氐",
+	vi: "để"
+}, {
+	zh: "剜",
+	vi: "oan"
+}, {
+	zh: "杈",
+	vi: "xoa"
+}, {
+	zh: "沌",
+	vi: "độn"
+}, {
+	zh: "阜",
+	vi: "phụ"
+}, {
+	zh: "剃",
+	vi: "thế"
+}, {
+	zh: "俄",
+	vi: "nga"
+}, {
+	zh: "轫",
+	vi: "nhận"
+}, {
+	zh: "朦",
+	vi: "mông"
+}, {
+	zh: "辘",
+	vi: "lộc"
+}, {
+	zh: "侪",
+	vi: "sài"
+}, {
+	zh: "幄",
+	vi: "ác"
+}, {
+	zh: "雏",
+	vi: "sồ"
+}, {
+	zh: "篓",
+	vi: "lâu"
+}, {
+	zh: "濡",
+	vi: "nhu"
+}, {
+	zh: "姜",
+	vi: "khương"
+}, {
+	zh: "乙",
+	vi: "ất"
+}, {
+	zh: "蛆",
+	vi: "thư"
+}, {
+	zh: "耘",
+	vi: "vân"
+}, {
+	zh: "唠",
+	vi: "lao"
+}, {
+	zh: "寅",
+	vi: "dần"
+}, {
+	zh: "睢",
+	vi: "tuy"
+}, {
+	zh: "辎",
+	vi: "truy"
+}, {
+	zh: "坂",
+	vi: "phản"
+}, {
+	zh: "陲",
+	vi: "thùy"
+}, {
+	zh: "湮",
+	vi: "yên"
+}, {
+	zh: "屣",
+	vi: "tỷ"
+}, {
+	zh: "邯",
+	vi: "hàm"
+}, {
+	zh: "郸",
+	vi: "đan"
+}, {
+	zh: "禾",
+	vi: "hòa"
+}, {
+	zh: "渑",
+	vi: "thằng"
+}, {
+	zh: "猫",
+	vi: "miêu"
+}, {
+	zh: "韬",
+	vi: "thao"
+}, {
+	zh: "曜",
+	vi: "diệu"
+}, {
+	zh: "肪",
+	vi: "phương"
+}, {
+	zh: "饲",
+	vi: "tự"
+}, {
+	zh: "铨",
+	vi: "thuyên"
+}, {
+	zh: "诼",
+	vi: "trác"
+}, {
+	zh: "蒋",
+	vi: "tưởng"
+}, {
+	zh: "锡",
+	vi: "tích"
+}, {
+	zh: "耆",
+	vi: "kỳ"
+}, {
+	zh: "谑",
+	vi: "hước"
+}, {
+	zh: "邋",
+	vi: "lạp"
+}, {
+	zh: "撄",
+	vi: "anh"
+}, {
+	zh: "麈",
+	vi: "chủ"
+}, {
+	zh: "诩",
+	vi: "hủ"
+}, {
+	zh: "仞",
+	vi: "nhận"
+}, {
+	zh: "嫱",
+	vi: "tường"
+}, {
+	zh: "檩",
+	vi: "lẫm"
+}, {
+	zh: "苫",
+	vi: "thiêm"
+}, {
+	zh: "猬",
+	vi: "vị"
+}, {
+	zh: "眦",
+	vi: "tí"
+}, {
+	zh: "褛",
+	vi: "lũ"
+}, {
+	zh: "琐",
+	vi: "tỏa"
+}, {
+	zh: "嗯",
+	vi: "ân"
+}, {
+	zh: "牡",
+	vi: "mẫu"
+}, {
+	zh: "芍",
+	vi: "thược"
+}, {
+	zh: "扉",
+	vi: "phi"
+}, {
+	zh: "倬",
+	vi: "trác"
+}, {
+	zh: "悼",
+	vi: "điệu"
+}, {
+	zh: "耶",
+	vi: "da"
+}, {
+	zh: "冕",
+	vi: "miện"
+}, {
+	zh: "樯",
+	vi: "tường"
+}, {
+	zh: "仄",
+	vi: "trắc"
+}, {
+	zh: "燮",
+	vi: "tiếp"
+}, {
+	zh: "缡",
+	vi: "ly"
+}, {
+	zh: "幔",
+	vi: "mạn"
+}, {
+	zh: "绌",
+	vi: "truất"
+}, {
+	zh: "哓",
+	vi: "hiêu"
+}, {
+	zh: "瑟",
+	vi: "sắt"
+}, {
+	zh: "雌",
+	vi: "thư"
+}, {
+	zh: "缱",
+	vi: "khiển"
+}, {
+	zh: "绻",
+	vi: "quyển"
+}, {
+	zh: "啐",
+	vi: "thối"
+}, {
+	zh: "怼",
+	vi: "đỗi"
+}, {
+	zh: "屐",
+	vi: "kịch"
+}, {
+	zh: "闼",
+	vi: "thát"
+}, {
+	zh: "缰",
+	vi: "cương"
+}, {
+	zh: "玫",
+	vi: "mân"
+}, {
+	zh: "漳",
+	vi: "chương"
+}, {
+	zh: "麦",
+	vi: "mạch"
+}, {
+	zh: "垄",
+	vi: "lũng"
+}, {
+	zh: "贲",
+	vi: "bí"
+}, {
+	zh: "稂",
+	vi: "lang"
+}, {
+	zh: "犊",
+	vi: "độc"
+}, {
+	zh: "榔",
+	vi: "lang"
+}, {
+	zh: "荀",
+	vi: "tuân"
+}, {
+	zh: "睬",
+	vi: "thải"
+}, {
+	zh: "踽",
+	vi: "củ"
+}, {
+	zh: "鲲",
+	vi: "côn"
+}, {
+	zh: "祀",
+	vi: "tự"
+}, {
+	zh: "奚",
+	vi: "hề"
+}, {
+	zh: "褚",
+	vi: "chử"
+}, {
+	zh: "疋",
+	vi: "sơ"
+}, {
+	zh: "沱",
+	vi: "đà"
+}, {
+	zh: "廛",
+	vi: "triền"
+}, {
+	zh: "淤",
+	vi: "ứ"
+}, {
+	zh: "筲",
+	vi: "sao"
+}, {
+	zh: "赎",
+	vi: "thục"
+}, {
+	zh: "拽",
+	vi: "duệ"
+}, {
+	zh: "锱",
+	vi: "tri"
+}, {
+	zh: "铊",
+	vi: "tha"
+}, {
+	zh: "炖",
+	vi: "đôn"
+}, {
+	zh: "渤",
+	vi: "bột"
+}, {
+	zh: "稻",
+	vi: "đạo"
+}, {
+	zh: "蠕",
+	vi: "nhuyễn"
+}, {
+	zh: "榆",
+	vi: "du"
+}, {
+	zh: "璞",
+	vi: "phác"
+}, {
+	zh: "搔",
+	vi: "tao"
+}, {
+	zh: "涿",
+	vi: "trác"
+}, {
+	zh: "浏",
+	vi: "lưu"
+}, {
+	zh: "跻",
+	vi: "tễ"
+}, {
+	zh: "隽",
+	vi: "tuyển"
+}, {
+	zh: "镪",
+	vi: "cưỡng"
+}, {
+	zh: "娟",
+	vi: "quyên"
+}, {
+	zh: "膺",
+	vi: "ưng"
+}, {
+	zh: "啧",
+	vi: "sách"
+}, {
+	zh: "瓢",
+	vi: "biều"
+}, {
+	zh: "谴",
+	vi: "khiển"
+}, {
+	zh: "韭",
+	vi: "cửu"
+}, {
+	zh: "桦",
+	vi: "hoa"
+}, {
+	zh: "栎",
+	vi: "lịch"
+}, {
+	zh: "佞",
+	vi: "nịnh"
+}, {
+	zh: "贷",
+	vi: "thải"
+}, {
+	zh: "棹",
+	vi: "trạo"
+}, {
+	zh: "蜡",
+	vi: "chá"
+}, {
+	zh: "翕",
+	vi: "hấp"
+}, {
+	zh: "佻",
+	vi: "điêu"
+}, {
+	zh: "褐",
+	vi: "hạt"
+}, {
+	zh: "胶",
+	vi: "giao"
+}, {
+	zh: "亵",
+	vi: "tiết"
+}, {
+	zh: "讦",
+	vi: "kiết"
+}, {
+	zh: "锝",
+	vi: "đắc"
+}, {
+	zh: "饨",
+	vi: "đồn"
+}, {
+	zh: "舨",
+	vi: "bản"
+}, {
+	zh: "娼",
+	vi: "xướng"
+}, {
+	zh: "镒",
+	vi: "dật"
+}, {
+	zh: "皙",
+	vi: "tích"
+}, {
+	zh: "擢",
+	vi: "trạc"
+}, {
+	zh: "桔",
+	vi: "kết"
+}, {
+	zh: "怃",
+	vi: "vũ"
+}, {
+	zh: "湛",
+	vi: "trạm"
+}, {
+	zh: "滂",
+	vi: "bàng"
+}, {
+	zh: "钥",
+	vi: "thược"
+}, {
+	zh: "蓟",
+	vi: "kế"
+}, {
+	zh: "葺",
+	vi: "tập"
+}, {
+	zh: "洮",
+	vi: "thao"
+}, {
+	zh: "狙",
+	vi: "thư"
+}, {
+	zh: "旭",
+	vi: "húc"
+}, {
+	zh: "捋",
+	vi: "loát"
+}, {
+	zh: "鞍",
+	vi: "an"
+}, {
+	zh: "绶",
+	vi: "thụ"
+}, {
+	zh: "轲",
+	vi: "kha"
+}, {
+	zh: "匣",
+	vi: "hạp"
+}, {
+	zh: "祗",
+	vi: "chi"
+}, {
+	zh: "臧",
+	vi: "tang"
+}, {
+	zh: "钹",
+	vi: "bạt"
+}, {
+	zh: "鸷",
+	vi: "chí"
+}, {
+	zh: "莉",
+	vi: "lỵ"
+}, {
+	zh: "皴",
+	vi: "thuân"
+}, {
+	zh: "憩",
+	vi: "khế"
+}, {
+	zh: "冈",
+	vi: "cương"
+}, {
+	zh: "酋",
+	vi: "tù"
+}, {
+	zh: "髹",
+	vi: "hưu"
+}, {
+	zh: "柘",
+	vi: "chá"
+}, {
+	zh: "佬",
+	vi: "lão"
+}, {
+	zh: "炳",
+	vi: "bỉnh"
+}, {
+	zh: "贻",
+	vi: "di"
+}, {
+	zh: "栓",
+	vi: "xuyên"
+}, {
+	zh: "阉",
+	vi: "yêm"
+}, {
+	zh: "谧",
+	vi: "mật"
+}, {
+	zh: "榛",
+	vi: "trăn"
+}, {
+	zh: "蓊",
+	vi: "ống"
+}, {
+	zh: "甭",
+	vi: "bằng"
+}, {
+	zh: "钡",
+	vi: "bối"
+}, {
+	zh: "锎",
+	vi: "khai"
+}, {
+	zh: "镅",
+	vi: "mi"
+}, {
+	zh: "暾",
+	vi: "thôn"
+}, {
+	zh: "镏",
+	vi: "lưu"
+}, {
+	zh: "剐",
+	vi: "quả"
+}, {
+	zh: "茵",
+	vi: "nhân"
+}, {
+	zh: "毯",
+	vi: "thảm"
+}, {
+	zh: "蒿",
+	vi: "hao"
+}, {
+	zh: "靺",
+	vi: "mạt"
+}, {
+	zh: "鞨",
+	vi: "hạt"
+}, {
+	zh: "粼",
+	vi: "lân"
+}, {
+	zh: "衽",
+	vi: "nhẫm"
+}, {
+	zh: "钯",
+	vi: "ba"
+}, {
+	zh: "獐",
+	vi: "chương"
+}, {
+	zh: "鬃",
+	vi: "tông"
+}, {
+	zh: "跤",
+	vi: "giao"
+}, {
+	zh: "隶",
+	vi: "lệ"
+}, {
+	zh: "貂",
+	vi: "điêu"
+}, {
+	zh: "芭",
+	vi: "ba"
+}, {
+	zh: "瓷",
+	vi: "từ"
+}, {
+	zh: "礅",
+	vi: "đôn"
+}, {
+	zh: "炔",
+	vi: "khuyết"
+}, {
+	zh: "骆",
+	vi: "lạc"
+}, {
+	zh: "骷",
+	vi: "khô"
+}, {
+	zh: "髅",
+	vi: "lâu"
+}, {
+	zh: "弗",
+	vi: "phất"
+}, {
+	zh: "镰",
+	vi: "liêm"
+}, {
+	zh: "鲤",
+	vi: "lý"
+}, {
+	zh: "砺",
+	vi: "lệ"
+}, {
+	zh: "遐",
+	vi: "hà"
+}, {
+	zh: "娓",
+	vi: "vỉ"
+}, {
+	zh: "擂",
+	vi: "lôi"
+}, {
+	zh: "砚",
+	vi: "nghiễn"
+}, {
+	zh: "剽",
+	vi: "phiếu"
+}, {
+	zh: "瞅",
+	vi: "thu"
+}, {
+	zh: "拴",
+	vi: "thuyên"
+}, {
+	zh: "镫",
+	vi: "đăng"
+}, {
+	zh: "葡",
+	vi: "bồ"
+}, {
+	zh: "萄",
+	vi: "đào"
+}, {
+	zh: "辫",
+	vi: "biện"
+}, {
+	zh: "涟",
+	vi: "liên"
+}, {
+	zh: "漪",
+	vi: "y"
+}, {
+	zh: "哟",
+	vi: "yêu"
+}, {
+	zh: "竣",
+	vi: "thuân"
+}, {
+	zh: "诳",
+	vi: "cuống"
+}, {
+	zh: "汀",
+	vi: "đinh"
+}, {
+	zh: "麓",
+	vi: "lộc"
+}, {
+	zh: "娃",
+	vi: "oa"
+}, {
+	zh: "垛",
+	vi: "đóa"
+}, {
+	zh: "咖",
+	vi: "già"
+}, {
+	zh: "嗽",
+	vi: "thấu"
+}, {
+	zh: "瘁",
+	vi: "tụy"
+}, {
+	zh: "撅",
+	vi: "quyệt"
+}, {
+	zh: "沓",
+	vi: "đạp"
+}, {
+	zh: "恤",
+	vi: "tuất"
+}, {
+	zh: "靳",
+	vi: "cận"
+}, {
+	zh: "婊",
+	vi: "biểu"
+}, {
+	zh: "嗥",
+	vi: "hào"
+}, {
+	zh: "飚",
+	vi: "biểu"
+}, {
+	zh: "盔",
+	vi: "khôi"
+}, {
+	zh: "苇",
+	vi: "vi"
+}, {
+	zh: "羔",
+	vi: "cao"
+}, {
+	zh: "绊",
+	vi: "bán"
+}, {
+	zh: "舜",
+	vi: "thuấn"
+}, {
+	zh: "卢",
+	vi: "lư"
+}, {
+	zh: "嘬",
+	vi: "toát"
+}, {
+	zh: "陨",
+	vi: "vẫn"
+}, {
+	zh: "哇",
+	vi: "oa"
+}, {
+	zh: "汨",
+	vi: "mịch"
+}, {
+	zh: "篙",
+	vi: "cao"
+}, {
+	zh: "樟",
+	vi: "chương"
+}, {
+	zh: "鲢",
+	vi: "liên"
+}, {
+	zh: "姝",
+	vi: "thù"
+}, {
+	zh: "镯",
+	vi: "trạc"
+}, {
+	zh: "吆",
+	vi: "yêu"
+}, {
+	zh: "獠",
+	vi: "liêu"
+}, {
+	zh: "版",
+	vi: "bản"
+}, {
+	zh: "讹",
+	vi: "ngoa"
+}, {
+	zh: "袤",
+	vi: "mậu"
+}, {
+	zh: "踊",
+	vi: "dũng"
+}, {
+	zh: "酪",
+	vi: "lạc"
+}, {
+	zh: "穹",
+	vi: "khung"
+}, {
+	zh: "翎",
+	vi: "linh"
+}, {
+	zh: "铠",
+	vi: "khải"
+}, {
+	zh: "粘",
+	vi: "niêm"
+}, {
+	zh: "稼",
+	vi: "giá"
+}, {
+	zh: "溉",
+	vi: "khái"
+}, {
+	zh: "叭",
+	vi: "bá"
+}, {
+	zh: "胞",
+	vi: "bào"
+}, {
+	zh: "札",
+	vi: "trát"
+}, {
+	zh: "馈",
+	vi: "quỹ"
+}, {
+	zh: "侈",
+	vi: "xỉ"
+}, {
+	zh: "莎",
+	vi: "toa"
+}, {
+	zh: "呖",
+	vi: "lịch"
+}, {
+	zh: "胧",
+	vi: "lung"
+}, {
+	zh: "顷",
+	vi: "khoảnh"
+}, {
+	zh: "厩",
+	vi: "cứu"
+}, {
+	zh: "孪",
+	vi: "loan"
+}, {
+	zh: "荜",
+	vi: "tất"
+}, {
+	zh: "茄",
+	vi: "gia"
+}, {
+	zh: "芜",
+	vi: "vu"
+}, {
+	zh: "瑶",
+	vi: "dao"
+}, {
+	zh: "肮",
+	vi: "khảng"
+}, {
+	zh: "咤",
+	vi: "trá"
+}, {
+	zh: "瑜",
+	vi: "du"
+}, {
+	zh: "刽",
+	vi: "quái"
+}, {
+	zh: "鸠",
+	vi: "cưu"
+}, {
+	zh: "凳",
+	vi: "đắng"
+}, {
+	zh: "暝",
+	vi: "minh"
+}, {
+	zh: "芋",
+	vi: "dụ"
+}, {
+	zh: "茹",
+	vi: "như"
+}, {
+	zh: "泓",
+	vi: "hoằng"
+}, {
+	zh: "诠",
+	vi: "thuyên"
+}, {
+	zh: "偈",
+	vi: "kệ"
+}, {
+	zh: "芥",
+	vi: "giới"
+}, {
+	zh: "簪",
+	vi: "trâm"
+}, {
+	zh: "蝎",
+	vi: "hạt"
+}, {
+	zh: "糙",
+	vi: "tháo"
+}, {
+	zh: "栊",
+	vi: "long"
+}, {
+	zh: "攒",
+	vi: "toàn"
+}, {
+	zh: "趴",
+	vi: "bát"
+}, {
+	zh: "檬",
+	vi: "mông"
+}, {
+	zh: "霁",
+	vi: "tễ"
+}, {
+	zh: "钤",
+	vi: "kiềm"
+}, {
+	zh: "箅",
+	vi: "ty"
+}, {
+	zh: "旒",
+	vi: "lưu"
+}, {
+	zh: "萁",
+	vi: "ki"
+}, {
+	zh: "苌",
+	vi: "trường"
+}, {
+	zh: "丐",
+	vi: "cái"
+}, {
+	zh: "儆",
+	vi: "cảnh"
+}, {
+	zh: "褴",
+	vi: "lam"
+}, {
+	zh: "胫",
+	vi: "hĩnh"
+}, {
+	zh: "烹",
+	vi: "phanh"
+}, {
+	zh: "秒",
+	vi: "miểu"
+}, {
+	zh: "娅",
+	vi: "á"
+}, {
+	zh: "疽",
+	vi: "thư"
+}, {
+	zh: "羸",
+	vi: "luy"
+}, {
+	zh: "淅",
+	vi: "tích"
+}, {
+	zh: "沥",
+	vi: "lịch"
+}, {
+	zh: "圉",
+	vi: "ngữ"
+}, {
+	zh: "囤",
+	vi: "độn"
+}, {
+	zh: "窟",
+	vi: "quật"
+}, {
+	zh: "挢",
+	vi: "kiệu"
+}, {
+	zh: "蛲",
+	vi: "nhiêu"
+}, {
+	zh: "柢",
+	vi: "để"
+}, {
+	zh: "痈",
+	vi: "ung"
+}, {
+	zh: "遢",
+	vi: "tháp"
+}, {
+	zh: "劂",
+	vi: "quyết"
+}, {
+	zh: "赣",
+	vi: "cống"
+}, {
+	zh: "懿",
+	vi: "ý"
+}, {
+	zh: "豺",
+	vi: "sài"
+}, {
+	zh: "诃",
+	vi: "ha"
+}, {
+	zh: "桐",
+	vi: "đồng"
+}, {
+	zh: "紊",
+	vi: "vặn"
+}, {
+	zh: "铙",
+	vi: "nao"
+}, {
+	zh: "烃",
+	vi: "hĩnh"
+}, {
+	zh: "彗",
+	vi: "tuệ"
+}, {
+	zh: "岘",
+	vi: "hiện"
+}, {
+	zh: "螟",
+	vi: "minh"
+}, {
+	zh: "汽",
+	vi: "khí"
+}, {
+	zh: "釜",
+	vi: "phủ"
+}, {
+	zh: "療",
+	vi: "liệu"
+}, {
+	zh: "潦",
+	vi: "lạo"
+}, {
+	zh: "卦",
+	vi: "quái"
+}, {
+	zh: "坯",
+	vi: "bôi"
+}, {
+	zh: "炕",
+	vi: "kháng"
+}, {
+	zh: "龛",
+	vi: "ham"
+}, {
+	zh: "釆",
+	vi: "biện"
+}, {
+	zh: "课",
+	vi: "khóa"
+}, {
+	zh: "孵",
+	vi: "phu"
+}, {
+	zh: "牟",
+	vi: "mưu"
+}, {
+	zh: "垢",
+	vi: "cấu"
+}, {
+	zh: "蘧",
+	vi: "cừ"
+}, {
+	zh: "畴",
+	vi: "trù"
+}, {
+	zh: "牒",
+	vi: "điệp"
+}, {
+	zh: "瞭",
+	vi: "liệu"
+}, {
+	zh: "昃",
+	vi: "trắc"
+}, {
+	zh: "槁",
+	vi: "cảo"
+}, {
+	zh: "珈",
+	vi: "già"
+}, {
+	zh: "斛",
+	vi: "hộc"
+}, {
+	zh: "黍",
+	vi: "thử"
+}, {
+	zh: "拊",
+	vi: "phụ"
+}, {
+	zh: "桠",
+	vi: "nha"
+}, {
+	zh: "泞",
+	vi: "nính"
+}, {
+	zh: "亚",
+	vi: "á"
+}, {
+	zh: "逄",
+	vi: "bàng"
+}, {
+	zh: "糢",
+	vi: "mô"
+}, {
+	zh: "藻",
+	vi: "tảo"
+}, {
+	zh: "蕙",
+	vi: "huệ"
+}, {
+	zh: "港",
+	vi: "cảng"
+}, {
+	zh: "彿",
+	vi: "phất"
+}, {
+	zh: "惬",
+	vi: "khiếp"
+}, {
+	zh: "亿",
+	vi: "ức"
+}, {
+	zh: "瘌",
+	vi: "lạt"
+}, {
+	zh: "孳",
+	vi: "tư"
+}, {
+	zh: "菅",
+	vi: "gian"
+}, {
+	zh: "猖",
+	vi: "xương"
+}, {
+	zh: "钿",
+	vi: "điền"
+}, {
+	zh: "弭",
+	vi: "nhị"
+}, {
+	zh: "怆",
+	vi: "sảng"
+}, {
+	zh: "趸",
+	vi: "độn"
+}, {
+	zh: "蛙",
+	vi: "oa"
+}, {
+	zh: "廿",
+	vi: "nhập"
+}, {
+	zh: "筐",
+	vi: "khuông"
+}, {
+	zh: "蜷",
+	vi: "quyền"
+}, {
+	zh: "祚",
+	vi: "tộ"
+}, {
+	zh: "霭",
+	vi: "ải"
+}, {
+	zh: "觔",
+	vi: "cân"
+}, {
+	zh: "删",
+	vi: "san"
+}, {
+	zh: "茁",
+	vi: "truất"
+}, {
+	zh: "纛",
+	vi: "đạo"
+}, {
+	zh: "睑",
+	vi: "kiểm"
+}, {
+	zh: "挲",
+	vi: "sa"
+}, {
+	zh: "峪",
+	vi: "dục"
+}, {
+	zh: "砥",
+	vi: "chỉ"
+}, {
+	zh: "淇",
+	vi: "kỳ"
+}, {
+	zh: "壕",
+	vi: "hào"
+}, {
+	zh: "虾",
+	vi: "hà"
+}, {
+	zh: "堞",
+	vi: "điệp"
+}, {
+	zh: "糠",
+	vi: "khang"
+}, {
+	zh: "枇",
+	vi: "tỳ"
+}, {
+	zh: "沆",
+	vi: "hãng"
+}, {
+	zh: "冢",
+	vi: "trủng"
+}, {
+	zh: "渎",
+	vi: "độc"
+}, {
+	zh: "汴",
+	vi: "biện"
+}, {
+	zh: "搐",
+	vi: "súc"
+}, {
+	zh: "妈",
+	vi: "mụ"
+}, {
+	zh: "骊",
+	vi: "ly"
+}, {
+	zh: "彀",
+	vi: "cấu"
+}, {
+	zh: "迄",
+	vi: "hất"
+}, {
+	zh: "啬",
+	vi: "sắc"
+}, {
+	zh: "谲",
+	vi: "quyệt"
+}, {
+	zh: "骧",
+	vi: "tương"
+}, {
+	zh: "仝",
+	vi: "đồng"
+}, {
+	zh: "陂",
+	vi: "pha"
+}, {
+	zh: "窸",
+	vi: "tất"
+}, {
+	zh: "窣",
+	vi: "tốt"
+}, {
+	zh: "钗",
+	vi: "thoa"
+}, {
+	zh: "邙",
+	vi: "mang"
+}, {
+	zh: "旌",
+	vi: "tinh"
+}, {
+	zh: "瓒",
+	vi: "toản"
+}, {
+	zh: "窿",
+	vi: "lung"
+}, {
+	zh: "蕊",
+	vi: "nhị"
+}, {
+	zh: "恽",
+	vi: "uẩn"
+}, {
+	zh: "徇",
+	vi: "tuẫn"
+}, {
+	zh: "绫",
+	vi: "lăng"
+}, {
+	zh: "祉",
+	vi: "chỉ"
+}, {
+	zh: "崽",
+	vi: "tể"
+}, {
+	zh: "堑",
+	vi: "tiệm"
+}, {
+	zh: "蒺",
+	vi: "tật"
+}, {
+	zh: "藜",
+	vi: "lê"
+}, {
+	zh: "膂",
+	vi: "lữ"
+}, {
+	zh: "阮",
+	vi: "nguyễn"
+}, {
+	zh: "熔",
+	vi: "dung"
+}, {
+	zh: "蚋",
+	vi: "nhuế"
+}, {
+	zh: "碑",
+	vi: "bi"
+}, {
+	zh: "莅",
+	vi: "lỵ"
+}, {
+	zh: "蛀",
+	vi: "chú"
+}, {
+	zh: "瘠",
+	vi: "tích"
+}, {
+	zh: "爸",
+	vi: "ba"
+}, {
+	zh: "祺",
+	vi: "kỳ"
+}, {
+	zh: "媛",
+	vi: "viện"
+}, {
+	zh: "雯",
+	vi: "văn"
+}, {
+	zh: "闽",
+	vi: "mân"
+}, {
+	zh: "尢",
+	vi: "uông"
+}, {
+	zh: "纺",
+	vi: "phưởng"
+}, {
+	zh: "烊",
+	vi: "dương"
+}, {
+	zh: "逅",
+	vi: "cấu"
+}, {
+	zh: "勺",
+	vi: "chước"
+}, {
+	zh: "琦",
+	vi: "kỳ"
+}, {
+	zh: "挛",
+	vi: "luyên"
+}, {
+	zh: "蜻",
+	vi: "tinh"
+}, {
+	zh: "桧",
+	vi: "cối"
+}, {
+	zh: "鲈",
+	vi: "lư"
+}, {
+	zh: "痹",
+	vi: "tý"
+}, {
+	zh: "蚶",
+	vi: "ham"
+}, {
+	zh: "蝌",
+	vi: "khoa"
+}, {
+	zh: "舀",
+	vi: "yểu"
+}, {
+	zh: "瘪",
+	vi: "biết"
+}, {
+	zh: "爻",
+	vi: "hào"
+}, {
+	zh: "迨",
+	vi: "đãi"
+}, {
+	zh: "妯",
+	vi: "trục"
+}, {
+	zh: "臾",
+	vi: "du"
+}, {
+	zh: "夔",
+	vi: "quỳ"
+}, {
+	zh: "租",
+	vi: "tô"
+}, {
+	zh: "屿",
+	vi: "tự"
+}, {
+	zh: "坷",
+	vi: "khả"
+}, {
+	zh: "蔡",
+	vi: "thái"
+}, {
+	zh: "锯",
+	vi: "cứ"
+}, {
+	zh: "芝",
+	vi: "chi"
+}, {
+	zh: "柠",
+	vi: "ninh"
+}, {
+	zh: "摹",
+	vi: "mô"
+}, {
+	zh: "痢",
+	vi: "lỵ"
+}, {
+	zh: "嘹",
+	vi: "liệu"
+}, {
+	zh: "玷",
+	vi: "điếm"
+}, {
+	zh: "扈",
+	vi: "hỗ"
+}, {
+	zh: "侩",
+	vi: "quái"
+}, {
+	zh: "赁",
+	vi: "nhẫm"
+}, {
+	zh: "糯",
+	vi: "nhu"
+}, {
+	zh: "癫",
+	vi: "điên"
+}, {
+	zh: "隍",
+	vi: "hoàng"
+}, {
+	zh: "瞌",
+	vi: "khạp"
+}, {
+	zh: "楔",
+	vi: "tiết"
+}, {
+	zh: "虬",
+	vi: "cầu"
+}, {
+	zh: "瑀",
+	vi: "vũ"
+}, {
+	zh: "裱",
+	vi: "phiếu"
+}, {
+	zh: "慵",
+	vi: "thung"
+}, {
+	zh: "婥",
+	vi: "sước"
+}, {
+	zh: "鞠",
+	vi: "cúc"
+}, {
+	zh: "缯",
+	vi: "tăng"
+}, {
+	zh: "绅",
+	vi: "thân"
+}, {
+	zh: "琵",
+	vi: "tỳ"
+}, {
+	zh: "琶",
+	vi: "bà"
+}, {
+	zh: "笛",
+	vi: "địch"
+}, {
+	zh: "鞚",
+	vi: "khống"
+}, {
+	zh: "蝇",
+	vi: "dăng"
+}, {
+	zh: "铤",
+	vi: "đĩnh"
+}, {
+	zh: "戊",
+	vi: "mậu"
+}, {
+	zh: "邮",
+	vi: "bưu"
+}, {
+	zh: "琊",
+	vi: "gia"
+}, {
+	zh: "詹",
+	vi: "chiêm"
+}, {
+	zh: "邵",
+	vi: "thiệu"
+}, {
+	zh: "羌",
+	vi: "khương"
+}, {
+	zh: "抒",
+	vi: "trữ"
+}, {
+	zh: "曦",
+	vi: "hi"
+}, {
+	zh: "沁",
+	vi: "thấm"
+}, {
+	zh: "坞",
+	vi: "ổ"
+}, {
+	zh: "绯",
+	vi: "phi"
+}, {
+	zh: "酗",
+	vi: "hú"
+}, {
+	zh: "碉",
+	vi: "điêu"
+}, {
+	zh: "鮰",
+	vi: "nguy"
+}, {
+	zh: "蹂",
+	vi: "nhựu"
+}, {
+	zh: "躏",
+	vi: "lận"
+}, {
+	zh: "阪",
+	vi: "phản"
+}, {
+	zh: "嵩",
+	vi: "tung"
+}, {
+	zh: "霖",
+	vi: "lâm"
+}, {
+	zh: "饯",
+	vi: "tiễn"
+}, {
+	zh: "筛",
+	vi: "si"
+}, {
+	zh: "龚",
+	vi: "cung"
+}, {
+	zh: "刭",
+	vi: "hĩnh"
+}, {
+	zh: "柙",
+	vi: "hiệp"
+}, {
+	zh: "斌",
+	vi: "bân"
+}, {
+	zh: "汾",
+	vi: "phần"
+}, {
+	zh: "陟",
+	vi: "trắc"
+}, {
+	zh: "艨",
+	vi: "mông"
+}, {
+	zh: "艟",
+	vi: "đồng"
+}, {
+	zh: "舸",
+	vi: "khả"
+}, {
+	zh: "渚",
+	vi: "chử"
+}, {
+	zh: "甬",
+	vi: "dũng"
+}, {
+	zh: "坝",
+	vi: "bá"
+}, {
+	zh: "搀",
+	vi: "sam"
+}, {
+	zh: "淝",
+	vi: "phì"
+}, {
+	zh: "琛",
+	vi: "sâm"
+}, {
+	zh: "谔",
+	vi: "ngạc"
+}, {
+	zh: "鳌",
+	vi: "ngao"
+}, {
+	zh: "磕",
+	vi: "khái"
+}, {
+	zh: "莠",
+	vi: "dửu"
+}, {
+	zh: "袁",
+	vi: "viên"
+}, {
+	zh: "漕",
+	vi: "tào"
+}, {
+	zh: "潘",
+	vi: "phan"
+}, {
+	zh: "萋",
+	vi: "thê"
+}, {
+	zh: "樵",
+	vi: "tiều"
+}, {
+	zh: "虛",
+	vi: "hư"
+}, {
+	zh: "彥",
+	vi: "ngạn"
+}, {
+	zh: "啷",
+	vi: "lang"
+}, {
+	zh: "奄",
+	vi: "yểm"
+}, {
+	zh: "磴",
+	vi: "đặng"
+}, {
+	zh: "篆",
+	vi: "triện"
+}, {
+	zh: "祁",
+	vi: "kỳ"
+}, {
+	zh: "绒",
+	vi: "nhung"
+}, {
+	zh: "悽",
+	vi: "thê"
+}, {
+	zh: "脣",
+	vi: "thần"
+}, {
+	zh: "藐",
+	vi: "miểu"
+}, {
+	zh: "姪",
+	vi: "điệt"
+}, {
+	zh: "纂",
+	vi: "toản"
+}, {
+	zh: "杉",
+	vi: "sam"
+}, {
+	zh: "檥",
+	vi: "nghĩ"
+}, {
+	zh: "蝈",
+	vi: "quắc"
+}, {
+	zh: "牯",
+	vi: "cổ"
+}, {
+	zh: "榨",
+	vi: "trá"
+}, {
+	zh: "氧",
+	vi: "dưỡng"
+}, {
+	zh: "璀",
+	vi: "thôi"
+}, {
+	zh: "轾",
+	vi: "chí"
+}, {
+	zh: "咱",
+	vi: "cha"
+}, {
+	zh: "翳",
+	vi: "ế"
+}, {
+	zh: "刍",
+	vi: "sô"
+}, {
+	zh: "摰",
+	vi: "chí"
+}, {
+	zh: "邂",
+	vi: "giải"
+}, {
+	zh: "蛩",
+	vi: "cung"
+}, {
+	zh: "悱",
+	vi: "phỉ"
+}, {
+	zh: "舛",
+	vi: "suyễn"
+}, {
+	zh: "罄",
+	vi: "khánh"
+}, {
+	zh: "禺",
+	vi: "ngu"
+}, {
+	zh: "泷",
+	vi: "lang"
+}, {
+	zh: "粪",
+	vi: "phẩn"
+}, {
+	zh: "蜕",
+	vi: "thuế"
+}, {
+	zh: "郝",
+	vi: "hách"
+}, {
+	zh: "晟",
+	vi: "thịnh"
+}, {
+	zh: "炯",
+	vi: "quýnh"
+}, {
+	zh: "橱",
+	vi: "thụ"
+}, {
+	zh: "隧",
+	vi: "toại"
+}, {
+	zh: "钙",
+	vi: "cái"
+}, {
+	zh: "抟",
+	vi: "đoàn"
+}, {
+	zh: "箔",
+	vi: "bạc"
+}, {
+	zh: "惴",
+	vi: "chúy"
+}, {
+	zh: "鹗",
+	vi: "ngạc"
+}, {
+	zh: "肫",
+	vi: "truân"
+}, {
+	zh: "劻",
+	vi: "khuông"
+}, {
+	zh: "牴",
+	vi: "để"
+}, {
+	zh: "匮",
+	vi: "quỹ"
+}, {
+	zh: "诫",
+	vi: "giới"
+}, {
+	zh: "狄",
+	vi: "địch"
+}, {
+	zh: "縻",
+	vi: "mi"
+}, {
+	zh: "褫",
+	vi: "sỉ"
+}, {
+	zh: "叟",
+	vi: "tẩu"
+}, {
+	zh: "硃",
+	vi: "chu"
+}, {
+	zh: "箝",
+	vi: "kiềm"
+}, {
+	zh: "桢",
+	vi: "trinh"
+}, {
+	zh: "牖",
+	vi: "dũ"
+}, {
+	zh: "熨",
+	vi: "uất"
+}, {
+	zh: "壼",
+	vi: "khổn"
+}, {
+	zh: "馐",
+	vi: "tu"
+}, {
+	zh: "侬",
+	vi: "nông"
+}, {
+	zh: "粽",
+	vi: "tống"
+}, {
+	zh: "貉",
+	vi: "hạc"
+}, {
+	zh: "鎌",
+	vi: "liêm"
+}, {
+	zh: "槟",
+	vi: "tân"
+}, {
+	zh: "岑",
+	vi: "sầm"
+}, {
+	zh: "荞",
+	vi: "kiều"
+}, {
+	zh: "逑",
+	vi: "cầu"
+}, {
+	zh: "舖",
+	vi: "phô"
+}, {
+	zh: "犒",
+	vi: "khao"
+}, {
+	zh: "魑",
+	vi: "si"
+}, {
+	zh: "醜",
+	vi: "xú"
+}, {
+	zh: "悖",
+	vi: "bội"
+}, {
+	zh: "睿",
+	vi: "duệ"
+}, {
+	zh: "洹",
+	vi: "hoàn"
+}, {
+	zh: "拮",
+	vi: "kiết"
+}, {
+	zh: "祯",
+	vi: "trinh"
+}, {
+	zh: "滨",
+	vi: "tân"
+}, {
+	zh: "蜃",
+	vi: "thận"
+}, {
+	zh: "谪",
+	vi: "trích"
+}, {
+	zh: "箇",
+	vi: "cá"
+}, {
+	zh: "薇",
+	vi: "vi"
+}, {
+	zh: "幞",
+	vi: "phốc"
+}, {
+	zh: "帔",
+	vi: "bí"
+}, {
+	zh: "裥",
+	vi: "cán"
+}, {
+	zh: "忸",
+	vi: "nữu"
+}, {
+	zh: "暑",
+	vi: "thử"
+}, {
+	zh: "砧",
+	vi: "châm"
+}, {
+	zh: "襦",
+	vi: "nhu"
+}, {
+	zh: "沖",
+	vi: "trùng"
+}, {
+	zh: "绛",
+	vi: "giáng"
+}, {
+	zh: "辇",
+	vi: "liễn"
+}, {
+	zh: "陛",
+	vi: "bệ"
+}, {
+	zh: "搦",
+	vi: "nạch"
+}, {
+	zh: "屍",
+	vi: "thi"
+}, {
+	zh: "燄",
+	vi: "diễm"
+}, {
+	zh: "淒",
+	vi: "thê"
+}, {
+	zh: "躅",
+	vi: "trục"
+}, {
+	zh: "昇",
+	vi: "thăng"
+}, {
+	zh: "複",
+	vi: "phức"
+}, {
+	zh: "恆",
+	vi: "hằng"
+}, {
+	zh: "獃",
+	vi: "ngai"
+}, {
+	zh: "讚",
+	vi: "tán"
+}, {
+	zh: "採",
+	vi: "thải"
+}, {
+	zh: "粤",
+	vi: "việt"
+}, {
+	zh: "傢",
+	vi: "gia"
+}, {
+	zh: "勣",
+	vi: "tích"
+}, {
+	zh: "禦",
+	vi: "ngữ"
+}, {
+	zh: "噹",
+	vi: "đương"
+}, {
+	zh: "閤",
+	vi: "cáp"
+}, {
+	zh: "繫",
+	vi: "hệ"
+}, {
+	zh: "蕉",
+	vi: "tiêu"
+}, {
+	zh: "喋",
+	vi: "điệp"
+}, {
+	zh: "脍",
+	vi: "quái"
+}, {
+	zh: "蠡",
+	vi: "lễ"
+}, {
+	zh: "榕",
+	vi: "dung"
+}, {
+	zh: "荑",
+	vi: "đề"
+}, {
+	zh: "徕",
+	vi: "lai"
+}, {
+	zh: "飒",
+	vi: "táp"
+}, {
+	zh: "岌",
+	vi: "ngập"
+}, {
+	zh: "靥",
+	vi: "yếp"
+}, {
+	zh: "锾",
+	vi: "hoàn"
+}, {
+	zh: "宥",
+	vi: "hựu"
+}, {
+	zh: "祇",
+	vi: "kỳ"
+}, {
+	zh: "荧",
+	vi: "huỳnh"
+}, {
+	zh: "淖",
+	vi: "náo"
+}, {
+	zh: "桡",
+	vi: "nạo"
+}, {
+	zh: "啜",
+	vi: "xuyết"
+}, {
+	zh: "訢",
+	vi: "hân"
+}, {
+	zh: "劾",
+	vi: "hặc"
+}, {
+	zh: "檄",
+	vi: "hịch"
+}, {
+	zh: "栋",
+	vi: "đống"
+}, {
+	zh: "诘",
+	vi: "cật"
+}, {
+	zh: "楮",
+	vi: "chử"
+}, {
+	zh: "穑",
+	vi: "sắc"
+}, {
+	zh: "奼",
+	vi: "xá"
+}, {
+	zh: "狻",
+	vi: "toan"
+}, {
+	zh: "磷",
+	vi: "lân"
+}, {
+	zh: "顼",
+	vi: "húc"
+}, {
+	zh: "鳝",
+	vi: "thiện"
+}, {
+	zh: "錾",
+	vi: "tạm"
+}, {
+	zh: "苣",
+	vi: "cự"
+}, {
+	zh: "藩",
+	vi: "phiên"
+}, {
+	zh: "栀",
+	vi: "chi"
+}, {
+	zh: "驽",
+	vi: "nô"
+}, {
+	zh: "褒",
+	vi: "bao"
+}, {
+	zh: "跛",
+	vi: "bả"
+}, {
+	zh: "懋",
+	vi: "mậu"
+}, {
+	zh: "蟑",
+	vi: "chương"
+}, {
+	zh: "姒",
+	vi: "tự"
+}, {
+	zh: "蹼",
+	vi: "bốc"
+}, {
+	zh: "翮",
+	vi: "cách"
+}, {
+	zh: "盹",
+	vi: "truân"
+}, {
+	zh: "誊",
+	vi: "đằng"
+}, {
+	zh: "俎",
+	vi: "trở"
+}, {
+	zh: "畋",
+	vi: "điền"
+}, {
+	zh: "诤",
+	vi: "tránh"
+}, {
+	zh: "聱",
+	vi: "ngao"
+}, {
+	zh: "猥",
+	vi: "ổi"
+}, {
+	zh: "蓓",
+	vi: "bội"
+}, {
+	zh: "崴",
+	vi: "uy"
+}, {
+	zh: "鳗",
+	vi: "man"
+}, {
+	zh: "僩",
+	vi: "giản"
+}, {
+	zh: "盥",
+	vi: "quán"
+}, {
+	zh: "浣",
+	vi: "hoán"
+}, {
+	zh: "煦",
+	vi: "hú"
+}, {
+	zh: "绂",
+	vi: "phất"
+}, {
+	zh: "谌",
+	vi: "kham"
+}, {
+	zh: "谯",
+	vi: "tiếu"
+}, {
+	zh: "俑",
+	vi: "dũng"
+}, {
+	zh: "阗",
+	vi: "điền"
+}, {
+	zh: "胼",
+	vi: "biền"
+}, {
+	zh: "俺",
+	vi: "yêm"
+}, {
+	zh: "瘢",
+	vi: "ban"
+}, {
+	zh: "芩",
+	vi: "cầm"
+}, {
+	zh: "觯",
+	vi: "chí"
+}, {
+	zh: "渥",
+	vi: "ác"
+}, {
+	zh: "棣",
+	vi: "lệ"
+}, {
+	zh: "稷",
+	vi: "tắc"
+}, {
+	zh: "苋",
+	vi: "hiện"
+}, {
+	zh: "嘤",
+	vi: "anh"
+}, {
+	zh: "咛",
+	vi: "ninh"
+}, {
+	zh: "秾",
+	vi: "nùng"
+}, {
+	zh: "檠",
+	vi: "kềnh"
+}, {
+	zh: "诂",
+	vi: "hỗ"
+}, {
+	zh: "缁",
+	vi: "truy"
+}, {
+	zh: "楠",
+	vi: "nam"
+}, {
+	zh: "婠",
+	vi: "loan"
+}, {
+	zh: "夯",
+	vi: "kháng"
+}, {
+	zh: "胳",
+	vi: "ca"
+}, {
+	zh: "跶",
+	vi: "đáp"
+}, {
+	zh: "檑",
+	vi: "lôi"
+}, {
+	zh: "珣",
+	vi: "tuần"
+}, {
+	zh: "洺",
+	vi: "minh"
+}, {
+	zh: "嘎",
+	vi: "dát"
+}, {
+	zh: "邴",
+	vi: "bỉnh"
+}, {
+	zh: "泵",
+	vi: "bơm"
+}, {
+	zh: "钊",
+	vi: "chiêu"
+}, {
+	zh: "烯",
+	vi: "hy"
+}, {
+	zh: "铀",
+	vi: "do"
+}, {
+	zh: "铐",
+	vi: "khảo"
+}, {
+	zh: "琱",
+	vi: "điêu"
+}, {
+	zh: "脎",
+	vi: "thỏa"
+}, {
+	zh: "烷",
+	vi: "hoàn"
+}, {
+	zh: "孓",
+	vi: "củng"
+}, {
+	zh: "捅",
+	vi: "thống"
+}, {
+	zh: "轀",
+	vi: "ôn"
+}, {
+	zh: "醣",
+	vi: "đường"
+}, {
+	zh: "坭",
+	vi: "nê"
+}, {
+	zh: "祆",
+	vi: "hiên"
+}, {
+	zh: "哒",
+	vi: "đát"
+}, {
+	zh: "啃",
+	vi: "khẳng"
+}, {
+	zh: "怄",
+	vi: "âu"
+}, {
+	zh: "枱",
+	vi: "đài"
+}, {
+	zh: "惷",
+	vi: "xuẩn"
+}, {
+	zh: "朐",
+	vi: "cù"
+}, {
+	zh: "揹",
+	vi: "bội"
+}, {
+	zh: "鎏",
+	vi: "lưu"
+}, {
+	zh: "籎",
+	vi: "ngữ"
+}, {
+	zh: "唧",
+	vi: "tức"
+}, {
+	zh: "崟",
+	vi: "dần"
+}, {
+	zh: "嫘",
+	vi: "luy"
+}, {
+	zh: "艿",
+	vi: "nãi"
+}, {
+	zh: "锶",
+	vi: "tư"
+}, {
+	zh: "锔",
+	vi: "cư"
+}, {
+	zh: "儅",
+	vi: "đang"
+}, {
+	zh: "詻",
+	vi: "ách"
+}, {
+	zh: "斷",
+	vi: "đoạn"
+}, {
+	zh: "泗",
+	vi: "tứ"
+}, {
+	zh: "間",
+	vi: "gian"
+}, {
+	zh: "橫",
+	vi: "hoành"
+}, {
+	zh: "數",
+	vi: "sổ"
+}, {
+	zh: "佈",
+	vi: "bố"
+}, {
+	zh: "滿",
+	vi: "mãn"
+}, {
+	zh: "廢",
+	vi: "phế"
+}, {
+	zh: "棄",
+	vi: "khí"
+}, {
+	zh: "漢",
+	vi: "hán"
+}, {
+	zh: "稱",
+	vi: "xưng"
+}, {
+	zh: "為",
+	vi: "vi"
+}, {
+	zh: "邊",
+	vi: "biên"
+}, {
+	zh: "視",
+	vi: "thị"
+}, {
+	zh: "甌",
+	vi: "âu"
+}, {
+	zh: "脫",
+	vi: "thoát"
+}, {
+	zh: "雖",
+	vi: "tuy"
+}, {
+	zh: "異",
+	vi: "dị"
+}, {
+	zh: "當",
+	vi: "đương"
+}, {
+	zh: "獨",
+	vi: "độc"
+}, {
+	zh: "無",
+	vi: "vô"
+}, {
+	zh: "卻",
+	vi: "khước"
+}, {
+	zh: "頭",
+	vi: "đầu"
+}, {
+	zh: "輩",
+	vi: "bối"
+}, {
+	zh: "趨",
+	vi: "xu"
+}, {
+	zh: "鶩",
+	vi: "vụ"
+}, {
+	zh: "樂",
+	vi: "nhạc"
+}, {
+	zh: "險",
+	vi: "hiểm"
+}, {
+	zh: "機",
+	vi: "ki"
+}, {
+	zh: "會",
+	vi: "hội"
+}, {
+	zh: "處",
+	vi: "xử"
+}, {
+	zh: "傑",
+	vi: "kiệt"
+}, {
+	zh: "萬",
+	vi: "vạn"
+}, {
+	zh: "權",
+	vi: "quyền"
+}, {
+	zh: "進",
+	vi: "tiến"
+}, {
+	zh: "場",
+	vi: "tràng"
+}, {
+	zh: "則",
+	vi: "tắc"
+}, {
+	zh: "難",
+	vi: "nan"
+}, {
+	zh: "窩",
+	vi: "oa"
+}, {
+	zh: "許",
+	vi: "hứa"
+}, {
+	zh: "亂",
+	vi: "loạn"
+}, {
+	zh: "變",
+	vi: "biến"
+}, {
+	zh: "羅",
+	vi: "la"
+}, {
+	zh: "獄",
+	vi: "ngục"
+}, {
+	zh: "沒",
+	vi: "một"
+}, {
+	zh: "時",
+	vi: "thì"
+}, {
+	zh: "麼",
+	vi: "ma"
+}, {
+	zh: "愛",
+	vi: "ái"
+}, {
+	zh: "爺",
+	vi: "da"
+}, {
+	zh: "領",
+	vi: "lĩnh"
+}, {
+	zh: "設",
+	vi: "thiết"
+}, {
+	zh: "裡",
+	vi: "lý"
+}, {
+	zh: "學",
+	vi: "học"
+}, {
+	zh: "規",
+	vi: "quy"
+}, {
+	zh: "歷",
+	vi: "lịch"
+}, {
+	zh: "觀",
+	vi: "quan"
+}, {
+	zh: "戰",
+	vi: "chiến"
+}, {
+	zh: "鮮",
+	vi: "tiên"
+}, {
+	zh: "寫",
+	vi: "tả"
+}, {
+	zh: "傾",
+	vi: "khuynh"
+}, {
+	zh: "頹",
+	vi: "đồi"
+}, {
+	zh: "綿",
+	vi: "miên"
+}, {
+	zh: "廣",
+	vi: "quảng"
+}, {
+	zh: "產",
+	vi: "sản"
+}, {
+	zh: "饑",
+	vi: "cơ"
+}, {
+	zh: "惡",
+	vi: "ác"
+}, {
+	zh: "環",
+	vi: "hoàn"
+}, {
+	zh: "開",
+	vi: "khai"
+}, {
+	zh: "發",
+	vi: "phát"
+}, {
+	zh: "淪",
+	vi: "luân"
+}, {
+	zh: "國",
+	vi: "quốc"
+}, {
+	zh: "孫",
+	vi: "tôn"
+}, {
+	zh: "吳",
+	vi: "ngô"
+}, {
+	zh: "對",
+	vi: "đối"
+}, {
+	zh: "該",
+	vi: "cai"
+}, {
+	zh: "區",
+	vi: "khu"
+}, {
+	zh: "毀",
+	vi: "hủy"
+}, {
+	zh: "園",
+	vi: "viên"
+}, {
+	zh: "蕪",
+	vi: "vu"
+}, {
+	zh: "廬",
+	vi: "lư"
+}, {
+	zh: "絕",
+	vi: "tuyệt"
+}, {
+	zh: "晉",
+	vi: "tấn"
+}, {
+	zh: "馬",
+	vi: "mã"
+}, {
+	zh: "統",
+	vi: "thống"
+}, {
+	zh: "過",
+	vi: "quá"
+}, {
+	zh: "禍",
+	vi: "họa"
+}, {
+	zh: "來",
+	vi: "lai"
+}, {
+	zh: "這",
+	vi: "giá"
+}, {
+	zh: "兩",
+	vi: "lưỡng"
+}, {
+	zh: "風",
+	vi: "phong"
+}, {
+	zh: "殘",
+	vi: "tàn"
+}, {
+	zh: "體",
+	vi: "thể"
+}, {
+	zh: "膚",
+	vi: "phu"
+}, {
+	zh: "懷",
+	vi: "hoài"
+}, {
+	zh: "愍",
+	vi: "mẫn"
+}, {
+	zh: "塵",
+	vi: "trần"
+}, {
+	zh: "災",
+	vi: "tai"
+}, {
+	zh: "爭",
+	vi: "tranh"
+}, {
+	zh: "內",
+	vi: "nội"
+}, {
+	zh: "帶",
+	vi: "đái"
+}, {
+	zh: "勢",
+	vi: "thế"
+}, {
+	zh: "樣",
+	vi: "dạng"
+}, {
+	zh: "況",
+	vi: "huống"
+}, {
+	zh: "遊",
+	vi: "du"
+}, {
+	zh: "慣",
+	vi: "quán"
+}, {
+	zh: "須",
+	vi: "tu"
+}, {
+	zh: "離",
+	vi: "ly"
+}, {
+	zh: "緩",
+	vi: "hoãn"
+}, {
+	zh: "衝",
+	vi: "xung"
+}, {
+	zh: "雙",
+	vi: "song"
+}, {
+	zh: "鬧",
+	vi: "nháo"
+}, {
+	zh: "說",
+	vi: "thuyết"
+}, {
+	zh: "適",
+	vi: "thích"
+}, {
+	zh: "實",
+	vi: "thực"
+}, {
+	zh: "堅",
+	vi: "kiên"
+}, {
+	zh: "從",
+	vi: "tòng"
+}, {
+	zh: "補",
+	vi: "bổ"
+}, {
+	zh: "給",
+	vi: "cấp"
+}, {
+	zh: "諸",
+	vi: "chư"
+}, {
+	zh: "認",
+	vi: "nhận"
+}, {
+	zh: "穎",
+	vi: "dĩnh"
+}, {
+	zh: "興",
+	vi: "hưng"
+}, {
+	zh: "貫",
+	vi: "quán"
+}, {
+	zh: "轉",
+	vi: "chuyển"
+}, {
+	zh: "運",
+	vi: "vận"
+}, {
+	zh: "貿",
+	vi: "mậu"
+}, {
+	zh: "橋",
+	vi: "kiều"
+}, {
+	zh: "樑",
+	vi: "lương"
+}, {
+	zh: "強",
+	vi: "cường"
+}, {
+	zh: "奪",
+	vi: "đoạt"
+}, {
+	zh: "掮",
+	vi: "kiên"
+}, {
+	zh: "幫",
+	vi: "bang"
+}, {
+	zh: "論",
+	vi: "luận"
+}, {
+	zh: "販",
+	vi: "phiến"
+}, {
+	zh: "賺",
+	vi: "trám"
+}, {
+	zh: "別",
+	vi: "biệt"
+}, {
+	zh: "錢",
+	vi: "tiền"
+}, {
+	zh: "財",
+	vi: "tài"
+}, {
+	zh: "個",
+	vi: "cá"
+}, {
+	zh: "誘",
+	vi: "dụ"
+}, {
+	zh: "氣",
+	vi: "khí"
+}, {
+	zh: "屬",
+	vi: "chúc"
+}, {
+	zh: "項",
+	vi: "hạng"
+}, {
+	zh: "經",
+	vi: "kinh"
+}, {
+	zh: "禮",
+	vi: "lễ"
+}, {
+	zh: "達",
+	vi: "đạt"
+}, {
+	zh: "顛",
+	vi: "điên"
+}, {
+	zh: "捲",
+	vi: "quyển"
+}, {
+	zh: "苻",
+	vi: "phù"
+}, {
+	zh: "崗",
+	vi: "cương"
+}, {
+	zh: "鋒",
+	vi: "phong"
+}, {
+	zh: "隊",
+	vi: "đội"
+}, {
+	zh: "陣",
+	vi: "trận"
+}, {
+	zh: "幟",
+	vi: "xí"
+}, {
+	zh: "飄",
+	vi: "phiêu"
+}, {
+	zh: "揚",
+	vi: "dương"
+}, {
+	zh: "線",
+	vi: "tuyến"
+}, {
+	zh: "舉",
+	vi: "cử"
+}, {
+	zh: "僅",
+	vi: "cận"
+}, {
+	zh: "餘",
+	vi: "dư"
+}, {
+	zh: "敵",
+	vi: "địch"
+}, {
+	zh: "標",
+	vi: "tiêu"
+}, {
+	zh: "鎮",
+	vi: "trấn"
+}, {
+	zh: "壽",
+	vi: "thọ"
+}, {
+	zh: "陽",
+	vi: "dương"
+}, {
+	zh: "奮",
+	vi: "phấn"
+}, {
+	zh: "將",
+	vi: "tương"
+}, {
+	zh: "滅",
+	vi: "diệt"
+}, {
+	zh: "勁",
+	vi: "kính"
+}, {
+	zh: "軍",
+	vi: "quân"
+}, {
+	zh: "鐵",
+	vi: "thiết"
+}, {
+	zh: "盡",
+	vi: "tận"
+}, {
+	zh: "結",
+	vi: "kết"
+}, {
+	zh: "龍",
+	vi: "long"
+}, {
+	zh: "紛",
+	vi: "phân"
+}, {
+	zh: "蓋",
+	vi: "cái"
+}, {
+	zh: "業",
+	vi: "nghiệp"
+}, {
+	zh: "爍",
+	vi: "thước"
+}, {
+	zh: "現",
+	vi: "hiện"
+}, {
+	zh: "條",
+	vi: "điều"
+}, {
+	zh: "豐",
+	vi: "phong"
+}, {
+	zh: "碩",
+	vi: "thạc"
+}, {
+	zh: "誰",
+	vi: "thùy"
+}, {
+	zh: "還",
+	vi: "hoàn"
+}, {
+	zh: "與",
+	vi: "dữ"
+}, {
+	zh: "師",
+	vi: "sư"
+}, {
+	zh: "帥",
+	vi: "suất"
+}, {
+	zh: "萇",
+	vi: "trường"
+}, {
+	zh: "動",
+	vi: "động"
+}, {
+	zh: "騎",
+	vi: "kỵ"
+}, {
+	zh: "長",
+	vi: "trường"
+}, {
+	zh: "順",
+	vi: "thuận"
+}, {
+	zh: "東",
+	vi: "đông"
+}, {
+	zh: "輾",
+	vi: "triển"
+}, {
+	zh: "歲",
+	vi: "tuế"
+}, {
+	zh: "擁",
+	vi: "ủng"
+}, {
+	zh: "臉",
+	vi: "kiểm"
+}, {
+	zh: "連",
+	vi: "liên"
+}, {
+	zh: "鬢",
+	vi: "tấn"
+}, {
+	zh: "臨",
+	vi: "lâm"
+}, {
+	zh: "閃",
+	vi: "thiểm"
+}, {
+	zh: "輝",
+	vi: "huy"
+}, {
+	zh: "預",
+	vi: "dự"
+}, {
+	zh: "見",
+	vi: "kiến"
+}, {
+	zh: "組",
+	vi: "tổ"
+}, {
+	zh: "聯",
+	vi: "liên"
+}, {
+	zh: "踐",
+	vi: "tiễn"
+}, {
+	zh: "潰",
+	vi: "hội"
+}, {
+	zh: "敗",
+	vi: "bại"
+}, {
+	zh: "眾",
+	vi: "chúng"
+}, {
+	zh: "驕",
+	vi: "kiêu"
+}, {
+	zh: "總",
+	vi: "tổng"
+}, {
+	zh: "慘",
+	vi: "thảm"
+}, {
+	zh: "並",
+	vi: "tịnh"
+}, {
+	zh: "舊",
+	vi: "cựu"
+}, {
+	zh: "聲",
+	vi: "thanh"
+}, {
+	zh: "號",
+	vi: "hào"
+}, {
+	zh: "槍",
+	vi: "thương"
+}, {
+	zh: "縱",
+	vi: "túng"
+}, {
+	zh: "驍",
+	vi: "kiêu"
+}, {
+	zh: "勞",
+	vi: "lao"
+}, {
+	zh: "懼",
+	vi: "cụ"
+}, {
+	zh: "輕",
+	vi: "khinh"
+}, {
+	zh: "偉",
+	vi: "vĩ"
+}, {
+	zh: "顏",
+	vi: "nhan"
+}, {
+	zh: "髮",
+	vi: "phát"
+}, {
+	zh: "鋼",
+	vi: "cương"
+}, {
+	zh: "額",
+	vi: "ngạch"
+}, {
+	zh: "蘊",
+	vi: "uẩn"
+}, {
+	zh: "測",
+	vi: "trắc"
+}, {
+	zh: "懾",
+	vi: "nhiếp"
+}, {
+	zh: "鑄",
+	vi: "chú"
+}, {
+	zh: "銅",
+	vi: "đồng"
+}, {
+	zh: "鈴",
+	vi: "linh"
+}, {
+	zh: "覷",
+	vi: "thứ"
+}, {
+	zh: "慓",
+	vi: "phiếu"
+}, {
+	zh: "絲",
+	vi: "ti"
+}, {
+	zh: "點",
+	vi: "điểm"
+}, {
+	zh: "語",
+	vi: "ngữ"
+}, {
+	zh: "蒼",
+	vi: "thương"
+}, {
+	zh: "呂",
+	vi: "lữ"
+}, {
+	zh: "謝",
+	vi: "tạ"
+}, {
+	zh: "談",
+	vi: "đàm"
+}, {
+	zh: "議",
+	vi: "nghị"
+}, {
+	zh: "劍",
+	vi: "kiếm"
+}, {
+	zh: "黃",
+	vi: "hoàng"
+}, {
+	zh: "渾",
+	vi: "hồn"
+}, {
+	zh: "譽",
+	vi: "dự"
+}, {
+	zh: "隱",
+	vi: "ẩn"
+}, {
+	zh: "車",
+	vi: "xa"
+}, {
+	zh: "繼",
+	vi: "kế"
+}, {
+	zh: "逖",
+	vi: "địch"
+}, {
+	zh: "庾",
+	vi: "dữu"
+}, {
+	zh: "負",
+	vi: "phụ"
+}, {
+	zh: "類",
+	vi: "loại"
+}, {
+	zh: "飛",
+	vi: "phi"
+}, {
+	zh: "覺",
+	vi: "giác"
+}, {
+	zh: "皺",
+	vi: "trứu"
+}, {
+	zh: "悅",
+	vi: "duyệt"
+}, {
+	zh: "肅",
+	vi: "túc"
+}, {
+	zh: "稟",
+	vi: "bẩm"
+}, {
+	zh: "據",
+	vi: "cứ"
+}, {
+	zh: "團",
+	vi: "đoàn"
+}, {
+	zh: "養",
+	vi: "dưỡng"
+}, {
+	zh: "優",
+	vi: "ưu"
+}, {
+	zh: "備",
+	vi: "bị"
+}, {
+	zh: "遷",
+	vi: "thiên"
+}, {
+	zh: "軋",
+	vi: "yết"
+}, {
+	zh: "際",
+	vi: "tế"
+}, {
+	zh: "謂",
+	vi: "vị"
+}, {
+	zh: "們",
+	vi: "môn"
+}, {
+	zh: "兒",
+	vi: "nhi"
+}, {
+	zh: "頗",
+	vi: "pha"
+}, {
+	zh: "終",
+	vi: "chung"
+}, {
+	zh: "遺",
+	vi: "di"
+}, {
+	zh: "確",
+	vi: "xác"
+}, {
+	zh: "遠",
+	vi: "viễn"
+}, {
+	zh: "遜",
+	vi: "tốn"
+}, {
+	zh: "訓",
+	vi: "huấn"
+}, {
+	zh: "練",
+	vi: "luyện"
+}, {
+	zh: "計",
+	vi: "kế"
+}, {
+	zh: "揮",
+	vi: "huy"
+}, {
+	zh: "撲",
+	vi: "phác"
+}, {
+	zh: "選",
+	vi: "tuyển"
+}, {
+	zh: "擇",
+	vi: "trạch"
+}, {
+	zh: "決",
+	vi: "quyết"
+}, {
+	zh: "閉",
+	vi: "bế"
+}, {
+	zh: "僥",
+	vi: "nghiêu"
+}, {
+	zh: "倖",
+	vi: "hãnh"
+}, {
+	zh: "顧",
+	vi: "cố"
+}, {
+	zh: "憂",
+	vi: "ưu"
+}, {
+	zh: "壓",
+	vi: "áp"
+}, {
+	zh: "夢",
+	vi: "mộng"
+}, {
+	zh: "術",
+	vi: "thuật"
+}, {
+	zh: "驗",
+	vi: "nghiệm"
+}, {
+	zh: "淺",
+	vi: "thiển"
+}, {
+	zh: "屢",
+	vi: "lũ"
+}, {
+	zh: "勝",
+	vi: "thắng"
+}, {
+	zh: "溫",
+	vi: "ôn"
+}, {
+	zh: "幾",
+	vi: "ki"
+}, {
+	zh: "牽",
+	vi: "khiên"
+}, {
+	zh: "荊",
+	vi: "kinh"
+}, {
+	zh: "彈",
+	vi: "đạn"
+}, {
+	zh: "聞",
+	vi: "văn"
+}, {
+	zh: "應",
+	vi: "ứng"
+}, {
+	zh: "暢",
+	vi: "sướng"
+}, {
+	zh: "壯",
+	vi: "tráng"
+}, {
+	zh: "濫",
+	vi: "lạm"
+}, {
+	zh: "殺",
+	vi: "sát"
+}, {
+	zh: "書",
+	vi: "thư"
+}, {
+	zh: "僕",
+	vi: "bộc"
+}, {
+	zh: "憑",
+	vi: "bằng"
+}, {
+	zh: "賢",
+	vi: "hiền"
+}, {
+	zh: "鏘",
+	vi: "thương"
+}, {
+	zh: "剛",
+	vi: "cương"
+}, {
+	zh: "擊",
+	vi: "kích"
+}, {
+	zh: "鳴",
+	vi: "minh"
+}, {
+	zh: "齊",
+	vi: "tề"
+}, {
+	zh: "轟",
+	vi: "oanh"
+}, {
+	zh: "護",
+	vi: "hộ"
+}, {
+	zh: "衛",
+	vi: "vệ"
+}, {
+	zh: "親",
+	vi: "thân"
+}, {
+	zh: "種",
+	vi: "chủng"
+}, {
+	zh: "蕩",
+	vi: "đãng"
+}, {
+	zh: "緊",
+	vi: "khẩn"
+}, {
+	zh: "濟",
+	vi: "tế"
+}, {
+	zh: "陸",
+	vi: "lục"
+}, {
+	zh: "樞",
+	vi: "xu"
+}, {
+	zh: "紐",
+	vi: "nữu"
+}, {
+	zh: "雞",
+	vi: "kê"
+}, {
+	zh: "籠",
+	vi: "lung"
+}, {
+	zh: "灘",
+	vi: "than"
+}, {
+	zh: "繞",
+	vi: "nhiễu"
+}, {
+	zh: "蟠",
+	vi: "bàn"
+}, {
+	zh: "燼",
+	vi: "tẫn"
+}, {
+	zh: "喪",
+	vi: "tang"
+}, {
+	zh: "導",
+	vi: "đạo"
+}, {
+	zh: "週",
+	vi: "chu"
+}, {
+	zh: "圍",
+	vi: "vi"
+}, {
+	zh: "壘",
+	vi: "lũy"
+}, {
+	zh: "損",
+	vi: "tổn"
+}, {
+	zh: "駐",
+	vi: "trú"
+}, {
+	zh: "鴿",
+	vi: "cáp"
+}, {
+	zh: "傳",
+	vi: "truyện"
+}, {
+	zh: "靈",
+	vi: "linh"
+}, {
+	zh: "謠",
+	vi: "dao"
+}, {
+	zh: "專",
+	vi: "chuyên"
+}, {
+	zh: "門",
+	vi: "môn"
+}, {
+	zh: "賣",
+	vi: "mại"
+}, {
+	zh: "脈",
+	vi: "mạch"
+}, {
+	zh: "極",
+	vi: "cực"
+}, {
+	zh: "偽",
+	vi: "ngụy"
+}, {
+	zh: "幹",
+	vi: "cán"
+}, {
+	zh: "訊",
+	vi: "tấn"
+}, {
+	zh: "驚",
+	vi: "kinh"
+}, {
+	zh: "證",
+	vi: "chứng"
+}, {
+	zh: "報",
+	vi: "báo"
+}, {
+	zh: "關",
+	vi: "quan"
+}, {
+	zh: "嚇",
+	vi: "hách"
+}, {
+	zh: "詔",
+	vi: "chiếu"
+}, {
+	zh: "宮",
+	vi: "cung"
+}, {
+	zh: "攬",
+	vi: "lãm"
+}, {
+	zh: "暫",
+	vi: "tạm"
+}, {
+	zh: "喚",
+	vi: "hoán"
+}, {
+	zh: "復",
+	vi: "phục"
+}, {
+	zh: "靜",
+	vi: "tĩnh"
+}, {
+	zh: "岷",
+	vi: "dân"
+}, {
+	zh: "轄",
+	vi: "hạt"
+}, {
+	zh: "盪",
+	vi: "đãng"
+}, {
+	zh: "屆",
+	vi: "giới"
+}, {
+	zh: "華",
+	vi: "hoa"
+}, {
+	zh: "搖",
+	vi: "diêu"
+}, {
+	zh: "綹",
+	vi: "lữu"
+}, {
+	zh: "鬚",
+	vi: "tu"
+}, {
+	zh: "頎",
+	vi: "kỳ"
+}, {
+	zh: "瀟",
+	vi: "tiêu"
+}, {
+	zh: "灑",
+	vi: "sái"
+}, {
+	zh: "閒",
+	vi: "nhàn"
+}, {
+	zh: "掛",
+	vi: "quải"
+}, {
+	zh: "軟",
+	vi: "nhuyễn"
+}, {
+	zh: "頷",
+	vi: "hạm"
+}, {
+	zh: "腫",
+	vi: "thũng"
+}, {
+	zh: "隨",
+	vi: "tùy"
+}, {
+	zh: "輪",
+	vi: "luân"
+}, {
+	zh: "貴",
+	vi: "quý"
+}, {
+	zh: "魚",
+	vi: "ngư"
+}, {
+	zh: "係",
+	vi: "hệ"
+}, {
+	zh: "輔",
+	vi: "phụ"
+}, {
+	zh: "職",
+	vi: "chức"
+}, {
+	zh: "錄",
+	vi: "lục"
+}, {
+	zh: "務",
+	vi: "vụ"
+}, {
+	zh: "監",
+	vi: "giam"
+}, {
+	zh: "筆",
+	vi: "bút"
+}, {
+	zh: "濃",
+	vi: "nùng"
+}, {
+	zh: "勻",
+	vi: "quân"
+}, {
+	zh: "瞇",
+	vi: "mị"
+}, {
+	zh: "細",
+	vi: "tế"
+}, {
+	zh: "縫",
+	vi: "phùng"
+}, {
+	zh: "質",
+	vi: "chất"
+}, {
+	zh: "寶",
+	vi: "bảo"
+}, {
+	zh: "廳",
+	vi: "thính"
+}, {
+	zh: "鍵",
+	vi: "kiện"
+}, {
+	zh: "瘴",
+	vi: "chướng"
+}, {
+	zh: "璨",
+	vi: "xán"
+}, {
+	zh: "糅",
+	vi: "nhữu"
+}, {
+	zh: "埃",
+	vi: "ai"
+}, {
+	zh: "淀",
+	vi: "điến"
+}, {
+	zh: "拄",
+	vi: "trụ"
+}, {
+	zh: "煮",
+	vi: "chử"
+}, {
+	zh: "霓",
+	vi: "nghê"
+}, {
+	zh: "厦",
+	vi: "hạ"
+}, {
+	zh: "飓",
+	vi: "cụ"
+}, {
+	zh: "扥",
+	vi: "thác"
+}, {
+	zh: "铛",
+	vi: "đang"
+}, {
+	zh: "魈",
+	vi: "tiêu"
+}, {
+	zh: "蟒",
+	vi: "mãng"
+}, {
+	zh: "啾",
+	vi: "thu"
+}, {
+	zh: "齑",
+	vi: "tê"
+}, {
+	zh: "蟹",
+	vi: "giải"
+}, {
+	zh: "聂",
+	vi: "nhiếp"
+}, {
+	zh: "獗",
+	vi: "quyết"
+}, {
+	zh: "阌",
+	vi: "văn"
+}, {
+	zh: "挝",
+	vi: "qua"
+}, {
+	zh: "赜",
+	vi: "trách"
+}, {
+	zh: "蠓",
+	vi: "mông"
+}, {
+	zh: "碛",
+	vi: "thích"
+}, {
+	zh: "藓",
+	vi: "tiển"
+}, {
+	zh: "勰",
+	vi: "hiệp"
+}, {
+	zh: "蚍",
+	vi: "tỳ"
+}, {
+	zh: "艽",
+	vi: "giao"
+}, {
+	zh: "茨",
+	vi: "tỳ"
+}, {
+	zh: "缋",
+	vi: "hội"
+}, {
+	zh: "涞",
+	vi: "lai"
+}, {
+	zh: "鸾",
+	vi: "loan"
+}, {
+	zh: "琼",
+	vi: "quỳnh"
+}, {
+	zh: "岫",
+	vi: "tụ"
+}, {
+	zh: "麒",
+	vi: "kỳ"
+}, {
+	zh: "麟",
+	vi: "lân"
+}, {
+	zh: "蚱",
+	vi: "trách"
+}, {
+	zh: "蜢",
+	vi: "mãnh"
+}, {
+	zh: "蜈",
+	vi: "ngô"
+}, {
+	zh: "蚣",
+	vi: "công"
+}, {
+	zh: "鲨",
+	vi: "sa"
+}, {
+	zh: "婵",
+	vi: "thiền"
+}, {
+	zh: "鳄",
+	vi: "ngạc"
+}, {
+	zh: "苹",
+	vi: "bình"
+}, {
+	zh: "鍪",
+	vi: "mâu"
+}, {
+	zh: "胚",
+	vi: "phôi"
+}, {
+	zh: "濛",
+	vi: "mông"
+}, {
+	zh: "吮",
+	vi: "duyện"
+}, {
+	zh: "坳",
+	vi: "ao"
+}, {
+	zh: "蔼",
+	vi: "ái"
+}, {
+	zh: "翡",
+	vi: "phỉ"
+}, {
+	zh: "讴",
+	vi: "âu"
+}, {
+	zh: "眇",
+	vi: "miễu"
+}, {
+	zh: "辑",
+	vi: "tập"
+}, {
+	zh: "掐",
+	vi: "kháp"
+}, {
+	zh: "痔",
+	vi: "trĩ"
+}, {
+	zh: "讪",
+	vi: "san"
+}, {
+	zh: "镀",
+	vi: "độ"
+}, {
+	zh: "鸱",
+	vi: "si"
+}, {
+	zh: "馓",
+	vi: "tản"
+}, {
+	zh: "蠹",
+	vi: "đố"
+}, {
+	zh: "鹕",
+	vi: "hồ"
+}, {
+	zh: "椤",
+	vi: "la"
+}, {
+	zh: "硗",
+	vi: "khao"
+}, {
+	zh: "饽",
+	vi: "bột"
+}, {
+	zh: "岬",
+	vi: "giáp"
+}, {
+	zh: "疹",
+	vi: "chẩn"
+}, {
+	zh: "町",
+	vi: "đinh"
+}, {
+	zh: "溧",
+	vi: "lật"
+}, {
+	zh: "碳",
+	vi: "thán"
+}, {
+	zh: "庋",
+	vi: "kỹ"
+}, {
+	zh: "饣",
+	vi: "thực"
+}, {
+	zh: "哿",
+	vi: "cả"
+}, {
+	zh: "卬",
+	vi: "ngang"
+}, {
+	zh: "咻",
+	vi: "hưu"
+}, {
+	zh: "醍",
+	vi: "thể"
+}, {
+	zh: "醐",
+	vi: "hồ"
+}, {
+	zh: "缪",
+	vi: "mâu"
+}, {
+	zh: "亩",
+	vi: "mẫu"
+}, {
+	zh: "鲠",
+	vi: "ngạnh"
+}, {
+	zh: "厣",
+	vi: "áp"
+}, {
+	zh: "宕",
+	vi: "đãng"
+}, {
+	zh: "缛",
+	vi: "nhục"
+}, {
+	zh: "蘑",
+	vi: "ma"
+}, {
+	zh: "蹉",
+	vi: "tha"
+}, {
+	zh: "虢",
+	vi: "quắc"
+}, {
+	zh: "蕹",
+	vi: "ung"
+}, {
+	zh: "埂",
+	vi: "canh"
+}, {
+	zh: "缌",
+	vi: "ti"
+}, {
+	zh: "荩",
+	vi: "tẫn"
+}, {
+	zh: "粕",
+	vi: "phách"
+}, {
+	zh: "尋",
+	vi: "tầm"
+}, {
+	zh: "記",
+	vi: "ký"
+}, {
+	zh: "陰",
+	vi: "âm"
+}, {
+	zh: "漸",
+	vi: "tiệm"
+}, {
+	zh: "習",
+	vi: "tập"
+}, {
+	zh: "齡",
+	vi: "linh"
+}, {
+	zh: "讓",
+	vi: "nhượng"
+}, {
+	zh: "纏",
+	vi: "triền"
+}, {
+	zh: "傷",
+	vi: "thương"
+}, {
+	zh: "識",
+	vi: "thức"
+}, {
+	zh: "跡",
+	vi: "tích"
+}, {
+	zh: "斂",
+	vi: "liễm"
+}, {
+	zh: "媽",
+	vi: "mụ"
+}, {
+	zh: "憶",
+	vi: "ức"
+}, {
+	zh: "瞞",
+	vi: "man"
+}, {
+	zh: "憤",
+	vi: "phẫn"
+}, {
+	zh: "維",
+	vi: "duy"
+}, {
+	zh: "嚴",
+	vi: "nghiêm"
+}, {
+	zh: "頂",
+	vi: "đính"
+}, {
+	zh: "員",
+	vi: "viên"
+}, {
+	zh: "曉",
+	vi: "hiểu"
+}, {
+	zh: "問",
+	vi: "vấn"
+}, {
+	zh: "題",
+	vi: "đề"
+}, {
+	zh: "鎖",
+	vi: "tỏa"
+}, {
+	zh: "鄭",
+	vi: "trịnh"
+}, {
+	zh: "級",
+	vi: "cấp"
+}, {
+	zh: "電",
+	vi: "điện"
+}, {
+	zh: "話",
+	vi: "thoại"
+}, {
+	zh: "績",
+	vi: "tích"
+}, {
+	zh: "嗎",
+	vi: "mạ"
+}, {
+	zh: "撫",
+	vi: "phủ"
+}, {
+	zh: "絞",
+	vi: "giảo"
+}, {
+	zh: "訴",
+	vi: "tố"
+}, {
+	zh: "賤",
+	vi: "tiện"
+}, {
+	zh: "蹤",
+	vi: "tung"
+}, {
+	zh: "頓",
+	vi: "đốn"
+}, {
+	zh: "罵",
+	vi: "mạ"
+}, {
+	zh: "紅",
+	vi: "hồng"
+}, {
+	zh: "痘",
+	vi: "đậu"
+}, {
+	zh: "掃",
+	vi: "tảo"
+}, {
+	zh: "鯉",
+	vi: "lý"
+}, {
+	zh: "腳",
+	vi: "cước"
+}, {
+	zh: "軀",
+	vi: "khu"
+}, {
+	zh: "顫",
+	vi: "chiến"
+}, {
+	zh: "態",
+	vi: "thái"
+}, {
+	zh: "饒",
+	vi: "nhiêu"
+}, {
+	zh: "厲",
+	vi: "lệ"
+}, {
+	zh: "熱",
+	vi: "nhiệt"
+}, {
+	zh: "嘩",
+	vi: "hoa"
+}, {
+	zh: "蔭",
+	vi: "ấm"
+}, {
+	zh: "樹",
+	vi: "thụ"
+}, {
+	zh: "鳥",
+	vi: "điểu"
+}, {
+	zh: "歸",
+	vi: "quy"
+}, {
+	zh: "張",
+	vi: "trương"
+}, {
+	zh: "墅",
+	vi: "thự"
+}, {
+	zh: "婦",
+	vi: "phụ"
+}, {
+	zh: "紋",
+	vi: "văn"
+}, {
+	zh: "嬌",
+	vi: "kiều"
+}, {
+	zh: "歡",
+	vi: "hoan"
+}, {
+	zh: "試",
+	vi: "thí"
+}, {
+	zh: "寬",
+	vi: "khoan"
+}, {
+	zh: "圓",
+	vi: "viên"
+}, {
+	zh: "顴",
+	vi: "quyền"
+}, {
+	zh: "緣",
+	vi: "duyên"
+}, {
+	zh: "罷",
+	vi: "bãi"
+}, {
+	zh: "樓",
+	vi: "lâu"
+}, {
+	zh: "牆",
+	vi: "tường"
+}, {
+	zh: "側",
+	vi: "trắc"
+}, {
+	zh: "擺",
+	vi: "bãi"
+}, {
+	zh: "煙",
+	vi: "yên"
+}, {
+	zh: "裝",
+	vi: "trang"
+}, {
+	zh: "參",
+	vi: "tham"
+}, {
+	zh: "償",
+	vi: "thường"
+}, {
+	zh: "夾",
+	vi: "giáp"
+}, {
+	zh: "涼",
+	vi: "lương"
+}, {
+	zh: "緒",
+	vi: "tự"
+}, {
+	zh: "燒",
+	vi: "thiêu"
+}, {
+	zh: "遙",
+	vi: "diêu"
+}, {
+	zh: "瘋",
+	vi: "phong"
+}, {
+	zh: "顯",
+	vi: "hiển"
+}, {
+	zh: "穩",
+	vi: "ổn"
+}, {
+	zh: "艱",
+	vi: "gian"
+}, {
+	zh: "賽",
+	vi: "tái"
+}, {
+	zh: "執",
+	vi: "chấp"
+}, {
+	zh: "雜",
+	vi: "tạp"
+}, {
+	zh: "劇",
+	vi: "kịch"
+}, {
+	zh: "澀",
+	vi: "sáp"
+}, {
+	zh: "啞",
+	vi: "ách"
+}, {
+	zh: "腦",
+	vi: "não"
+}, {
+	zh: "麗",
+	vi: "lệ"
+}, {
+	zh: "畫",
+	vi: "họa"
+}, {
+	zh: "純",
+	vi: "thuần"
+}, {
+	zh: "馳",
+	vi: "trì"
+}, {
+	zh: "躍",
+	vi: "dược"
+}, {
+	zh: "淚",
+	vi: "lệ"
+}, {
+	zh: "攢",
+	vi: "toàn"
+}, {
+	zh: "響",
+	vi: "hưởng"
+}, {
+	zh: "擋",
+	vi: "đáng"
+}, {
+	zh: "襲",
+	vi: "tập"
+}, {
+	zh: "縮",
+	vi: "súc"
+}, {
+	zh: "鑽",
+	vi: "toản"
+}, {
+	zh: "熾",
+	vi: "sí"
+}, {
+	zh: "贊",
+	vi: "tán"
+}, {
+	zh: "審",
+	vi: "thẩm"
+}, {
+	zh: "蠻",
+	vi: "man"
+}, {
+	zh: "銳",
+	vi: "duệ"
+}, {
+	zh: "約",
+	vi: "ước"
+}, {
+	zh: "簽",
+	vi: "thiêm"
+}, {
+	zh: "續",
+	vi: "tục"
+}, {
+	zh: "詐",
+	vi: "trá"
+}, {
+	zh: "搶",
+	vi: "thưởng"
+}, {
+	zh: "艙",
+	vi: "thương"
+}, {
+	zh: "漲",
+	vi: "trướng"
+}, {
+	zh: "爐",
+	vi: "lô"
+}, {
+	zh: "鏡",
+	vi: "kính"
+}, {
+	zh: "辦",
+	vi: "bạn"
+}, {
+	zh: "攜",
+	vi: "huề"
+}, {
+	zh: "儀",
+	vi: "nghi"
+}, {
+	zh: "貼",
+	vi: "thiếp"
+}, {
+	zh: "請",
+	vi: "thỉnh"
+}, {
+	zh: "駭",
+	vi: "hãi"
+}, {
+	zh: "濺",
+	vi: "tiên"
+}, {
+	zh: "詫",
+	vi: "sá"
+}, {
+	zh: "濕",
+	vi: "thấp"
+}, {
+	zh: "狽",
+	vi: "bái"
+}, {
+	zh: "湊",
+	vi: "thấu"
+}, {
+	zh: "濁",
+	vi: "trọc"
+}, {
+	zh: "俠",
+	vi: "hiệp"
+}, {
+	zh: "窮",
+	vi: "cùng"
+}, {
+	zh: "賊",
+	vi: "tặc"
+}, {
+	zh: "綽",
+	vi: "xước"
+}, {
+	zh: "餓",
+	vi: "ngạ"
+}, {
+	zh: "賞",
+	vi: "thưởng"
+}, {
+	zh: "滾",
+	vi: "cổn"
+}, {
+	zh: "狀",
+	vi: "trạng"
+}, {
+	zh: "爾",
+	vi: "nhĩ"
+}, {
+	zh: "膽",
+	vi: "đảm"
+}, {
+	zh: "撥",
+	vi: "bát"
+}, {
+	zh: "單",
+	vi: "đan"
+}, {
+	zh: "挾",
+	vi: "hiệp"
+}, {
+	zh: "蝕",
+	vi: "thực"
+}, {
+	zh: "豈",
+	vi: "khởi"
+}, {
+	zh: "營",
+	vi: "doanh"
+}, {
+	zh: "厭",
+	vi: "yếm"
+}, {
+	zh: "閣",
+	vi: "các"
+}, {
+	zh: "綠",
+	vi: "lục"
+}, {
+	zh: "釵",
+	vi: "sai"
+}, {
+	zh: "編",
+	vi: "biên"
+}, {
+	zh: "辮",
+	vi: "biện"
+}, {
+	zh: "烏",
+	vi: "ô"
+}, {
+	zh: "懲",
+	vi: "trừng"
+}, {
+	zh: "責",
+	vi: "trách"
+}, {
+	zh: "夠",
+	vi: "cú"
+}, {
+	zh: "頰",
+	vi: "giáp"
+}, {
+	zh: "義",
+	vi: "nghĩa"
+}, {
+	zh: "敘",
+	vi: "tự"
+}, {
+	zh: "紀",
+	vi: "kỷ"
+}, {
+	zh: "攪",
+	vi: "giảo"
+}, {
+	zh: "簡",
+	vi: "giản"
+}, {
+	zh: "缽",
+	vi: "bát"
+}, {
+	zh: "館",
+	vi: "quán"
+}, {
+	zh: "貧",
+	vi: "bần"
+}, {
+	zh: "歎",
+	vi: "thán"
+}, {
+	zh: "諧",
+	vi: "hài"
+}, {
+	zh: "睜",
+	vi: "tĩnh"
+}, {
+	zh: "褲",
+	vi: "khố"
+}, {
+	zh: "纖",
+	vi: "tiêm"
+}, {
+	zh: "繳",
+	vi: "chước"
+}, {
+	zh: "飯",
+	vi: "phạn"
+}, {
+	zh: "鍋",
+	vi: "oa"
+}, {
+	zh: "摯",
+	vi: "chí"
+}, {
+	zh: "貪",
+	vi: "tham"
+}, {
+	zh: "擔",
+	vi: "đam"
+}, {
+	zh: "塊",
+	vi: "khối"
+}, {
+	zh: "澆",
+	vi: "kiêu"
+}, {
+	zh: "費",
+	vi: "phí"
+}, {
+	zh: "滲",
+	vi: "sấm"
+}, {
+	zh: "獻",
+	vi: "hiến"
+}, {
+	zh: "腸",
+	vi: "tràng"
+}, {
+	zh: "縣",
+	vi: "huyền"
+}, {
+	zh: "獲",
+	vi: "hoạch"
+}, {
+	zh: "澤",
+	vi: "trạch"
+}, {
+	zh: "鄉",
+	vi: "hương"
+}, {
+	zh: "賦",
+	vi: "phú"
+}, {
+	zh: "稅",
+	vi: "thuế"
+}, {
+	zh: "剎",
+	vi: "sát"
+}, {
+	zh: "煩",
+	vi: "phiền"
+}, {
+	zh: "購",
+	vi: "cấu"
+}, {
+	zh: "虧",
+	vi: "khuy"
+}, {
+	zh: "龜",
+	vi: "quy"
+}, {
+	zh: "騾",
+	vi: "loa"
+}, {
+	zh: "載",
+	vi: "tái"
+}, {
+	zh: "鏢",
+	vi: "phiêu"
+}, {
+	zh: "賈",
+	vi: "cổ"
+}, {
+	zh: "麥",
+	vi: "mạch"
+}, {
+	zh: "貨",
+	vi: "hóa"
+}, {
+	zh: "鶴",
+	vi: "hạc"
+}, {
+	zh: "窯",
+	vi: "diêu"
+}, {
+	zh: "闊",
+	vi: "khoát"
+}, {
+	zh: "農",
+	vi: "nông"
+}, {
+	zh: "買",
+	vi: "mãi"
+}, {
+	zh: "擠",
+	vi: "tễ"
+}, {
+	zh: "慶",
+	vi: "khánh"
+}, {
+	zh: "節",
+	vi: "tiết"
+}, {
+	zh: "趙",
+	vi: "triệu"
+}, {
+	zh: "違",
+	vi: "vi"
+}, {
+	zh: "劉",
+	vi: "lưu"
+}, {
+	zh: "釋",
+	vi: "thích"
+}, {
+	zh: "驅",
+	vi: "khu"
+}, {
+	zh: "飾",
+	vi: "sức"
+}, {
+	zh: "換",
+	vi: "hoán"
+}, {
+	zh: "詞",
+	vi: "từ"
+}, {
+	zh: "鏗",
+	vi: "khanh"
+}, {
+	zh: "攔",
+	vi: "lan"
+}, {
+	zh: "倀",
+	vi: "trành"
+}, {
+	zh: "頑",
+	vi: "ngoan"
+}, {
+	zh: "獸",
+	vi: "thú"
+}, {
+	zh: "誅",
+	vi: "tru"
+}, {
+	zh: "脅",
+	vi: "hiếp"
+}, {
+	zh: "瑩",
+	vi: "oánh"
+}, {
+	zh: "礙",
+	vi: "ngại"
+}, {
+	zh: "錯",
+	vi: "thác"
+}, {
+	zh: "賠",
+	vi: "bồi"
+}, {
+	zh: "賴",
+	vi: "lại"
+}, {
+	zh: "貝",
+	vi: "bối"
+}, {
+	zh: "掙",
+	vi: "tránh"
+}, {
+	zh: "悶",
+	vi: "muộn"
+}, {
+	zh: "閨",
+	vi: "khuê"
+}, {
+	zh: "顆",
+	vi: "khỏa"
+}, {
+	zh: "廂",
+	vi: "sương"
+}, {
+	zh: "詳",
+	vi: "tường"
+}, {
+	zh: "惱",
+	vi: "não"
+}, {
+	zh: "鳳",
+	vi: "phượng"
+}, {
+	zh: "鴛",
+	vi: "uyên"
+}, {
+	zh: "潤",
+	vi: "nhuận"
+}, {
+	zh: "豎",
+	vi: "thụ"
+}, {
+	zh: "籌",
+	vi: "trù"
+}, {
+	zh: "燙",
+	vi: "nãng"
+}, {
+	zh: "遲",
+	vi: "trì"
+}, {
+	zh: "尷",
+	vi: "giam"
+}, {
+	zh: "齒",
+	vi: "xỉ"
+}, {
+	zh: "摟",
+	vi: "lâu"
+}, {
+	zh: "龐",
+	vi: "bàng"
+}, {
+	zh: "銷",
+	vi: "tiêu"
+}, {
+	zh: "藥",
+	vi: "dược"
+}, {
+	zh: "嚶",
+	vi: "anh"
+}, {
+	zh: "嚀",
+	vi: "ninh"
+}, {
+	zh: "脹",
+	vi: "trướng"
+}, {
+	zh: "噴",
+	vi: "phún"
+}, {
+	zh: "聳",
+	vi: "tủng"
+}, {
+	zh: "闖",
+	vi: "sấm"
+}, {
+	zh: "撓",
+	vi: "nạo"
+}, {
+	zh: "竊",
+	vi: "thiết"
+}, {
+	zh: "嘍",
+	vi: "lâu"
+}, {
+	zh: "調",
+	vi: "điều"
+}, {
+	zh: "姍",
+	vi: "san"
+}, {
+	zh: "艷",
+	vi: "diễm"
+}, {
+	zh: "圖",
+	vi: "đồ"
+}, {
+	zh: "淨",
+	vi: "tịnh"
+}, {
+	zh: "謀",
+	vi: "mưu"
+}, {
+	zh: "層",
+	vi: "tằng"
+}, {
+	zh: "霧",
+	vi: "vụ"
+}, {
+	zh: "墜",
+	vi: "trụy"
+}, {
+	zh: "絹",
+	vi: "quyên"
+}, {
+	zh: "緝",
+	vi: "tập"
+}, {
+	zh: "階",
+	vi: "giai"
+}, {
+	zh: "徭",
+	vi: "dao"
+}, {
+	zh: "罰",
+	vi: "phạt"
+}, {
+	zh: "訂",
+	vi: "đính"
+}, {
+	zh: "針",
+	vi: "châm"
+}, {
+	zh: "猶",
+	vi: "do"
+}, {
+	zh: "賀",
+	vi: "hạ"
+}, {
+	zh: "韓",
+	vi: "hàn"
+}, {
+	zh: "諷",
+	vi: "phúng"
+}, {
+	zh: "豬",
+	vi: "trư"
+}, {
+	zh: "謙",
+	vi: "khiêm"
+}, {
+	zh: "資",
+	vi: "tư"
+}, {
+	zh: "譏",
+	vi: "ki"
+}, {
+	zh: "紹",
+	vi: "thiệu"
+}, {
+	zh: "倉",
+	vi: "thương"
+}, {
+	zh: "馮",
+	vi: "phùng"
+}, {
+	zh: "陳",
+	vi: "trần"
+}, {
+	zh: "茲",
+	vi: "tư"
+}, {
+	zh: "礎",
+	vi: "sở"
+}, {
+	zh: "榮",
+	vi: "vinh"
+}, {
+	zh: "積",
+	vi: "tích"
+}, {
+	zh: "竅",
+	vi: "khiếu"
+}, {
+	zh: "丟",
+	vi: "đâu"
+}, {
+	zh: "擲",
+	vi: "trịch"
+}, {
+	zh: "釘",
+	vi: "đinh"
+}, {
+	zh: "慮",
+	vi: "lự"
+}, {
+	zh: "飼",
+	vi: "tự"
+}, {
+	zh: "嘰",
+	vi: "kỷ"
+}, {
+	zh: "幣",
+	vi: "tệ"
+}, {
+	zh: "贏",
+	vi: "doanh"
+}, {
+	zh: "訝",
+	vi: "nhạ"
+}, {
+	zh: "藝",
+	vi: "nghệ"
+}, {
+	zh: "詩",
+	vi: "thi"
+}, {
+	zh: "盜",
+	vi: "đạo"
+}, {
+	zh: "詭",
+	vi: "quỷ"
+}, {
+	zh: "倜",
+	vi: "thích"
+}, {
+	zh: "儻",
+	vi: "thảng"
+}, {
+	zh: "徹",
+	vi: "triệt"
+}, {
+	zh: "帳",
+	vi: "trướng"
+}, {
+	zh: "驟",
+	vi: "sậu"
+}, {
+	zh: "倫",
+	vi: "luân"
+}, {
+	zh: "詢",
+	vi: "tuân"
+}, {
+	zh: "魯",
+	vi: "lỗ"
+}, {
+	zh: "駑",
+	vi: "nô"
+}, {
+	zh: "諒",
+	vi: "lượng"
+}, {
+	zh: "狹",
+	vi: "hiệp"
+}, {
+	zh: "燈",
+	vi: "đăng"
+}, {
+	zh: "飲",
+	vi: "ẩm"
+}, {
+	zh: "嶇",
+	vi: "khu"
+}, {
+	zh: "盤",
+	vi: "bàn"
+}, {
+	zh: "檢",
+	vi: "kiểm"
+}, {
+	zh: "絡",
+	vi: "lạc"
+}, {
+	zh: "錠",
+	vi: "đĩnh"
+}, {
+	zh: "銀",
+	vi: "ngân"
+}, {
+	zh: "騁",
+	vi: "sính"
+}, {
+	zh: "暈",
+	vi: "vựng"
+}, {
+	zh: "爛",
+	vi: "lạn"
+}, {
+	zh: "競",
+	vi: "cạnh"
+}, {
+	zh: "刨",
+	vi: "bào"
+}, {
+	zh: "減",
+	vi: "giảm"
+}, {
+	zh: "藹",
+	vi: "ái"
+}, {
+	zh: "綜",
+	vi: "tống"
+}, {
+	zh: "斬",
+	vi: "trảm"
+}, {
+	zh: "鄧",
+	vi: "đặng"
+}, {
+	zh: "磚",
+	vi: "chuyên"
+}, {
+	zh: "呦",
+	vi: "u"
+}, {
+	zh: "韌",
+	vi: "nhận"
+}, {
+	zh: "惻",
+	vi: "trắc"
+}, {
+	zh: "輸",
+	vi: "thâu"
+}, {
+	zh: "梟",
+	vi: "kiêu"
+}, {
+	zh: "讒",
+	vi: "sàm"
+}, {
+	zh: "鄲",
+	vi: "đan"
+}, {
+	zh: "楊",
+	vi: "dương"
+}, {
+	zh: "較",
+	vi: "giác"
+}, {
+	zh: "賜",
+	vi: "tứ"
+}, {
+	zh: "鷹",
+	vi: "ưng"
+}, {
+	zh: "誤",
+	vi: "ngộ"
+}, {
+	zh: "搗",
+	vi: "đảo"
+}, {
+	zh: "涓",
+	vi: "quyên"
+}, {
+	zh: "瑣",
+	vi: "tỏa"
+}, {
+	zh: "鐘",
+	vi: "chung"
+}, {
+	zh: "葉",
+	vi: "diệp"
+}, {
+	zh: "創",
+	vi: "sang"
+}, {
+	zh: "餒",
+	vi: "nỗi"
+}, {
+	zh: "糞",
+	vi: "phẩn"
+}, {
+	zh: "髒",
+	vi: "tảng"
+}, {
+	zh: "獵",
+	vi: "liệp"
+}, {
+	zh: "飽",
+	vi: "bão"
+}, {
+	zh: "洶",
+	vi: "hung"
+}, {
+	zh: "詣",
+	vi: "nghệ"
+}, {
+	zh: "奧",
+	vi: "áo"
+}, {
+	zh: "濤",
+	vi: "đào"
+}, {
+	zh: "嘯",
+	vi: "khiếu"
+}, {
+	zh: "畢",
+	vi: "tất"
+}, {
+	zh: "祿",
+	vi: "lộc"
+}, {
+	zh: "嘮",
+	vi: "lao"
+}, {
+	zh: "戲",
+	vi: "hí"
+}, {
+	zh: "誠",
+	vi: "thành"
+}, {
+	zh: "欽",
+	vi: "khâm"
+}, {
+	zh: "贈",
+	vi: "tặng"
+}, {
+	zh: "辭",
+	vi: "từ"
+}, {
+	zh: "撐",
+	vi: "xanh"
+}, {
+	zh: "櫻",
+	vi: "anh"
+}, {
+	zh: "彎",
+	vi: "loan"
+}, {
+	zh: "貞",
+	vi: "trinh"
+}, {
+	zh: "鑲",
+	vi: "tương"
+}, {
+	zh: "寵",
+	vi: "sủng"
+}, {
+	zh: "驀",
+	vi: "mạch"
+}, {
+	zh: "鐺",
+	vi: "đang"
+}, {
+	zh: "攝",
+	vi: "nhiếp"
+}, {
+	zh: "頻",
+	vi: "tần"
+}, {
+	zh: "蟬",
+	vi: "thiền"
+}, {
+	zh: "講",
+	vi: "giảng"
+}, {
+	zh: "嘗",
+	vi: "thường"
+}, {
+	zh: "倆",
+	vi: "lưỡng"
+}, {
+	zh: "繃",
+	vi: "banh"
+}, {
+	zh: "賭",
+	vi: "đổ"
+}, {
+	zh: "娛",
+	vi: "ngu"
+}, {
+	zh: "討",
+	vi: "thảo"
+}, {
+	zh: "鄰",
+	vi: "lân"
+}, {
+	zh: "馴",
+	vi: "tuần"
+}, {
+	zh: "訪",
+	vi: "phóng"
+}, {
+	zh: "騙",
+	vi: "phiến"
+}, {
+	zh: "椒",
+	vi: "tiêu"
+}, {
+	zh: "蘆",
+	vi: "lô"
+}, {
+	zh: "諛",
+	vi: "du"
+}, {
+	zh: "凜",
+	vi: "lẫm"
+}, {
+	zh: "縷",
+	vi: "lũ"
+}, {
+	zh: "囈",
+	vi: "nghệ"
+}, {
+	zh: "淵",
+	vi: "uyên"
+}, {
+	zh: "戀",
+	vi: "luyến"
+}, {
+	zh: "潛",
+	vi: "tiềm"
+}, {
+	zh: "徑",
+	vi: "kính"
+}, {
+	zh: "謊",
+	vi: "hoang"
+}, {
+	zh: "劑",
+	vi: "tề"
+}, {
+	zh: "峽",
+	vi: "hạp"
+}, {
+	zh: "諫",
+	vi: "gián"
+}, {
+	zh: "邏",
+	vi: "la"
+}, {
+	zh: "蕭",
+	vi: "tiêu"
+}, {
+	zh: "勵",
+	vi: "lệ"
+}, {
+	zh: "楷",
+	vi: "giai"
+}, {
+	zh: "獎",
+	vi: "tưởng"
+}, {
+	zh: "棟",
+	vi: "đống"
+}, {
+	zh: "攤",
+	vi: "than"
+}, {
+	zh: "騰",
+	vi: "đằng"
+}, {
+	zh: "氳",
+	vi: "uân"
+}, {
+	zh: "朧",
+	vi: "lông"
+}, {
+	zh: "糾",
+	vi: "củ"
+}, {
+	zh: "協",
+	vi: "hiệp"
+}, {
+	zh: "駁",
+	vi: "bác"
+}, {
+	zh: "糧",
+	vi: "lương"
+}, {
+	zh: "鎧",
+	vi: "khải"
+}, {
+	zh: "讀",
+	vi: "độc"
+}, {
+	zh: "蟻",
+	vi: "nghĩ"
+}, {
+	zh: "愴",
+	vi: "sảng"
+}, {
+	zh: "懸",
+	vi: "huyền"
+}, {
+	zh: "犧",
+	vi: "hi"
+}, {
+	zh: "勸",
+	vi: "khuyến"
+}, {
+	zh: "拋",
+	vi: "phao"
+}, {
+	zh: "錐",
+	vi: "trùy"
+}, {
+	zh: "妝",
+	vi: "trang"
+}, {
+	zh: "遞",
+	vi: "đệ"
+}, {
+	zh: "頸",
+	vi: "cảnh"
+}, {
+	zh: "瀉",
+	vi: "tả"
+}, {
+	zh: "痣",
+	vi: "chí"
+}, {
+	zh: "懶",
+	vi: "lãn"
+}, {
+	zh: "煉",
+	vi: "luyện"
+}, {
+	zh: "膩",
+	vi: "nị"
+}, {
+	zh: "嚨",
+	vi: "lung"
+}, {
+	zh: "藍",
+	vi: "lam"
+}, {
+	zh: "叢",
+	vi: "tùng"
+}, {
+	zh: "羈",
+	vi: "ki"
+}, {
+	zh: "謹",
+	vi: "cẩn"
+}, {
+	zh: "樊",
+	vi: "phiền"
+}, {
+	zh: "噲",
+	vi: "khoái"
+}, {
+	zh: "嬰",
+	vi: "anh"
+}, {
+	zh: "庫",
+	vi: "khố"
+}, {
+	zh: "媼",
+	vi: "ảo"
+}, {
+	zh: "壺",
+	vi: "hồ"
+}, {
+	zh: "戶",
+	vi: "hộ"
+}, {
+	zh: "雉",
+	vi: "trĩ"
+}, {
+	zh: "悵",
+	vi: "trướng"
+}, {
+	zh: "繹",
+	vi: "dịch"
+}, {
+	zh: "賓",
+	vi: "tân"
+}, {
+	zh: "盞",
+	vi: "trản"
+}, {
+	zh: "鑠",
+	vi: "thước"
+}, {
+	zh: "納",
+	vi: "nạp"
+}, {
+	zh: "蓮",
+	vi: "liên"
+}, {
+	zh: "獷",
+	vi: "quánh"
+}, {
+	zh: "刪",
+	vi: "san"
+}, {
+	zh: "囂",
+	vi: "hiêu"
+}, {
+	zh: "殲",
+	vi: "tiêm"
+}, {
+	zh: "慚",
+	vi: "tàm"
+}, {
+	zh: "彌",
+	vi: "di"
+}, {
+	zh: "軌",
+	vi: "quỹ"
+}, {
+	zh: "鈞",
+	vi: "quân"
+}, {
+	zh: "膿",
+	vi: "nùng"
+}, {
+	zh: "廟",
+	vi: "miếu"
+}, {
+	zh: "歐",
+	vi: "âu"
+}, {
+	zh: "吶",
+	vi: "nột"
+}, {
+	zh: "誼",
+	vi: "nghị"
+}, {
+	zh: "滄",
+	vi: "thương"
+}, {
+	zh: "檻",
+	vi: "hạm"
+}, {
+	zh: "棧",
+	vi: "sạn"
+}, {
+	zh: "潑",
+	vi: "bát"
+}, {
+	zh: "宦",
+	vi: "hoạn"
+}, {
+	zh: "紙",
+	vi: "chỉ"
+}, {
+	zh: "瘩",
+	vi: "đáp"
+}, {
+	zh: "縛",
+	vi: "phược"
+}, {
+	zh: "綻",
+	vi: "trán"
+}, {
+	zh: "曠",
+	vi: "khoáng"
+}, {
+	zh: "誡",
+	vi: "giới"
+}, {
+	zh: "滯",
+	vi: "trệ"
+}, {
+	zh: "渙",
+	vi: "hoán"
+}, {
+	zh: "斃",
+	vi: "tễ"
+}, {
+	zh: "竄",
+	vi: "thoán"
+}, {
+	zh: "鯊",
+	vi: "sa"
+}, {
+	zh: "攏",
+	vi: "long"
+}, {
+	zh: "島",
+	vi: "đảo"
+}, {
+	zh: "鉤",
+	vi: "câu"
+}, {
+	zh: "蹺",
+	vi: "khiêu"
+}, {
+	zh: "蝟",
+	vi: "vị"
+}, {
+	zh: "擴",
+	vi: "khoách"
+}, {
+	zh: "啟",
+	vi: "khải"
+}, {
+	zh: "漬",
+	vi: "tí"
+}, {
+	zh: "諱",
+	vi: "húy"
+}, {
+	zh: "鴉",
+	vi: "nha"
+}, {
+	zh: "廁",
+	vi: "xí"
+}, {
+	zh: "艦",
+	vi: "hạm"
+}, {
+	zh: "詛",
+	vi: "trớ"
+}, {
+	zh: "翹",
+	vi: "kiều"
+}, {
+	zh: "繩",
+	vi: "thằng"
+}, {
+	zh: "嚏",
+	vi: "đế"
+}, {
+	zh: "樁",
+	vi: "thung"
+}, {
+	zh: "蘭",
+	vi: "lan"
+}, {
+	zh: "慍",
+	vi: "uấn"
+}, {
+	zh: "幀",
+	vi: "tránh"
+}, {
+	zh: "凱",
+	vi: "khải"
+}, {
+	zh: "蹣",
+	vi: "bàn"
+}, {
+	zh: "跚",
+	vi: "san"
+}, {
+	zh: "漁",
+	vi: "ngư"
+}, {
+	zh: "鞏",
+	vi: "củng"
+}, {
+	zh: "憊",
+	vi: "bại"
+}, {
+	zh: "巒",
+	vi: "loan"
+}, {
+	zh: "咨",
+	vi: "tư"
+}, {
+	zh: "啤",
+	vi: "ti"
+}, {
+	zh: "揀",
+	vi: "giản"
+}, {
+	zh: "蝸",
+	vi: "oa"
+}, {
+	zh: "癱",
+	vi: "than"
+}, {
+	zh: "縈",
+	vi: "oanh"
+}, {
+	zh: "暉",
+	vi: "huy"
+}, {
+	zh: "疊",
+	vi: "điệp"
+}, {
+	zh: "裊",
+	vi: "niểu"
+}, {
+	zh: "臥",
+	vi: "ngọa"
+}, {
+	zh: "渦",
+	vi: "qua"
+}, {
+	zh: "綴",
+	vi: "chuế"
+}, {
+	zh: "瓏",
+	vi: "lung"
+}, {
+	zh: "鑿",
+	vi: "tạc"
+}, {
+	zh: "囑",
+	vi: "chúc"
+}, {
+	zh: "蘇",
+	vi: "tô"
+}, {
+	zh: "溝",
+	vi: "câu"
+}, {
+	zh: "礡",
+	vi: "bạc"
+}, {
+	zh: "欄",
+	vi: "lan"
+}, {
+	zh: "襯",
+	vi: "sấn"
+}, {
+	zh: "邁",
+	vi: "mại"
+}, {
+	zh: "猙",
+	vi: "tranh"
+}, {
+	zh: "獰",
+	vi: "nanh"
+}, {
+	zh: "鋸",
+	vi: "cứ"
+}, {
+	zh: "鶯",
+	vi: "oanh"
+}, {
+	zh: "鉛",
+	vi: "duyên"
+}, {
+	zh: "閱",
+	vi: "duyệt"
+}, {
+	zh: "輯",
+	vi: "tập"
+}, {
+	zh: "恥",
+	vi: "sỉ"
+}, {
+	zh: "瞼",
+	vi: "kiểm"
+}, {
+	zh: "綁",
+	vi: "bảng"
+}, {
+	zh: "紗",
+	vi: "sa"
+}, {
+	zh: "醫",
+	vi: "y"
+}, {
+	zh: "繡",
+	vi: "tú"
+}, {
+	zh: "織",
+	vi: "chức"
+}, {
+	zh: "韋",
+	vi: "vi"
+}, {
+	zh: "眥",
+	vi: "tí"
+}, {
+	zh: "燭",
+	vi: "chúc"
+}, {
+	zh: "墳",
+	vi: "phần"
+}, {
+	zh: "閡",
+	vi: "ngại"
+}, {
+	zh: "絆",
+	vi: "bán"
+}, {
+	zh: "摻",
+	vi: "sam"
+}, {
+	zh: "禱",
+	vi: "đảo"
+}, {
+	zh: "繽",
+	vi: "tân"
+}, {
+	zh: "鹽",
+	vi: "diêm"
+}, {
+	zh: "礦",
+	vi: "quáng"
+}, {
+	zh: "茸",
+	vi: "nhung"
+}, {
+	zh: "廝",
+	vi: "tư"
+}, {
+	zh: "隸",
+	vi: "lệ"
+}, {
+	zh: "錦",
+	vi: "cẩm"
+}, {
+	zh: "掇",
+	vi: "xuyết"
+}, {
+	zh: "膠",
+	vi: "giao"
+}, {
+	zh: "澗",
+	vi: "giản"
+}, {
+	zh: "嗚",
+	vi: "ô"
+}, {
+	zh: "颼",
+	vi: "sưu"
+}, {
+	zh: "鏈",
+	vi: "liên"
+}, {
+	zh: "驪",
+	vi: "ly"
+}, {
+	zh: "喲",
+	vi: "yêu"
+}, {
+	zh: "壇",
+	vi: "đàn"
+}, {
+	zh: "湯",
+	vi: "thang"
+}, {
+	zh: "碭",
+	vi: "đãng"
+}, {
+	zh: "熒",
+	vi: "huỳnh"
+}, {
+	zh: "崢",
+	vi: "tranh"
+}, {
+	zh: "嶸",
+	vi: "vanh"
+}, {
+	zh: "瀝",
+	vi: "lịch"
+}, {
+	zh: "嘖",
+	vi: "sách"
+}, {
+	zh: "懇",
+	vi: "khẩn"
+}, {
+	zh: "嬈",
+	vi: "nhiêu"
+}, {
+	zh: "閻",
+	vi: "diêm"
+}, {
+	zh: "偵",
+	vi: "trinh"
+}, {
+	zh: "纔",
+	vi: "tài"
+}, {
+	zh: "諦",
+	vi: "đế"
+}, {
+	zh: "聰",
+	vi: "thông"
+}, {
+	zh: "貓",
+	vi: "miêu"
+}, {
+	zh: "蠅",
+	vi: "dăng"
+}, {
+	zh: "鑒",
+	vi: "giám"
+}, {
+	zh: "窺",
+	vi: "khuy"
+}, {
+	zh: "齜",
+	vi: "thử"
+}, {
+	zh: "碼",
+	vi: "mã"
+}, {
+	zh: "銘",
+	vi: "minh"
+}, {
+	zh: "汕",
+	vi: "sán"
+}, {
+	zh: "評",
+	vi: "bình"
+}, {
+	zh: "儋",
+	vi: "đam"
+}, {
+	zh: "轍",
+	vi: "triệt"
+}, {
+	zh: "韜",
+	vi: "thao"
+}, {
+	zh: "蠱",
+	vi: "cổ"
+}, {
+	zh: "覓",
+	vi: "mịch"
+}, {
+	zh: "鍛",
+	vi: "đoán"
+}, {
+	zh: "躡",
+	vi: "niếp"
+}, {
+	zh: "擻",
+	vi: "tẩu"
+}, {
+	zh: "晝",
+	vi: "trú"
+}, {
+	zh: "虜",
+	vi: "lỗ"
+}, {
+	zh: "鈍",
+	vi: "độn"
+}, {
+	zh: "螞",
+	vi: "mã"
+}, {
+	zh: "剮",
+	vi: "quả"
+}, {
+	zh: "綸",
+	vi: "luân"
+}, {
+	zh: "鴦",
+	vi: "ương"
+}, {
+	zh: "騷",
+	vi: "tao"
+}, {
+	zh: "擬",
+	vi: "nghĩ"
+}, {
+	zh: "雛",
+	vi: "sồ"
+}, {
+	zh: "軒",
+	vi: "hiên"
+}, {
+	zh: "繪",
+	vi: "hội"
+}, {
+	zh: "狎",
+	vi: "hiệp"
+}, {
+	zh: "嬋",
+	vi: "thiền"
+}, {
+	zh: "綺",
+	vi: "khỉ"
+}, {
+	zh: "慫",
+	vi: "túng"
+}, {
+	zh: "噥",
+	vi: "nông"
+}, {
+	zh: "呿",
+	vi: "khư"
+}, {
+	zh: "噓",
+	vi: "hư"
+}, {
+	zh: "辯",
+	vi: "biện"
+}, {
+	zh: "愜",
+	vi: "khiếp"
+}, {
+	zh: "遼",
+	vi: "liêu"
+}, {
+	zh: "牘",
+	vi: "độc"
+}, {
+	zh: "課",
+	vi: "khóa"
+}, {
+	zh: "鄒",
+	vi: "trâu"
+}, {
+	zh: "締",
+	vi: "đế"
+}, {
+	zh: "賂",
+	vi: "lộ"
+}, {
+	zh: "醞",
+	vi: "uấn"
+}, {
+	zh: "釀",
+	vi: "nhưỡng"
+}, {
+	zh: "儼",
+	vi: "nghiễm"
+}, {
+	zh: "鐶",
+	vi: "hoàn"
+}, {
+	zh: "鑰",
+	vi: "thược"
+}, {
+	zh: "銬",
+	vi: "khảo"
+}, {
+	zh: "韻",
+	vi: "vận"
+}, {
+	zh: "犁",
+	vi: "lê"
+}, {
+	zh: "儲",
+	vi: "trữ"
+}, {
+	zh: "債",
+	vi: "trái"
+}, {
+	zh: "駒",
+	vi: "câu"
+}, {
+	zh: "擰",
+	vi: "ninh"
+}, {
+	zh: "闔",
+	vi: "hạp"
+}, {
+	zh: "蹌",
+	vi: "thương"
+}, {
+	zh: "嗨",
+	vi: "hải"
+}, {
+	zh: "荳",
+	vi: "đậu"
+}, {
+	zh: "醆",
+	vi: "trản"
+}, {
+	zh: "嶙",
+	vi: "lân"
+}, {
+	zh: "峋",
+	vi: "tuân"
+}, {
+	zh: "喬",
+	vi: "kiều"
+}, {
+	zh: "贖",
+	vi: "thục"
+}, {
+	zh: "諾",
+	vi: "nặc"
+}, {
+	zh: "憫",
+	vi: "mẫn"
+}, {
+	zh: "熳",
+	vi: "mạn"
+}, {
+	zh: "貢",
+	vi: "cống"
+}, {
+	zh: "頒",
+	vi: "ban"
+}, {
+	zh: "駕",
+	vi: "giá"
+}, {
+	zh: "諳",
+	vi: "am"
+}, {
+	zh: "輛",
+	vi: "lượng"
+}, {
+	zh: "襤",
+	vi: "lam"
+}, {
+	zh: "褸",
+	vi: "lũ"
+}, {
+	zh: "譜",
+	vi: "phổ"
+}, {
+	zh: "冊",
+	vi: "sách"
+}, {
+	zh: "竇",
+	vi: "đậu"
+}, {
+	zh: "浬",
+	vi: "lý"
+}, {
+	zh: "騅",
+	vi: "chuy"
+}, {
+	zh: "簣",
+	vi: "quỹ"
+}, {
+	zh: "馭",
+	vi: "ngự"
+}, {
+	zh: "冗",
+	vi: "nhũng"
+}, {
+	zh: "剝",
+	vi: "bác"
+}, {
+	zh: "誕",
+	vi: "đản"
+}, {
+	zh: "隕",
+	vi: "vẫn"
+}, {
+	zh: "韁",
+	vi: "cương"
+}, {
+	zh: "筍",
+	vi: "duẩn"
+}, {
+	zh: "縹",
+	vi: "phiếu"
+}, {
+	zh: "緲",
+	vi: "miểu"
+}, {
+	zh: "鱗",
+	vi: "lân"
+}, {
+	zh: "頃",
+	vi: "khoảnh"
+}, {
+	zh: "駱",
+	vi: "lạc"
+}, {
+	zh: "蹋",
+	vi: "đạp"
+}, {
+	zh: "億",
+	vi: "ức"
+}, {
+	zh: "駝",
+	vi: "đà"
+}, {
+	zh: "駿",
+	vi: "tuấn"
+}, {
+	zh: "紉",
+	vi: "nhân"
+}, {
+	zh: "鸚",
+	vi: "anh"
+}, {
+	zh: "鵡",
+	vi: "vũ"
+}, {
+	zh: "銜",
+	vi: "hàm"
+}, {
+	zh: "鵲",
+	vi: "thước"
+}, {
+	zh: "殼",
+	vi: "xác"
+}, {
+	zh: "譚",
+	vi: "đàm"
+}, {
+	zh: "駛",
+	vi: "sử"
+}, {
+	zh: "駟",
+	vi: "tứ"
+}, {
+	zh: "鴨",
+	vi: "áp"
+}, {
+	zh: "籃",
+	vi: "lam"
+}, {
+	zh: "撈",
+	vi: "lao"
+}, {
+	zh: "泌",
+	vi: "bí"
+}, {
+	zh: "吨",
+	vi: "đốn"
+}, {
+	zh: "鏟",
+	vi: "sạn"
+}, {
+	zh: "葷",
+	vi: "huân"
+}, {
+	zh: "靦",
+	vi: "điến"
+}, {
+	zh: "閏",
+	vi: "nhuận"
+}, {
+	zh: "薩",
+	vi: "tát"
+}, {
+	zh: "檔",
+	vi: "đương"
+}, {
+	zh: "嘔",
+	vi: "ẩu"
+}, {
+	zh: "掂",
+	vi: "điêm"
+}, {
+	zh: "禿",
+	vi: "ngốc"
+}, {
+	zh: "凍",
+	vi: "đống"
+}, {
+	zh: "擱",
+	vi: "các"
+}, {
+	zh: "縊",
+	vi: "ải"
+}, {
+	zh: "賁",
+	vi: "bí"
+}, {
+	zh: "擄",
+	vi: "lỗ"
+}, {
+	zh: "誨",
+	vi: "hối"
+}, {
+	zh: "綏",
+	vi: "tuy"
+}, {
+	zh: "診",
+	vi: "chẩn"
+}, {
+	zh: "瑤",
+	vi: "dao"
+}, {
+	zh: "隴",
+	vi: "lũng"
+}, {
+	zh: "腎",
+	vi: "thận"
+}, {
+	zh: "憚",
+	vi: "đạn"
+}, {
+	zh: "鯨",
+	vi: "kình"
+}, {
+	zh: "渣",
+	vi: "tra"
+}, {
+	zh: "漿",
+	vi: "tương"
+}, {
+	zh: "瀕",
+	vi: "tần"
+}, {
+	zh: "晾",
+	vi: "lượng"
+}, {
+	zh: "拎",
+	vi: "linh"
+}, {
+	zh: "痙",
+	vi: "kinh"
+}, {
+	zh: "攣",
+	vi: "luyên"
+}, {
+	zh: "禪",
+	vi: "thiện"
+}, {
+	zh: "堯",
+	vi: "nghiêu"
+}, {
+	zh: "鴻",
+	vi: "hồng"
+}, {
+	zh: "靂",
+	vi: "lịch"
+}, {
+	zh: "錘",
+	vi: "chuy"
+}, {
+	zh: "犢",
+	vi: "độc"
+}, {
+	zh: "訣",
+	vi: "quyết"
+}, {
+	zh: "躪",
+	vi: "lận"
+}, {
+	zh: "愾",
+	vi: "hi"
+}, {
+	zh: "纓",
+	vi: "anh"
+}, {
+	zh: "軸",
+	vi: "trục"
+}, {
+	zh: "煥",
+	vi: "hoán"
+}, {
+	zh: "酈",
+	vi: "ly"
+}, {
+	zh: "噎",
+	vi: "ế"
+}, {
+	zh: "翰",
+	vi: "hàn"
+}, {
+	zh: "貽",
+	vi: "di"
+}, {
+	zh: "嶼",
+	vi: "tự"
+}, {
+	zh: "繚",
+	vi: "liễu"
+}, {
+	zh: "緋",
+	vi: "phi"
+}, {
+	zh: "貯",
+	vi: "trữ"
+}, {
+	zh: "匯",
+	vi: "hối"
+}, {
+	zh: "緯",
+	vi: "vĩ"
+}, {
+	zh: "槳",
+	vi: "tưởng"
+}, {
+	zh: "慥",
+	vi: "tháo"
+}, {
+	zh: "敭",
+	vi: "dương"
+}, {
+	zh: "慴",
+	vi: "triệp"
+}, {
+	zh: "瑴",
+	vi: "giác"
+}, {
+	zh: "圾",
+	vi: "ngập"
+}, {
+	zh: "浥",
+	vi: "ấp"
+}, {
+	zh: "牦",
+	vi: "ly"
+}, {
+	zh: "浡",
+	vi: "bột"
+}, {
+	zh: "潢",
+	vi: "hoàng"
+}, {
+	zh: "灳",
+	vi: "linh"
+}, {
+	zh: "湩",
+	vi: "chúng"
+}, {
+	zh: "潴",
+	vi: "trư"
+}, {
+	zh: "桴",
+	vi: "phù"
+}, {
+	zh: "桮",
+	vi: "bôi"
+}, {
+	zh: "楥",
+	vi: "huyên"
+}, {
+	zh: "楳",
+	vi: "kỳ"
+}, {
+	zh: "敺",
+	vi: "khu"
+}, {
+	zh: "楂",
+	vi: "tra"
+}, {
+	zh: "畨",
+	vi: "phiên"
+}, {
+	zh: "汩",
+	vi: "cốt"
+}, {
+	zh: "愠",
+	vi: "uấn"
+}, {
+	zh: "猷",
+	vi: "du"
+}, {
+	zh: "垃",
+	vi: "lạp"
+}, {
+	zh: "啡",
+	vi: "phê"
+}, {
+	zh: "噘",
+	vi: "quyết"
+}, {
+	zh: "靓",
+	vi: "tịnh"
+}, {
+	zh: "痉",
+	vi: "kinh"
+}, {
+	zh: "壬",
+	vi: "nhâm"
+}, {
+	zh: "妲",
+	vi: "đát"
+}, {
+	zh: "钞",
+	vi: "sao"
+}, {
+	zh: "甥",
+	vi: "sanh"
+}, {
+	zh: "欷",
+	vi: "hi"
+}, {
+	zh: "熹",
+	vi: "hi"
+}, {
+	zh: "皈",
+	vi: "quy"
+}, {
+	zh: "喁",
+	vi: "ngung"
+}, {
+	zh: "雎",
+	vi: "thư"
+}, {
+	zh: "颚",
+	vi: "ngạc"
+}, {
+	zh: "猱",
+	vi: "nhu"
+}, {
+	zh: "掴",
+	vi: "quặc"
+}, {
+	zh: "掼",
+	vi: "quán"
+}, {
+	zh: "倭",
+	vi: "uy"
+}, {
+	zh: "蔬",
+	vi: "sơ"
+}, {
+	zh: "昉",
+	vi: "phưởng"
+}, {
+	zh: "黩",
+	vi: "độc"
+}, {
+	zh: "锼",
+	vi: "sưu"
+}, {
+	zh: "趹",
+	vi: "quyết"
+}, {
+	zh: "栘",
+	vi: "di"
+}, {
+	zh: "埠",
+	vi: "phụ"
+}, {
+	zh: "鬣",
+	vi: "liệp"
+}, {
+	zh: "仃",
+	vi: "đình"
+}, {
+	zh: "垓",
+	vi: "cai"
+}, {
+	zh: "雹",
+	vi: "bạc"
+}, {
+	zh: "璩",
+	vi: "cừ"
+}, {
+	zh: "詈",
+	vi: "lỵ"
+}, {
+	zh: "邓",
+	vi: "đặng"
+}, {
+	zh: "癯",
+	vi: "cù"
+}, {
+	zh: "谩",
+	vi: "mạn"
+}, {
+	zh: "锹",
+	vi: "thiêu"
+}, {
+	zh: "醺",
+	vi: "huân"
+}, {
+	zh: "簌",
+	vi: "tốc"
+}, {
+	zh: "圯",
+	vi: "di"
+}, {
+	zh: "颏",
+	vi: "hài"
+}, {
+	zh: "芽",
+	vi: "nha"
+}, {
+	zh: "姆",
+	vi: "mẫu"
+}, {
+	zh: "傥",
+	vi: "thảng"
+}, {
+	zh: "辔",
+	vi: "bí"
+}, {
+	zh: "侔",
+	vi: "mâu"
+}, {
+	zh: "蓑",
+	vi: "thoa"
+}, {
+	zh: "轶",
+	vi: "dật"
+}, {
+	zh: "踬",
+	vi: "chí"
+}, {
+	zh: "殓",
+	vi: "liễm"
+}, {
+	zh: "镔",
+	vi: "tấn"
+}, {
+	zh: "秆",
+	vi: "cán"
+}, {
+	zh: "湓",
+	vi: "bồn"
+}, {
+	zh: "聽",
+	vi: "thính"
+}, {
+	zh: "錚",
+	vi: "tranh"
+}, {
+	zh: "謫",
+	vi: "trích"
+}, {
+	zh: "潯",
+	vi: "tầm"
+}, {
+	zh: "楓",
+	vi: "phong"
+}, {
+	zh: "荻",
+	vi: "địch"
+}, {
+	zh: "絃",
+	vi: "huyền"
+}, {
+	zh: "闇",
+	vi: "ám"
+}, {
+	zh: "迴",
+	vi: "hồi"
+}, {
+	zh: "撚",
+	vi: "niên"
+}, {
+	zh: "舫",
+	vi: "phảng"
+}, {
+	zh: "蝦",
+	vi: "hà"
+}, {
+	zh: "綃",
+	vi: "tiêu"
+}, {
+	zh: "鈿",
+	vi: "điền"
+}, {
+	zh: "雲",
+	vi: "vân"
+}, {
+	zh: "篦",
+	vi: "bề"
+}, {
+	zh: "遶",
+	vi: "nhiễu"
+}, {
+	zh: "闌",
+	vi: "lan"
+}, {
+	zh: "溼",
+	vi: "thấp"
+}, {
+	zh: "鵑",
+	vi: "quyên"
+}, {
+	zh: "哳",
+	vi: "triết"
+}, {
+	zh: "擘",
+	vi: "phách"
+}, {
+	zh: "獾",
+	vi: "hoan"
+}, {
+	zh: "魉",
+	vi: "lượng"
+}, {
+	zh: "媾",
+	vi: "cấu"
+}, {
+	zh: "觳",
+	vi: "hộc"
+}, {
+	zh: "欤",
+	vi: "dư"
+}, {
+	zh: "埒",
+	vi: "liệt"
+}, {
+	zh: "鼐",
+	vi: "nãi"
+}, {
+	zh: "殄",
+	vi: "điễn"
+}, {
+	zh: "衾",
+	vi: "khâm"
+}, {
+	zh: "畸",
+	vi: "cơ"
+}, {
+	zh: "衮",
+	vi: "cổn"
+}, {
+	zh: "鄱",
+	vi: "bà"
+}, {
+	zh: "蚩",
+	vi: "xi"
+}, {
+	zh: "悌",
+	vi: "đễ"
+}, {
+	zh: "恸",
+	vi: "đỗng"
+}, {
+	zh: "缵",
+	vi: "toản"
+}, {
+	zh: "萝",
+	vi: "la"
+}, {
+	zh: "澶",
+	vi: "thiền"
+}, {
+	zh: "脔",
+	vi: "luyến"
+}, {
+	zh: "鹦",
+	vi: "anh"
+}, {
+	zh: "骟",
+	vi: "phiến"
+}, {
+	zh: "郫",
+	vi: "bì"
+}, {
+	zh: "荇",
+	vi: "hạnh"
+}, {
+	zh: "笫",
+	vi: "chỉ"
+}, {
+	zh: "卺",
+	vi: "cẩn"
+}, {
+	zh: "笳",
+	vi: "già"
+}, {
+	zh: "绦",
+	vi: "thao"
+}, {
+	zh: "娉",
+	vi: "phinh"
+}, {
+	zh: "芸",
+	vi: "vân"
+}, {
+	zh: "氖",
+	vi: "nãi"
+}, {
+	zh: "玮",
+	vi: "vĩ"
+}, {
+	zh: "兖",
+	vi: "duyện"
+}, {
+	zh: "靼",
+	vi: "đát"
+}, {
+	zh: "撵",
+	vi: "niện"
+}, {
+	zh: "楣",
+	vi: "mi"
+}, {
+	zh: "缲",
+	vi: "sào"
+}, {
+	zh: "辚",
+	vi: "lân"
+}, {
+	zh: "扃",
+	vi: "quynh"
+}, {
+	zh: "逵",
+	vi: "quỳ"
+}, {
+	zh: "豉",
+	vi: "thị"
+}, {
+	zh: "堠",
+	vi: "hậu"
+}, {
+	zh: "埕",
+	vi: "trình"
+}, {
+	zh: "赀",
+	vi: "ti"
+}, {
+	zh: "肛",
+	vi: "giang"
+}, {
+	zh: "鲷",
+	vi: "điêu"
+}, {
+	zh: "鑫",
+	vi: "hâm"
+}, {
+	zh: "帧",
+	vi: "tránh"
+}, {
+	zh: "醮",
+	vi: "tiếu"
+}, {
+	zh: "缃",
+	vi: "tương"
+}, {
+	zh: "鲔",
+	vi: "vị"
+}, {
+	zh: "胭",
+	vi: "yên"
+}, {
+	zh: "榉",
+	vi: "cử"
+}, {
+	zh: "腱",
+	vi: "kiện"
+}, {
+	zh: "佃",
+	vi: "điền"
+}, {
+	zh: "筠",
+	vi: "quân"
+}, {
+	zh: "柚",
+	vi: "dữu"
+}, {
+	zh: "裎",
+	vi: "trình"
+}, {
+	zh: "甄",
+	vi: "chân"
+}, {
+	zh: "苜",
+	vi: "mục"
+}, {
+	zh: "鳢",
+	vi: "lễ"
+}, {
+	zh: "晷",
+	vi: "quỹ"
+}, {
+	zh: "裣",
+	vi: "liêm"
+}, {
+	zh: "饺",
+	vi: "giáo"
+}, {
+	zh: "鲍",
+	vi: "bào"
+}, {
+	zh: "帏",
+	vi: "vi"
+}, {
+	zh: "稹",
+	vi: "chẩn"
+}, {
+	zh: "溆",
+	vi: "tự"
+}, {
+	zh: "氯",
+	vi: "lục"
+}, {
+	zh: "僭",
+	vi: "tiếm"
+}, {
+	zh: "谝",
+	vi: "biển"
+}, {
+	zh: "敖",
+	vi: "ngao"
+}, {
+	zh: "趄",
+	vi: "thư"
+}, {
+	zh: "奘",
+	vi: "trang"
+}, {
+	zh: "逋",
+	vi: "bô"
+}, {
+	zh: "枰",
+	vi: "bình"
+}, {
+	zh: "薏",
+	vi: "ý"
+}, {
+	zh: "胱",
+	vi: "quang"
+}, {
+	zh: "蒉",
+	vi: "quỹ"
+}, {
+	zh: "辍",
+	vi: "xuyết"
+}, {
+	zh: "绉",
+	vi: "trứu"
+}, {
+	zh: "琨",
+	vi: "côn"
+}, {
+	zh: "琪",
+	vi: "kỳ"
+}, {
+	zh: "璐",
+	vi: "lộ"
+}, {
+	zh: "佰",
+	vi: "bách"
+}, {
+	zh: "髭",
+	vi: "tỳ"
+}, {
+	zh: "腺",
+	vi: "tuyến"
+}, {
+	zh: "搿",
+	vi: "cách"
+}, {
+	zh: "埔",
+	vi: "bộ"
+}, {
+	zh: "阒",
+	vi: "khuých"
+}, {
+	zh: "慊",
+	vi: "khiểm"
+}, {
+	zh: "崤",
+	vi: "hào"
+}, {
+	zh: "嫫",
+	vi: "mô"
+}, {
+	zh: "壹",
+	vi: "nhất"
+}, {
+	zh: "恚",
+	vi: "khuể"
+}, {
+	zh: "蜚",
+	vi: "phỉ"
+}, {
+	zh: "崧",
+	vi: "tung"
+}, {
+	zh: "泫",
+	vi: "huyễn"
+}, {
+	zh: "汶",
+	vi: "vấn"
+}, {
+	zh: "捶",
+	vi: "chủy"
+}, {
+	zh: "鸥",
+	vi: "âu"
+}, {
+	zh: "盍",
+	vi: "hạp"
+}, {
+	zh: "狃",
+	vi: "nữu"
+}, {
+	zh: "捩",
+	vi: "liệt"
+}, {
+	zh: "缦",
+	vi: "man"
+}, {
+	zh: "瘸",
+	vi: "qua"
+}, {
+	zh: "雒",
+	vi: "lạc"
+}, {
+	zh: "芰",
+	vi: "kỵ"
+}, {
+	zh: "嵋",
+	vi: "mi"
+}, {
+	zh: "枸",
+	vi: "cẩu"
+}, {
+	zh: "觏",
+	vi: "cấu"
+}, {
+	zh: "谍",
+	vi: "điệp"
+}, {
+	zh: "濠",
+	vi: "hào"
+}, {
+	zh: "薜",
+	vi: "bệ"
+}, {
+	zh: "罘",
+	vi: "phù"
+}, {
+	zh: "瀛",
+	vi: "doanh"
+}, {
+	zh: "洎",
+	vi: "kịp"
+}, {
+	zh: "榇",
+	vi: "sấn"
+}, {
+	zh: "庑",
+	vi: "vũ"
+}, {
+	zh: "殂",
+	vi: "tồ"
+}, {
+	zh: "禳",
+	vi: "nhương"
+}, {
+	zh: "缣",
+	vi: "kiêm"
+}, {
+	zh: "讼",
+	vi: "tụng"
+}, {
+	zh: "宄",
+	vi: "quĩ"
+}, {
+	zh: "麂",
+	vi: "kỷ"
+}, {
+	zh: "舳",
+	vi: "trục"
+}, {
+	zh: "碾",
+	vi: "niễn"
+}, {
+	zh: "舻",
+	vi: "lô"
+}, {
+	zh: "矾",
+	vi: "phàn"
+}, {
+	zh: "夙",
+	vi: "túc"
+}, {
+	zh: "濂",
+	vi: "liêm"
+}, {
+	zh: "皲",
+	vi: "quân"
+}, {
+	zh: "橘",
+	vi: "quất"
+}, {
+	zh: "厝",
+	vi: "thố"
+}, {
+	zh: "煜",
+	vi: "dục"
+}, {
+	zh: "裒",
+	vi: "bầu"
+}, {
+	zh: "酲",
+	vi: "trình"
+}, {
+	zh: "燠",
+	vi: "úc"
+}, {
+	zh: "玟",
+	vi: "mân"
+}, {
+	zh: "跖",
+	vi: "chích"
+}, {
+	zh: "讷",
+	vi: "nột"
+}, {
+	zh: "嗳",
+	vi: "ai"
+}, {
+	zh: "钠",
+	vi: "nột"
+}, {
+	zh: "畿",
+	vi: "kỳ"
+}, {
+	zh: "钰",
+	vi: "ngọc"
+}, {
+	zh: "宸",
+	vi: "thần"
+}, {
+	zh: "擐",
+	vi: "hoàn"
+}, {
+	zh: "桁",
+	vi: "hành"
+}, {
+	zh: "痍",
+	vi: "di"
+}, {
+	zh: "卅",
+	vi: "tạp"
+}, {
+	zh: "秣",
+	vi: "mạt"
+}, {
+	zh: "猕",
+	vi: "mi"
+}, {
+	zh: "襁",
+	vi: "cưỡng"
+}, {
+	zh: "褓",
+	vi: "bảo"
+}, {
+	zh: "芫",
+	vi: "nguyên"
+}, {
+	zh: "琮",
+	vi: "tông"
+}, {
+	zh: "鳏",
+	vi: "quan"
+}, {
+	zh: "龇",
+	vi: "thử"
+}, {
+	zh: "袜",
+	vi: "miệt"
+}, {
+	zh: "猩",
+	vi: "tinh"
+}, {
+	zh: "戡",
+	vi: "kham"
+}, {
+	zh: "琏",
+	vi: "liễn"
+}, {
+	zh: "镌",
+	vi: "tuyên"
+}, {
+	zh: "砣",
+	vi: "đà"
+}, {
+	zh: "闰",
+	vi: "nhuận"
+}, {
+	zh: "泮",
+	vi: "phán"
+}, {
+	zh: "赭",
+	vi: "giả"
+}, {
+	zh: "逦",
+	vi: "lệ"
+}, {
+	zh: "滓",
+	vi: "chỉ"
+}, {
+	zh: "胤",
+	vi: "dận"
+}, {
+	zh: "皖",
+	vi: "hoàn"
+}, {
+	zh: "竽",
+	vi: "vu"
+}, {
+	zh: "稞",
+	vi: "khoa"
+}, {
+	zh: "岚",
+	vi: "lam"
+}, {
+	zh: "坩",
+	vi: "kham"
+}, {
+	zh: "磔",
+	vi: "trách"
+}, {
+	zh: "骈",
+	vi: "biền"
+}, {
+	zh: "琰",
+	vi: "diễm"
+}, {
+	zh: "滁",
+	vi: "trừ"
+}, {
+	zh: "壑",
+	vi: "hác"
+}, {
+	zh: "獬",
+	vi: "giải"
+}, {
+	zh: "糈",
+	vi: "tư"
+}, {
+	zh: "畦",
+	vi: "huề"
+}, {
+	zh: "囱",
+	vi: "song"
+}, {
+	zh: "铍",
+	vi: "phi"
+}, {
+	zh: "锒",
+	vi: "lang"
+}, {
+	zh: "蝼",
+	vi: "lâu"
+}, {
+	zh: "湎",
+	vi: "miện"
+}, {
+	zh: "昊",
+	vi: "hạo"
+}, {
+	zh: "鹳",
+	vi: "quán"
+}, {
+	zh: "鬟",
+	vi: "hoàn"
+}, {
+	zh: "鸬",
+	vi: "lô"
+}, {
+	zh: "嗑",
+	vi: "hạp"
+}, {
+	zh: "鏊",
+	vi: "ngao"
+}, {
+	zh: "芮",
+	vi: "nhuế"
+}, {
+	zh: "伫",
+	vi: "trữ"
+}, {
+	zh: "迪",
+	vi: "địch"
+}, {
+	zh: "镛",
+	vi: "dung"
+}, {
+	zh: "溏",
+	vi: "đường"
+}, {
+	zh: "鲎",
+	vi: "hấu"
+}, {
+	zh: "陴",
+	vi: "bì"
+}, {
+	zh: "呶",
+	vi: "nao"
+}, {
+	zh: "耦",
+	vi: "ngẫu"
+}, {
+	zh: "苞",
+	vi: "bao"
+}, {
+	zh: "哙",
+	vi: "khoái"
+}, {
+	zh: "铉",
+	vi: "huyễn"
+}, {
+	zh: "笆",
+	vi: "ba"
+}, {
+	zh: "擗",
+	vi: "bịch"
+}, {
+	zh: "佥",
+	vi: "thiêm"
+}, {
+	zh: "隈",
+	vi: "ôi"
+}, {
+	zh: "滹",
+	vi: "hô"
+}, {
+	zh: "浒",
+	vi: "hử"
+}, {
+	zh: "揆",
+	vi: "quỹ"
+}, {
+	zh: "笞",
+	vi: "si"
+}, {
+	zh: "筌",
+	vi: "thuyên"
+}, {
+	zh: "氮",
+	vi: "đạm"
+}, {
+	zh: "阡",
+	vi: "thiên"
+}, {
+	zh: "觞",
+	vi: "thương"
+}, {
+	zh: "淼",
+	vi: "miểu"
+}, {
+	zh: "邹",
+	vi: "trâu"
+}, {
+	zh: "沅",
+	vi: "nguyên"
+}, {
+	zh: "毽",
+	vi: "kiến"
+}, {
+	zh: "岱",
+	vi: "đại"
+}, {
+	zh: "砦",
+	vi: "trại"
+}, {
+	zh: "杓",
+	vi: "tiêu"
+}, {
+	zh: "戛",
+	vi: "kiết"
+}, {
+	zh: "庳",
+	vi: "bí"
+}, {
+	zh: "孥",
+	vi: "nô"
+}, {
+	zh: "缄",
+	vi: "giam"
+}, {
+	zh: "捭",
+	vi: "bãi"
+}, {
+	zh: "枨",
+	vi: "tranh"
+}, {
+	zh: "荠",
+	vi: "tề"
+}, {
+	zh: "廨",
+	vi: "giải"
+}, {
+	zh: "焙",
+	vi: "bồi"
+}, {
+	zh: "苯",
+	vi: "bổn"
+}, {
+	zh: "饬",
+	vi: "sức"
+}, {
+	zh: "蓿",
+	vi: "túc"
+}, {
+	zh: "鳎",
+	vi: "tháp"
+}, {
+	zh: "艋",
+	vi: "mãnh"
+}, {
+	zh: "鸩",
+	vi: "chậm"
+}, {
+	zh: "豢",
+	vi: "hoạn"
+}, {
+	zh: "娄",
+	vi: "lâu"
+}, {
+	zh: "罴",
+	vi: "bi"
+}, {
+	zh: "莴",
+	vi: "oa"
+}, {
+	zh: "踼",
+	vi: "thang"
+}, {
+	zh: "拏",
+	vi: "noa"
+}, {
+	zh: "饫",
+	vi: "ứ"
+}, {
+	zh: "餍",
+	vi: "yếm"
+}, {
+	zh: "娲",
+	vi: "oa"
+}, {
+	zh: "煅",
+	vi: "đoán"
+}, {
+	zh: "踮",
+	vi: "điểm"
+}, {
+	zh: "谤",
+	vi: "báng"
+}, {
+	zh: "芹",
+	vi: "cần"
+}, {
+	zh: "阊",
+	vi: "xương"
+}, {
+	zh: "瑛",
+	vi: "anh"
+}, {
+	zh: "跣",
+	vi: "tiển"
+}, {
+	zh: "澌",
+	vi: "ti"
+}, {
+	zh: "蹇",
+	vi: "kiển"
+}, {
+	zh: "蟾",
+	vi: "thiềm"
+}, {
+	zh: "奁",
+	vi: "liêm"
+}, {
+	zh: "觥",
+	vi: "quang"
+}, {
+	zh: "闱",
+	vi: "vi"
+}, {
+	zh: "笏",
+	vi: "hốt"
+}, {
+	zh: "杠",
+	vi: "giang"
+}, {
+	zh: "褡",
+	vi: "đáp"
+}, {
+	zh: "玳",
+	vi: "đại"
+}, {
+	zh: "瑁",
+	vi: "mạo"
+}, {
+	zh: "迕",
+	vi: "ngỗ"
+}, {
+	zh: "胥",
+	vi: "tư"
+}, {
+	zh: "颡",
+	vi: "tảng"
+}, {
+	zh: "趑",
+	vi: "tư"
+}, {
+	zh: "矧",
+	vi: "thẩn"
+}, {
+	zh: "亶",
+	vi: "đản"
+}, {
+	zh: "槎",
+	vi: "tra"
+}, {
+	zh: "钺",
+	vi: "việt"
+}, {
+	zh: "裔",
+	vi: "duệ"
+}, {
+	zh: "珰",
+	vi: "đang"
+}, {
+	zh: "弼",
+	vi: "bật"
+}, {
+	zh: "暨",
+	vi: "kỵ"
+}, {
+	zh: "缟",
+	vi: "cảo"
+}, {
+	zh: "诽",
+	vi: "phỉ"
+}, {
+	zh: "椠",
+	vi: "tạm"
+}, {
+	zh: "癬",
+	vi: "tiển"
+}, {
+	zh: "呎",
+	vi: "xích"
+}, {
+	zh: "捥",
+	vi: "oản"
+}, {
+	zh: "楨",
+	vi: "trinh"
+}, {
+	zh: "畯",
+	vi: "tuấn"
+}, {
+	zh: "敂",
+	vi: "khấu"
+}, {
+	zh: "楸",
+	vi: "thu"
+}, {
+	zh: "畮",
+	vi: "mẫu"
+}, {
+	zh: "湲",
+	vi: "viên"
+}, {
+	zh: "瑯",
+	vi: "lang"
+}, {
+	zh: "睆",
+	vi: "hoản"
+}, {
+	zh: "瑲",
+	vi: "thương"
+}, {
+	zh: "牂",
+	vi: "tang"
+}, {
+	zh: "桫",
+	vi: "sa"
+}, {
+	zh: "摶",
+	vi: "đoàn"
+}, {
+	zh: "汐",
+	vi: "tịch"
+}, {
+	zh: "祢",
+	vi: "nỉ"
+}, {
+	zh: "獭",
+	vi: "thát"
+}, {
+	zh: "獫",
+	vi: "hiểm"
+}, {
+	zh: "楬",
+	vi: "kiệt"
+}, {
+	zh: "獮",
+	vi: "tiển"
+}, {
+	zh: "焠",
+	vi: "thối"
+}, {
+	zh: "癲",
+	vi: "điên"
+}, {
+	zh: "楦",
+	vi: "tuyên"
+}, {
+	zh: "剏",
+	vi: "sáng"
+}, {
+	zh: "橤",
+	vi: "nhị"
+}, {
+	zh: "汧",
+	vi: "khiên"
+}, {
+	zh: "匊",
+	vi: "cúc"
+}, {
+	zh: "灩",
+	vi: "diễm"
+}, {
+	zh: "癩",
+	vi: "lại"
+}, {
+	zh: "湫",
+	vi: "tưu"
+}, {
+	zh: "獯",
+	vi: "huân"
+}, {
+	zh: "癥",
+	vi: "trưng"
+}, {
+	zh: "桰",
+	vi: "quát"
+}, {
+	zh: "祲",
+	vi: "tẩm"
+}, {
+	zh: "瀠",
+	vi: "oanh"
+}, {
+	zh: "楯",
+	vi: "thuẫn"
+}, {
+	zh: "楡",
+	vi: "du"
+}, {
+	zh: "敎",
+	vi: "giáo"
+}, {
+	zh: "楢",
+	vi: "do"
+}, {
+	zh: "畧",
+	vi: "lược"
+}, {
+	zh: "潍",
+	vi: "duy"
+}, {
+	zh: "癡",
+	vi: "si"
+}, {
+	zh: "桷",
+	vi: "giác"
+}, {
+	zh: "扢",
+	vi: "cột"
+}, {
+	zh: "畱",
+	vi: "lưu"
+}, {
+	zh: "畬",
+	vi: "dư"
+}, {
+	zh: "祫",
+	vi: "hợp"
+}, {
+	zh: "畆",
+	vi: "mẫu"
+}, {
+	zh: "畤",
+	vi: "chỉ"
+}, {
+	zh: "瑉",
+	vi: "mân"
+}, {
+	zh: "扵",
+	vi: "ư"
+}, {
+	zh: "湏",
+	vi: "tu"
+}, {
+	zh: "慆",
+	vi: "thao"
+}, {
+	zh: "畣",
+	vi: "đáp"
+}, {
+	zh: "慤",
+	vi: "khác"
+}, {
+	zh: "牣",
+	vi: "nhận"
+}, {
+	zh: "牮",
+	vi: "tiến"
+}, {
+	zh: "獅",
+	vi: "sư"
+}, {
+	zh: "慂",
+	vi: "dũng"
+}, {
+	zh: "灬",
+	vi: "hỏa"
+}, {
+	zh: "潔",
+	vi: "khiết"
+}, {
+	zh: "捵",
+	vi: "điến"
+}, {
+	zh: "捴",
+	vi: "tổng"
+}, {
+	zh: "樠",
+	vi: "man"
+}, {
+	zh: "橥",
+	vi: "trư"
+}, {
+	zh: "漵",
+	vi: "tự"
+}, {
+	zh: "汆",
+	vi: "thộn"
+}, {
+	zh: "浭",
+	vi: "canh"
+}, {
+	zh: "畺",
+	vi: "cương"
+}, {
+	zh: "漶",
+	vi: "hoán"
+}, {
+	zh: "汭",
+	vi: "nhuế"
+}, {
+	zh: "畊",
+	vi: "canh"
+}, {
+	zh: "潆",
+	vi: "oanh"
+}, {
+	zh: "慳",
+	vi: "khan"
+}, {
+	zh: "莆",
+	vi: "phủ"
+}, {
+	zh: "蘸",
+	vi: "trám"
+}, {
+	zh: "徬",
+	vi: "bạng"
+}, {
+	zh: "谆",
+	vi: "truân"
+}, {
+	zh: "噫",
+	vi: "y"
+}, {
+	zh: "憝",
+	vi: "đỗi"
+}, {
+	zh: "斫",
+	vi: "chước"
+}, {
+	zh: "鬈",
+	vi: "quyền"
+}, {
+	zh: "瀰",
+	vi: "di"
+}, {
+	zh: "摽",
+	vi: "phiếu"
+}, {
+	zh: "幛",
+	vi: "chướng"
+}, {
+	zh: "榫",
+	vi: "chuẩn"
+}, {
+	zh: "饕",
+	vi: "thao"
+}, {
+	zh: "餮",
+	vi: "thiết"
+}, {
+	zh: "卞",
+	vi: "biện"
+}, {
+	zh: "尻",
+	vi: "khào"
+}, {
+	zh: "蓰",
+	vi: "tỷ"
+}, {
+	zh: "痨",
+	vi: "lao"
+}, {
+	zh: "佟",
+	vi: "đông"
+}, {
+	zh: "戕",
+	vi: "tường"
+}, {
+	zh: "孀",
+	vi: "sương"
+}, {
+	zh: "佼",
+	vi: "giảo"
+}, {
+	zh: "毵",
+	vi: "tam"
+}, {
+	zh: "邝",
+	vi: "quảng"
+}, {
+	zh: "忒",
+	vi: "thắc"
+}, {
+	zh: "锏",
+	vi: "giản"
+}, {
+	zh: "贮",
+	vi: "trữ"
+}, {
+	zh: "愆",
+	vi: "khiên"
+}, {
+	zh: "臊",
+	vi: "tao"
+}, {
+	zh: "煨",
+	vi: "ổi"
+}, {
+	zh: "挹",
+	vi: "ấp"
+}, {
+	zh: "橛",
+	vi: "quyết"
+}, {
+	zh: "芯",
+	vi: "tâm"
+}, {
+	zh: "狯",
+	vi: "quái"
+}, {
+	zh: "伧",
+	vi: "sanh"
+}, {
+	zh: "耙",
+	vi: "bá"
+}, {
+	zh: "鹪",
+	vi: "tiêu"
+}, {
+	zh: "揲",
+	vi: "thiệt"
+}, {
+	zh: "橐",
+	vi: "thác"
+}, {
+	zh: "矍",
+	vi: "quắc"
+}, {
+	zh: "铄",
+	vi: "thước"
+}, {
+	zh: "囌",
+	vi: "tô"
+}, {
+	zh: "骱",
+	vi: "giới"
+}, {
+	zh: "茜",
+	vi: "thiến"
+}, {
+	zh: "屜",
+	vi: "thế"
+}, {
+	zh: "躐",
+	vi: "liệp"
+}, {
+	zh: "疟",
+	vi: "ngược"
+}, {
+	zh: "镊",
+	vi: "nhiếp"
+}, {
+	zh: "怿",
+	vi: "dịch"
+}, {
+	zh: "疸",
+	vi: "đản"
+}, {
+	zh: "煊",
+	vi: "huyên"
+}, {
+	zh: "阄",
+	vi: "cưu"
+}, {
+	zh: "戆",
+	vi: "tráng"
+}, {
+	zh: "凫",
+	vi: "phù"
+}, {
+	zh: "蝮",
+	vi: "phúc"
+}, {
+	zh: "薯",
+	vi: "thự"
+}, {
+	zh: "搽",
+	vi: "trà"
+}, {
+	zh: "墉",
+	vi: "dung"
+}, {
+	zh: "琯",
+	vi: "quản"
+}, {
+	zh: "戼",
+	vi: "mão"
+}, {
+	zh: "匭",
+	vi: "quỹ"
+}, {
+	zh: "挼",
+	vi: "noa"
+}, {
+	zh: "朮",
+	vi: "truật"
+}, {
+	zh: "攮",
+	vi: "nãng"
+}, {
+	zh: "铗",
+	vi: "kiệp"
+}, {
+	zh: "幬",
+	vi: "trù"
+}, {
+	zh: "崃",
+	vi: "lai"
+}, {
+	zh: "菸",
+	vi: "ư"
+}, {
+	zh: "蘼",
+	vi: "mi"
+}, {
+	zh: "蠛",
+	vi: "miệt"
+}, {
+	zh: "弈",
+	vi: "dịch"
+}, {
+	zh: "缒",
+	vi: "trúy"
+}, {
+	zh: "偬",
+	vi: "tổng"
+}, {
+	zh: "佶",
+	vi: "cát"
+}, {
+	zh: "鹉",
+	vi: "vũ"
+}, {
+	zh: "咂",
+	vi: "táp"
+}, {
+	zh: "娈",
+	vi: "luyến"
+}, {
+	zh: "噙",
+	vi: "cầu"
+}, {
+	zh: "酡",
+	vi: "đà"
+}, {
+	zh: "搡",
+	vi: "táng"
+}, {
+	zh: "鸢",
+	vi: "diên"
+}, {
+	zh: "璎",
+	vi: "anh"
+}, {
+	zh: "鲵",
+	vi: "nghê"
+}, {
+	zh: "诮",
+	vi: "tiếu"
+}, {
+	zh: "攥",
+	vi: "toản"
+}, {
+	zh: "兕",
+	vi: "hủy"
+}, {
+	zh: "匍",
+	vi: "bồ"
+}, {
+	zh: "匐",
+	vi: "bặc"
+}, {
+	zh: "蔻",
+	vi: "khấu"
+}, {
+	zh: "龌",
+	vi: "ác"
+}, {
+	zh: "龊",
+	vi: "xúc"
+}, {
+	zh: "蚨",
+	vi: "phù"
+}, {
+	zh: "狲",
+	vi: "tôn"
+}, {
+	zh: "蚪",
+	vi: "đẩu"
+}, {
+	zh: "瀣",
+	vi: "dới"
+}, {
+	zh: "梆",
+	vi: "bang"
+}, {
+	zh: "猊",
+	vi: "nghê"
+}, {
+	zh: "奎",
+	vi: "khuê"
+}, {
+	zh: "螭",
+	vi: "ly"
+}, {
+	zh: "潋",
+	vi: "liễm"
+}, {
+	zh: "柿",
+	vi: "thị"
+}, {
+	zh: "撂",
+	vi: "lược"
+}, {
+	zh: "烨",
+	vi: "diệp"
+}, {
+	zh: "箴",
+	vi: "châm"
+}, {
+	zh: "羲",
+	vi: "hi"
+}, {
+	zh: "撺",
+	vi: "thoán"
+}, {
+	zh: "阋",
+	vi: "huých"
+}, {
+	zh: "佘",
+	vi: "xa"
+}, {
+	zh: "妪",
+	vi: "ẩu"
+}, {
+	zh: "椁",
+	vi: "quách"
+}, {
+	zh: "讧",
+	vi: "hồng"
+}, {
+	zh: "猢",
+	vi: "hồ"
+}, {
+	zh: "艹",
+	vi: "thảo"
+}, {
+	zh: "酆",
+	vi: "phong"
+}, {
+	zh: "侨",
+	vi: "kiều"
+}, {
+	zh: "疝",
+	vi: "sán"
+}, {
+	zh: "汛",
+	vi: "tấn"
+}, {
+	zh: "癌",
+	vi: "nham"
+}, {
+	zh: "鱿",
+	vi: "vưu"
+}, {
+	zh: "踟",
+	vi: "trì"
+}, {
+	zh: "蹰",
+	vi: "trù"
+}, {
+	zh: "唢",
+	vi: "tỏa"
+}, {
+	zh: "踅",
+	vi: "tuyệt"
+}, {
+	zh: "遛",
+	vi: "lưu"
+}, {
+	zh: "洱",
+	vi: "nhị"
+}, {
+	zh: "堇",
+	vi: "cận"
+}, {
+	zh: "嬗",
+	vi: "thiện"
+}, {
+	zh: "囡",
+	vi: "niếp"
+}, {
+	zh: "秧",
+	vi: "ương"
+}, {
+	zh: "洊",
+	vi: "tiến"
+}, {
+	zh: "稗",
+	vi: "bại"
+}, {
+	zh: "剞",
+	vi: "kỷ"
+}, {
+	zh: "骃",
+	vi: "nhân"
+}, {
+	zh: "颛",
+	vi: "chuyên"
+}, {
+	zh: "喾",
+	vi: "khốc"
+}, {
+	zh: "劭",
+	vi: "thiệu"
+}, {
+	zh: "缙",
+	vi: "tấn"
+}, {
+	zh: "蟜",
+	vi: "kiểu"
+}, {
+	zh: "踰",
+	vi: "du"
+}, {
+	zh: "叡",
+	vi: "duệ"
+}, {
+	zh: "蓺",
+	vi: "nghệ"
+}, {
+	zh: "貔",
+	vi: "tỳ"
+}, {
+	zh: "貅",
+	vi: "hưu"
+}, {
+	zh: "魃",
+	vi: "bạt"
+}, {
+	zh: "菽",
+	vi: "thục"
+}, {
+	zh: "榖",
+	vi: "cốc"
+}, {
+	zh: "妫",
+	vi: "quy"
+}, {
+	zh: "阚",
+	vi: "hám"
+}, {
+	zh: "髀",
+	vi: "bễ"
+}, {
+	zh: "诐",
+	vi: "bí"
+}, {
+	zh: "筴",
+	vi: "sách"
+}, {
+	zh: "崆",
+	vi: "không"
+}, {
+	zh: "峒",
+	vi: "động"
+}, {
+	zh: "笄",
+	vi: "kê"
+}, {
+	zh: "郦",
+	vi: "ly"
+}, {
+	zh: "猃",
+	vi: "hiểm"
+}, {
+	zh: "狁",
+	vi: "doãn"
+}, {
+	zh: "玁",
+	vi: "hiểm"
+}, {
+	zh: "蓍",
+	vi: "thi"
+}, {
+	zh: "筭",
+	vi: "toán"
+}, {
+	zh: "寤",
+	vi: "ngụ"
+}, {
+	zh: "豸",
+	vi: "trĩ"
+}, {
+	zh: "蜉",
+	vi: "phù"
+}, {
+	zh: "隰",
+	vi: "thấp"
+}, {
+	zh: "僖",
+	vi: "hi"
+}, {
+	zh: "旄",
+	vi: "mao"
+}, {
+	zh: "徼",
+	vi: "kiếu"
+}, {
+	zh: "邛",
+	vi: "cung"
+}, {
+	zh: "肇",
+	vi: "triệu"
+}, {
+	zh: "蜺",
+	vi: "nghê"
+}, {
+	zh: "舄",
+	vi: "tích"
+}, {
+	zh: "絜",
+	vi: "kiết"
+}, {
+	zh: "濮",
+	vi: "bộc"
+}, {
+	zh: "鲋",
+	vi: "phụ"
+}, {
+	zh: "嶷",
+	vi: "nghi"
+}, {
+	zh: "龆",
+	vi: "điều"
+}, {
+	zh: "龀",
+	vi: "sấn"
+}, {
+	zh: "訾",
+	vi: "tí"
+}, {
+	zh: "邰",
+	vi: "thai"
+}, {
+	zh: "嫄",
+	vi: "nguyên"
+}, {
+	zh: "娀",
+	vi: "tung"
+}, {
+	zh: "藿",
+	vi: "hoắc"
+}, {
+	zh: "旸",
+	vi: "dương"
+}, {
+	zh: "氄",
+	vi: "nhũng"
+}, {
+	zh: "旻",
+	vi: "mân"
+}, {
+	zh: "嵎",
+	vi: "ngu"
+}, {
+	zh: "毳",
+	vi: "thuế"
+}, {
+	zh: "讙",
+	vi: "hoan"
+}, {
+	zh: "鲧",
+	vi: "cổn"
+}, {
+	zh: "嚚",
+	vi: "ngân"
+}, {
+	zh: "烝",
+	vi: "chưng"
+}, {
+	zh: "匽",
+	vi: "yển"
+}, {
+	zh: "熛",
+	vi: "tiêu"
+}, {
+	zh: "禋",
+	vi: "nhân"
+}, {
+	zh: "眚",
+	vi: "sảnh"
+}, {
+	zh: "怙",
+	vi: "hỗ"
+}, {
+	zh: "邕",
+	vi: "ung"
+}, {
+	zh: "顗",
+	vi: "nghĩ"
+}, {
+	zh: "壅",
+	vi: "ủng"
+}, {
+	zh: "蔟",
+	vi: "thốc"
+}, {
+	zh: "蕤",
+	vi: "nhuy"
+}, {
+	zh: "秬",
+	vi: "cự"
+}, {
+	zh: "龠",
+	vi: "dược"
+}, {
+	zh: "妣",
+	vi: "tỷ"
+}, {
+	zh: "谟",
+	vi: "mô"
+}, {
+	zh: "徂",
+	vi: "tồ"
+}, {
+	zh: "纁",
+	vi: "huân"
+}, {
+	zh: "鴈",
+	vi: "nhạn"
+}, {
+	zh: "贽",
+	vi: "chí"
+}, {
+	zh: "鹜",
+	vi: "vụ"
+}, {
+	zh: "繇",
+	vi: "diêu"
+}, {
+	zh: "耄",
+	vi: "mạo"
+}, {
+	zh: "劓",
+	vi: "nhị"
+}, {
+	zh: "剕",
+	vi: "phí"
+}, {
+	zh: "槚",
+	vi: "giả"
+}, {
+	zh: "驩",
+	vi: "hoan"
+}, {
+	zh: "梼",
+	vi: "đào"
+}, {
+	zh: "杌",
+	vi: "ngột"
+}, {
+	zh: "浔",
+	vi: "tầm"
+}, {
+	zh: "沂",
+	vi: "nghi"
+}, {
+	zh: "鄄",
+	vi: "quyên"
+}, {
+	zh: "漯",
+	vi: "tháp"
+}, {
+	zh: "瞽",
+	vi: "cổ"
+}, {
+	zh: "窳",
+	vi: "dũ"
+}, {
+	zh: "絺",
+	vi: "hi"
+}, {
+	zh: "廪",
+	vi: "lẫm"
+}, {
+	zh: "扞",
+	vi: "hãn"
+}, {
+	zh: "惇",
+	vi: "đôn"
+}, {
+	zh: "盬",
+	vi: "cổ"
+}, {
+	zh: "麤",
+	vi: "thô"
+}, {
+	zh: "隤",
+	vi: "đồi"
+}, {
+	zh: "尨",
+	vi: "mang"
+}, {
+	zh: "扺",
+	vi: "chỉ"
+}, {
+	zh: "皋",
+	vi: "cao"
+}, {
+	zh: "倕",
+	vi: "thùy"
+}, {
+	zh: "籛",
+	vi: "tiên"
+}, {
+	zh: "莳",
+	vi: "thì"
+}, {
+	zh: "冑",
+	vi: "trụ"
+}, {
+	zh: "匏",
+	vi: "bào"
+}, {
+	zh: "廋",
+	vi: "sưu"
+}, {
+	zh: "苡",
+	vi: "dĩ"
+}, {
+	zh: "胙",
+	vi: "tạc"
+}, {
+	zh: "爰",
+	vi: "viên"
+}, {
+	zh: "曛",
+	vi: "huân"
+}, {
+	zh: "坼",
+	vi: "sách"
+}, {
+	zh: "亹",
+	vi: "vỉ"
+}, {
+	zh: "橇",
+	vi: "khiêu"
+}, {
+	zh: "蕝",
+	vi: "toát"
+}, {
+	zh: "擿",
+	vi: "trích"
+}, {
+	zh: "覃",
+	vi: "đàm"
+}, {
+	zh: "碣",
+	vi: "kiệt"
+}, {
+	zh: "翊",
+	vi: "dực"
+}, {
+	zh: "彘",
+	vi: "trệ"
+}, {
+	zh: "邺",
+	vi: "nghiệp"
+}, {
+	zh: "虖",
+	vi: "hô"
+}, {
+	zh: "楛",
+	vi: "hộ"
+}, {
+	zh: "镞",
+	vi: "thốc"
+}, {
+	zh: "酹",
+	vi: "lỗi"
+}, {
+	zh: "沇",
+	vi: "duyện"
+}, {
+	zh: "篚",
+	vi: "phỉ"
+}, {
+	zh: "畎",
+	vi: "quyến"
+}, {
+	zh: "莒",
+	vi: "cử"
+}, {
+	zh: "厎",
+	vi: "chỉ"
+}, {
+	zh: "埴",
+	vi: "thực"
+}, {
+	zh: "峄",
+	vi: "dịch"
+}, {
+	zh: "蠙",
+	vi: "tân"
+}, {
+	zh: "邳",
+	vi: "bi"
+}, {
+	zh: "苴",
+	vi: "tư"
+}, {
+	zh: "蚬",
+	vi: "hiện"
+}, {
+	zh: "薮",
+	vi: "tẩu"
+}, {
+	zh: "洳",
+	vi: "như"
+}, {
+	zh: "旐",
+	vi: "triệu"
+}, {
+	zh: "苎",
+	vi: "trữ"
+}, {
+	zh: "杶",
+	vi: "suân"
+}, {
+	zh: "栝",
+	vi: "quát"
+}, {
+	zh: "砮",
+	vi: "nỗ"
+}, {
+	zh: "匦",
+	vi: "quỹ"
+}, {
+	zh: "泸",
+	vi: "lô"
+}, {
+	zh: "嶓",
+	vi: "ba"
+}, {
+	zh: "浈",
+	vi: "trinh"
+}, {
+	zh: "瞢",
+	vi: "măng"
+}, {
+	zh: "瀍",
+	vi: "triền"
+}, {
+	zh: "垆",
+	vi: "lư"
+}, {
+	zh: "纻",
+	vi: "trữ"
+}, {
+	zh: "泆",
+	vi: "dật"
+}, {
+	zh: "璆",
+	vi: "cầu"
+}, {
+	zh: "沔",
+	vi: "miện"
+}, {
+	zh: "湔",
+	vi: "tiên"
+}, {
+	zh: "镠",
+	vi: "lưu"
+}, {
+	zh: "罽",
+	vi: "kế"
+}, {
+	zh: "玕",
+	vi: "can"
+}, {
+	zh: "邠",
+	vi: "bân"
+}, {
+	zh: "鄠",
+	vi: "hộ"
+}, {
+	zh: "枹",
+	vi: "phu"
+}, {
+	zh: "鳃",
+	vi: "tai"
+}, {
+	zh: "濩",
+	vi: "hoạch"
+}, {
+	zh: "圄",
+	vi: "ngữ"
+}, {
+	zh: "颍",
+	vi: "toánh"
+}, {
+	zh: "甑",
+	vi: "tắng"
+}, {
+	zh: "岣",
+	vi: "cẩu"
+}, {
+	zh: "嵝",
+	vi: "lũ"
+}, {
+	zh: "澨",
+	vi: "phệ"
+}, {
+	zh: "醴",
+	vi: "lễ"
+}, {
+	zh: "鄯",
+	vi: "thiện"
+}, {
+	zh: "潞",
+	vi: "lộ"
+}, {
+	zh: "渟",
+	vi: "đình"
+}, {
+	zh: "汜",
+	vi: "tỷ"
+}, {
+	zh: "秸",
+	vi: "kiết"
+}, {
+	zh: "刈",
+	vi: "ngải"
+}, {
+	zh: "穗",
+	vi: "tuệ"
+}, {
+	zh: "乂",
+	vi: "nghệ"
+}, {
+	zh: "浍",
+	vi: "quái"
+}, {
+	zh: "肱",
+	vi: "quăng"
+}, {
+	zh: "嬖",
+	vi: "bế"
+}, {
+	zh: "宪",
+	vi: "hiến"
+}, {
+	zh: "脞",
+	vi: "thỏa"
+}, {
+	zh: "蓼",
+	vi: "liệu"
+}, {
+	zh: "郾",
+	vi: "yển"
+}, {
+	zh: "僇",
+	vi: "lục"
+}, {
+	zh: "帑",
+	vi: "nô"
+}, {
+	zh: "鉏",
+	vi: "sừ"
+}, {
+	zh: "浞",
+	vi: "trác"
+}, {
+	zh: "豷",
+	vi: "ế"
+}, {
+	zh: "缗",
+	vi: "mân"
+}, {
+	zh: "杼",
+	vi: "trữ"
+}, {
+	zh: "髡",
+	vi: "khôn"
+}, {
+	zh: "奡",
+	vi: "ngạo"
+}, {
+	zh: "缑",
+	vi: "câu"
+}, {
+	zh: "殽",
+	vi: "hào"
+}, {
+	zh: "郏",
+	vi: "giáp"
+}, {
+	zh: "圹",
+	vi: "khoáng"
+}, {
+	zh: "洫",
+	vi: "hức"
+}, {
+	zh: "胝",
+	vi: "chi"
+}, {
+	zh: "阏",
+	vi: "át"
+}, {
+	zh: "诰",
+	vi: "cáo"
+}, {
+	zh: "媵",
+	vi: "dắng"
+}, {
+	zh: "侁",
+	vi: "sân"
+}, {
+	zh: "濞",
+	vi: "tị"
+}, {
+	zh: "柰",
+	vi: "nại"
+}, {
+	zh: "赉",
+	vi: "lãi"
+}, {
+	zh: "旆",
+	vi: "bái"
+}, {
+	zh: "泂",
+	vi: "huýnh"
+}, {
+	zh: "虺",
+	vi: "hủy"
+}, {
+	zh: "搤",
+	vi: "ách"
+}, {
+	zh: "呴",
+	vi: "ha"
+}, {
+	zh: "孚",
+	vi: "phu"
+}, {
+	zh: "肜",
+	vi: "dung"
+}, {
+	zh: "醢",
+	vi: "hải"
+}, {
+	zh: "羑",
+	vi: "dũ"
+}, {
+	zh: "滏",
+	vi: "phũ"
+}, {
+	zh: "邘",
+	vi: "vu"
+}, {
+	zh: "曷",
+	vi: "hạt"
+}, {
+	zh: "刳",
+	vi: "khô"
+}, {
+	zh: "髦",
+	vi: "mao"
+}, {
+	zh: "辂",
+	vi: "lộ"
+}, {
+	zh: "圮",
+	vi: "bĩ"
+}, {
+	zh: "忻",
+	vi: "hân"
+}, {
+	zh: "斄",
+	vi: "ly"
+}, {
+	zh: "寘",
+	vi: "trí"
+}, {
+	zh: "腓",
+	vi: "phì"
+}, {
+	zh: "豳",
+	vi: "bân"
+}, {
+	zh: "隃",
+	vi: "du"
+}, {
+	zh: "绀",
+	vi: "cám"
+}, {
+	zh: "盩",
+	vi: "chu"
+}, {
+	zh: "鬻",
+	vi: "dục"
+}, {
+	zh: "谮",
+	vi: "trấm"
+}, {
+	zh: "瓠",
+	vi: "hồ"
+}, {
+	zh: "觚",
+	vi: "cô"
+}, {
+	zh: "镐",
+	vi: "hạo"
+}, {
+	zh: "縢",
+	vi: "đằng"
+}, {
+	zh: "瘳",
+	vi: "sưu"
+}, {
+	zh: "鵰",
+	vi: "điêu"
+}, {
+	zh: "纑",
+	vi: "lư"
+}, {
+	zh: "燔",
+	vi: "phần"
+}, {
+	zh: "鞅",
+	vi: "ưởng"
+}, {
+	zh: "馘",
+	vi: "quắc"
+}, {
+	zh: "铎",
+	vi: "đạc"
+}, {
+	zh: "奭",
+	vi: "thích"
+}, {
+	zh: "佚",
+	vi: "dật"
+}, {
+	zh: "烜",
+	vi: "huyên"
+}, {
+	zh: "苙",
+	vi: "lập"
+}, {
+	zh: "邶",
+	vi: "bội"
+}, {
+	zh: "菑",
+	vi: "truy"
+}, {
+	zh: "麋",
+	vi: "mi"
+}, {
+	zh: "劬",
+	vi: "cù"
+}, {
+	zh: "歆",
+	vi: "hâm"
+}, {
+	zh: "鄏",
+	vi: "nhục"
+}, {
+	zh: "璠",
+	vi: "phan"
+}, {
+	zh: "祓",
+	vi: "phất"
+}, {
+	zh: "阨",
+	vi: "ách"
+}, {
+	zh: "闵",
+	vi: "mẫn"
+}, {
+	zh: "戢",
+	vi: "tập"
+}, {
+	zh: "櫜",
+	vi: "cao"
+}, {
+	zh: "圻",
+	vi: "kỳ"
+}, {
+	zh: "膑",
+	vi: "tẫn"
+}, {
+	zh: "眊",
+	vi: "mạo"
+}, {
+	zh: "锊",
+	vi: "luyệt"
+}, {
+	zh: "繄",
+	vi: "ê"
+}, {
+	zh: "娣",
+	vi: "đễ"
+}, {
+	zh: "鄣",
+	vi: "chướng"
+}, {
+	zh: "瞍",
+	vi: "tẩu"
+}, {
+	zh: "盻",
+	vi: "hễ"
+}, {
+	zh: "骖",
+	vi: "tham"
+}, {
+	zh: "鄗",
+	vi: "hạo"
+}, {
+	zh: "雠",
+	vi: "thù"
+}, {
+	zh: "粢",
+	vi: "tư"
+}, {
+	zh: "椟",
+	vi: "độc"
+}, {
+	zh: "鼋",
+	vi: "ngoan"
+}, {
+	zh: "蚖",
+	vi: "ngoan"
+}, {
+	zh: "蜴",
+	vi: "dịch"
+}, {
+	zh: "燧",
+	vi: "toại"
+}, {
+	zh: "祊",
+	vi: "banh"
+}, {
+	zh: "繻",
+	vi: "nhu"
+}, {
+	zh: "聃",
+	vi: "đam"
+}, {
+	zh: "阆",
+	vi: "lãng"
+}, {
+	zh: "鞶",
+	vi: "bàn"
+}, {
+	zh: "愬",
+	vi: "tố"
+}, {
+	zh: "珪",
+	vi: "khuê"
+}, {
+	zh: "鬯",
+	vi: "sưởng"
+}, {
+	zh: "弒",
+	vi: "thí"
+}, {
+	zh: "膰",
+	vi: "phiền"
+}, {
+	zh: "鈇",
+	vi: "phu"
+}, {
+	zh: "郢",
+	vi: "dĩnh"
+}, {
+	zh: "媿",
+	vi: "quý"
+}, {
+	zh: "獘",
+	vi: "tệ"
+}, {
+	zh: "郜",
+	vi: "cáo"
+}, {
+	zh: "诎",
+	vi: "truất"
+}, {
+	zh: "芈",
+	vi: "mị"
+}, {
+	zh: "皁",
+	vi: "tạo"
+}, {
+	zh: "郯",
+	vi: "đàm"
+}, {
+	zh: "骅",
+	vi: "hoa"
+}, {
+	zh: "騄",
+	vi: "lục"
+}, {
+	zh: "騧",
+	vi: "qua"
+}, {
+	zh: "骝",
+	vi: "lưu"
+}, {
+	zh: "娠",
+	vi: "thần"
+}, {
+	zh: "羝",
+	vi: "đê"
+}, {
+	zh: "鄜",
+	vi: "phu"
+}, {
+	zh: "竫",
+	vi: "tĩnh"
+}, {
+	zh: "郿",
+	vi: "mi"
+}, {
+	zh: "媦",
+	vi: "vị"
+}, {
+	zh: "傒",
+	vi: "hề"
+}, {
+	zh: "羖",
+	vi: "cổ"
+}, {
+	zh: "穰",
+	vi: "nhương"
+}, {
+	zh: "绖",
+	vi: "điệt"
+}, {
+	zh: "饩",
+	vi: "hí"
+}, {
+	zh: "猗",
+	vi: "y"
+}, {
+	zh: "皤",
+	vi: "bà"
+}, {
+	zh: "罃",
+	vi: "oanh"
+}, {
+	zh: "薨",
+	vi: "hoăng"
+}, {
+	zh: "籒",
+	vi: "trứu"
+}, {
+	zh: "栾",
+	vi: "loan"
+}, {
+	zh: "棫",
+	vi: "vực"
+}, {
+	zh: "歃",
+	vi: "sáp"
+}, {
+	zh: "荔",
+	vi: "lệ"
+}, {
+	zh: "痤",
+	vi: "tọa"
+}, {
+	zh: "黼",
+	vi: "phủ"
+}, {
+	zh: "黻",
+	vi: "phất"
+}, {
+	zh: "黔",
+	vi: "kiềm"
+}, {
+	zh: "眛",
+	vi: "muội"
+}, {
+	zh: "轵",
+	vi: "chỉ"
+}, {
+	zh: "悝",
+	vi: "khôi"
+}, {
+	zh: "鄢",
+	vi: "yên"
+}, {
+	zh: "龁",
+	vi: "hột"
+}, {
+	zh: "郓",
+	vi: "vận"
+}, {
+	zh: "鞮",
+	vi: "đê"
+}, {
+	zh: "郗",
+	vi: "si"
+}, {
+	zh: "菟",
+	vi: "thố"
+}, {
+	zh: "斿",
+	vi: "du"
+}, {
+	zh: "齮",
+	vi: "nghĩ"
+}, {
+	zh: "麃",
+	vi: "tiêu"
+}, {
+	zh: "鹖",
+	vi: "hạt"
+}, {
+	zh: "蕲",
+	vi: "kỳ"
+}, {
+	zh: "媟",
+	vi: "tiết"
+}, {
+	zh: "埽",
+	vi: "tảo"
+}, {
+	zh: "佽",
+	vi: "thứ"
+}, {
+	zh: "橑",
+	vi: "liêu"
+}, {
+	zh: "酺",
+	vi: "bô"
+}, {
+	zh: "鐻",
+	vi: "cự"
+}, {
+	zh: "砀",
+	vi: "đãng"
+}, {
+	zh: "柞",
+	vi: "tạc"
+}, {
+	zh: "绨",
+	vi: "đề"
+}, {
+	zh: "邾",
+	vi: "chu"
+}, {
+	zh: "墠",
+	vi: "thiện"
+}, {
+	zh: "迩",
+	vi: "nhĩ"
+}, {
+	zh: "樛",
+	vi: "cù"
+}, {
+	zh: "僊",
+	vi: "tiên"
+}, {
+	zh: "掾",
+	vi: "duyện"
+}, {
+	zh: "淛",
+	vi: "chiết"
+}, {
+	zh: "眴",
+	vi: "thuấn"
+}, {
+	zh: "盱",
+	vi: "hu"
+}, {
+	zh: "眙",
+	vi: "di"
+}, {
+	zh: "窎",
+	vi: "điếu"
+}, {
+	zh: "畀",
+	vi: "tí"
+}, {
+	zh: "雝",
+	vi: "ung"
+}, {
+	zh: "虮",
+	vi: "kỷ"
+}, {
+	zh: "赍",
+	vi: "tê"
+}, {
+	zh: "椹",
+	vi: "châm"
+}, {
+	zh: "莝",
+	vi: "tỏa"
+}, {
+	zh: "鲰",
+	vi: "tưu"
+}, {
+	zh: "卮",
+	vi: "chi"
+}, {
+	zh: "玦",
+	vi: "quyết"
+}, {
+	zh: "瞋",
+	vi: "sân"
+}, {
+	zh: "跽",
+	vi: "kỵ"
+}, {
+	zh: "餧",
+	vi: "ủy"
+}, {
+	zh: "崱",
+	vi: "trắc"
+}, {
+	zh: "郴",
+	vi: "sâm"
+}, {
+	zh: "莨",
+	vi: "lang"
+}, {
+	zh: "窅",
+	vi: "yểu"
+}, {
+	zh: "癃",
+	vi: "lung"
+}, {
+	zh: "髑",
+	vi: "độc"
+}, {
+	zh: "騑",
+	vi: "phi"
+}, {
+	zh: "枞",
+	vi: "tung"
+}, {
+	zh: "濊",
+	vi: "uế"
+}, {
+	zh: "洨",
+	vi: "hào"
+}, {
+	zh: "骓",
+	vi: "chuy"
+}, {
+	zh: "绐",
+	vi: "đãi"
+}, {
+	zh: "翥",
+	vi: "chứ"
+}, {
+	zh: "埶",
+	vi: "nghệ"
+}, {
+	zh: "媪",
+	vi: "ảo"
+}, {
+	zh: "贳",
+	vi: "thế"
+}, {
+	zh: "酤",
+	vi: "cô"
+}, {
+	zh: "黡",
+	vi: "yểm"
+}, {
+	zh: "嵕",
+	vi: "tông"
+}, {
+	zh: "赆",
+	vi: "tẫn"
+}, {
+	zh: "耨",
+	vi: "nậu"
+}, {
+	zh: "餔",
+	vi: "bô"
+}, {
+	zh: "筮",
+	vi: "thệ"
+}, {
+	zh: "鼙",
+	vi: "bề"
+}, {
+	zh: "嵇",
+	vi: "kê"
+}, {
+	zh: "繣",
+	vi: "hoạch"
+}, {
+	zh: "轘",
+	vi: "hoàn"
+}, {
+	zh: "亍",
+	vi: "xúc"
+}, {
+	zh: "峣",
+	vi: "nghiêu"
+}, {
+	zh: "巿",
+	vi: "phất"
+}, {
+	zh: "枳",
+	vi: "chỉ"
+}, {
+	zh: "跂",
+	vi: "kỳ"
+}, {
+	zh: "蒯",
+	vi: "khoái"
+}, {
+	zh: "饟",
+	vi: "hướng"
+}, {
+	zh: "篲",
+	vi: "tuệ"
+}, {
+	zh: "瓴",
+	vi: "linh"
+}, {
+	zh: "踘",
+	vi: "cúc"
+}, {
+	zh: "豨",
+	vi: "hi"
+}, {
+	zh: "甀",
+	vi: "trụy"
+}, {
+	zh: "鲙",
+	vi: "quái"
+}, {
+	zh: "缶",
+	vi: "phữu"
+}, {
+	zh: "僿",
+	vi: "tái"
+}, {
+	zh: "悃",
+	vi: "khổn"
+}, {
+	zh: "姁",
+	vi: "hủ"
+}, {
+	zh: "酖",
+	vi: "đam"
+}, {
+	zh: "瘖",
+	vi: "âm"
+}, {
+	zh: "珥",
+	vi: "nhị"
+}, {
+	zh: "啑",
+	vi: "xiệp"
+}, {
+	zh: "嬃",
+	vi: "tu"
+}, {
+	zh: "惛",
+	vi: "hôn"
+}, {
+	zh: "蝯",
+	vi: "viên"
+}, {
+	zh: "襢",
+	vi: "đản"
+}, {
+	zh: "掊",
+	vi: "bồi"
+}, {
+	zh: "渫",
+	vi: "tiết"
+}, {
+	zh: "葅",
+	vi: "thư"
+}, {
+	zh: "櫱",
+	vi: "nghiệt"
+}, {
+	zh: "芟",
+	vi: "sam"
+}, {
+	zh: "跕",
+	vi: "thiếp"
+}, {
+	zh: "蹀",
+	vi: "điệp"
+}, {
+	zh: "酇",
+	vi: "toản"
+}, {
+	zh: "醵",
+	vi: "cự"
+}, {
+	zh: "阼",
+	vi: "tộ"
+}, {
+	zh: "嗛",
+	vi: "hàm"
+}, {
+	zh: "邬",
+	vi: "ô"
+}, {
+	zh: "轺",
+	vi: "diêu"
+}, {
+	zh: "谰",
+	vi: "lan"
+}, {
+	zh: "轹",
+	vi: "lịch"
+}, {
+	zh: "诖",
+	vi: "quái"
+}, {
+	zh: "筰",
+	vi: "tạc"
+}, {
+	zh: "缇",
+	vi: "đề"
+}, {
+	zh: "屦",
+	vi: "lũ"
+}, {
+	zh: "缾",
+	vi: "bình"
+}, {
+	zh: "禧",
+	vi: "hi"
+}, {
+	zh: "糤",
+	vi: "tản"
+}, {
+	zh: "禫",
+	vi: "đạm"
+}, {
+	zh: "瘗",
+	vi: "ế"
+}, {
+	zh: "酎",
+	vi: "trữu"
+}, {
+	zh: "殇",
+	vi: "thương"
+}, {
+	zh: "遒",
+	vi: "tù"
+}, {
+	zh: "诔",
+	vi: "lụy"
+}, {
+	zh: "郅",
+	vi: "chất"
+}, {
+	zh: "鼢",
+	vi: "phẫn"
+}, {
+	zh: "搢",
+	vi: "tấn"
+}, {
+	zh: "娌",
+	vi: "lý"
+}, {
+	zh: "嬛",
+	vi: "huyên"
+}, {
+	zh: "澹",
+	vi: "đạm"
+}, {
+	zh: "邈",
+	vi: "mạc"
+}, {
+	zh: "堀",
+	vi: "quật"
+}, {
+	zh: "碁",
+	vi: "kỳ"
+}, {
+	zh: "鼒",
+	vi: "tỷ"
+}, {
+	zh: "塾",
+	vi: "thục"
+}, {
+	zh: "笾",
+	vi: "biên"
+}, {
+	zh: "缢",
+	vi: "ải"
+}, {
+	zh: "瑄",
+	vi: "tuyên"
+}, {
+	zh: "箜",
+	vi: "không"
+}, {
+	zh: "篌",
+	vi: "hầu"
+}, {
+	zh: "茀",
+	vi: "phất"
+}, {
+	zh: "瓯",
+	vi: "âu"
+}, {
+	zh: "甓",
+	vi: "bích"
+}, {
+	zh: "譔",
+	vi: "soạn"
+}, {
+	zh: "捃",
+	vi: "quấn"
+}, {
+	zh: "摭",
+	vi: "trích"
+}, {
+	zh: "揜",
+	vi: "yểm"
+}, {
+	zh: "隳",
+	vi: "huy"
+}, {
+	zh: "镝",
+	vi: "đích"
+}, {
+	zh: "绲",
+	vi: "cổn"
+}, {
+	zh: "箓",
+	vi: "lục"
+}, {
+	zh: "蔕",
+	vi: "đế"
+}, {
+	zh: "禘",
+	vi: "đế"
+}, {
+	zh: "诪",
+	vi: "trù"
+}, {
+	zh: "襞",
+	vi: "bích"
+}, {
+	zh: "箦",
+	vi: "trách"
+}, {
+	zh: "鲛",
+	vi: "giao"
+}, {
+	zh: "轼",
+	vi: "thức"
+}, {
+	zh: "轭",
+	vi: "ách"
+}, {
+	zh: "沬",
+	vi: "muội"
+}, {
+	zh: "尟",
+	vi: "tiển"
+}, {
+	zh: "虿",
+	vi: "sái"
+}, {
+	zh: "蹻",
+	vi: "kiểu"
+}, {
+	zh: "鄀",
+	vi: "nhược"
+}, {
+	zh: "濆",
+	vi: "phần"
+}, {
+	zh: "哜",
+	vi: "tễ"
+}, {
+	zh: "侑",
+	vi: "hựu"
+}, {
+	zh: "帱",
+	vi: "trù"
+}, {
+	zh: "臑",
+	vi: "nao"
+}, {
+	zh: "柷",
+	vi: "chúc"
+}, {
+	zh: "噭",
+	vi: "khiếu"
+}, {
+	zh: "肄",
+	vi: "dị"
+}, {
+	zh: "祎",
+	vi: "y"
+}, {
+	zh: "踧",
+	vi: "địch"
+}, {
+	zh: "搥",
+	vi: "chùy"
+}, {
+	zh: "欹",
+	vi: "y"
+}, {
+	zh: "芼",
+	vi: "mạo"
+}, {
+	zh: "簠",
+	vi: "phủ"
+}, {
+	zh: "簋",
+	vi: "quỹ"
+}, {
+	zh: "裼",
+	vi: "tích"
+}, {
+	zh: "苾",
+	vi: "bật"
+}, {
+	zh: "佾",
+	vi: "dật"
+}, {
+	zh: "葆",
+	vi: "bảo"
+}, {
+	zh: "稣",
+	vi: "tô"
+}, {
+	zh: "侏",
+	vi: "chu"
+}, {
+	zh: "筩",
+	vi: "đồng"
+}, {
+	zh: "鎗",
+	vi: "sanh"
+}, {
+	zh: "疢",
+	vi: "sấn"
+}, {
+	zh: "殳",
+	vi: "thù"
+}, {
+	zh: "螫",
+	vi: "thích"
+}, {
+	zh: "婺",
+	vi: "vụ"
+}, {
+	zh: "轸",
+	vi: "chẩn"
+}, {
+	zh: "痿",
+	vi: "nuy"
+}, {
+	zh: "秭",
+	vi: "tỷ"
+}, {
+	zh: "陬",
+	vi: "tưu"
+}, {
+	zh: "紬",
+	vi: "trừu"
+}, {
+	zh: "琁",
+	vi: "tuyền"
+}, {
+	zh: "衿",
+	vi: "khâm"
+}, {
+	zh: "舝",
+	vi: "hạt"
+}, {
+	zh: "闿",
+	vi: "khải"
+}, {
+	zh: "荚",
+	vi: "giáp"
+}, {
+	zh: "貊",
+	vi: "mạch"
+}, {
+	zh: "觜",
+	vi: "tuy"
+}, {
+	zh: "觿",
+	vi: "huề"
+}, {
+	zh: "溷",
+	vi: "hỗn"
+}, {
+	zh: "枵",
+	vi: "hiêu"
+}, {
+	zh: "孛",
+	vi: "bột"
+}, {
+	zh: "埏",
+	vi: "duyên"
+}, {
+	zh: "蓏",
+	vi: "lỏa"
+}, {
+	zh: "跰",
+	vi: "nghiễn"
+}, {
+	zh: "辏",
+	vi: "thấu"
+}, {
+	zh: "谖",
+	vi: "huyên"
+}, {
+	zh: "蔷",
+	vi: "sắc"
+}, {
+	zh: "谘",
+	vi: "ti"
+}, {
+	zh: "籽",
+	vi: "tử"
+}, {
+	zh: "櫍",
+	vi: "chất"
+}, {
+	zh: "锸",
+	vi: "tráp"
+}, {
+	zh: "欃",
+	vi: "sàm"
+}, {
+	zh: "柎",
+	vi: "phu"
+}, {
+	zh: "耎",
+	vi: "nhuyễn"
+}, {
+	zh: "爨",
+	vi: "thoán"
+}, {
+	zh: "椷",
+	vi: "giam"
+}, {
+	zh: "蘤",
+	vi: "hoa"
+}, {
+	zh: "躄",
+	vi: "tích"
+}, {
+	zh: "伛",
+	vi: "ủ"
+}, {
+	zh: "囷",
+	vi: "khuân"
+}, {
+	zh: "遘",
+	vi: "cấu"
+}, {
+	zh: "昳",
+	vi: "điệt"
+}, {
+	zh: "旃",
+	vi: "chiên"
+}, {
+	zh: "骀",
+	vi: "đài"
+}, {
+	zh: "荦",
+	vi: "lạc"
+}, {
+	zh: "堙",
+	vi: "nhân"
+}, {
+	zh: "雊",
+	vi: "cẩu"
+}, {
+	zh: "觋",
+	vi: "hích"
+}, {
+	zh: "隩",
+	vi: "áo"
+}, {
+	zh: "虙",
+	vi: "mật"
+}, {
+	zh: "耒",
+	vi: "lỗi"
+}, {
+	zh: "臛",
+	vi: "hoắc"
+}, {
+	zh: "鲽",
+	vi: "điệp"
+}, {
+	zh: "荅",
+	vi: "đáp"
+}, {
+	zh: "鹣",
+	vi: "kiêm"
+}, {
+	zh: "蚓",
+	vi: "dẫn"
+}, {
+	zh: "驺",
+	vi: "sô"
+}, {
+	zh: "犍",
+	vi: "kiền"
+}, {
+	zh: "冱",
+	vi: "hộ"
+}, {
+	zh: "醪",
+	vi: "lao"
+}, {
+	zh: "滈",
+	vi: "hao"
+}, {
+	zh: "弢",
+	vi: "thao"
+}, {
+	zh: "骍",
+	vi: "tuynh"
+}, {
+	zh: "芾",
+	vi: "phất"
+}, {
+	zh: "儭",
+	vi: "sấn"
+}, {
+	zh: "鸸",
+	vi: "nhi"
+}, {
+	zh: "枌",
+	vi: "phần"
+}, {
+	zh: "晬",
+	vi: "tối"
+}, {
+	zh: "轝",
+	vi: "dư"
+}, {
+	zh: "醊",
+	vi: "chuyết"
+}, {
+	zh: "灊",
+	vi: "tiềm"
+}, {
+	zh: "酾",
+	vi: "si"
+}, {
+	zh: "跬",
+	vi: "khuể"
+}, {
+	zh: "鞧",
+	vi: "thu"
+}, {
+	zh: "壖",
+	vi: "nhuyên"
+}, {
+	zh: "茭",
+	vi: "giao"
+}, {
+	zh: "溲",
+	vi: "sửu"
+}, {
+	zh: "筱",
+	vi: "tiêu"
+}, {
+	zh: "旰",
+	vi: "cán"
+}, {
+	zh: "搴",
+	vi: "khiên"
+}, {
+	zh: "茇",
+	vi: "bạt"
+}, {
+	zh: "绋",
+	vi: "phất"
+}, {
+	zh: "厔",
+	vi: "chất"
+}, {
+	zh: "湟",
+	vi: "hoàng"
+}, {
+	zh: "粜",
+	vi: "thiếu"
+}, {
+	zh: "傧",
+	vi: "tấn"
+}, {
+	zh: "踶",
+	vi: "đệ"
+}, {
+	zh: "赡",
+	vi: "thiệm"
+}, {
+	zh: "毂",
+	vi: "cốc"
+}, {
+	zh: "筦",
+	vi: "quản"
+}, {
+	zh: "屩",
+	vi: "cược"
+}, {
+	zh: "屝",
+	vi: "phỉ"
+}, {
+	zh: "籴",
+	vi: "địch"
+}, {
+	zh: "昕",
+	vi: "hân"
+}, {
+	zh: "僦",
+	vi: "tựu"
+}, {
+	zh: "庠",
+	vi: "tường"
+}, {
+	zh: "阍",
+	vi: "hôn"
+}, {
+	zh: "殪",
+	vi: "ế"
+}, {
+	zh: "偪",
+	vi: "bức"
+}, {
+	zh: "焘",
+	vi: "đảo"
+}, {
+	zh: "瑗",
+	vi: "viện"
+}, {
+	zh: "麇",
+	vi: "quân"
+}, {
+	zh: "剸",
+	vi: "chuyển"
+}, {
+	zh: "郧",
+	vi: "vân"
+}, {
+	zh: "檇",
+	vi: "tuy"
+}, {
+	zh: "澒",
+	vi: "hống"
+}, {
+	zh: "磻",
+	vi: "bàn"
+}, {
+	zh: "伋",
+	vi: "cấp"
+}, {
+	zh: "棼",
+	vi: "phần"
+}, {
+	zh: "桎",
+	vi: "chất"
+}, {
+	zh: "梏",
+	vi: "cốc"
+}, {
+	zh: "甗",
+	vi: "nghiễn"
+}, {
+	zh: "驵",
+	vi: "tảng"
+}, {
+	zh: "鲂",
+	vi: "phường"
+}, {
+	zh: "鸮",
+	vi: "hào"
+}, {
+	zh: "揃",
+	vi: "tiễn"
+}, {
+	zh: "惸",
+	vi: "quỳnh"
+}, {
+	zh: "肸",
+	vi: "hật"
+}, {
+	zh: "糗",
+	vi: "khứu"
+}, {
+	zh: "狝",
+	vi: "tiển"
+}, {
+	zh: "曩",
+	vi: "nẵng"
+}, {
+	zh: "裯",
+	vi: "chù"
+}, {
+	zh: "钸",
+	vi: "bố"
+}, {
+	zh: "鹆",
+	vi: "dục"
+}, {
+	zh: "郈",
+	vi: "hậu"
+}, {
+	zh: "坌",
+	vi: "bộn"
+}, {
+	zh: "錔",
+	vi: "thạp"
+}, {
+	zh: "秫",
+	vi: "thuật"
+}, {
+	zh: "洙",
+	vi: "thù"
+}, {
+	zh: "龂",
+	vi: "ngân"
+}, {
+	zh: "誾",
+	vi: "ngân"
+}, {
+	zh: "扆",
+	vi: "ỷ"
+}, {
+	zh: "涘",
+	vi: "sĩ"
+}, {
+	zh: "醳",
+	vi: "dịch"
+}, {
+	zh: "衵",
+	vi: "nật"
+}, {
+	zh: "苕",
+	vi: "điều"
+}, {
+	zh: "綦",
+	vi: "kỳ"
+}, {
+	zh: "碏",
+	vi: "thước"
+}, {
+	zh: "衎",
+	vi: "khản"
+}, {
+	zh: "焱",
+	vi: "diễm"
+}, {
+	zh: "聩",
+	vi: "hội"
+}, {
+	zh: "緌",
+	vi: "nhuy"
+}, {
+	zh: "斁",
+	vi: "dịch"
+}, {
+	zh: "洟",
+	vi: "di"
+}, {
+	zh: "腯",
+	vi: "đột"
+}, {
+	zh: "郛",
+	vi: "phu"
+}, {
+	zh: "鹢",
+	vi: "nghịch"
+}, {
+	zh: "魋",
+	vi: "đồi"
+}, {
+	zh: "辐",
+	vi: "phúc"
+}, {
+	zh: "钏",
+	vi: "xuyến"
+}, {
+	zh: "袪",
+	vi: "khư"
+}, {
+	zh: "縠",
+	vi: "hộc"
+}, {
+	zh: "鯈",
+	vi: "du"
+}, {
+	zh: "遯",
+	vi: "độn"
+}, {
+	zh: "芃",
+	vi: "bồng"
+}, {
+	zh: "郇",
+	vi: "tuân"
+}, {
+	zh: "玈",
+	vi: "lô"
+}, {
+	zh: "卣",
+	vi: "dữu"
+}, {
+	zh: "胹",
+	vi: "nhi"
+}, {
+	zh: "蹯",
+	vi: "phiền"
+}, {
+	zh: "麑",
+	vi: "nghê"
+}, {
+	zh: "嗾",
+	vi: "thốc"
+}, {
+	zh: "獒",
+	vi: "ngao"
+}, {
+	zh: "锜",
+	vi: "kỹ"
+}, {
+	zh: "黮",
+	vi: "thảm"
+}, {
+	zh: "尪",
+	vi: "uông"
+}, {
+	zh: "蒌",
+	vi: "lâu"
+}, {
+	zh: "褎",
+	vi: "tụ"
+}, {
+	zh: "樗",
+	vi: "xư"
+}, {
+	zh: "锉",
+	vi: "tỏa"
+}, {
+	zh: "浿",
+	vi: "phối"
+}, {
+	zh: "黾",
+	vi: "mãnh"
+}, {
+	zh: "疥",
+	vi: "giới"
+}, {
+	zh: "鼫",
+	vi: "thạch"
+}, {
+	zh: "菼",
+	vi: "thảm"
+}, {
+	zh: "蠋",
+	vi: "trục"
+}, {
+	zh: "歙",
+	vi: "hấp"
+}, {
+	zh: "鄦",
+	vi: "hứa"
+}, {
+	zh: "洧",
+	vi: "vị"
+}, {
+	zh: "蓐",
+	vi: "nhục"
+}, {
+	zh: "毓",
+	vi: "dục"
+}, {
+	zh: "崞",
+	vi: "quách"
+}, {
+	zh: "藳",
+	vi: "cảo"
+}, {
+	zh: "笥",
+	vi: "tứ"
+}, {
+	zh: "葭",
+	vi: "gia"
+}, {
+	zh: "纮",
+	vi: "hoành"
+}, {
+	zh: "斲",
+	vi: "trác"
+}, {
+	zh: "榱",
+	vi: "suy"
+}, {
+	zh: "梠",
+	vi: "lữ"
+}, {
+	zh: "芘",
+	vi: "tỷ"
+}, {
+	zh: "鲑",
+	vi: "khuê"
+}, {
+	zh: "鷇",
+	vi: "cấu"
+}, {
+	zh: "蕞",
+	vi: "tối"
+}, {
+	zh: "蛏",
+	vi: "sanh"
+}, {
+	zh: "荨",
+	vi: "tầm"
+}, {
+	zh: "璜",
+	vi: "hoàng"
+}, {
+	zh: "勖",
+	vi: "úc"
+}, {
+	zh: "峤",
+	vi: "kiệu"
+}, {
+	zh: "覸",
+	vi: "gián"
+}, {
+	zh: "棐",
+	vi: "phỉ"
+}, {
+	zh: "赇",
+	vi: "cầu"
+}, {
+	zh: "荃",
+	vi: "thuyên"
+}, {
+	zh: "昱",
+	vi: "dục"
+}, {
+	zh: "剡",
+	vi: "diệm"
+}, {
+	zh: "罅",
+	vi: "há"
+}, {
+	zh: "骐",
+	vi: "kỳ"
+}, {
+	zh: "靷",
+	vi: "dẫn"
+}, {
+	zh: "圩",
+	vi: "vu"
+}, {
+	zh: "睪",
+	vi: "dịch"
+}, {
+	zh: "郰",
+	vi: "châu"
+}, {
+	zh: "饘",
+	vi: "chiên"
+}, {
+	zh: "餬",
+	vi: "hồ"
+}, {
+	zh: "绁",
+	vi: "tiết"
+}, {
+	zh: "缫",
+	vi: "sào"
+}, {
+	zh: "魍",
+	vi: "võng"
+}, {
+	zh: "僬",
+	vi: "tiêu"
+}, {
+	zh: "怍",
+	vi: "tạc"
+}, {
+	zh: "硁",
+	vi: "khanh"
+}, {
+	zh: "耰",
+	vi: "ưu"
+}, {
+	zh: "耜",
+	vi: "tỷ"
+}, {
+	zh: "皦",
+	vi: "kiểu"
+}, {
+	zh: "彖",
+	vi: "thoán"
+}, {
+	zh: "恂",
+	vi: "tuân"
+}, {
+	zh: "茕",
+	vi: "quỳnh"
+}, {
+	zh: "掎",
+	vi: "kỷ"
+}, {
+	zh: "罾",
+	vi: "tăng"
+}, {
+	zh: "俛",
+	vi: "phủ"
+}, {
+	zh: "铦",
+	vi: "tiêm"
+}, {
+	zh: "禊",
+	vi: "hễ"
+}, {
+	zh: "跸",
+	vi: "tất"
+}, {
+	zh: "觖",
+	vi: "quyết"
+}, {
+	zh: "坻",
+	vi: "trì"
+}, {
+	zh: "疠",
+	vi: "lệ"
+}, {
+	zh: "閺",
+	vi: "văn"
+}, {
+	zh: "邡",
+	vi: "phương"
+}, {
+	zh: "矰",
+	vi: "tăng"
+}, {
+	zh: "踔",
+	vi: "trác"
+}, {
+	zh: "宓",
+	vi: "mật"
+}, {
+	zh: "幪",
+	vi: "mông"
+}, {
+	zh: "胾",
+	vi: "chí"
+}, {
+	zh: "彧",
+	vi: "úc"
+}, {
+	zh: "罍",
+	vi: "lôi"
+}, {
+	zh: "犴",
+	vi: "ngạn"
+}, {
+	zh: "艴",
+	vi: "phật"
+}, {
+	zh: "埤",
+	vi: "bì"
+}, {
+	zh: "筜",
+	vi: "đương"
+}, {
+	zh: "梲",
+	vi: "chuyết"
+}, {
+	zh: "媢",
+	vi: "mạo"
+}, {
+	zh: "禔",
+	vi: "đề"
+}, {
+	zh: "誖",
+	vi: "bội"
+}, {
+	zh: "谡",
+	vi: "tắc"
+}, {
+	zh: "滫",
+	vi: "tưu"
+}, {
+	zh: "蕨",
+	vi: "quyết"
+}, {
+	zh: "箪",
+	vi: "đan"
+}, {
+	zh: "鵩",
+	vi: "phục"
+}, {
+	zh: "坫",
+	vi: "điếm"
+}, {
+	zh: "缧",
+	vi: "luy"
+}, {
+	zh: "戄",
+	vi: "quặc"
+}, {
+	zh: "濑",
+	vi: "lại"
+}, {
+	zh: "菹",
+	vi: "trư"
+}, {
+	zh: "胠",
+	vi: "khư"
+}, {
+	zh: "洸",
+	vi: "quang"
+}, {
+	zh: "咈",
+	vi: "phất"
+}, {
+	zh: "壸",
+	vi: "khổn"
+}, {
+	zh: "挐",
+	vi: "noa"
+}, {
+	zh: "撝",
+	vi: "huy"
+}, {
+	zh: "埭",
+	vi: "đại"
+}, {
+	zh: "葑",
+	vi: "phong"
+}, {
+	zh: "榼",
+	vi: "khạp"
+}, {
+	zh: "喭",
+	vi: "ngạn"
+}, {
+	zh: "缊",
+	vi: "ôn"
+}, {
+	zh: "圬",
+	vi: "ô"
+}, {
+	zh: "墁",
+	vi: "mạn"
+}, {
+	zh: "軶",
+	vi: "ách"
+}, {
+	zh: "虍",
+	vi: "hô"
+}, {
+	zh: "宀",
+	vi: "miên"
+}, {
+	zh: "蒧",
+	vi: "điểm"
+}, {
+	zh: "袷",
+	vi: "giáp"
+}, {
+	zh: "鳣",
+	vi: "chiên"
+}, {
+	zh: "讱",
+	vi: "nhẫn"
+}, {
+	zh: "砻",
+	vi: "lung"
+}, {
+	zh: "欬",
+	vi: "khái"
+}, {
+	zh: "塍",
+	vi: "thăng"
+}, {
+	zh: "嶝",
+	vi: "đặng"
+}, {
+	zh: "遄",
+	vi: "thuyên"
+}, {
+	zh: "愒",
+	vi: "khế"
+}, {
+	zh: "褰",
+	vi: "khiên"
+}, {
+	zh: "弇",
+	vi: "yểm"
+}, {
+	zh: "赙",
+	vi: "phụ"
+}, {
+	zh: "鞴",
+	vi: "bị"
+}, {
+	zh: "幰",
+	vi: "hiển"
+}, {
+	zh: "涪",
+	vi: "phù"
+}, {
+	zh: "讵",
+	vi: "cự"
+}, {
+	zh: "杅",
+	vi: "vu"
+}, {
+	zh: "摅",
+	vi: "sư"
+}, {
+	zh: "蜎",
+	vi: "quyên"
+}, {
+	zh: "蠉",
+	vi: "huyên"
+}, {
+	zh: "枘",
+	vi: "nhuế"
+}, {
+	zh: "龃",
+	vi: "trở"
+}, {
+	zh: "龉",
+	vi: "ngữ"
+}, {
+	zh: "輠",
+	vi: "quả"
+}, {
+	zh: "裋",
+	vi: "thụ"
+}, {
+	zh: "緅",
+	vi: "tưu"
+}, {
+	zh: "簦",
+	vi: "đăng"
+}, {
+	zh: "槔",
+	vi: "cao"
+}, {
+	zh: "簏",
+	vi: "lộc"
+}, {
+	zh: "趯",
+	vi: "địch"
+}, {
+	zh: "脰",
+	vi: "đậu"
+}, {
+	zh: "剉",
+	vi: "tỏa"
+}, {
+	zh: "篪",
+	vi: "trì"
+}, {
+	zh: "慁",
+	vi: "hỗn"
+}, {
+	zh: "絁",
+	vi: "thi"
+}, {
+	zh: "簟",
+	vi: "điệm"
+}, {
+	zh: "谠",
+	vi: "đảng"
+}, {
+	zh: "襜",
+	vi: "xiêm"
+}, {
+	zh: "鍱",
+	vi: "diệp"
+}, {
+	zh: "俶",
+	vi: "thục"
+}, {
+	zh: "斮",
+	vi: "trác"
+}, {
+	zh: "襚",
+	vi: "tùy"
+}, {
+	zh: "悁",
+	vi: "quyên"
+}, {
+	zh: "駃",
+	vi: "khoái"
+}, {
+	zh: "騠",
+	vi: "đề"
+}, {
+	zh: "軿",
+	vi: "bình"
+}, {
+	zh: "髌",
+	vi: "bận"
+}, {
+	zh: "骭",
+	vi: "cán"
+}, {
+	zh: "閦",
+	vi: "súc"
+}, {
+	zh: "眄",
+	vi: "miện"
+}, {
+	zh: "皭",
+	vi: "tước"
+}, {
+	zh: "臋",
+	vi: "đồn"
+}, {
+	zh: "醨",
+	vi: "ly"
+}, {
+	zh: "瑾",
+	vi: "cẩn"
+}, {
+	zh: "蠖",
+	vi: "oách"
+}, {
+	zh: "刓",
+	vi: "ngoan"
+}, {
+	zh: "睇",
+	vi: "thê"
+}, {
+	zh: "牾",
+	vi: "ngộ"
+}, {
+	zh: "嫠",
+	vi: "ly"
+}, {
+	zh: "晗",
+	vi: "hàm"
+}, {
+	zh: "阘",
+	vi: "tháp"
+}, {
+	zh: "遰",
+	vi: "đệ"
+}, {
+	zh: "偭",
+	vi: "mạn"
+}, {
+	zh: "羀",
+	vi: "lữu"
+}, {
+	zh: "纆",
+	vi: "mặc"
+}, {
+	zh: "輺",
+	vi: "truy"
+}, {
+	zh: "脘",
+	vi: "quản"
+}, {
+	zh: "肈",
+	vi: "triệu"
+}, {
+	zh: "寠",
+	vi: "cũ"
+}, {
+	zh: "疒",
+	vi: "nạch"
+}, {
+	zh: "粝",
+	vi: "lệ"
+}, {
+	zh: "剟",
+	vi: "xuyết"
+}, {
+	zh: "揕",
+	vi: "chấm"
+}, {
+	zh: "锷",
+	vi: "ngạc"
+}, {
+	zh: "矐",
+	vi: "hoắc"
+}, {
+	zh: "鼍",
+	vi: "đà"
+}, {
+	zh: "瑱",
+	vi: "thiến"
+}, {
+	zh: "蠲",
+	vi: "quyên"
+}, {
+	zh: "谫",
+	vi: "tiễn"
+}, {
+	zh: "铏",
+	vi: "hình"
+}, {
+	zh: "囹",
+	vi: "linh"
+}, {
+	zh: "泜",
+	vi: "trì"
+}, {
+	zh: "孱",
+	vi: "sàn"
+}, {
+	zh: "轞",
+	vi: "hạm"
+}, {
+	zh: "箯",
+	vi: "tiên"
+}, {
+	zh: "唼",
+	vi: "xiệp"
+}, {
+	zh: "罫",
+	vi: "quải"
+}, {
+	zh: "钲",
+	vi: "chinh"
+}, {
+	zh: "罂",
+	vi: "anh"
+}, {
+	zh: "萆",
+	vi: "tỳ"
+}, {
+	zh: "飧",
+	vi: "sôn"
+}, {
+	zh: "箄",
+	vi: "bài"
+}, {
+	zh: "褕",
+	vi: "du"
+}, {
+	zh: "諠",
+	vi: "huyên"
+}, {
+	zh: "蹢",
+	vi: "trịch"
+}, {
+	zh: "偾",
+	vi: "phẫn"
+}, {
+	zh: "桉",
+	vi: "án"
+}, {
+	zh: "薤",
+	vi: "giới"
+}, {
+	zh: "晞",
+	vi: "hi"
+}, {
+	zh: "颙",
+	vi: "ngung"
+}, {
+	zh: "歈",
+	vi: "du"
+}, {
+	zh: "踣",
+	vi: "phấu"
+}, {
+	zh: "瞶",
+	vi: "quý"
+}, {
+	zh: "胔",
+	vi: "tí"
+}, {
+	zh: "阰",
+	vi: "tỳ"
+}, {
+	zh: "俜",
+	vi: "binh"
+}, {
+	zh: "翣",
+	vi: "sáp"
+}, {
+	zh: "谳",
+	vi: "nghiện"
+}, {
+	zh: "抔",
+	vi: "bồi"
+}, {
+	zh: "阃",
+	vi: "khổn"
+}, {
+	zh: "牏",
+	vi: "du"
+}, {
+	zh: "糇",
+	vi: "hầu"
+}, {
+	zh: "裰",
+	vi: "chuyết"
+}, {
+	zh: "窬",
+	vi: "du"
+}, {
+	zh: "敉",
+	vi: "mị"
+}, {
+	zh: "芄",
+	vi: "hoàn"
+}, {
+	zh: "瑒",
+	vi: "sướng"
+}, {
+	zh: "跗",
+	vi: "phụ"
+}, {
+	zh: "镵",
+	vi: "sàm"
+}, {
+	zh: "趺",
+	vi: "phu"
+}, {
+	zh: "瞚",
+	vi: "thuấn"
+}, {
+	zh: "潸",
+	vi: "san"
+}, {
+	zh: "繵",
+	vi: "triền"
+}, {
+	zh: "腠",
+	vi: "thấu"
+}, {
+	zh: "醯",
+	vi: "ê"
+}, {
+	zh: "愦",
+	vi: "hội"
+}, {
+	zh: "瘅",
+	vi: "đản"
+}, {
+	zh: "脬",
+	vi: "phao"
+}, {
+	zh: "瘕",
+	vi: "hà"
+}, {
+	zh: "嗌",
+	vi: "ách"
+}, {
+	zh: "蛴",
+	vi: "tề"
+}, {
+	zh: "螬",
+	vi: "tào"
+}, {
+	zh: "砭",
+	vi: "biêm"
+}, {
+	zh: "釭",
+	vi: "công"
+}, {
+	zh: "憍",
+	vi: "kiêu"
+}, {
+	zh: "幨",
+	vi: "xiêm"
+}, {
+	zh: "呫",
+	vi: "chiếp"
+}, {
+	zh: "痱",
+	vi: "phi"
+}, {
+	zh: "侘",
+	vi: "sá"
+}, {
+	zh: "鐎",
+	vi: "tiêu"
+}, {
+	zh: "铫",
+	vi: "diêu"
+}, {
+	zh: "糒",
+	vi: "bí"
+}, {
+	zh: "悛",
+	vi: "thuân"
+}, {
+	zh: "抶",
+	vi: "sất"
+}, {
+	zh: "寖",
+	vi: "tẩm"
+}, {
+	zh: "纰",
+	vi: "bì"
+}, {
+	zh: "糱",
+	vi: "nghiệt"
+}, {
+	zh: "逴",
+	vi: "trác"
+}, {
+	zh: "虡",
+	vi: "cự"
+}, {
+	zh: "頞",
+	vi: "át"
+}, {
+	zh: "菔",
+	vi: "bặc"
+}, {
+	zh: "硐",
+	vi: "đồng"
+}, {
+	zh: "蒟",
+	vi: "củ"
+}, {
+	zh: "窭",
+	vi: "cũ"
+}, {
+	zh: "酢",
+	vi: "tạc"
+}, {
+	zh: "椓",
+	vi: "trạc"
+}, {
+	zh: "锓",
+	vi: "tẩm"
+}, {
+	zh: "裈",
+	vi: "côn"
+}, {
+	zh: "罝",
+	vi: "ta"
+}, {
+	zh: "擩",
+	vi: "nhũ"
+}, {
+	zh: "崒",
+	vi: "tốt"
+}, {
+	zh: "垩",
+	vi: "ác"
+}, {
+	zh: "蔗",
+	vi: "giá"
+}, {
+	zh: "蒹",
+	vi: "kiêm"
+}, {
+	zh: "菰",
+	vi: "cô"
+}, {
+	zh: "蘗",
+	vi: "bách"
+}, {
+	zh: "樝",
+	vi: "tra"
+}, {
+	zh: "鹓",
+	vi: "uyên"
+}, {
+	zh: "豻",
+	vi: "ngan"
+}, {
+	zh: "墡",
+	vi: "thiện"
+}, {
+	zh: "芎",
+	vi: "khung"
+}, {
+	zh: "藭",
+	vi: "cùng"
+}, {
+	zh: "蘘",
+	vi: "nhương"
+}, {
+	zh: "藨",
+	vi: "biễu"
+}, {
+	zh: "莸",
+	vi: "du"
+}, {
+	zh: "蜥",
+	vi: "tích"
+}, {
+	zh: "藂",
+	vi: "tùng"
+}, {
+	zh: "柽",
+	vi: "sanh"
+}, {
+	zh: "浰",
+	vi: "lợi"
+}, {
+	zh: "鸧",
+	vi: "thương"
+}, {
+	zh: "枻",
+	vi: "duệ"
+}, {
+	zh: "礧",
+	vi: "lôi"
+}, {
+	zh: "糁",
+	vi: "tảm"
+}, {
+	zh: "鷩",
+	vi: "tế"
+}, {
+	zh: "纚",
+	vi: "sỉ"
+}, {
+	zh: "陼",
+	vi: "chử"
+}, {
+	zh: "澥",
+	vi: "hải"
+}, {
+	zh: "訇",
+	vi: "hoanh"
+}, {
+	zh: "灏",
+	vi: "hạo"
+}, {
+	zh: "鳍",
+	vi: "kỳ"
+}, {
+	zh: "鹔",
+	vi: "túc"
+}, {
+	zh: "冩",
+	vi: "tả"
+}, {
+	zh: "沚",
+	vi: "chỉ"
+}, {
+	zh: "蘩",
+	vi: "phiền"
+}, {
+	zh: "磈",
+	vi: "ủy"
+}, {
+	zh: "荪",
+	vi: "tôn"
+}, {
+	zh: "芧",
+	vi: "trữ"
+}, {
+	zh: "蠁",
+	vi: "hưởng"
+}, {
+	zh: "菉",
+	vi: "lục"
+}, {
+	zh: "偓",
+	vi: "ác"
+}, {
+	zh: "佺",
+	vi: "thuyên"
+}, {
+	zh: "斒",
+	vi: "ban"
+}, {
+	zh: "臿",
+	vi: "tráp"
+}, {
+	zh: "悫",
+	vi: "khác"
+}, {
+	zh: "栌",
+	vi: "lô"
+}, {
+	zh: "骫",
+	vi: "ủy"
+}, {
+	zh: "蔘",
+	vi: "sâm"
+}, {
+	zh: "虒",
+	vi: "ti"
+}, {
+	zh: "蜼",
+	vi: "vị"
+}, {
+	zh: "蜩",
+	vi: "điêu"
+}, {
+	zh: "杪",
+	vi: "diểu"
+}, {
+	zh: "镢",
+	vi: "quắc"
+}, {
+	zh: "蠼",
+	vi: "quặc"
+}, {
+	zh: "鼯",
+	vi: "ngô"
+}, {
+	zh: "曺",
+	vi: "tào"
+}, {
+	zh: "敻",
+	vi: "quýnh"
+}, {
+	zh: "鹥",
+	vi: "ê"
+}, {
+	zh: "轇",
+	vi: "giao"
+}, {
+	zh: "沤",
+	vi: "ẩu"
+}, {
+	zh: "嫽",
+	vi: "liêu"
+}, {
+	zh: "姱",
+	vi: "khoa"
+}, {
+	zh: "祜",
+	vi: "hỗ"
+}, {
+	zh: "瑑",
+	vi: "triện"
+}, {
+	zh: "綆",
+	vi: "cảnh"
+}, {
+	zh: "澍",
+	vi: "chú"
+}, {
+	zh: "逯",
+	vi: "lục"
+}, {
+	zh: "璅",
+	vi: "tỏa"
+}, {
+	zh: "阤",
+	vi: "đà"
+}, {
+	zh: "靸",
+	vi: "táp"
+}, {
+	zh: "臞",
+	vi: "cù"
+}, {
+	zh: "朅",
+	vi: "khiết"
+}, {
+	zh: "仡",
+	vi: "ngật"
+}, {
+	zh: "儗",
+	vi: "nghĩ"
+}, {
+	zh: "躩",
+	vi: "khước"
+}, {
+	zh: "雰",
+	vi: "phân"
+}, {
+	zh: "綷",
+	vi: "túy"
+}, {
+	zh: "苁",
+	vi: "thung"
+}, {
+	zh: "礨",
+	vi: "lỗi"
+}, {
+	zh: "陜",
+	vi: "xiểm"
+}, {
+	zh: "葳",
+	vi: "uy"
+}, {
+	zh: "泝",
+	vi: "tố"
+}, {
+	zh: "恧",
+	vi: "nục"
+}, {
+	zh: "麀",
+	vi: "ưu"
+}, {
+	zh: "熿",
+	vi: "hoàng"
+}, {
+	zh: "蕑",
+	vi: "gian"
+}, {
+	zh: "诇",
+	vi: "huýnh"
+}, {
+	zh: "燋",
+	vi: "tiêu"
+}, {
+	zh: "彡",
+	vi: "sam"
+}, {
+	zh: "廌",
+	vi: "trĩ"
+}, {
+	zh: "忮",
+	vi: "kỹ"
+}, {
+	zh: "鞫",
+	vi: "cúc"
+}, {
+	zh: "茌",
+	vi: "trì"
+}, {
+	zh: "菀",
+	vi: "uyển"
+}, {
+	zh: "泑",
+	vi: "ửu"
+}, {
+	zh: "鞬",
+	vi: "kiện"
+}, {
+	zh: "忉",
+	vi: "đao"
+}, {
+	zh: "阇",
+	vi: "đồ"
+}, {
+	zh: "軥",
+	vi: "cù"
+}, {
+	zh: "疣",
+	vi: "vưu"
+}, {
+	zh: "芗",
+	vi: "hương"
+}, {
+	zh: "寔",
+	vi: "thực"
+}, {
+	zh: "趍",
+	vi: "xu"
+}, {
+	zh: "訑",
+	vi: "di"
+}, {
+	zh: "蚰",
+	vi: "du"
+}, {
+	zh: "阝",
+	vi: "phụ"
+}, {
+	zh: "侫",
+	vi: "nịnh"
+}, {
+	zh: "臝",
+	vi: "lỏa"
+}, {
+	zh: "翾",
+	vi: "huyên"
+}, {
+	zh: "呰",
+	vi: "tử"
+}, {
+	zh: "揳",
+	vi: "tiết"
+}, {
+	zh: "萩",
+	vi: "thu"
+}, {
+	zh: "鮆",
+	vi: "tễ"
+}, {
+	zh: "踆",
+	vi: "thuân"
+}, {
+	zh: "窾",
+	vi: "khoản"
+}, {
+	zh: "痟",
+	vi: "tiêu"
+}, {
+	zh: "嘒",
+	vi: "uế"
+}, {
+	zh: "謏",
+	vi: "tiểu"
+}, {
+	zh: "黹",
+	vi: "chỉ"
+}, {
+	zh: "旡",
+	vi: "ký"
+}, {
+	zh: "诒",
+	vi: "di"
+}, {
+	zh: "偲",
+	vi: "ti"
+}, {
+	zh: "睎",
+	vi: "hi"
+}, {
+	zh: "槃",
+	vi: "bàn"
+}, {
+	zh: "檗",
+	vi: "bách"
+}, {
+	zh: "瞀",
+	vi: "mậu"
+}, {
+	zh: "匚",
+	vi: "phương"
+}, {
+	zh: "厍",
+	vi: "xá"
+}, {
+	zh: "瘥",
+	vi: "ta"
+}, {
+	zh: "醅",
+	vi: "phôi"
+}, {
+	zh: "恝",
+	vi: "kiết"
+}, {
+	zh: "樨",
+	vi: "tê"
+}, {
+	zh: "筇",
+	vi: "cung"
+}, {
+	zh: "溥",
+	vi: "phổ"
+}, {
+	zh: "狷",
+	vi: "quyến"
+}, {
+	zh: "珙",
+	vi: "củng"
+}, {
+	zh: "綮",
+	vi: "khể"
+}, {
+	zh: "珞",
+	vi: "lạc"
+}, {
+	zh: "嗄",
+	vi: "sá"
+}, {
+	zh: "蚯",
+	vi: "khâu"
+}, {
+	zh: "扦",
+	vi: "thiên"
+}, {
+	zh: "橢",
+	vi: "thỏa"
+}, {
+	zh: "璪",
+	vi: "tảo"
+}, {
+	zh: "箎",
+	vi: "trì"
+}, {
+	zh: "岢",
+	vi: "khả"
+}, {
+	zh: "椀",
+	vi: "oản"
+}, {
+	zh: "琀",
+	vi: "hàm"
+}, {
+	zh: "鞓",
+	vi: "thinh"
+}, {
+	zh: "潄",
+	vi: "sấu"
+}, {
+	zh: "艏",
+	vi: "thủ"
+}, {
+	zh: "詠",
+	vi: "vịnh"
+}, {
+	zh: "願",
+	vi: "nguyện"
+}, {
+	zh: "傕",
+	vi: "giác"
+}, {
+	zh: "臘",
+	vi: "lạp"
+}, {
+	zh: "錫",
+	vi: "tích"
+}, {
+	zh: "銖",
+	vi: "thù"
+}, {
+	zh: "鸝",
+	vi: "ly"
+}, {
+	zh: "訃",
+	vi: "phó"
+}, {
+	zh: "勳",
+	vi: "huân"
+}, {
+	zh: "輦",
+	vi: "liễn"
+}, {
+	zh: "嚙",
+	vi: "giảo"
+}, {
+	zh: "構",
+	vi: "cấu"
+}, {
+	zh: "縵",
+	vi: "man"
+}, {
+	zh: "簷",
+	vi: "diêm"
+}, {
+	zh: "鬥",
+	vi: "đấu"
+}, {
+	zh: "霽",
+	vi: "tễ"
+}, {
+	zh: "臺",
+	vi: "đài"
+}, {
+	zh: "嬪",
+	vi: "tần"
+}, {
+	zh: "嬙",
+	vi: "tường"
+}, {
+	zh: "擾",
+	vi: "nhiễu"
+}, {
+	zh: "轆",
+	vi: "lộc"
+}, {
+	zh: "礫",
+	vi: "lịch"
+}, {
+	zh: "邐",
+	vi: "lệ"
+}, {
+	zh: "錙",
+	vi: "truy"
+}, {
+	zh: "畝",
+	vi: "mẫu"
+}, {
+	zh: "憐",
+	vi: "liên"
+}, {
+	zh: "鑑",
+	vi: "giám"
+}, {
+	zh: "曆",
+	vi: "lịch"
+}, {
+	zh: "覽",
+	vi: "lãm"
+}, {
+	zh: "檣",
+	vi: "tường"
+}, {
+	zh: "瀾",
+	vi: "lan"
+}, {
+	zh: "鷗",
+	vi: "âu"
+}, {
+	zh: "歟",
+	vi: "dư"
+}, {
+	zh: "闕",
+	vi: "khuyết"
+}, {
+	zh: "瓊",
+	vi: "quỳnh"
+}, {
+	zh: "簫",
+	vi: "tiêu"
+}, {
+	zh: "洩",
+	vi: "tiết"
+}, {
+	zh: "儔",
+	vi: "trù"
+}, {
+	zh: "釬",
+	vi: "hạn"
+}, {
+	zh: "衄",
+	vi: "nục"
+}, {
+	zh: "誹",
+	vi: "phỉ"
+}, {
+	zh: "濘",
+	vi: "nính"
+}, {
+	zh: "妗",
+	vi: "cấm"
+}, {
+	zh: "冪",
+	vi: "mịch"
+}, {
+	zh: "燴",
+	vi: "quái"
+}, {
+	zh: "扂",
+	vi: "điếm"
+}, {
+	zh: "炰",
+	vi: "bào"
+}, {
+	zh: "菴",
+	vi: "am"
+}, {
+	zh: "珩",
+	vi: "hành"
+}, {
+	zh: "準",
+	vi: "chuẩn"
+}, {
+	zh: "慾",
+	vi: "dục"
+}, {
+	zh: "厙",
+	vi: "xá"
+}, {
+	zh: "賸",
+	vi: "thứng"
+}, {
+	zh: "耋",
+	vi: "điệt"
+}, {
+	zh: "笱",
+	vi: "cú"
+}, {
+	zh: "砑",
+	vi: "nhạ"
+}, {
+	zh: "羶",
+	vi: "thiên"
+}, {
+	zh: "鳶",
+	vi: "diên"
+}, {
+	zh: "覜",
+	vi: "thiếu"
+}, {
+	zh: "醱",
+	vi: "bát"
+}, {
+	zh: "儂",
+	vi: "nông"
+}, {
+	zh: "轎",
+	vi: "kiệu"
+}, {
+	zh: "昜",
+	vi: "dương"
+}, {
+	zh: "珂",
+	vi: "kha"
+}, {
+	zh: "蜊",
+	vi: "lỵ"
+}, {
+	zh: "勍",
+	vi: "kình"
+}, {
+	zh: "杻",
+	vi: "nữu"
+}, {
+	zh: "釐",
+	vi: "ly"
+}, {
+	zh: "輮",
+	vi: "nhụ"
+}, {
+	zh: "桄",
+	vi: "quáng"
+}, {
+	zh: "傖",
+	vi: "sanh"
+}, {
+	zh: "彆",
+	vi: "biệt"
+}, {
+	zh: "勛",
+	vi: "huân"
+}, {
+	zh: "輒",
+	vi: "triếp"
+}, {
+	zh: "橈",
+	vi: "nạo"
+}, {
+	zh: "奩",
+	vi: "liêm"
+}, {
+	zh: "萸",
+	vi: "du"
+}, {
+	zh: "坰",
+	vi: "quynh"
+}, {
+	zh: "藷",
+	vi: "thự"
+}, {
+	zh: "錶",
+	vi: "biểu"
+}, {
+	zh: "猁",
+	vi: "lỵ"
+}, {
+	zh: "桲",
+	vi: "bột"
+}, {
+	zh: "祧",
+	vi: "thiêu"
+}, {
+	zh: "謐",
+	vi: "mật"
+}, {
+	zh: "躓",
+	vi: "chí"
+}, {
+	zh: "齬",
+	vi: "ngữ"
+}, {
+	zh: "嘆",
+	vi: "thán"
+}, {
+	zh: "衒",
+	vi: "huyễn"
+}, {
+	zh: "誑",
+	vi: "cuống"
+}, {
+	zh: "陘",
+	vi: "hình"
+}, {
+	zh: "謗",
+	vi: "báng"
+}, {
+	zh: "籥",
+	vi: "thược"
+}, {
+	zh: "敁",
+	vi: "điêm"
+}, {
+	zh: "噶",
+	vi: "cát"
+}, {
+	zh: "婬",
+	vi: "dâm"
+}, {
+	zh: "縑",
+	vi: "kiêm"
+}, {
+	zh: "鹹",
+	vi: "hàm"
+}, {
+	zh: "斕",
+	vi: "lan"
+}, {
+	zh: "勗",
+	vi: "úc"
+}, {
+	zh: "轅",
+	vi: "viên"
+}, {
+	zh: "夤",
+	vi: "di"
+}, {
+	zh: "綬",
+	vi: "thụ"
+}, {
+	zh: "覦",
+	vi: "du"
+}, {
+	zh: "轂",
+	vi: "cốc"
+}, {
+	zh: "鏝",
+	vi: "man"
+}, {
+	zh: "鎚",
+	vi: "chùy"
+}, {
+	zh: "巘",
+	vi: "nghiễn"
+}, {
+	zh: "窔",
+	vi: "yểu"
+}, {
+	zh: "淩",
+	vi: "lăng"
+}, {
+	zh: "儕",
+	vi: "sài"
+}, {
+	zh: "趼",
+	vi: "nghiễn"
+}, {
+	zh: "綱",
+	vi: "cương"
+}, {
+	zh: "茼",
+	vi: "đồng"
+}, {
+	zh: "蜆",
+	vi: "hiện"
+}, {
+	zh: "鍰",
+	vi: "hoàn"
+}, {
+	zh: "襖",
+	vi: "áo"
+}, {
+	zh: "諉",
+	vi: "ủy"
+}, {
+	zh: "蚝",
+	vi: "hào"
+}, {
+	zh: "儐",
+	vi: "tấn"
+}, {
+	zh: "崋",
+	vi: "hoa"
+}, {
+	zh: "濬",
+	vi: "tuấn"
+}, {
+	zh: "趕",
+	vi: "cản"
+}, {
+	zh: "銑",
+	vi: "tiển"
+}, {
+	zh: "囮",
+	vi: "ngoa"
+}, {
+	zh: "蚳",
+	vi: "chỉ"
+}, {
+	zh: "郤",
+	vi: "khích"
+}, {
+	zh: "眢",
+	vi: "oan"
+}, {
+	zh: "苺",
+	vi: "môi"
+}, {
+	zh: "埰",
+	vi: "thải"
+}, {
+	zh: "鰍",
+	vi: "thu"
+}, {
+	zh: "闡",
+	vi: "xiển"
+}, {
+	zh: "瘐",
+	vi: "dũ"
+}, {
+	zh: "斨",
+	vi: "thương"
+}, {
+	zh: "衭",
+	vi: "phu"
+}, {
+	zh: "泔",
+	vi: "cam"
+}, {
+	zh: "鎊",
+	vi: "bàng"
+}, {
+	zh: "捨",
+	vi: "xả"
+}, {
+	zh: "樸",
+	vi: "phác"
+}, {
+	zh: "堍",
+	vi: "miễn"
+}, {
+	zh: "麵",
+	vi: "miến"
+}, {
+	zh: "枑",
+	vi: "hộ"
+}, {
+	zh: "蜇",
+	vi: "triết"
+}, {
+	zh: "沭",
+	vi: "thuật"
+}, {
+	zh: "嶺",
+	vi: "lĩnh"
+}, {
+	zh: "莊",
+	vi: "trang"
+}, {
+	zh: "紳",
+	vi: "thân"
+}, {
+	zh: "鍾",
+	vi: "chung"
+}, {
+	zh: "瑭",
+	vi: "đường"
+}, {
+	zh: "瘍",
+	vi: "dương"
+}, {
+	zh: "酕",
+	vi: "mao"
+}, {
+	zh: "氈",
+	vi: "chiên"
+}, {
+	zh: "冔",
+	vi: "hu"
+}, {
+	zh: "骯",
+	vi: "khảng"
+}, {
+	zh: "瘓",
+	vi: "hoán"
+}, {
+	zh: "釧",
+	vi: "xuyến"
+}, {
+	zh: "砉",
+	vi: "hoạch"
+}, {
+	zh: "暱",
+	vi: "nật"
+}, {
+	zh: "韃",
+	vi: "thát"
+}, {
+	zh: "蠔",
+	vi: "hào"
+}, {
+	zh: "錨",
+	vi: "miêu"
+}, {
+	zh: "阯",
+	vi: "chỉ"
+}, {
+	zh: "鷓",
+	vi: "chá"
+}, {
+	zh: "帢",
+	vi: "kháp"
+}, {
+	zh: "慼",
+	vi: "thích"
+}, {
+	zh: "痺",
+	vi: "tí"
+}, {
+	zh: "恉",
+	vi: "chỉ"
+}, {
+	zh: "鹵",
+	vi: "lỗ"
+}, {
+	zh: "昫",
+	vi: "hu"
+}, {
+	zh: "觴",
+	vi: "thương"
+}, {
+	zh: "鏽",
+	vi: "tú"
+}, {
+	zh: "緇",
+	vi: "truy"
+}, {
+	zh: "芨",
+	vi: "cập"
+}, {
+	zh: "薊",
+	vi: "kế"
+}, {
+	zh: "網",
+	vi: "võng"
+}, {
+	zh: "踡",
+	vi: "quyền"
+}, {
+	zh: "諺",
+	vi: "ngạn"
+}, {
+	zh: "謎",
+	vi: "mê"
+}, {
+	zh: "撳",
+	vi: "khấm"
+}, {
+	zh: "啣",
+	vi: "hàm"
+}, {
+	zh: "涽",
+	vi: "hôn"
+}, {
+	zh: "縐",
+	vi: "trứu"
+}, {
+	zh: "勦",
+	vi: "tiễu"
+}, {
+	zh: "忳",
+	vi: "đồn"
+}, {
+	zh: "囀",
+	vi: "chuyển"
+}, {
+	zh: "剴",
+	vi: "cai"
+}, {
+	zh: "寀",
+	vi: "thái"
+}, {
+	zh: "枅",
+	vi: "phanh"
+}, {
+	zh: "癣",
+	vi: "tiển"
+}, {
+	zh: "蘅",
+	vi: "hành"
+}, {
+	zh: "揎",
+	vi: "tuyên"
+}, {
+	zh: "珐",
+	vi: "pháp"
+}, {
+	zh: "锌",
+	vi: "tử"
+}, {
+	zh: "鲇",
+	vi: "niêm"
+}, {
+	zh: "絍",
+	vi: "nhâm"
+}, {
+	zh: "梃",
+	vi: "đĩnh"
+}, {
+	zh: "镣",
+	vi: "liêu"
+}, {
+	zh: "凇",
+	vi: "tùng"
+}, {
+	zh: "湄",
+	vi: "mi"
+}, {
+	zh: "沪",
+	vi: "hỗ"
+}, {
+	zh: "淦",
+	vi: "cam"
+}, {
+	zh: "苒",
+	vi: "nhiễm"
+}, {
+	zh: "韪",
+	vi: "vĩ"
+}, {
+	zh: "莼",
+	vi: "thuần"
+}, {
+	zh: "诹",
+	vi: "tưu"
+}, {
+	zh: "癗",
+	vi: "lũy"
+}, {
+	zh: "樾",
+	vi: "việt"
+}, {
+	zh: "饔",
+	vi: "ung"
+}, {
+	zh: "滦",
+	vi: "loan"
+}, {
+	zh: "鹾",
+	vi: "ta"
+}, {
+	zh: "汞",
+	vi: "hống"
+}, {
+	zh: "羼",
+	vi: "sạn"
+}, {
+	zh: "幺",
+	vi: "yêu"
+}, {
+	zh: "乩",
+	vi: "kê"
+}, {
+	zh: "锞",
+	vi: "quả"
+}, {
+	zh: "聒",
+	vi: "quát"
+}, {
+	zh: "墀",
+	vi: "trì"
+}, {
+	zh: "粳",
+	vi: "canh"
+}, {
+	zh: "酽",
+	vi: "nghiệm"
+}, {
+	zh: "饧",
+	vi: "đường"
+}, {
+	zh: "苓",
+	vi: "linh"
+}, {
+	zh: "芪",
+	vi: "kỳ"
+}, {
+	zh: "菖",
+	vi: "xương"
+}, {
+	zh: "蓁",
+	vi: "trăn"
+}, {
+	zh: "黉",
+	vi: "huỳnh"
+}, {
+	zh: "茆",
+	vi: "lữu"
+}, {
+	zh: "酴",
+	vi: "đồ"
+}, {
+	zh: "葩",
+	vi: "ba"
+}, {
+	zh: "抠",
+	vi: "khu"
+}, {
+	zh: "铰",
+	vi: "giảo"
+}, {
+	zh: "霰",
+	vi: "tản"
+}, {
+	zh: "筅",
+	vi: "tiển"
+}, {
+	zh: "绡",
+	vi: "tiêu"
+}, {
+	zh: "榧",
+	vi: "phỉ"
+}, {
+	zh: "疔",
+	vi: "đinh"
+}, {
+	zh: "鲟",
+	vi: "tầm"
+}, {
+	zh: "暹",
+	vi: "xiêm"
+}, {
+	zh: "唪",
+	vi: "phủng"
+}, {
+	zh: "嘁",
+	vi: "thích"
+}, {
+	zh: "腌",
+	vi: "yêm"
+}, {
+	zh: "跹",
+	vi: "tiên"
+}, {
+	zh: "菡",
+	vi: "hạm"
+}, {
+	zh: "茯",
+	vi: "phục"
+}, {
+	zh: "骘",
+	vi: "chất"
+}, {
+	zh: "薷",
+	vi: "nhu"
+}, {
+	zh: "溽",
+	vi: "nhục"
+}, {
+	zh: "靛",
+	vi: "điện"
+}, {
+	zh: "瘰",
+	vi: "lỗi"
+}, {
+	zh: "螯",
+	vi: "ngao"
+}, {
+	zh: "舡",
+	vi: "hang"
+}, {
+	zh: "篾",
+	vi: "miệt"
+}, {
+	zh: "馗",
+	vi: "quỳ"
+}, {
+	zh: "鲞",
+	vi: "tưởng"
+}, {
+	zh: "鸹",
+	vi: "quát"
+}, {
+	zh: "豇",
+	vi: "giang"
+}, {
+	zh: "跏",
+	vi: "già"
+}, {
+	zh: "仵",
+	vi: "ngỗ"
+}, {
+	zh: "箬",
+	vi: "nhược"
+}, {
+	zh: "鹌",
+	vi: "am"
+}, {
+	zh: "橄",
+	vi: "cảm"
+}, {
+	zh: "垤",
+	vi: "điệt"
+}, {
+	zh: "鳇",
+	vi: "hoàng"
+}, {
+	zh: "猞",
+	vi: "xá"
+}, {
+	zh: "绔",
+	vi: "khố"
+}, {
+	zh: "祛",
+	vi: "khư"
+}, {
+	zh: "黧",
+	vi: "lê"
+}, {
+	zh: "鲦",
+	vi: "điều"
+}, {
+	zh: "埘",
+	vi: "thì"
+}, {
+	zh: "瓤",
+	vi: "nhương"
+}, {
+	zh: "恹",
+	vi: "yêm"
+}, {
+	zh: "觌",
+	vi: "địch"
+}, {
+	zh: "圊",
+	vi: "thanh"
+}, {
+	zh: "嫒",
+	vi: "ái"
+}, {
+	zh: "萱",
+	vi: "huyên"
+}, {
+	zh: "燹",
+	vi: "tiển"
+}, {
+	zh: "醑",
+	vi: "tữ"
+}, {
+	zh: "觇",
+	vi: "siêm"
+}, {
+	zh: "窀",
+	vi: "truân"
+}, {
+	zh: "穸",
+	vi: "tịch"
+}, {
+	zh: "颟",
+	vi: "man"
+}, {
+	zh: "顸",
+	vi: "han"
+}, {
+	zh: "轳",
+	vi: "lô"
+}, {
+	zh: "狺",
+	vi: "ngân"
+}, {
+	zh: "钚",
+	vi: "bất"
+}, {
+	zh: "鹧",
+	vi: "chá"
+}, {
+	zh: "鸪",
+	vi: "cô"
+}, {
+	zh: "韫",
+	vi: "uẩn"
+}, {
+	zh: "蕖",
+	vi: "cừ"
+}, {
+	zh: "趱",
+	vi: "toản"
+}, {
+	zh: "茑",
+	vi: "điểu"
+}, {
+	zh: "囟",
+	vi: "tín"
+}, {
+	zh: "骢",
+	vi: "thông"
+}, {
+	zh: "溘",
+	vi: "khạp"
+}, {
+	zh: "夬",
+	vi: "quái"
+}, {
+	zh: "嘏",
+	vi: "hỗ"
+}, {
+	zh: "呗",
+	vi: "bái"
+}, {
+	zh: "裆",
+	vi: "đang"
+}, {
+	zh: "痂",
+	vi: "già"
+}, {
+	zh: "腚",
+	vi: "đĩnh"
+}, {
+	zh: "铝",
+	vi: "lữ"
+}, {
+	zh: "饪",
+	vi: "nhẫm"
+}, {
+	zh: "疴",
+	vi: "a"
+}, {
+	zh: "萏",
+	vi: "đạm"
+}, {
+	zh: "渌",
+	vi: "lục"
+}, {
+	zh: "扌",
+	vi: "thủ"
+}, {
+	zh: "筚",
+	vi: "tất"
+}, {
+	zh: "篥",
+	vi: "lật"
+}, {
+	zh: "氵",
+	vi: "thủy"
+}, {
+	zh: "鄹",
+	vi: "châu"
+}, {
+	zh: "蟪",
+	vi: "huệ"
+}, {
+	zh: "蛄",
+	vi: "cô"
+}, {
+	zh: "辋",
+	vi: "võng"
+}, {
+	zh: "莓",
+	vi: "môi"
+}, {
+	zh: "崦",
+	vi: "yêm"
+}, {
+	zh: "啭",
+	vi: "chuyển"
+}, {
+	zh: "帻",
+	vi: "trách"
+}, {
+	zh: "鹂",
+	vi: "ly"
+}, {
+	zh: "藁",
+	vi: "cảo"
+}, {
+	zh: "蝥",
+	vi: "mâu"
+}, {
+	zh: "茱",
+	vi: "thù"
+}, {
+	zh: "啁",
+	vi: "trù"
+}, {
+	zh: "鹚",
+	vi: "từ"
+}, {
+	zh: "碱",
+	vi: "dảm"
+}, {
+	zh: "棗",
+	vi: "tảo"
+}, {
+	zh: "茺",
+	vi: "sung"
+}, {
+	zh: "焖",
+	vi: "muộn"
+}, {
+	zh: "屙",
+	vi: "a"
+}, {
+	zh: "竦",
+	vi: "tủng"
+}, {
+	zh: "髁",
+	vi: "khỏa"
+}, {
+	zh: "畚",
+	vi: "bổn"
+}, {
+	zh: "髫",
+	vi: "thiều"
+}, {
+	zh: "菠",
+	vi: "ba"
+}, {
+	zh: "馕",
+	vi: "hướng"
+}, {
+	zh: "鼗",
+	vi: "đào"
+}, {
+	zh: "娩",
+	vi: "vãn"
+}, {
+	zh: "醭",
+	vi: "phốc"
+}, {
+	zh: "莩",
+	vi: "phu"
+}, {
+	zh: "镘",
+	vi: "man"
+}, {
+	zh: "捌",
+	vi: "bát"
+}, {
+	zh: "靣",
+	vi: "diện"
+}, {
+	zh: "寧",
+	vi: "ninh"
+}, {
+	zh: "両",
+	vi: "lạng"
+}, {
+	zh: "丣",
+	vi: "dậu"
+}, {
+	zh: "亞",
+	vi: "á"
+}, {
+	zh: "丯",
+	vi: "phong"
+}, {
+	zh: "丱",
+	vi: "quán"
+}, {
+	zh: "丶",
+	vi: "chủ"
+}, {
+	zh: "頁",
+	vi: "hiệt"
+}, {
+	zh: "丿",
+	vi: "phiệt"
+}, {
+	zh: "乀",
+	vi: "phật"
+}, {
+	zh: "乆",
+	vi: "cửu"
+}, {
+	zh: "桕",
+	vi: "cữu"
+}, {
+	zh: "蔹",
+	vi: "liêm"
+}, {
+	zh: "鲗",
+	vi: "tặc"
+}, {
+	zh: "亅",
+	vi: "quyết"
+}, {
+	zh: "穀",
+	vi: "cốc"
+}, {
+	zh: "亙",
+	vi: "cắng"
+}, {
+	zh: "亜",
+	vi: "á"
+}, {
+	zh: "亠",
+	vi: "đầu"
+}, {
+	zh: "亯",
+	vi: "hanh"
+}, {
+	zh: "亸",
+	vi: "đả"
+}, {
+	zh: "亻",
+	vi: "nhân"
+}, {
+	zh: "仉",
+	vi: "chưởng"
+}, {
+	zh: "仌",
+	vi: "băng"
+}, {
+	zh: "價",
+	vi: "giá"
+}, {
+	zh: "値",
+	vi: "trị"
+}, {
+	zh: "傚",
+	vi: "hiệu"
+}, {
+	zh: "眞",
+	vi: "chân"
+}, {
+	zh: "伃",
+	vi: "dư"
+}, {
+	zh: "伕",
+	vi: "phu"
+}, {
+	zh: "伱",
+	vi: "nễ"
+}, {
+	zh: "侶",
+	vi: "lữ"
+}, {
+	zh: "伻",
+	vi: "bình"
+}, {
+	zh: "佇",
+	vi: "trữ"
+}, {
+	zh: "佉",
+	vi: "khư"
+}, {
+	zh: "佋",
+	vi: "thiệu"
+}, {
+	zh: "佔",
+	vi: "chiêm"
+}, {
+	zh: "僂",
+	vi: "lũ"
+}, {
+	zh: "佴",
+	vi: "nhị"
+}, {
+	zh: "併",
+	vi: "tinh"
+}, {
+	zh: "侌",
+	vi: "âm"
+}, {
+	zh: "衞",
+	vi: "vệ"
+}, {
+	zh: "侖",
+	vi: "lôn"
+}, {
+	zh: "侚",
+	vi: "tuẫn"
+}, {
+	zh: "侷",
+	vi: "cục"
+}, {
+	zh: "箋",
+	vi: "tiên"
+}, {
+	zh: "俅",
+	vi: "cầu"
+}, {
+	zh: "祐",
+	vi: "hữu"
+}, {
+	zh: "証",
+	vi: "chứng"
+}, {
+	zh: "俫",
+	vi: "lai"
+}, {
+	zh: "俵",
+	vi: "biểu"
+}, {
+	zh: "倂",
+	vi: "tính"
+}, {
+	zh: "倅",
+	vi: "thối"
+}, {
+	zh: "倈",
+	vi: "lai"
+}, {
+	zh: "倢",
+	vi: "tiệp"
+}, {
+	zh: "倣",
+	vi: "phỏng"
+}, {
+	zh: "傯",
+	vi: "tổng"
+}, {
+	zh: "倮",
+	vi: "khỏa"
+}, {
+	zh: "偁",
+	vi: "xưng"
+}, {
+	zh: "偋",
+	vi: "bình"
+}, {
+	zh: "偢",
+	vi: "thu"
+}, {
+	zh: "偸",
+	vi: "thâu"
+}, {
+	zh: "偹",
+	vi: "bị"
+}, {
+	zh: "傎",
+	vi: "điên"
+}, {
+	zh: "傔",
+	vi: "khiểm"
+}, {
+	zh: "傘",
+	vi: "tán"
+}, {
+	zh: "註",
+	vi: "chú"
+}, {
+	zh: "傞",
+	vi: "ta"
+}, {
+	zh: "傣",
+	vi: "thái"
+}, {
+	zh: "傭",
+	vi: "dong"
+}, {
+	zh: "傴",
+	vi: "ủ"
+}, {
+	zh: "傺",
+	vi: "sế"
+}, {
+	zh: "僃",
+	vi: "bị"
+}, {
+	zh: "僉",
+	vi: "thiêm"
+}, {
+	zh: "僌",
+	vi: "tái"
+}, {
+	zh: "働",
+	vi: "động"
+}, {
+	zh: "僎",
+	vi: "soạn"
+}, {
+	zh: "僑",
+	vi: "kiều"
+}, {
+	zh: "僝",
+	vi: "sạn"
+}, {
+	zh: "僽",
+	vi: "sậu"
+}, {
+	zh: "僞",
+	vi: "ngụy"
+}, {
+	zh: "僣",
+	vi: "thiết"
+}, {
+	zh: "僨",
+	vi: "phẫn"
+}, {
+	zh: "僱",
+	vi: "cố"
+}, {
+	zh: "僶",
+	vi: "mẫn"
+}, {
+	zh: "僾",
+	vi: "ái"
+}, {
+	zh: "儁",
+	vi: "tuấn"
+}, {
+	zh: "儈",
+	vi: "quái"
+}, {
+	zh: "儉",
+	vi: "kiệm"
+}, {
+	zh: "儌",
+	vi: "kiêu"
+}, {
+	zh: "儍",
+	vi: "sọa"
+}, {
+	zh: "儎",
+	vi: "tái"
+}, {
+	zh: "儘",
+	vi: "tẫn"
+}, {
+	zh: "儛",
+	vi: "vũ"
+}, {
+	zh: "儤",
+	vi: "bạo"
+}, {
+	zh: "儩",
+	vi: "tứ"
+}, {
+	zh: "儱",
+	vi: "lung"
+}, {
+	zh: "儳",
+	vi: "sàm"
+}, {
+	zh: "儷",
+	vi: "lệ"
+}, {
+	zh: "儸",
+	vi: "la"
+}, {
+	zh: "儺",
+	vi: "na"
+}, {
+	zh: "兇",
+	vi: "hung"
+}, {
+	zh: "兌",
+	vi: "đoái"
+}, {
+	zh: "兎",
+	vi: "thố"
+}, {
+	zh: "兗",
+	vi: "duyện"
+}, {
+	zh: "臟",
+	vi: "tạng"
+}, {
+	zh: "兪",
+	vi: "du"
+}, {
+	zh: "噸",
+	vi: "đốn"
+}, {
+	zh: "閘",
+	vi: "áp"
+}, {
+	zh: "産",
+	vi: "sản"
+}, {
+	zh: "範",
+	vi: "phạm"
+}, {
+	zh: "冁",
+	vi: "xiên"
+}, {
+	zh: "冂",
+	vi: "quynh"
+}, {
+	zh: "冄",
+	vi: "nhiễm"
+}, {
+	zh: "冓",
+	vi: "cấu"
+}, {
+	zh: "冖",
+	vi: "mịch"
+}, {
+	zh: "冦",
+	vi: "khấu"
+}, {
+	zh: "冫",
+	vi: "băng"
+}, {
+	zh: "凂",
+	vi: "mỗi"
+}, {
+	zh: "凈",
+	vi: "tịnh"
+}, {
+	zh: "凊",
+	vi: "sảnh"
+}, {
+	zh: "凓",
+	vi: "lật"
+}, {
+	zh: "凔",
+	vi: "sương"
+}, {
+	zh: "凘",
+	vi: "tư"
+}, {
+	zh: "凙",
+	vi: "đạc"
+}, {
+	zh: "凟",
+	vi: "độc"
+}, {
+	zh: "凴",
+	vi: "bằng"
+}, {
+	zh: "凵",
+	vi: "khảm"
+}, {
+	zh: "凷",
+	vi: "khối"
+}, {
+	zh: "凾",
+	vi: "hàm"
+}, {
+	zh: "刂",
+	vi: "đao"
+}, {
+	zh: "刄",
+	vi: "lạng"
+}, {
+	zh: "刅",
+	vi: "sang"
+}, {
+	zh: "刦",
+	vi: "kiếp"
+}, {
+	zh: "刧",
+	vi: "kiếp"
+}, {
+	zh: "刬",
+	vi: "sản"
+}, {
+	zh: "刱",
+	vi: "sáng"
+}, {
+	zh: "刲",
+	vi: "khuê"
+}, {
+	zh: "刴",
+	vi: "đóa"
+}, {
+	zh: "刵",
+	vi: "nhĩ"
+}, {
+	zh: "刼",
+	vi: "kiếp"
+}, {
+	zh: "刾",
+	vi: "thích"
+}, {
+	zh: "剄",
+	vi: "hĩnh"
+}, {
+	zh: "剋",
+	vi: "khắc"
+}, {
+	zh: "剗",
+	vi: "sản"
+}, {
+	zh: "剚",
+	vi: "chí"
+}, {
+	zh: "剰",
+	vi: "thặng"
+}, {
+	zh: "剷",
+	vi: "sản"
+}, {
+	zh: "剺",
+	vi: "ly"
+}, {
+	zh: "劄",
+	vi: "tráp"
+}, {
+	zh: "劊",
+	vi: "quái"
+}, {
+	zh: "劌",
+	vi: "quế"
+}, {
+	zh: "劎",
+	vi: "kiếm"
+}, {
+	zh: "劘",
+	vi: "mi"
+}, {
+	zh: "崙",
+	vi: "lôn"
+}, {
+	zh: "効",
+	vi: "hiệu"
+}, {
+	zh: "勷",
+	vi: "nhương"
+}, {
+	zh: "劼",
+	vi: "cật"
+}, {
+	zh: "豀",
+	vi: "hề"
+}, {
+	zh: "勅",
+	vi: "sắc"
+}, {
+	zh: "勑",
+	vi: "lai"
+}, {
+	zh: "勚",
+	vi: "duệ"
+}, {
+	zh: "勠",
+	vi: "lục"
+}, {
+	zh: "勩",
+	vi: "duệ"
+}, {
+	zh: "勱",
+	vi: "mại"
+}, {
+	zh: "勲",
+	vi: "huân"
+}, {
+	zh: "勹",
+	vi: "bao"
+}, {
+	zh: "匃",
+	vi: "cái"
+}, {
+	zh: "紮",
+	vi: "trát"
+}, {
+	zh: "匜",
+	vi: "di"
+}, {
+	zh: "匟",
+	vi: "kháng"
+}, {
+	zh: "匱",
+	vi: "quỹ"
+}, {
+	zh: "匳",
+	vi: "liêm"
+}, {
+	zh: "匵",
+	vi: "độc"
+}, {
+	zh: "匸",
+	vi: "hệ"
+}, {
+	zh: "卄",
+	vi: "nhập"
+}, {
+	zh: "卌",
+	vi: "tấp"
+}, {
+	zh: "卍",
+	vi: "vạn"
+}, {
+	zh: "卐",
+	vi: "vạn"
+}, {
+	zh: "卩",
+	vi: "tiết"
+}, {
+	zh: "卭",
+	vi: "ngang"
+}, {
+	zh: "篤",
+	vi: "đốc"
+}, {
+	zh: "卲",
+	vi: "thiệu"
+}, {
+	zh: "卹",
+	vi: "tuất"
+}, {
+	zh: "卼",
+	vi: "ngột"
+}, {
+	zh: "臲",
+	vi: "niết"
+}, {
+	zh: "卽",
+	vi: "tức"
+}, {
+	zh: "厓",
+	vi: "nhai"
+}, {
+	zh: "厖",
+	vi: "mang"
+}, {
+	zh: "厠",
+	vi: "xí"
+}, {
+	zh: "厤",
+	vi: "lịch"
+}, {
+	zh: "厪",
+	vi: "cận"
+}, {
+	zh: "厫",
+	vi: "ngao"
+}, {
+	zh: "厯",
+	vi: "lịch"
+}, {
+	zh: "厰",
+	vi: "xưởng"
+}, {
+	zh: "厴",
+	vi: "áp"
+}, {
+	zh: "厶",
+	vi: "khư"
+}, {
+	zh: "厺",
+	vi: "khứ"
+}, {
+	zh: "叅",
+	vi: "xam"
+}, {
+	zh: "叆",
+	vi: "ái"
+}, {
+	zh: "叇",
+	vi: "đãi"
+}, {
+	zh: "筓",
+	vi: "kê"
+}, {
+	zh: "賄",
+	vi: "hối"
+}, {
+	zh: "叚",
+	vi: "giả"
+}, {
+	zh: "蹟",
+	vi: "tích"
+}, {
+	zh: "灣",
+	vi: "loan"
+}, {
+	zh: "叻",
+	vi: "lặc"
+}, {
+	zh: "嗇",
+	vi: "sắc"
+}, {
+	zh: "吪",
+	vi: "ngoa"
+}, {
+	zh: "吽",
+	vi: "hồng"
+}, {
+	zh: "吿",
+	vi: "cáo"
+}, {
+	zh: "呉",
+	vi: "ngô"
+}, {
+	zh: "呌",
+	vi: "khiếu"
+}, {
+	zh: "呝",
+	vi: "ách"
+}, {
+	zh: "呪",
+	vi: "chú"
+}, {
+	zh: "盧",
+	vi: "lô"
+}, {
+	zh: "籲",
+	vi: "dụ"
+}, {
+	zh: "咍",
+	vi: "hai"
+}, {
+	zh: "嚕",
+	vi: "lỗ"
+}, {
+	zh: "咥",
+	vi: "hí"
+}, {
+	zh: "咲",
+	vi: "tiếu"
+}, {
+	zh: "咷",
+	vi: "đào"
+}, {
+	zh: "哔",
+	vi: "tất"
+}, {
+	zh: "哢",
+	vi: "lộng"
+}, {
+	zh: "唁",
+	vi: "nghiễn"
+}, {
+	zh: "唄",
+	vi: "bái"
+}, {
+	zh: "唈",
+	vi: "ấp"
+}, {
+	zh: "唕",
+	vi: "tạo"
+}, {
+	zh: "唘",
+	vi: "khải"
+}, {
+	zh: "唵",
+	vi: "úm"
+}, {
+	zh: "唸",
+	vi: "niệm"
+}, {
+	zh: "啓",
+	vi: "khải"
+}, {
+	zh: "啗",
+	vi: "đạm"
+}, {
+	zh: "啚",
+	vi: "bỉ"
+}, {
+	zh: "喈",
+	vi: "giai"
+}, {
+	zh: "痧",
+	vi: "sa"
+}, {
+	zh: "喎",
+	vi: "oa"
+}, {
+	zh: "喒",
+	vi: "tàm"
+}, {
+	zh: "喓",
+	vi: "yêu"
+}, {
+	zh: "喞",
+	vi: "tức"
+}, {
+	zh: "喤",
+	vi: "hoàng"
+}, {
+	zh: "閙",
+	vi: "náo"
+}, {
+	zh: "喨",
+	vi: "lượng"
+}, {
+	zh: "喫",
+	vi: "khiết"
+}, {
+	zh: "嗁",
+	vi: "đề"
+}, {
+	zh: "嗃",
+	vi: "hạc"
+}, {
+	zh: "嗆",
+	vi: "sang"
+}, {
+	zh: "嗏",
+	vi: "chà"
+}, {
+	zh: "嗢",
+	vi: "ốt"
+}, {
+	zh: "嗩",
+	vi: "tỏa"
+}, {
+	zh: "嗶",
+	vi: "tất"
+}, {
+	zh: "嗸",
+	vi: "ngao"
+}, {
+	zh: "嘅",
+	vi: "khái"
+}, {
+	zh: "囉",
+	vi: "la"
+}, {
+	zh: "嘐",
+	vi: "hao"
+}, {
+	zh: "嘑",
+	vi: "hô"
+}, {
+	zh: "嘓",
+	vi: "quắc"
+}, {
+	zh: "嘵",
+	vi: "hiêu"
+}, {
+	zh: "嘷",
+	vi: "hào"
+}, {
+	zh: "噀",
+	vi: "tốn"
+}, {
+	zh: "噂",
+	vi: "tổn"
+}, {
+	zh: "噉",
+	vi: "đạm"
+}, {
+	zh: "噍",
+	vi: "tiếu"
+}, {
+	zh: "噏",
+	vi: "hấp"
+}, {
+	zh: "噐",
+	vi: "khí"
+}, {
+	zh: "噦",
+	vi: "uyết"
+}, {
+	zh: "噯",
+	vi: "ai"
+}, {
+	zh: "嚆",
+	vi: "hao"
+}, {
+	zh: "嚌",
+	vi: "tễ"
+}, {
+	zh: "嚐",
+	vi: "thường"
+}, {
+	zh: "嚥",
+	vi: "yết"
+}, {
+	zh: "嚦",
+	vi: "lịch"
+}, {
+	zh: "嚬",
+	vi: "tần"
+}, {
+	zh: "嚮",
+	vi: "hưởng"
+}, {
+	zh: "嚱",
+	vi: "hi"
+}, {
+	zh: "嚲",
+	vi: "đả"
+}, {
+	zh: "嚳",
+	vi: "khốc"
+}, {
+	zh: "囁",
+	vi: "chiếp"
+}, {
+	zh: "囅",
+	vi: "xiên"
+}, {
+	zh: "囓",
+	vi: "khiết"
+}, {
+	zh: "囘",
+	vi: "hồi"
+}, {
+	zh: "囝",
+	vi: "kiển"
+}, {
+	zh: "囪",
+	vi: "song"
+}, {
+	zh: "圇",
+	vi: "luân"
+}, {
+	zh: "囬",
+	vi: "hồi"
+}, {
+	zh: "圅",
+	vi: "hàm"
+}, {
+	zh: "圌",
+	vi: "thùy"
+}, {
+	zh: "圏",
+	vi: "quyển"
+}, {
+	zh: "籙",
+	vi: "lục"
+}, {
+	zh: "圝",
+	vi: "loan"
+}, {
+	zh: "圞",
+	vi: "loan"
+}, {
+	zh: "埝",
+	vi: "niệm"
+}, {
+	zh: "誌",
+	vi: "chí"
+}, {
+	zh: "坵",
+	vi: "khâu"
+}, {
+	zh: "坺",
+	vi: "bạt"
+}, {
+	zh: "坿",
+	vi: "phụ"
+}, {
+	zh: "幂",
+	vi: "mịch"
+}, {
+	zh: "垅",
+	vi: "lũng"
+}, {
+	zh: "垲",
+	vi: "khải"
+}, {
+	zh: "垻",
+	vi: "bá"
+}, {
+	zh: "埄",
+	vi: "bổng"
+}, {
+	zh: "埙",
+	vi: "huân"
+}, {
+	zh: "埚",
+	vi: "qua"
+}, {
+	zh: "埜",
+	vi: "dã"
+}, {
+	zh: "埧",
+	vi: "cụ"
+}, {
+	zh: "埳",
+	vi: "khảm"
+}, {
+	zh: "埵",
+	vi: "đóa"
+}, {
+	zh: "紼",
+	vi: "phất"
+}, {
+	zh: "堃",
+	vi: "khôn"
+}, {
+	zh: "堊",
+	vi: "ác"
+}, {
+	zh: "堝",
+	vi: "qua"
+}, {
+	zh: "堦",
+	vi: "giai"
+}, {
+	zh: "堶",
+	vi: "đà"
+}, {
+	zh: "塋",
+	vi: "oanh"
+}, {
+	zh: "塏",
+	vi: "khải"
+}, {
+	zh: "塒",
+	vi: "thì"
+}, {
+	zh: "塗",
+	vi: "đồ"
+}, {
+	zh: "塚",
+	vi: "trủng"
+}, {
+	zh: "塟",
+	vi: "táng"
+}, {
+	zh: "塡",
+	vi: "điền"
+}, {
+	zh: "塢",
+	vi: "ổ"
+}, {
+	zh: "塤",
+	vi: "huân"
+}, {
+	zh: "塲",
+	vi: "tràng"
+}, {
+	zh: "塹",
+	vi: "tiệm"
+}, {
+	zh: "塼",
+	vi: "chuyên"
+}, {
+	zh: "塿",
+	vi: "lũ"
+}, {
+	zh: "墊",
+	vi: "điếm"
+}, {
+	zh: "墍",
+	vi: "ký"
+}, {
+	zh: "墐",
+	vi: "cận"
+}, {
+	zh: "増",
+	vi: "tăng"
+}, {
+	zh: "墦",
+	vi: "phiền"
+}, {
+	zh: "墮",
+	vi: "đọa"
+}, {
+	zh: "墻",
+	vi: "tường"
+}, {
+	zh: "墼",
+	vi: "kích"
+}, {
+	zh: "墾",
+	vi: "khẩn"
+}, {
+	zh: "櫥",
+	vi: "trù"
+}, {
+	zh: "蟢",
+	vi: "hỉ"
+}, {
+	zh: "龕",
+	vi: "kham"
+}, {
+	zh: "壈",
+	vi: "lẫm"
+}, {
+	zh: "壎",
+	vi: "huân"
+}, {
+	zh: "壔",
+	vi: "đảo"
+}, {
+	zh: "壙",
+	vi: "khoáng"
+}, {
+	zh: "壚",
+	vi: "lư"
+}, {
+	zh: "壜",
+	vi: "đàm"
+}, {
+	zh: "壞",
+	vi: "hoại"
+}, {
+	zh: "壟",
+	vi: "lũng"
+}, {
+	zh: "壠",
+	vi: "lũng"
+}, {
+	zh: "壩",
+	vi: "bá"
+}, {
+	zh: "壻",
+	vi: "tế"
+}, {
+	zh: "夀",
+	vi: "thọ"
+}, {
+	zh: "夂",
+	vi: "tri"
+}, {
+	zh: "夆",
+	vi: "phùng"
+}, {
+	zh: "夊",
+	vi: "tuy"
+}, {
+	zh: "甦",
+	vi: "tô"
+}, {
+	zh: "黨",
+	vi: "đảng"
+}, {
+	zh: "魘",
+	vi: "yểm"
+}, {
+	zh: "夣",
+	vi: "mộng"
+}, {
+	zh: "廈",
+	vi: "hạ"
+}, {
+	zh: "砲",
+	vi: "pháo"
+}, {
+	zh: "鵝",
+	vi: "nga"
+}, {
+	zh: "夲",
+	vi: "bổn"
+}, {
+	zh: "鉗",
+	vi: "kiềm"
+}, {
+	zh: "奐",
+	vi: "hoán"
+}, {
+	zh: "鬬",
+	vi: "đấu"
+}, {
+	zh: "媧",
+	vi: "oa"
+}, {
+	zh: "妁",
+	vi: "chước"
+}, {
+	zh: "妊",
+	vi: "nhâm"
+}, {
+	zh: "妬",
+	vi: "đố"
+}, {
+	zh: "妳",
+	vi: "nãi"
+}, {
+	zh: "媮",
+	vi: "thâu"
+}, {
+	zh: "託",
+	vi: "thác"
+}, {
+	zh: "讬",
+	vi: "thác"
+}, {
+	zh: "姙",
+	vi: "nhâm"
+}, {
+	zh: "姞",
+	vi: "cật"
+}, {
+	zh: "姤",
+	vi: "cấu"
+}, {
+	zh: "姦",
+	vi: "gian"
+}, {
+	zh: "姮",
+	vi: "hằng"
+}, {
+	zh: "姸",
+	vi: "nghiên"
+}, {
+	zh: "娬",
+	vi: "vũ"
+}, {
+	zh: "婁",
+	vi: "lâu"
+}, {
+	zh: "婣",
+	vi: "nhân"
+}, {
+	zh: "婭",
+	vi: "á"
+}, {
+	zh: "嫋",
+	vi: "niệu"
+}, {
+	zh: "嫏",
+	vi: "lang"
+}, {
+	zh: "嫗",
+	vi: "ẩu"
+}, {
+	zh: "嫚",
+	vi: "mạn"
+}, {
+	zh: "嫜",
+	vi: "chương"
+}, {
+	zh: "嫵",
+	vi: "vũ"
+}, {
+	zh: "嫺",
+	vi: "nhàn"
+}, {
+	zh: "嫻",
+	vi: "nhàn"
+}, {
+	zh: "嬀",
+	vi: "quy"
+}, {
+	zh: "豔",
+	vi: "diễm"
+}, {
+	zh: "嬍",
+	vi: "mỹ"
+}, {
+	zh: "嬝",
+	vi: "niệu"
+}, {
+	zh: "嬡",
+	vi: "ái"
+}, {
+	zh: "嬤",
+	vi: "ma"
+}, {
+	zh: "嬭",
+	vi: "nãi"
+}, {
+	zh: "嬲",
+	vi: "điểu"
+}, {
+	zh: "嬸",
+	vi: "thẩm"
+}, {
+	zh: "嬾",
+	vi: "lãn"
+}, {
+	zh: "嬿",
+	vi: "yến"
+}, {
+	zh: "孃",
+	vi: "nương"
+}, {
+	zh: "孌",
+	vi: "luyến"
+}, {
+	zh: "孒",
+	vi: "quyết"
+}, {
+	zh: "孶",
+	vi: "tư"
+}, {
+	zh: "孻",
+	vi: "nai"
+}, {
+	zh: "孼",
+	vi: "nghiệt"
+}, {
+	zh: "孿",
+	vi: "loan"
+}, {
+	zh: "宂",
+	vi: "nhũng"
+}, {
+	zh: "瓿",
+	vi: "bẫu"
+}, {
+	zh: "誥",
+	vi: "cáo"
+}, {
+	zh: "宼",
+	vi: "khấu"
+}, {
+	zh: "寃",
+	vi: "oan"
+}, {
+	zh: "螿",
+	vi: "tương"
+}, {
+	zh: "寢",
+	vi: "tẩm"
+}, {
+	zh: "寯",
+	vi: "tuấn"
+}, {
+	zh: "寳",
+	vi: "bảo"
+}, {
+	zh: "尀",
+	vi: "phả"
+}, {
+	zh: "専",
+	vi: "chuyên"
+}, {
+	zh: "尅",
+	vi: "khắc"
+}, {
+	zh: "尒",
+	vi: "nhĩ"
+}, {
+	zh: "尙",
+	vi: "thượng"
+}, {
+	zh: "尫",
+	vi: "uông"
+}, {
+	zh: "尲",
+	vi: "giam"
+}, {
+	zh: "彊",
+	vi: "cường"
+}, {
+	zh: "屌",
+	vi: "điểu"
+}, {
+	zh: "屛",
+	vi: "bình"
+}, {
+	zh: "屧",
+	vi: "tiệp"
+}, {
+	zh: "屨",
+	vi: "lũ"
+}, {
+	zh: "屭",
+	vi: "hí"
+}, {
+	zh: "屮",
+	vi: "triệt"
+}, {
+	zh: "屺",
+	vi: "dĩ"
+}, {
+	zh: "屼",
+	vi: "ngộ"
+}, {
+	zh: "岡",
+	vi: "cương"
+}, {
+	zh: "岧",
+	vi: "thiều"
+}, {
+	zh: "嶢",
+	vi: "nghiêu"
+}, {
+	zh: "岵",
+	vi: "hỗ"
+}, {
+	zh: "岿",
+	vi: "vị"
+}, {
+	zh: "峝",
+	vi: "đỗng"
+}, {
+	zh: "峩",
+	vi: "nga"
+}, {
+	zh: "峯",
+	vi: "phong"
+}, {
+	zh: "峴",
+	vi: "hiện"
+}, {
+	zh: "禎",
+	vi: "trinh"
+}, {
+	zh: "崍",
+	vi: "lai"
+}, {
+	zh: "崑",
+	vi: "côn"
+}, {
+	zh: "崚",
+	vi: "lăng"
+}, {
+	zh: "嶒",
+	vi: "tằng"
+}, {
+	zh: "嵫",
+	vi: "tư"
+}, {
+	zh: "嵆",
+	vi: "kê"
+}, {
+	zh: "嵏",
+	vi: "tông"
+}, {
+	zh: "嵐",
+	vi: "lam"
+}, {
+	zh: "嵒",
+	vi: "nham"
+}, {
+	zh: "嶁",
+	vi: "lũ"
+}, {
+	zh: "嶄",
+	vi: "tiệm"
+}, {
+	zh: "嶍",
+	vi: "tập"
+}, {
+	zh: "嶠",
+	vi: "kiệu"
+}, {
+	zh: "嶧",
+	vi: "dịch"
+}, {
+	zh: "嶮",
+	vi: "hiểm"
+}, {
+	zh: "嶰",
+	vi: "giải"
+}, {
+	zh: "嶽",
+	vi: "nhạc"
+}, {
+	zh: "巇",
+	vi: "hi"
+}, {
+	zh: "巉",
+	vi: "sàm"
+}, {
+	zh: "巋",
+	vi: "vị"
+}, {
+	zh: "巓",
+	vi: "điên"
+}, {
+	zh: "巔",
+	vi: "điên"
+}, {
+	zh: "巖",
+	vi: "nham"
+}, {
+	zh: "巛",
+	vi: "xuyên"
+}, {
+	zh: "廠",
+	vi: "xưởng"
+}, {
+	zh: "巵",
+	vi: "chi"
+}, {
+	zh: "帀",
+	vi: "táp"
+}, {
+	zh: "帓",
+	vi: "mạt"
+}, {
+	zh: "帙",
+	vi: "trật"
+}, {
+	zh: "帨",
+	vi: "thuế"
+}, {
+	zh: "帲",
+	vi: "bình"
+}, {
+	zh: "帵",
+	vi: "oan"
+}, {
+	zh: "釦",
+	vi: "khẩu"
+}, {
+	zh: "幃",
+	vi: "vi"
+}, {
+	zh: "幗",
+	vi: "quắc"
+}, {
+	zh: "幘",
+	vi: "trách"
+}, {
+	zh: "幙",
+	vi: "mạc"
+}, {
+	zh: "幧",
+	vi: "thiêu"
+}, {
+	zh: "幮",
+	vi: "trù"
+}, {
+	zh: "幷",
+	vi: "tịnh"
+}, {
+	zh: "蟲",
+	vi: "trùng"
+}, {
+	zh: "庀",
+	vi: "phỉ"
+}, {
+	zh: "廕",
+	vi: "ấm"
+}, {
+	zh: "鋪",
+	vi: "phô"
+}, {
+	zh: "庥",
+	vi: "hưu"
+}, {
+	zh: "庬",
+	vi: "mang"
+}, {
+	zh: "廀",
+	vi: "sưu"
+}, {
+	zh: "廄",
+	vi: "cứu"
+}, {
+	zh: "廏",
+	vi: "cứu"
+}, {
+	zh: "廐",
+	vi: "cứu"
+}, {
+	zh: "廑",
+	vi: "cần"
+}, {
+	zh: "廒",
+	vi: "ngao"
+}, {
+	zh: "廚",
+	vi: "trù"
+}, {
+	zh: "廡",
+	vi: "vũ"
+}, {
+	zh: "廩",
+	vi: "lẫm"
+}, {
+	zh: "廱",
+	vi: "ung"
+}, {
+	zh: "廴",
+	vi: "dẫn"
+}, {
+	zh: "築",
+	vi: "trúc"
+}, {
+	zh: "廻",
+	vi: "hồi"
+}, {
+	zh: "廼",
+	vi: "nãi"
+}, {
+	zh: "廾",
+	vi: "củng"
+}, {
+	zh: "弆",
+	vi: "khí"
+}, {
+	zh: "弌",
+	vi: "nhất"
+}, {
+	zh: "弍",
+	vi: "nhị"
+}, {
+	zh: "弎",
+	vi: "tam"
+}, {
+	zh: "弔",
+	vi: "điếu"
+}, {
+	zh: "弤",
+	vi: "để"
+}, {
+	zh: "弮",
+	vi: "khuyên"
+}, {
+	zh: "硷",
+	vi: "dảm"
+}, {
+	zh: "鹼",
+	vi: "dảm"
+}, {
+	zh: "弸",
+	vi: "bằng"
+}, {
+	zh: "弻",
+	vi: "bật"
+}, {
+	zh: "彄",
+	vi: "khu"
+}, {
+	zh: "彍",
+	vi: "khoắc"
+}, {
+	zh: "彐",
+	vi: "ký"
+}, {
+	zh: "彑",
+	vi: "kệ"
+}, {
+	zh: "彙",
+	vi: "vị"
+}, {
+	zh: "彞",
+	vi: "di"
+}, {
+	zh: "彠",
+	vi: "hoạch"
+}, {
+	zh: "彫",
+	vi: "điêu"
+}, {
+	zh: "彯",
+	vi: "phiêu"
+}, {
+	zh: "彳",
+	vi: "xích"
+}, {
+	zh: "徠",
+	vi: "lai"
+}, {
+	zh: "徧",
+	vi: "biến"
+}, {
+	zh: "徯",
+	vi: "hề"
+}, {
+	zh: "徳",
+	vi: "đức"
+}, {
+	zh: "徴",
+	vi: "trưng"
+}, {
+	zh: "忄",
+	vi: "tâm"
+}, {
+	zh: "忩",
+	vi: "thông"
+}, {
+	zh: "忭",
+	vi: "biện"
+}, {
+	zh: "忴",
+	vi: "linh"
+}, {
+	zh: "忼",
+	vi: "khảng"
+}, {
+	zh: "怱",
+	vi: "thông"
+}, {
+	zh: "怳",
+	vi: "hoảng"
+}, {
+	zh: "恇",
+	vi: "khuông"
+}, {
+	zh: "恊",
+	vi: "hiệp"
+}, {
+	zh: "恔",
+	vi: "hiệu"
+}, {
+	zh: "恟",
+	vi: "hung"
+}, {
+	zh: "恠",
+	vi: "quái"
+}, {
+	zh: "恡",
+	vi: "lận"
+}, {
+	zh: "悒",
+	vi: "ấp"
+}, {
+	zh: "悞",
+	vi: "ngộ"
+}, {
+	zh: "悤",
+	vi: "thông"
+}, {
+	zh: "悪",
+	vi: "ác"
+}, {
+	zh: "悰",
+	vi: "tông"
+}, {
+	zh: "慟",
+	vi: "đỗng"
+}, {
+	zh: "悾",
+	vi: "không"
+}, {
+	zh: "惄",
+	vi: "nịch"
+}, {
+	zh: "惎",
+	vi: "kỵ"
+}, {
+	zh: "惓",
+	vi: "quyền"
+}, {
+	zh: "惔",
+	vi: "đàm"
+}, {
+	zh: "惢",
+	vi: "nhị"
+}, {
+	zh: "惥",
+	vi: "dũng"
+}, {
+	zh: "惪",
+	vi: "đức"
+}, {
+	zh: "惲",
+	vi: "uẩn"
+}, {
+	zh: "愊",
+	vi: "phức"
+}, {
+	zh: "愔",
+	vi: "âm"
+}, {
+	zh: "愨",
+	vi: "khác"
+}, {
+	zh: "愳",
+	vi: "cụ"
+}, {
+	zh: "愷",
+	vi: "khải"
+}, {
+	zh: "愼",
+	vi: "thận"
+}, {
+	zh: "愽",
+	vi: "bác"
+}, {
+	zh: "慄",
+	vi: "lật"
+}, {
+	zh: "慇",
+	vi: "ân"
+}, {
+	zh: "懃",
+	vi: "cần"
+}, {
+	zh: "慙",
+	vi: "tàm"
+}, {
+	zh: "慸",
+	vi: "sại"
+}, {
+	zh: "鬱",
+	vi: "uất"
+}, {
+	zh: "憃",
+	vi: "xuẩn"
+}, {
+	zh: "憇",
+	vi: "khế"
+}, {
+	zh: "憒",
+	vi: "hội"
+}, {
+	zh: "憖",
+	vi: "ngận"
+}, {
+	zh: "憗",
+	vi: "ngận"
+}, {
+	zh: "憙",
+	vi: "hí"
+}, {
+	zh: "憮",
+	vi: "vũ"
+}, {
+	zh: "憲",
+	vi: "hiến"
+}, {
+	zh: "憸",
+	vi: "tiêm"
+}, {
+	zh: "懌",
+	vi: "dịch"
+}, {
+	zh: "懍",
+	vi: "lẫm"
+}, {
+	zh: "懟",
+	vi: "đỗi"
+}, {
+	zh: "懣",
+	vi: "muộn"
+}, {
+	zh: "懥",
+	vi: "chí"
+}, {
+	zh: "懨",
+	vi: "yêm"
+}, {
+	zh: "懺",
+	vi: "sám"
+}, {
+	zh: "懽",
+	vi: "hoàn"
+}, {
+	zh: "戅",
+	vi: "tráng"
+}, {
+	zh: "戇",
+	vi: "tráng"
+}, {
+	zh: "戋",
+	vi: "tiên"
+}, {
+	zh: "戔",
+	vi: "tiên"
+}, {
+	zh: "戞",
+	vi: "kiết"
+}, {
+	zh: "戤",
+	vi: "ngái"
+}, {
+	zh: "戩",
+	vi: "tiển"
+}, {
+	zh: "戬",
+	vi: "tiển"
+}, {
+	zh: "戱",
+	vi: "hí"
+}, {
+	zh: "戹",
+	vi: "ách"
+}, {
+	zh: "戽",
+	vi: "hố"
+}, {
+	zh: "鐲",
+	vi: "trạc"
+}, {
+	zh: "製",
+	vi: "chế"
+}, {
+	zh: "扠",
+	vi: "tra"
+}, {
+	zh: "扱",
+	vi: "tráp"
+}, {
+	zh: "抃",
+	vi: "biến"
+}, {
+	zh: "抆",
+	vi: "vấn"
+}, {
+	zh: "抝",
+	vi: "ảo"
+}, {
+	zh: "拑",
+	vi: "kiềm"
+}, {
+	zh: "拕",
+	vi: "tha"
+}, {
+	zh: "拶",
+	vi: "tạt"
+}, {
+	zh: "挅",
+	vi: "đỏa"
+}, {
+	zh: "挦",
+	vi: "triêm"
+}, {
+	zh: "挱",
+	vi: "sa"
+}, {
+	zh: "挵",
+	vi: "phan"
+}, {
+	zh: "捓",
+	vi: "da"
+}, {
+	zh: "捫",
+	vi: "môn"
+}, {
+	zh: "捼",
+	vi: "noa"
+}, {
+	zh: "捽",
+	vi: "tốt"
+}, {
+	zh: "掄",
+	vi: "luân"
+}, {
+	zh: "櫃",
+	vi: "quỹ"
+}, {
+	zh: "掞",
+	vi: "thiểm"
+}, {
+	zh: "觸",
+	vi: "xúc"
+}, {
+	zh: "薦",
+	vi: "tiến"
+}, {
+	zh: "掫",
+	vi: "tưu"
+}, {
+	zh: "掯",
+	vi: "khẳng"
+}, {
+	zh: "掽",
+	vi: "bánh"
+}, {
+	zh: "揅",
+	vi: "nghiên"
+}, {
+	zh: "鞄",
+	vi: "bạc"
+}, {
+	zh: "揑",
+	vi: "niết"
+}, {
+	zh: "揔",
+	vi: "tổng"
+}, {
+	zh: "揗",
+	vi: "tuần"
+}, {
+	zh: "揘",
+	vi: "hoành"
+}, {
+	zh: "揞",
+	vi: "yêm"
+}, {
+	zh: "揠",
+	vi: "yết"
+}, {
+	zh: "揢",
+	vi: "khách"
+}, {
+	zh: "揫",
+	vi: "thu"
+}, {
+	zh: "揷",
+	vi: "sáp"
+}, {
+	zh: "揸",
+	vi: "tra"
+}, {
+	zh: "揿",
+	vi: "khấm"
+}, {
+	zh: "搆",
+	vi: "cấu"
+}, {
+	zh: "搉",
+	vi: "xác"
+}, {
+	zh: "搊",
+	vi: "xâu"
+}, {
+	zh: "搒",
+	vi: "bãng"
+}, {
+	zh: "癢",
+	vi: "dưỡng"
+}, {
+	zh: "搕",
+	vi: "khạp"
+}, {
+	zh: "搘",
+	vi: "chi"
+}, {
+	zh: "搧",
+	vi: "thiên"
+}, {
+	zh: "搨",
+	vi: "tháp"
+}, {
+	zh: "搰",
+	vi: "hột"
+}, {
+	zh: "搲",
+	vi: "oa"
+}, {
+	zh: "搵",
+	vi: "uấn"
+}, {
+	zh: "搾",
+	vi: "trá"
+}, {
+	zh: "摏",
+	vi: "thung"
+}, {
+	zh: "摑",
+	vi: "quặc"
+}, {
+	zh: "摛",
+	vi: "si"
+}, {
+	zh: "摜",
+	vi: "quán"
+}, {
+	zh: "摠",
+	vi: "tổng"
+}, {
+	zh: "摳",
+	vi: "khu"
+}, {
+	zh: "摴",
+	vi: "sư"
+}, {
+	zh: "撃",
+	vi: "kích"
+}, {
+	zh: "撏",
+	vi: "triêm"
+}, {
+	zh: "撙",
+	vi: "tỗn"
+}, {
+	zh: "撟",
+	vi: "kiệu"
+}, {
+	zh: "撡",
+	vi: "thao"
+}, {
+	zh: "撣",
+	vi: "đạn"
+}, {
+	zh: "撦",
+	vi: "xả"
+}, {
+	zh: "撻",
+	vi: "thát"
+}, {
+	zh: "撾",
+	vi: "qua"
+}, {
+	zh: "擕",
+	vi: "huề"
+}, {
+	zh: "擡",
+	vi: "đài"
+}, {
+	zh: "陞",
+	vi: "thăng"
+}, {
+	zh: "擣",
+	vi: "đảo"
+}, {
+	zh: "擥",
+	vi: "lãm"
+}, {
+	zh: "擧",
+	vi: "cử"
+}, {
+	zh: "擪",
+	vi: "áp"
+}, {
+	zh: "擫",
+	vi: "áp"
+}, {
+	zh: "擭",
+	vi: "hoạch"
+}, {
+	zh: "擯",
+	vi: "bấn"
+}, {
+	zh: "擷",
+	vi: "hiệt"
+}, {
+	zh: "攄",
+	vi: "sư"
+}, {
+	zh: "攅",
+	vi: "toàn"
+}, {
+	zh: "攆",
+	vi: "niện"
+}, {
+	zh: "攈",
+	vi: "quấn"
+}, {
+	zh: "攖",
+	vi: "anh"
+}, {
+	zh: "攙",
+	vi: "sam"
+}, {
+	zh: "攛",
+	vi: "thoán"
+}, {
+	zh: "攟",
+	vi: "quấn"
+}, {
+	zh: "攩",
+	vi: "đảng"
+}, {
+	zh: "攲",
+	vi: "khi"
+}, {
+	zh: "攴",
+	vi: "phộc"
+}, {
+	zh: "穫",
+	vi: "hoạch"
+}, {
+	zh: "攷",
+	vi: "khảo"
+}, {
+	zh: "鬆",
+	vi: "tông"
+}, {
+	zh: "敪",
+	vi: "xuyết"
+}, {
+	zh: "敔",
+	vi: "ngữ"
+}, {
+	zh: "斆",
+	vi: "hiệu"
+}, {
+	zh: "駮",
+	vi: "bác"
+}, {
+	zh: "鳩",
+	vi: "cưu"
+}, {
+	zh: "觫",
+	vi: "tốc"
+}, {
+	zh: "斝",
+	vi: "giả"
+}, {
+	zh: "斠",
+	vi: "dác"
+}, {
+	zh: "斵",
+	vi: "trác"
+}, {
+	zh: "斾",
+	vi: "bái"
+}, {
+	zh: "旂",
+	vi: "kỳ"
+}, {
+	zh: "旉",
+	vi: "phu"
+}, {
+	zh: "旓",
+	vi: "sao"
+}, {
+	zh: "旛",
+	vi: "phan"
+}, {
+	zh: "旜",
+	vi: "chiên"
+}, {
+	zh: "旝",
+	vi: "quái"
+}, {
+	zh: "旟",
+	vi: "dư"
+}, {
+	zh: "旣",
+	vi: "ký"
+}, {
+	zh: "旤",
+	vi: "họa"
+}, {
+	zh: "旹",
+	vi: "thì"
+}, {
+	zh: "旾",
+	vi: "xuân"
+}, {
+	zh: "昀",
+	vi: "quân"
+}, {
+	zh: "昚",
+	vi: "thận"
+}, {
+	zh: "昬",
+	vi: "hôn"
+}, {
+	zh: "昶",
+	vi: "sưởng"
+}, {
+	zh: "昺",
+	vi: "bính"
+}, {
+	zh: "昽",
+	vi: "lông"
+}, {
+	zh: "晜",
+	vi: "côn"
+}, {
+	zh: "晡",
+	vi: "bô"
+}, {
+	zh: "晳",
+	vi: "triết"
+}, {
+	zh: "晻",
+	vi: "yểm"
+}, {
+	zh: "暋",
+	vi: "mẫn"
+}, {
+	zh: "暍",
+	vi: "yết"
+}, {
+	zh: "暎",
+	vi: "ánh"
+}, {
+	zh: "暐",
+	vi: "vĩ"
+}, {
+	zh: "暘",
+	vi: "dương"
+}, {
+	zh: "暭",
+	vi: "hạo"
+}, {
+	zh: "暵",
+	vi: "hán"
+}, {
+	zh: "曀",
+	vi: "ê"
+}, {
+	zh: "曁",
+	vi: "kỵ"
+}, {
+	zh: "曄",
+	vi: "diệp"
+}, {
+	zh: "曇",
+	vi: "đàm"
+}, {
+	zh: "曈",
+	vi: "đồng"
+}, {
+	zh: "曌",
+	vi: "chiếu"
+}, {
+	zh: "曏",
+	vi: "hướng"
+}, {
+	zh: "曖",
+	vi: "ái"
+}, {
+	zh: "曚",
+	vi: "mông"
+}, {
+	zh: "曨",
+	vi: "lông"
+}, {
+	zh: "曬",
+	vi: "sái"
+}, {
+	zh: "曵",
+	vi: "duệ"
+}, {
+	zh: "朏",
+	vi: "phỉ"
+}, {
+	zh: "朒",
+	vi: "nục"
+}, {
+	zh: "朓",
+	vi: "thiểu"
+}, {
+	zh: "聖",
+	vi: "thánh"
+}, {
+	zh: "朞",
+	vi: "ki"
+}, {
+	zh: "朶",
+	vi: "đóa"
+}, {
+	zh: "杇",
+	vi: "ô"
+}, {
+	zh: "陧",
+	vi: "niết"
+}, {
+	zh: "隉",
+	vi: "niết"
+}, {
+	zh: "杕",
+	vi: "đệ"
+}, {
+	zh: "杗",
+	vi: "mang"
+}, {
+	zh: "杙",
+	vi: "dặc"
+}, {
+	zh: "榈",
+	vi: "lư"
+}, {
+	zh: "櫚",
+	vi: "lư"
+}, {
+	zh: "枏",
+	vi: "nam"
+}, {
+	zh: "醬",
+	vi: "tương"
+}, {
+	zh: "枲",
+	vi: "tỷ"
+}, {
+	zh: "枴",
+	vi: "quải"
+}, {
+	zh: "橼",
+	vi: "duyên"
+}, {
+	zh: "櫞",
+	vi: "duyên"
+}, {
+	zh: "柁",
+	vi: "đả"
+}, {
+	zh: "柈",
+	vi: "bàn"
+}, {
+	zh: "柒",
+	vi: "thất"
+}, {
+	zh: "柝",
+	vi: "thác"
+}, {
+	zh: "柟",
+	vi: "nam"
+}, {
+	zh: "柨",
+	vi: "thị"
+}, {
+	zh: "柮",
+	vi: "đốt"
+}, {
+	zh: "柵",
+	vi: "sách"
+}, {
+	zh: "柹",
+	vi: "thị"
+}, {
+	zh: "栞",
+	vi: "san"
+}, {
+	zh: "栟",
+	vi: "kiên"
+}, {
+	zh: "栢",
+	vi: "bách"
+}, {
+	zh: "栨",
+	vi: "thứ"
+}, {
+	zh: "栱",
+	vi: "củng"
+}, {
+	zh: "栲",
+	vi: "khảo"
+}, {
+	zh: "栳",
+	vi: "lão"
+}, {
+	zh: "栴",
+	vi: "chiên"
+}, {
+	zh: "桹",
+	vi: "lang"
+}, {
+	zh: "欏",
+	vi: "la"
+}, {
+	zh: "桬",
+	vi: "sa"
+}, {
+	zh: "桿",
+	vi: "can"
+}, {
+	zh: "梐",
+	vi: "bệ"
+}, {
+	zh: "梔",
+	vi: "chi"
+}, {
+	zh: "梱",
+	vi: "khổn"
+}, {
+	zh: "棃",
+	vi: "lê"
+}, {
+	zh: "棊",
+	vi: "kỳ"
+}, {
+	zh: "閭",
+	vi: "lư"
+}, {
+	zh: "棖",
+	vi: "tranh"
+}, {
+	zh: "棨",
+	vi: "khể"
+}, {
+	zh: "棬",
+	vi: "khuyên"
+}, {
+	zh: "棲",
+	vi: "tê"
+}, {
+	zh: "椇",
+	vi: "củ"
+}, {
+	zh: "椉",
+	vi: "thừa"
+}, {
+	zh: "椏",
+	vi: "nha"
+}, {
+	zh: "椐",
+	vi: "cư"
+}, {
+	zh: "椗",
+	vi: "đính"
+}, {
+	zh: "椳",
+	vi: "ôi"
+}, {
+	zh: "椶",
+	vi: "tông"
+}, {
+	zh: "椸",
+	vi: "di"
+}, {
+	zh: "椾",
+	vi: "tiên"
+}, {
+	zh: "楘",
+	vi: "mộc"
+}, {
+	zh: "楙",
+	vi: "mậu"
+}, {
+	zh: "榅",
+	vi: "ốt"
+}, {
+	zh: "榑",
+	vi: "phù"
+}, {
+	zh: "榘",
+	vi: "củ"
+}, {
+	zh: "榤",
+	vi: "kiệt"
+}, {
+	zh: "榦",
+	vi: "cán"
+}, {
+	zh: "榲",
+	vi: "ốt"
+}, {
+	zh: "榾",
+	vi: "cốt"
+}, {
+	zh: "槀",
+	vi: "cảo"
+}, {
+	zh: "槅",
+	vi: "cách"
+}, {
+	zh: "槊",
+	vi: "sóc"
+}, {
+	zh: "槑",
+	vi: "mai"
+}, {
+	zh: "槓",
+	vi: "cống"
+}, {
+	zh: "槥",
+	vi: "tuệ"
+}, {
+	zh: "槧",
+	vi: "tạm"
+}, {
+	zh: "槨",
+	vi: "quách"
+}, {
+	zh: "槩",
+	vi: "khái"
+}, {
+	zh: "槭",
+	vi: "túc"
+}, {
+	zh: "槱",
+	vi: "dửu"
+}, {
+	zh: "槲",
+	vi: "hộc"
+}, {
+	zh: "槹",
+	vi: "cao"
+}, {
+	zh: "槼",
+	vi: "quy"
+}, {
+	zh: "樅",
+	vi: "tung"
+}, {
+	zh: "籤",
+	vi: "thiêm"
+}, {
+	zh: "樲",
+	vi: "nhị"
+}, {
+	zh: "樷",
+	vi: "tùng"
+}, {
+	zh: "籬",
+	vi: "ly"
+}, {
+	zh: "樺",
+	vi: "hoa"
+}, {
+	zh: "欖",
+	vi: "lãm"
+}, {
+	zh: "橅",
+	vi: "mô"
+}, {
+	zh: "橊",
+	vi: "lưu"
+}, {
+	zh: "橕",
+	vi: "xanh"
+}, {
+	zh: "橦",
+	vi: "đồng"
+}, {
+	zh: "橧",
+	vi: "tăng"
+}, {
+	zh: "檉",
+	vi: "sanh"
+}, {
+	zh: "檎",
+	vi: "cầm"
+}, {
+	zh: "檜",
+	vi: "cối"
+}, {
+	zh: "檝",
+	vi: "tiếp"
+}, {
+	zh: "檟",
+	vi: "giả"
+}, {
+	zh: "檮",
+	vi: "đào"
+}, {
+	zh: "檯",
+	vi: "thai"
+}, {
+	zh: "檳",
+	vi: "tân"
+}, {
+	zh: "檸",
+	vi: "nịnh"
+}, {
+	zh: "檿",
+	vi: "yểm"
+}, {
+	zh: "櫂",
+	vi: "trạo"
+}, {
+	zh: "櫉",
+	vi: "trù"
+}, {
+	zh: "櫓",
+	vi: "lỗ"
+}, {
+	zh: "櫛",
+	vi: "trất"
+}, {
+	zh: "櫝",
+	vi: "độc"
+}, {
+	zh: "櫟",
+	vi: "lịch"
+}, {
+	zh: "櫨",
+	vi: "lô"
+}, {
+	zh: "櫪",
+	vi: "lịch"
+}, {
+	zh: "櫫",
+	vi: "trư"
+}, {
+	zh: "櫬",
+	vi: "sấn"
+}, {
+	zh: "櫳",
+	vi: "long"
+}, {
+	zh: "櫸",
+	vi: "cử"
+}, {
+	zh: "櫺",
+	vi: "linh"
+}, {
+	zh: "欂",
+	vi: "bạc"
+}, {
+	zh: "欒",
+	vi: "loan"
+}, {
+	zh: "欛",
+	vi: "bá"
+}, {
+	zh: "欝",
+	vi: "uất"
+}, {
+	zh: "欵",
+	vi: "khoản"
+}, {
+	zh: "欸",
+	vi: "ai"
+}, {
+	zh: "欻",
+	vi: "hốt"
+}, {
+	zh: "欿",
+	vi: "khảm"
+}, {
+	zh: "歔",
+	vi: "hư"
+}, {
+	zh: "歕",
+	vi: "phun"
+}, {
+	zh: "歗",
+	vi: "khiếu"
+}, {
+	zh: "歛",
+	vi: "liễm"
+}, {
+	zh: "歠",
+	vi: "xuyết"
+}, {
+	zh: "歬",
+	vi: "tiền"
+}, {
+	zh: "歰",
+	vi: "sáp"
+}, {
+	zh: "歱",
+	vi: "chủng"
+}, {
+	zh: "歴",
+	vi: "lịch"
+}, {
+	zh: "歾",
+	vi: "một"
+}, {
+	zh: "歿",
+	vi: "một"
+}, {
+	zh: "殀",
+	vi: "yểu"
+}, {
+	zh: "殍",
+	vi: "biễu"
+}, {
+	zh: "殞",
+	vi: "vẫn"
+}, {
+	zh: "殢",
+	vi: "thế"
+}, {
+	zh: "殣",
+	vi: "cận"
+}, {
+	zh: "殤",
+	vi: "thương"
+}, {
+	zh: "殫",
+	vi: "đàn"
+}, {
+	zh: "殭",
+	vi: "cương"
+}, {
+	zh: "殮",
+	vi: "liễm"
+}, {
+	zh: "殯",
+	vi: "tấn"
+}, {
+	zh: "殱",
+	vi: "tiêm"
+}, {
+	zh: "殻",
+	vi: "xác"
+}, {
+	zh: "毆",
+	vi: "ẩu"
+}, {
+	zh: "毈",
+	vi: "đoạn"
+}, {
+	zh: "毖",
+	vi: "bí"
+}, {
+	zh: "毘",
+	vi: "bì"
+}, {
+	zh: "毧",
+	vi: "nhung"
+}, {
+	zh: "毬",
+	vi: "cầu"
+}, {
+	zh: "毷",
+	vi: "máo"
+}, {
+	zh: "氉",
+	vi: "táo"
+}, {
+	zh: "毹",
+	vi: "du"
+}, {
+	zh: "毿",
+	vi: "tam"
+}, {
+	zh: "氂",
+	vi: "ly"
+}, {
+	zh: "氍",
+	vi: "cù"
+}, {
+	zh: "氟",
+	vi: "phất"
+}, {
+	zh: "氢",
+	vi: "khinh"
+}, {
+	zh: "蠜",
+	vi: "phàn"
+}, {
+	zh: "氫",
+	vi: "khinh"
+}, {
+	zh: "氷",
+	vi: "băng"
+}, {
+	zh: "氾",
+	vi: "phiếm"
+}, {
+	zh: "汊",
+	vi: "xá"
+}, {
+	zh: "汍",
+	vi: "hoàn"
+}, {
+	zh: "汎",
+	vi: "phiếm"
+}, {
+	zh: "汙",
+	vi: "ô"
+}, {
+	zh: "汚",
+	vi: "ô"
+}, {
+	zh: "蓠",
+	vi: "ly"
+}, {
+	zh: "蘺",
+	vi: "ly"
+}, {
+	zh: "穢",
+	vi: "uế"
+}, {
+	zh: "沴",
+	vi: "lệ"
+}, {
+	zh: "泐",
+	vi: "lặc"
+}, {
+	zh: "泒",
+	vi: "cô"
+}, {
+	zh: "泖",
+	vi: "mão"
+}, {
+	zh: "泚",
+	vi: "thử"
+}, {
+	zh: "泺",
+	vi: "lạc"
+}, {
+	zh: "洑",
+	vi: "phục"
+}, {
+	zh: "洚",
+	vi: "giáng"
+}, {
+	zh: "洴",
+	vi: "bình"
+}, {
+	zh: "湧",
+	vi: "dũng"
+}, {
+	zh: "洿",
+	vi: "ô"
+}, {
+	zh: "浹",
+	vi: "tiếp"
+}, {
+	zh: "浼",
+	vi: "mỗi"
+}, {
+	zh: "涇",
+	vi: "kính"
+}, {
+	zh: "涊",
+	vi: "niễn"
+}, {
+	zh: "涑",
+	vi: "tốc"
+}, {
+	zh: "涖",
+	vi: "lỵ"
+}, {
+	zh: "淟",
+	vi: "điến"
+}, {
+	zh: "淥",
+	vi: "lục"
+}, {
+	zh: "淶",
+	vi: "lai"
+}, {
+	zh: "淽",
+	vi: "nhị"
+}, {
+	zh: "渖",
+	vi: "thẩm"
+}, {
+	zh: "渮",
+	vi: "ca"
+}, {
+	zh: "渼",
+	vi: "mỹ"
+}, {
+	zh: "湅",
+	vi: "luyện"
+}, {
+	zh: "湌",
+	vi: "xan"
+}, {
+	zh: "湑",
+	vi: "tư"
+}, {
+	zh: "湜",
+	vi: "thực"
+}, {
+	zh: "湞",
+	vi: "trinh"
+}, {
+	zh: "湣",
+	vi: "mẫn"
+}, {
+	zh: "湽",
+	vi: "truy"
+}, {
+	zh: "溴",
+	vi: "xú"
+}, {
+	zh: "滃",
+	vi: "ổng"
+}, {
+	zh: "滌",
+	vi: "địch"
+}, {
+	zh: "滎",
+	vi: "huỳnh"
+}, {
+	zh: "滙",
+	vi: "hối"
+}, {
+	zh: "滛",
+	vi: "dâm"
+}, {
+	zh: "滬",
+	vi: "hỗ"
+}, {
+	zh: "瀆",
+	vi: "độc"
+}, {
+	zh: "滷",
+	vi: "lỗ"
+}, {
+	zh: "滸",
+	vi: "hử"
+}, {
+	zh: "漈",
+	vi: "tế"
+}, {
+	zh: "漊",
+	vi: "lâu"
+}, {
+	zh: "漑",
+	vi: "cái"
+}, {
+	zh: "漘",
+	vi: "thần"
+}, {
+	zh: "漙",
+	vi: "đoàn"
+}, {
+	zh: "漚",
+	vi: "ẩu"
+}, {
+	zh: "漣",
+	vi: "liên"
+}, {
+	zh: "漥",
+	vi: "oa"
+}, {
+	zh: "潁",
+	vi: "toánh"
+}, {
+	zh: "潟",
+	vi: "tích"
+}, {
+	zh: "澁",
+	vi: "sáp"
+}, {
+	zh: "澂",
+	vi: "trừng"
+}, {
+	zh: "澇",
+	vi: "lạo"
+}, {
+	zh: "澑",
+	vi: "lựu"
+}, {
+	zh: "澠",
+	vi: "thằng"
+}, {
+	zh: "澣",
+	vi: "cán"
+}, {
+	zh: "澦",
+	vi: "dự"
+}, {
+	zh: "澮",
+	vi: "quái"
+}, {
+	zh: "澱",
+	vi: "điến"
+}, {
+	zh: "澼",
+	vi: "phích"
+}, {
+	zh: "濰",
+	vi: "duy"
+}, {
+	zh: "濱",
+	vi: "tân"
+}, {
+	zh: "濼",
+	vi: "lạc"
+}, {
+	zh: "濾",
+	vi: "lự"
+}, {
+	zh: "瀅",
+	vi: "oánh"
+}, {
+	zh: "瀋",
+	vi: "trầm"
+}, {
+	zh: "瀏",
+	vi: "lưu"
+}, {
+	zh: "瀘",
+	vi: "lô"
+}, {
+	zh: "瀡",
+	vi: "tủy"
+}, {
+	zh: "瀦",
+	vi: "trư"
+}, {
+	zh: "瀧",
+	vi: "lang"
+}, {
+	zh: "瀨",
+	vi: "lại"
+}, {
+	zh: "瀲",
+	vi: "liễm"
+}, {
+	zh: "瀹",
+	vi: "thược"
+}, {
+	zh: "瀼",
+	vi: "nhương"
+}, {
+	zh: "灉",
+	vi: "ung"
+}, {
+	zh: "灝",
+	vi: "hạo"
+}, {
+	zh: "灤",
+	vi: "loan"
+}, {
+	zh: "灧",
+	vi: "liễm"
+}, {
+	zh: "灨",
+	vi: "cám"
+}, {
+	zh: "炁",
+	vi: "khí"
+}, {
+	zh: "炜",
+	vi: "vĩ"
+}, {
+	zh: "炤",
+	vi: "chiếu"
+}, {
+	zh: "炧",
+	vi: "đả"
+}, {
+	zh: "炱",
+	vi: "đài"
+}, {
+	zh: "蘝",
+	vi: "liêm"
+}, {
+	zh: "鰂",
+	vi: "tặc"
+}, {
+	zh: "烖",
+	vi: "tai"
+}, {
+	zh: "烩",
+	vi: "quái"
+}, {
+	zh: "焜",
+	vi: "hỗn"
+}, {
+	zh: "焮",
+	vi: "hân"
+}, {
+	zh: "煆",
+	vi: "hạ"
+}, {
+	zh: "煇",
+	vi: "huy"
+}, {
+	zh: "煏",
+	vi: "phức"
+}, {
+	zh: "煑",
+	vi: "chử"
+}, {
+	zh: "煒",
+	vi: "vĩ"
+}, {
+	zh: "煕",
+	vi: "hi"
+}, {
+	zh: "煖",
+	vi: "noãn"
+}, {
+	zh: "煠",
+	vi: "sáp"
+}, {
+	zh: "煢",
+	vi: "quỳnh"
+}, {
+	zh: "煬",
+	vi: "dương"
+}, {
+	zh: "煲",
+	vi: "bảo"
+}, {
+	zh: "煼",
+	vi: "sao"
+}, {
+	zh: "熇",
+	vi: "hốc"
+}, {
+	zh: "熯",
+	vi: "hãn"
+}, {
+	zh: "熲",
+	vi: "quýnh"
+}, {
+	zh: "燁",
+	vi: "diệp"
+}, {
+	zh: "燉",
+	vi: "đôn"
+}, {
+	zh: "燐",
+	vi: "lân"
+}, {
+	zh: "燖",
+	vi: "tầm"
+}, {
+	zh: "燜",
+	vi: "muộn"
+}, {
+	zh: "燦",
+	vi: "xán"
+}, {
+	zh: "燬",
+	vi: "hủy"
+}, {
+	zh: "燻",
+	vi: "huân"
+}, {
+	zh: "燾",
+	vi: "đảo"
+}, {
+	zh: "燿",
+	vi: "diệu"
+}, {
+	zh: "爇",
+	vi: "nhiệt"
+}, {
+	zh: "爓",
+	vi: "diễm"
+}, {
+	zh: "爗",
+	vi: "diệp"
+}, {
+	zh: "爚",
+	vi: "dược"
+}, {
+	zh: "爝",
+	vi: "tước"
+}, {
+	zh: "爫",
+	vi: "trảo"
+}, {
+	zh: "爮",
+	vi: "bào"
+}, {
+	zh: "爲",
+	vi: "vi"
+}, {
+	zh: "爿",
+	vi: "tường"
+}, {
+	zh: "牀",
+	vi: "sàng"
+}, {
+	zh: "牁",
+	vi: "ca"
+}, {
+	zh: "牋",
+	vi: "tiên"
+}, {
+	zh: "牐",
+	vi: "sáp"
+}, {
+	zh: "牓",
+	vi: "bảng"
+}, {
+	zh: "牕",
+	vi: "song"
+}, {
+	zh: "牚",
+	vi: "xanh"
+}, {
+	zh: "蒡",
+	vi: "bảng"
+}, {
+	zh: "牠",
+	vi: "tha"
+}, {
+	zh: "蛎",
+	vi: "lệ"
+}, {
+	zh: "蠣",
+	vi: "lệ"
+}, {
+	zh: "牸",
+	vi: "tự"
+}, {
+	zh: "牼",
+	vi: "khanh"
+}, {
+	zh: "犂",
+	vi: "lê"
+}, {
+	zh: "犇",
+	vi: "bôn"
+}, {
+	zh: "犎",
+	vi: "phong"
+}, {
+	zh: "犖",
+	vi: "lạc"
+}, {
+	zh: "犛",
+	vi: "mao"
+}, {
+	zh: "犭",
+	vi: "khuyển"
+}, {
+	zh: "狉",
+	vi: "phi"
+}, {
+	zh: "狌",
+	vi: "tính"
+}, {
+	zh: "狒",
+	vi: "phí"
+}, {
+	zh: "狓",
+	vi: "phi"
+}, {
+	zh: "狖",
+	vi: "dứu"
+}, {
+	zh: "狥",
+	vi: "tuẫn"
+}, {
+	zh: "狨",
+	vi: "nhung"
+}, {
+	zh: "狴",
+	vi: "bệ"
+}, {
+	zh: "猂",
+	vi: "hãn"
+}, {
+	zh: "猘",
+	vi: "chế"
+}, {
+	zh: "猧",
+	vi: "oa"
+}, {
+	zh: "猺",
+	vi: "dao"
+}, {
+	zh: "猻",
+	vi: "tôn"
+}, {
+	zh: "獀",
+	vi: "sưu"
+}, {
+	zh: "獉",
+	vi: "trăn"
+}, {
+	zh: "獍",
+	vi: "kính"
+}, {
+	zh: "獞",
+	vi: "đồng"
+}, {
+	zh: "獧",
+	vi: "quyến"
+}, {
+	zh: "獪",
+	vi: "quái"
+}, {
+	zh: "獺",
+	vi: "thát"
+}, {
+	zh: "獼",
+	vi: "mi"
+}, {
+	zh: "玅",
+	vi: "diệu"
+}, {
+	zh: "璫",
+	vi: "đang"
+}, {
+	zh: "玖",
+	vi: "cửu"
+}, {
+	zh: "玞",
+	vi: "phu"
+}, {
+	zh: "玨",
+	vi: "giác"
+}, {
+	zh: "珏",
+	vi: "giác"
+}, {
+	zh: "玱",
+	vi: "thương"
+}, {
+	zh: "珉",
+	vi: "mân"
+}, {
+	zh: "珧",
+	vi: "diêu"
+}, {
+	zh: "珮",
+	vi: "bội"
+}, {
+	zh: "珲",
+	vi: "hồn"
+}, {
+	zh: "珷",
+	vi: "vũ"
+}, {
+	zh: "琇",
+	vi: "tú"
+}, {
+	zh: "琖",
+	vi: "trản"
+}, {
+	zh: "琚",
+	vi: "cư"
+}, {
+	zh: "琤",
+	vi: "tranh"
+}, {
+	zh: "琲",
+	vi: "bội"
+}, {
+	zh: "琹",
+	vi: "cầm"
+}, {
+	zh: "琺",
+	vi: "pháp"
+}, {
+	zh: "琿",
+	vi: "hồn"
+}, {
+	zh: "瑇",
+	vi: "đại"
+}, {
+	zh: "瑋",
+	vi: "vĩ"
+}, {
+	zh: "瑪",
+	vi: "mã"
+}, {
+	zh: "瑽",
+	vi: "xung"
+}, {
+	zh: "璈",
+	vi: "ngao"
+}, {
+	zh: "璉",
+	vi: "liễn"
+}, {
+	zh: "璢",
+	vi: "lưu"
+}, {
+	zh: "璣",
+	vi: "ki"
+}, {
+	zh: "璵",
+	vi: "dư"
+}, {
+	zh: "璽",
+	vi: "tỷ"
+}, {
+	zh: "璿",
+	vi: "tuyền"
+}, {
+	zh: "瓀",
+	vi: "nhuyên"
+}, {
+	zh: "瓈",
+	vi: "lê"
+}, {
+	zh: "瓔",
+	vi: "anh"
+}, {
+	zh: "瓖",
+	vi: "tương"
+}, {
+	zh: "瓚",
+	vi: "toản"
+}, {
+	zh: "瓞",
+	vi: "điệt"
+}, {
+	zh: "瓻",
+	vi: "hi"
+}, {
+	zh: "甁",
+	vi: "bình"
+}, {
+	zh: "甃",
+	vi: "trứu"
+}, {
+	zh: "甆",
+	vi: "từ"
+}, {
+	zh: "甇",
+	vi: "anh"
+}, {
+	zh: "甍",
+	vi: "manh"
+}, {
+	zh: "甎",
+	vi: "chuyên"
+}, {
+	zh: "甒",
+	vi: "vũ"
+}, {
+	zh: "甕",
+	vi: "úng"
+}, {
+	zh: "甖",
+	vi: "anh"
+}, {
+	zh: "甡",
+	vi: "sân"
+}, {
+	zh: "甪",
+	vi: "lộ"
+}, {
+	zh: "甯",
+	vi: "nịnh"
+}, {
+	zh: "畂",
+	vi: "điền"
+}, {
+	zh: "畛",
+	vi: "chẩn"
+}, {
+	zh: "畞",
+	vi: "mẫu"
+}, {
+	zh: "畹",
+	vi: "uyển"
+}, {
+	zh: "畽",
+	vi: "thoản"
+}, {
+	zh: "疄",
+	vi: "lân"
+}, {
+	zh: "疇",
+	vi: "trù"
+}, {
+	zh: "疎",
+	vi: "sơ"
+}, {
+	zh: "疐",
+	vi: "chí"
+}, {
+	zh: "疓",
+	vi: "đinh"
+}, {
+	zh: "疖",
+	vi: "tiết"
+}, {
+	zh: "疘",
+	vi: "giang"
+}, {
+	zh: "疬",
+	vi: "lịch"
+}, {
+	zh: "疭",
+	vi: "túng"
+}, {
+	zh: "疰",
+	vi: "chú"
+}, {
+	zh: "疱",
+	vi: "pháo"
+}, {
+	zh: "疳",
+	vi: "cam"
+}, {
+	zh: "疿",
+	vi: "phi"
+}, {
+	zh: "痀",
+	vi: "câu"
+}, {
+	zh: "瘘",
+	vi: "lũ"
+}, {
+	zh: "瘻",
+	vi: "lũ"
+}, {
+	zh: "痁",
+	vi: "thiêm"
+}, {
+	zh: "痃",
+	vi: "hiền"
+}, {
+	zh: "痄",
+	vi: "chá"
+}, {
+	zh: "痌",
+	vi: "thông"
+}, {
+	zh: "痎",
+	vi: "giai"
+}, {
+	zh: "痏",
+	vi: "vị"
+}, {
+	zh: "痗",
+	vi: "mội"
+}, {
+	zh: "痠",
+	vi: "toan"
+}, {
+	zh: "痡",
+	vi: "phô"
+}, {
+	zh: "瘡",
+	vi: "sang"
+}, {
+	zh: "痲",
+	vi: "ma"
+}, {
+	zh: "痳",
+	vi: "lâm"
+}, {
+	zh: "痼",
+	vi: "cố"
+}, {
+	zh: "痾",
+	vi: "a"
+}, {
+	zh: "瘃",
+	vi: "chúc"
+}, {
+	zh: "瘈",
+	vi: "khế"
+}, {
+	zh: "瘉",
+	vi: "dũ"
+}, {
+	zh: "瘊",
+	vi: "hầu"
+}, {
+	zh: "瘏",
+	vi: "đồ"
+}, {
+	zh: "瘛",
+	vi: "xiết"
+}, {
+	zh: "瘲",
+	vi: "túng"
+}, {
+	zh: "瘝",
+	vi: "quan"
+}, {
+	zh: "瘞",
+	vi: "ế"
+}, {
+	zh: "瘧",
+	vi: "ngược"
+}, {
+	zh: "瘭",
+	vi: "tiếu"
+}, {
+	zh: "瘯",
+	vi: "thốc"
+}, {
+	zh: "癧",
+	vi: "lịch"
+}, {
+	zh: "瘵",
+	vi: "sái"
+}, {
+	zh: "瘼",
+	vi: "mạc"
+}, {
+	zh: "瘿",
+	vi: "anh"
+}, {
+	zh: "癅",
+	vi: "lựu"
+}, {
+	zh: "癆",
+	vi: "lao"
+}, {
+	zh: "癉",
+	vi: "đản"
+}, {
+	zh: "癎",
+	vi: "giản"
+}, {
+	zh: "癒",
+	vi: "dũ"
+}, {
+	zh: "癘",
+	vi: "lệ"
+}, {
+	zh: "癙",
+	vi: "thử"
+}, {
+	zh: "癜",
+	vi: "điến"
+}, {
+	zh: "癟",
+	vi: "biết"
+}, {
+	zh: "癤",
+	vi: "tiết"
+}, {
+	zh: "癭",
+	vi: "anh"
+}, {
+	zh: "癮",
+	vi: "ẩn"
+}, {
+	zh: "癰",
+	vi: "ung"
+}, {
+	zh: "癶",
+	vi: "bát"
+}, {
+	zh: "鷺",
+	vi: "lộ"
+}, {
+	zh: "皐",
+	vi: "cao"
+}, {
+	zh: "皚",
+	vi: "ngai"
+}, {
+	zh: "皜",
+	vi: "hạo"
+}, {
+	zh: "皞",
+	vi: "hạo"
+}, {
+	zh: "皡",
+	vi: "hạo"
+}, {
+	zh: "皰",
+	vi: "pháo"
+}, {
+	zh: "皸",
+	vi: "quân"
+}, {
+	zh: "皻",
+	vi: "cha"
+}, {
+	zh: "皼",
+	vi: "cổ"
+}, {
+	zh: "盃",
+	vi: "bôi"
+}, {
+	zh: "盇",
+	vi: "hạp"
+}, {
+	zh: "盌",
+	vi: "oản"
+}, {
+	zh: "盦",
+	vi: "am"
+}, {
+	zh: "眎",
+	vi: "thị"
+}, {
+	zh: "眡",
+	vi: "thị"
+}, {
+	zh: "眱",
+	vi: "di"
+}, {
+	zh: "眵",
+	vi: "si"
+}, {
+	zh: "眽",
+	vi: "mạch"
+}, {
+	zh: "睂",
+	vi: "mi"
+}, {
+	zh: "睅",
+	vi: "hạn"
+}, {
+	zh: "睊",
+	vi: "quyến"
+}, {
+	zh: "睍",
+	vi: "hiển"
+}, {
+	zh: "睏",
+	vi: "khốn"
+}, {
+	zh: "睒",
+	vi: "thiểm"
+}, {
+	zh: "睖",
+	vi: "lăng"
+}, {
+	zh: "睞",
+	vi: "lãi"
+}, {
+	zh: "睟",
+	vi: "túy"
+}, {
+	zh: "郵",
+	vi: "bưu"
+}, {
+	zh: "睺",
+	vi: "hầu"
+}, {
+	zh: "瞆",
+	vi: "quý"
+}, {
+	zh: "瞖",
+	vi: "ế"
+}, {
+	zh: "瞷",
+	vi: "gián"
+}, {
+	zh: "瞾",
+	vi: "chiếu"
+}, {
+	zh: "矇",
+	vi: "mông"
+}, {
+	zh: "矉",
+	vi: "tần"
+}, {
+	zh: "矑",
+	vi: "lô"
+}, {
+	zh: "矙",
+	vi: "khám"
+}, {
+	zh: "矚",
+	vi: "chúc"
+}, {
+	zh: "矞",
+	vi: "duật"
+}, {
+	zh: "矟",
+	vi: "sáo"
+}, {
+	zh: "矦",
+	vi: "hầu"
+}, {
+	zh: "矬",
+	vi: "tọa"
+}, {
+	zh: "矯",
+	vi: "kiểu"
+}, {
+	zh: "矱",
+	vi: "hoạch"
+}, {
+	zh: "矻",
+	vi: "khốt"
+}, {
+	zh: "矼",
+	vi: "cang"
+}, {
+	zh: "矽",
+	vi: "tịch"
+}, {
+	zh: "砆",
+	vi: "phu"
+}, {
+	zh: "砗",
+	vi: "xa"
+}, {
+	zh: "磲",
+	vi: "cừ"
+}, {
+	zh: "砝",
+	vi: "kiếp"
+}, {
+	zh: "砷",
+	vi: "thân"
+}, {
+	zh: "硇",
+	vi: "nao"
+}, {
+	zh: "硎",
+	vi: "hình"
+}, {
+	zh: "硏",
+	vi: "nghiên"
+}, {
+	zh: "硙",
+	vi: "ngại"
+}, {
+	zh: "硜",
+	vi: "khanh"
+}, {
+	zh: "硨",
+	vi: "xa"
+}, {
+	zh: "硯",
+	vi: "nghiễn"
+}, {
+	zh: "硼",
+	vi: "bằng"
+}, {
+	zh: "碔",
+	vi: "vũ"
+}, {
+	zh: "碘",
+	vi: "điển"
+}, {
+	zh: "碞",
+	vi: "nham"
+}, {
+	zh: "碡",
+	vi: "độc"
+}, {
+	zh: "碪",
+	vi: "châm"
+}, {
+	zh: "碯",
+	vi: "não"
+}, {
+	zh: "磉",
+	vi: "tảng"
+}, {
+	zh: "磑",
+	vi: "ngại"
+}, {
+	zh: "磗",
+	vi: "chuyên"
+}, {
+	zh: "磠",
+	vi: "lỗ"
+}, {
+	zh: "磧",
+	vi: "thích"
+}, {
+	zh: "磯",
+	vi: "ki"
+}, {
+	zh: "磽",
+	vi: "khao"
+}, {
+	zh: "礆",
+	vi: "dảm"
+}, {
+	zh: "礌",
+	vi: "lôi"
+}, {
+	zh: "礜",
+	vi: "dự"
+}, {
+	zh: "礞",
+	vi: "mông"
+}, {
+	zh: "礟",
+	vi: "pháo"
+}, {
+	zh: "礪",
+	vi: "lệ"
+}, {
+	zh: "礬",
+	vi: "phàn"
+}, {
+	zh: "礮",
+	vi: "pháo"
+}, {
+	zh: "礱",
+	vi: "lung"
+}, {
+	zh: "礽",
+	vi: "nhưng"
+}, {
+	zh: "礿",
+	vi: "dược"
+}, {
+	zh: "祔",
+	vi: "phụ"
+}, {
+	zh: "祕",
+	vi: "bí"
+}, {
+	zh: "祘",
+	vi: "toán"
+}, {
+	zh: "祼",
+	vi: "quán"
+}, {
+	zh: "禕",
+	vi: "y"
+}, {
+	zh: "禖",
+	vi: "môi"
+}, {
+	zh: "禡",
+	vi: "mã"
+}, {
+	zh: "禩",
+	vi: "tự"
+}, {
+	zh: "禰",
+	vi: "nỉ"
+}, {
+	zh: "禴",
+	vi: "dược"
+}, {
+	zh: "禸",
+	vi: "nhựu"
+}, {
+	zh: "秈",
+	vi: "tiên"
+}, {
+	zh: "秊",
+	vi: "niên"
+}, {
+	zh: "秔",
+	vi: "canh"
+}, {
+	zh: "秕",
+	vi: "bỉ"
+}, {
+	zh: "秖",
+	vi: "kỳ"
+}, {
+	zh: "稃",
+	vi: "phù"
+}, {
+	zh: "稈",
+	vi: "cán"
+}, {
+	zh: "稊",
+	vi: "đề"
+}, {
+	zh: "稌",
+	vi: "đồ"
+}, {
+	zh: "稜",
+	vi: "lăng"
+}, {
+	zh: "稭",
+	vi: "giai"
+}, {
+	zh: "稺",
+	vi: "trĩ"
+}, {
+	zh: "稾",
+	vi: "cảo"
+}, {
+	zh: "穄",
+	vi: "tế"
+}, {
+	zh: "穅",
+	vi: "khang"
+}, {
+	zh: "穇",
+	vi: "sam"
+}, {
+	zh: "穈",
+	vi: "môn"
+}, {
+	zh: "穉",
+	vi: "trĩ"
+}, {
+	zh: "穌",
+	vi: "tô"
+}, {
+	zh: "穠",
+	vi: "nùng"
+}, {
+	zh: "穡",
+	vi: "sắc"
+}, {
+	zh: "穤",
+	vi: "nhu"
+}, {
+	zh: "穨",
+	vi: "đồi"
+}, {
+	zh: "穵",
+	vi: "ấp"
+}, {
+	zh: "穽",
+	vi: "tỉnh"
+}, {
+	zh: "窆",
+	vi: "biếm"
+}, {
+	zh: "窊",
+	vi: "oa"
+}, {
+	zh: "窓",
+	vi: "song"
+}, {
+	zh: "窞",
+	vi: "đạm"
+}, {
+	zh: "窨",
+	vi: "ấm"
+}, {
+	zh: "窪",
+	vi: "oa"
+}, {
+	zh: "窰",
+	vi: "diêu"
+}, {
+	zh: "窵",
+	vi: "điếu"
+}, {
+	zh: "窶",
+	vi: "cũ"
+}, {
+	zh: "窻",
+	vi: "song"
+}, {
+	zh: "竈",
+	vi: "táo"
+}, {
+	zh: "竚",
+	vi: "trữ"
+}, {
+	zh: "竝",
+	vi: "tịnh"
+}, {
+	zh: "竢",
+	vi: "sĩ"
+}, {
+	zh: "竪",
+	vi: "thụ"
+}, {
+	zh: "竸",
+	vi: "cạnh"
+}, {
+	zh: "竾",
+	vi: "trì"
+}, {
+	zh: "笇",
+	vi: "toán"
+}, {
+	zh: "笊",
+	vi: "tráo"
+}, {
+	zh: "笕",
+	vi: "kiển"
+}, {
+	zh: "笪",
+	vi: "đát"
+}, {
+	zh: "笵",
+	vi: "phạm"
+}, {
+	zh: "籮",
+	vi: "la"
+}, {
+	zh: "筞",
+	vi: "sách"
+}, {
+	zh: "筢",
+	vi: "ba"
+}, {
+	zh: "筤",
+	vi: "lang"
+}, {
+	zh: "筥",
+	vi: "cử"
+}, {
+	zh: "筧",
+	vi: "kiển"
+}, {
+	zh: "筯",
+	vi: "trợ"
+}, {
+	zh: "筳",
+	vi: "đình"
+}, {
+	zh: "筸",
+	vi: "cao"
+}, {
+	zh: "筼",
+	vi: "vân"
+}, {
+	zh: "箆",
+	vi: "bề"
+}, {
+	zh: "箏",
+	vi: "tranh"
+}, {
+	zh: "箑",
+	vi: "tiệp"
+}, {
+	zh: "箒",
+	vi: "trửu"
+}, {
+	zh: "箚",
+	vi: "tráp"
+}, {
+	zh: "箠",
+	vi: "chủy"
+}, {
+	zh: "箨",
+	vi: "thác"
+}, {
+	zh: "輿",
+	vi: "dư"
+}, {
+	zh: "箲",
+	vi: "tiển"
+}, {
+	zh: "篋",
+	vi: "khiếp"
+}, {
+	zh: "篔",
+	vi: "vân"
+}, {
+	zh: "簹",
+	vi: "đương"
+}, {
+	zh: "篛",
+	vi: "nhược"
+}, {
+	zh: "篠",
+	vi: "tiểu"
+}, {
+	zh: "篨",
+	vi: "trừ"
+}, {
+	zh: "篩",
+	vi: "si"
+}, {
+	zh: "篳",
+	vi: "tất"
+}, {
+	zh: "篴",
+	vi: "địch"
+}, {
+	zh: "篼",
+	vi: "đâu"
+}, {
+	zh: "簀",
+	vi: "trách"
+}, {
+	zh: "簉",
+	vi: "sứu"
+}, {
+	zh: "簍",
+	vi: "lâu"
+}, {
+	zh: "簑",
+	vi: "thoa"
+}, {
+	zh: "簒",
+	vi: "soán"
+}, {
+	zh: "簖",
+	vi: "đoán"
+}, {
+	zh: "簞",
+	vi: "đan"
+}, {
+	zh: "簨",
+	vi: "tuẩn"
+}, {
+	zh: "簮",
+	vi: "trâm"
+}, {
+	zh: "簴",
+	vi: "cự"
+}, {
+	zh: "簾",
+	vi: "liêm"
+}, {
+	zh: "籀",
+	vi: "trứu"
+}, {
+	zh: "籐",
+	vi: "đằng"
+}, {
+	zh: "籑",
+	vi: "soạn"
+}, {
+	zh: "籕",
+	vi: "trứu"
+}, {
+	zh: "籖",
+	vi: "thiêm"
+}, {
+	zh: "籜",
+	vi: "thác"
+}, {
+	zh: "籟",
+	vi: "lại"
+}, {
+	zh: "籧",
+	vi: "cừ"
+}, {
+	zh: "籩",
+	vi: "biên"
+}, {
+	zh: "籪",
+	vi: "đoán"
+}, {
+	zh: "籯",
+	vi: "doanh"
+}, {
+	zh: "籰",
+	vi: "dược"
+}, {
+	zh: "籼",
+	vi: "tiên"
+}, {
+	zh: "粃",
+	vi: "chủy"
+}, {
+	zh: "粇",
+	vi: "canh"
+}, {
+	zh: "粞",
+	vi: "tê"
+}, {
+	zh: "粧",
+	vi: "trang"
+}, {
+	zh: "粰",
+	vi: "phu"
+}, {
+	zh: "粵",
+	vi: "việt"
+}, {
+	zh: "粺",
+	vi: "bại"
+}, {
+	zh: "糉",
+	vi: "tốn"
+}, {
+	zh: "糐",
+	vi: "đoàn"
+}, {
+	zh: "糝",
+	vi: "tảm"
+}, {
+	zh: "糰",
+	vi: "đoàn"
+}, {
+	zh: "糲",
+	vi: "lệ"
+}, {
+	zh: "糴",
+	vi: "địch"
+}, {
+	zh: "糵",
+	vi: "nghiệt"
+}, {
+	zh: "糶",
+	vi: "thiếu"
+}, {
+	zh: "糸",
+	vi: "mịch"
+}, {
+	zh: "糺",
+	vi: "củ"
+}, {
+	zh: "紂",
+	vi: "trụ"
+}, {
+	zh: "紃",
+	vi: "xuyên"
+}, {
+	zh: "紆",
+	vi: "hu"
+}, {
+	zh: "紇",
+	vi: "hột"
+}, {
+	zh: "紈",
+	vi: "hoàn"
+}, {
+	zh: "紓",
+	vi: "thư"
+}, {
+	zh: "紕",
+	vi: "bì"
+}, {
+	zh: "紘",
+	vi: "hoành"
+}, {
+	zh: "紜",
+	vi: "vân"
+}, {
+	zh: "紝",
+	vi: "nhâm"
+}, {
+	zh: "紡",
+	vi: "phưởng"
+}, {
+	zh: "紥",
+	vi: "trát"
+}, {
+	zh: "紱",
+	vi: "phất"
+}, {
+	zh: "紲",
+	vi: "tiết"
+}, {
+	zh: "紵",
+	vi: "trữ"
+}, {
+	zh: "紺",
+	vi: "cám"
+}, {
+	zh: "紾",
+	vi: "chẩn"
+}, {
+	zh: "紿",
+	vi: "đãi"
+}, {
+	zh: "絀",
+	vi: "truất"
+}, {
+	zh: "絅",
+	vi: "quýnh"
+}, {
+	zh: "絏",
+	vi: "tiết"
+}, {
+	zh: "絖",
+	vi: "khoáng"
+}, {
+	zh: "絚",
+	vi: "căng"
+}, {
+	zh: "絛",
+	vi: "thao"
+}, {
+	zh: "絝",
+	vi: "khố"
+}, {
+	zh: "絢",
+	vi: "huyến"
+}, {
+	zh: "絨",
+	vi: "nhung"
+}, {
+	zh: "絪",
+	vi: "nhân"
+}, {
+	zh: "絫",
+	vi: "lũy"
+}, {
+	zh: "絰",
+	vi: "điệt"
+}, {
+	zh: "絳",
+	vi: "giáng"
+}, {
+	zh: "綅",
+	vi: "tiên"
+}, {
+	zh: "綈",
+	vi: "đề"
+}, {
+	zh: "綉",
+	vi: "tú"
+}, {
+	zh: "綌",
+	vi: "khích"
+}, {
+	zh: "綍",
+	vi: "phất"
+}, {
+	zh: "綢",
+	vi: "trù"
+}, {
+	zh: "綣",
+	vi: "quyển"
+}, {
+	zh: "綫",
+	vi: "tuyến"
+}, {
+	zh: "綯",
+	vi: "đào"
+}, {
+	zh: "綰",
+	vi: "oản"
+}, {
+	zh: "綳",
+	vi: "banh"
+}, {
+	zh: "綵",
+	vi: "thải"
+}, {
+	zh: "縩",
+	vi: "sái"
+}, {
+	zh: "綾",
+	vi: "lăng"
+}, {
+	zh: "緉",
+	vi: "lưỡng"
+}, {
+	zh: "緎",
+	vi: "vực"
+}, {
+	zh: "総",
+	vi: "tổng"
+}, {
+	zh: "緐",
+	vi: "phồn"
+}, {
+	zh: "緗",
+	vi: "tương"
+}, {
+	zh: "緘",
+	vi: "giam"
+}, {
+	zh: "緜",
+	vi: "miên"
+}, {
+	zh: "緞",
+	vi: "đoạn"
+}, {
+	zh: "緡",
+	vi: "mân"
+}, {
+	zh: "緤",
+	vi: "tiết"
+}, {
+	zh: "緥",
+	vi: "bảo"
+}, {
+	zh: "緦",
+	vi: "ti"
+}, {
+	zh: "緪",
+	vi: "căng"
+}, {
+	zh: "緬",
+	vi: "miễn"
+}, {
+	zh: "緱",
+	vi: "câu"
+}, {
+	zh: "緶",
+	vi: "biền"
+}, {
+	zh: "緹",
+	vi: "đề"
+}, {
+	zh: "緻",
+	vi: "trí"
+}, {
+	zh: "縉",
+	vi: "tấn"
+}, {
+	zh: "縋",
+	vi: "trúy"
+}, {
+	zh: "縕",
+	vi: "ôn"
+}, {
+	zh: "縚",
+	vi: "thao"
+}, {
+	zh: "縝",
+	vi: "chẩn"
+}, {
+	zh: "縞",
+	vi: "cảo"
+}, {
+	zh: "縟",
+	vi: "nhục"
+}, {
+	zh: "縧",
+	vi: "thao"
+}, {
+	zh: "縭",
+	vi: "ly"
+}, {
+	zh: "縰",
+	vi: "sỉ"
+}, {
+	zh: "縲",
+	vi: "luy"
+}, {
+	zh: "縴",
+	vi: "khiên"
+}, {
+	zh: "縶",
+	vi: "trập"
+}, {
+	zh: "縿",
+	vi: "sam"
+}, {
+	zh: "繅",
+	vi: "sào"
+}, {
+	zh: "繆",
+	vi: "mâu"
+}, {
+	zh: "繈",
+	vi: "cưỡng"
+}, {
+	zh: "繐",
+	vi: "huệ"
+}, {
+	zh: "繒",
+	vi: "tăng"
+}, {
+	zh: "繕",
+	vi: "thiện"
+}, {
+	zh: "繖",
+	vi: "tản"
+}, {
+	zh: "繙",
+	vi: "phiên"
+}, {
+	zh: "繢",
+	vi: "hội"
+}, {
+	zh: "繭",
+	vi: "kiển"
+}, {
+	zh: "繮",
+	vi: "cương"
+}, {
+	zh: "繯",
+	vi: "hoán"
+}, {
+	zh: "繰",
+	vi: "sào"
+}, {
+	zh: "繾",
+	vi: "khiển"
+}, {
+	zh: "纇",
+	vi: "lỗi"
+}, {
+	zh: "纊",
+	vi: "khoáng"
+}, {
+	zh: "纍",
+	vi: "luy"
+}, {
+	zh: "纎",
+	vi: "tiêm"
+}, {
+	zh: "纒",
+	vi: "triền"
+}, {
+	zh: "纕",
+	vi: "tương"
+}, {
+	zh: "纘",
+	vi: "toản"
+}, {
+	zh: "纜",
+	vi: "lãm"
+}, {
+	zh: "纩",
+	vi: "khoáng"
+}, {
+	zh: "纴",
+	vi: "nhâm"
+}, {
+	zh: "绠",
+	vi: "cảnh"
+}, {
+	zh: "绤",
+	vi: "khích"
+}, {
+	zh: "绹",
+	vi: "đào"
+}, {
+	zh: "缏",
+	vi: "biền"
+}, {
+	zh: "缳",
+	vi: "hoán"
+}, {
+	zh: "罇",
+	vi: "tôn"
+}, {
+	zh: "罈",
+	vi: "đàn"
+}, {
+	zh: "罋",
+	vi: "úng"
+}, {
+	zh: "罌",
+	vi: "anh"
+}, {
+	zh: "罎",
+	vi: "đàm"
+}, {
+	zh: "罒",
+	vi: "võng"
+}, {
+	zh: "罳",
+	vi: "ty"
+}, {
+	zh: "罛",
+	vi: "cô"
+}, {
+	zh: "罣",
+	vi: "quái"
+}, {
+	zh: "罥",
+	vi: "quyến"
+}, {
+	zh: "罦",
+	vi: "phù"
+}, {
+	zh: "罨",
+	vi: "yểm"
+}, {
+	zh: "罭",
+	vi: "vực"
+}, {
+	zh: "罱",
+	vi: "lãm"
+}, {
+	zh: "罿",
+	vi: "đồng"
+}, {
+	zh: "羃",
+	vi: "mạc"
+}, {
+	zh: "羆",
+	vi: "bi"
+}, {
+	zh: "羇",
+	vi: "ki"
+}, {
+	zh: "羋",
+	vi: "mị"
+}, {
+	zh: "羐",
+	vi: "dũ"
+}, {
+	zh: "羓",
+	vi: "ba"
+}, {
+	zh: "羜",
+	vi: "trữ"
+}, {
+	zh: "羢",
+	vi: "nhung"
+}, {
+	zh: "羣",
+	vi: "quần"
+}, {
+	zh: "羨",
+	vi: "tiện"
+}, {
+	zh: "羵",
+	vi: "phần"
+}, {
+	zh: "翃",
+	vi: "hoành"
+}, {
+	zh: "翛",
+	vi: "tiêu"
+}, {
+	zh: "翫",
+	vi: "ngoạn"
+}, {
+	zh: "翬",
+	vi: "huy"
+}, {
+	zh: "翶",
+	vi: "cao"
+}, {
+	zh: "翺",
+	vi: "cao"
+}, {
+	zh: "翽",
+	vi: "hối"
+}, {
+	zh: "翿",
+	vi: "đạo"
+}, {
+	zh: "耇",
+	vi: "cẩu"
+}, {
+	zh: "耈",
+	vi: "cẩu"
+}, {
+	zh: "耊",
+	vi: "điệt"
+}, {
+	zh: "耑",
+	vi: "chuyên"
+}, {
+	zh: "耔",
+	vi: "tỷ"
+}, {
+	zh: "耞",
+	vi: "gia"
+}, {
+	zh: "耡",
+	vi: "sừ"
+}, {
+	zh: "耼",
+	vi: "đam"
+}, {
+	zh: "聡",
+	vi: "thông"
+}, {
+	zh: "聫",
+	vi: "liên"
+}, {
+	zh: "聴",
+	vi: "thính"
+}, {
+	zh: "聵",
+	vi: "hội"
+}, {
+	zh: "聶",
+	vi: "niếp"
+}, {
+	zh: "聾",
+	vi: "lung"
+}, {
+	zh: "聿",
+	vi: "duật"
+}, {
+	zh: "肊",
+	vi: "ức"
+}, {
+	zh: "肎",
+	vi: "khẳng"
+}, {
+	zh: "肐",
+	vi: "cách"
+}, {
+	zh: "肧",
+	vi: "phôi"
+}, {
+	zh: "肬",
+	vi: "vưu"
+}, {
+	zh: "胏",
+	vi: "chỉ"
+}, {
+	zh: "荽",
+	vi: "tuy"
+}, {
+	zh: "胰",
+	vi: "di"
+}, {
+	zh: "脃",
+	vi: "thúy"
+}, {
+	zh: "脗",
+	vi: "vẫn"
+}, {
+	zh: "脛",
+	vi: "hĩnh"
+}, {
+	zh: "脝",
+	vi: "hanh"
+}, {
+	zh: "脡",
+	vi: "đĩnh"
+}, {
+	zh: "脤",
+	vi: "thận"
+}, {
+	zh: "脧",
+	vi: "tuyên"
+}, {
+	zh: "脩",
+	vi: "tu"
+}, {
+	zh: "腁",
+	vi: "biền"
+}, {
+	zh: "腷",
+	vi: "phức"
+}, {
+	zh: "腽",
+	vi: "ột"
+}, {
+	zh: "膃",
+	vi: "ột"
+}, {
+	zh: "膆",
+	vi: "tố"
+}, {
+	zh: "膋",
+	vi: "liêu"
+}, {
+	zh: "膓",
+	vi: "tràng"
+}, {
+	zh: "膞",
+	vi: "thuần"
+}, {
+	zh: "膴",
+	vi: "hô"
+}, {
+	zh: "膵",
+	vi: "tụy"
+}, {
+	zh: "膾",
+	vi: "quái"
+}, {
+	zh: "臄",
+	vi: "cược"
+}, {
+	zh: "臈",
+	vi: "lạp"
+}, {
+	zh: "臍",
+	vi: "tề"
+}, {
+	zh: "臏",
+	vi: "tẫn"
+}, {
+	zh: "臕",
+	vi: "phiêu"
+}, {
+	zh: "臙",
+	vi: "yên"
+}, {
+	zh: "臚",
+	vi: "lư"
+}, {
+	zh: "臜",
+	vi: "châm"
+}, {
+	zh: "臠",
+	vi: "luyến"
+}, {
+	zh: "臡",
+	vi: "nê"
+}, {
+	zh: "臢",
+	vi: "châm"
+}, {
+	zh: "臯",
+	vi: "cao"
+}, {
+	zh: "舁",
+	vi: "dư"
+}, {
+	zh: "舃",
+	vi: "tích"
+}, {
+	zh: "舘",
+	vi: "quán"
+}, {
+	zh: "舚",
+	vi: "thiêm"
+}, {
+	zh: "舠",
+	vi: "đao"
+}, {
+	zh: "舣",
+	vi: "nghĩ"
+}, {
+	zh: "舩",
+	vi: "thuyền"
+}, {
+	zh: "舲",
+	vi: "linh"
+}, {
+	zh: "艁",
+	vi: "tạo"
+}, {
+	zh: "艄",
+	vi: "sao"
+}, {
+	zh: "艗",
+	vi: "dật"
+}, {
+	zh: "艣",
+	vi: "lỗ"
+}, {
+	zh: "艤",
+	vi: "nghĩ"
+}, {
+	zh: "艫",
+	vi: "lô"
+}, {
+	zh: "艶",
+	vi: "diễm"
+}, {
+	zh: "艸",
+	vi: "thảo"
+}, {
+	zh: "芊",
+	vi: "thiên"
+}, {
+	zh: "芑",
+	vi: "khỉ"
+}, {
+	zh: "芡",
+	vi: "khiếm"
+}, {
+	zh: "芣",
+	vi: "phù"
+}, {
+	zh: "苢",
+	vi: "dĩ"
+}, {
+	zh: "芻",
+	vi: "sô"
+}, {
+	zh: "苈",
+	vi: "lịch"
+}, {
+	zh: "苐",
+	vi: "đệ"
+}, {
+	zh: "苖",
+	vi: "địch"
+}, {
+	zh: "苧",
+	vi: "trữ"
+}, {
+	zh: "苶",
+	vi: "niết"
+}, {
+	zh: "苽",
+	vi: "cô"
+}, {
+	zh: "茘",
+	vi: "lệ"
+}, {
+	zh: "茝",
+	vi: "chỉ"
+}, {
+	zh: "茴",
+	vi: "hồi"
+}, {
+	zh: "荄",
+	vi: "cai"
+}, {
+	zh: "荈",
+	vi: "suyễn"
+}, {
+	zh: "荙",
+	vi: "đạt"
+}, {
+	zh: "荛",
+	vi: "nhiêu"
+}, {
+	zh: "莖",
+	vi: "hành"
+}, {
+	zh: "莙",
+	vi: "quân"
+}, {
+	zh: "莛",
+	vi: "đình"
+}, {
+	zh: "莢",
+	vi: "giáp"
+}, {
+	zh: "莧",
+	vi: "hiện"
+}, {
+	zh: "菪",
+	vi: "đãng"
+}, {
+	zh: "莶",
+	vi: "hiêm"
+}, {
+	zh: "莾",
+	vi: "mãng"
+}, {
+	zh: "菓",
+	vi: "quả"
+}, {
+	zh: "菘",
+	vi: "tùng"
+}, {
+	zh: "薐",
+	vi: "lăng"
+}, {
+	zh: "菤",
+	vi: "quyển"
+}, {
+	zh: "葹",
+	vi: "thi"
+}, {
+	zh: "菫",
+	vi: "cận"
+}, {
+	zh: "菾",
+	vi: "điềm"
+}, {
+	zh: "薢",
+	vi: "giải"
+}, {
+	zh: "萊",
+	vi: "lai"
+}, {
+	zh: "萐",
+	vi: "tiệp"
+}, {
+	zh: "萑",
+	vi: "hoàn"
+}, {
+	zh: "萲",
+	vi: "huyên"
+}, {
+	zh: "萵",
+	vi: "oa"
+}, {
+	zh: "萹",
+	vi: "phiên"
+}, {
+	zh: "葖",
+	vi: "đột"
+}, {
+	zh: "葘",
+	vi: "truy"
+}, {
+	zh: "葚",
+	vi: "thậm"
+}, {
+	zh: "藟",
+	vi: "lũy"
+}, {
+	zh: "葦",
+	vi: "vi"
+}, {
+	zh: "葯",
+	vi: "ước"
+}, {
+	zh: "葶",
+	vi: "đình"
+}, {
+	zh: "藶",
+	vi: "lịch"
+}, {
+	zh: "葸",
+	vi: "tỷ"
+}, {
+	zh: "蒇",
+	vi: "siển"
+}, {
+	zh: "蒐",
+	vi: "sưu"
+}, {
+	zh: "蒓",
+	vi: "thuần"
+}, {
+	zh: "蒔",
+	vi: "thì"
+}, {
+	zh: "蘿",
+	vi: "la"
+}, {
+	zh: "蒞",
+	vi: "lỵ"
+}, {
+	zh: "蒨",
+	vi: "thiến"
+}, {
+	zh: "蒱",
+	vi: "bồ"
+}, {
+	zh: "蒴",
+	vi: "sóc"
+}, {
+	zh: "蔾",
+	vi: "lê"
+}, {
+	zh: "蒻",
+	vi: "nhược"
+}, {
+	zh: "蓀",
+	vi: "tôn"
+}, {
+	zh: "蓂",
+	vi: "minh"
+}, {
+	zh: "蓆",
+	vi: "tịch"
+}, {
+	zh: "蓇",
+	vi: "cốt"
+}, {
+	zh: "蓣",
+	vi: "dự"
+}, {
+	zh: "蓧",
+	vi: "điệu"
+}, {
+	zh: "蓯",
+	vi: "thung"
+}, {
+	zh: "蓱",
+	vi: "bình"
+}, {
+	zh: "蓴",
+	vi: "thuần"
+}, {
+	zh: "蓷",
+	vi: "thôi"
+}, {
+	zh: "蓽",
+	vi: "tất"
+}, {
+	zh: "蔂",
+	vi: "luy"
+}, {
+	zh: "蔆",
+	vi: "lăng"
+}, {
+	zh: "蔌",
+	vi: "tốc"
+}, {
+	zh: "蔔",
+	vi: "bặc"
+}, {
+	zh: "蔞",
+	vi: "lâu"
+}, {
+	zh: "蔣",
+	vi: "tương"
+}, {
+	zh: "蔥",
+	vi: "thông"
+}, {
+	zh: "蔦",
+	vi: "điểu"
+}, {
+	zh: "蔴",
+	vi: "ma"
+}, {
+	zh: "蕁",
+	vi: "tầm"
+}, {
+	zh: "蕆",
+	vi: "siển"
+}, {
+	zh: "蕈",
+	vi: "khuẩn"
+}, {
+	zh: "蕋",
+	vi: "nhị"
+}, {
+	zh: "蕎",
+	vi: "kiều"
+}, {
+	zh: "蕓",
+	vi: "vân"
+}, {
+	zh: "薹",
+	vi: "đài"
+}, {
+	zh: "蕕",
+	vi: "du"
+}, {
+	zh: "蕘",
+	vi: "nhiêu"
+}, {
+	zh: "蕡",
+	vi: "phần"
+}, {
+	zh: "蕢",
+	vi: "quỹ"
+}, {
+	zh: "蕰",
+	vi: "ôn"
+}, {
+	zh: "蕷",
+	vi: "dự"
+}, {
+	zh: "蕻",
+	vi: "hống"
+}, {
+	zh: "薀",
+	vi: "ôn"
+}, {
+	zh: "薅",
+	vi: "hao"
+}, {
+	zh: "薈",
+	vi: "oái"
+}, {
+	zh: "薌",
+	vi: "hương"
+}, {
+	zh: "薑",
+	vi: "khương"
+}, {
+	zh: "薓",
+	vi: "sâm"
+}, {
+	zh: "薔",
+	vi: "sắc"
+}, {
+	zh: "薘",
+	vi: "đạt"
+}, {
+	zh: "薙",
+	vi: "thế"
+}, {
+	zh: "薝",
+	vi: "đảm"
+}, {
+	zh: "薟",
+	vi: "hiêm"
+}, {
+	zh: "薧",
+	vi: "hảo"
+}, {
+	zh: "薴",
+	vi: "trữ"
+}, {
+	zh: "薶",
+	vi: "mai"
+}, {
+	zh: "薸",
+	vi: "phiêu"
+}, {
+	zh: "薺",
+	vi: "tề"
+}, {
+	zh: "薻",
+	vi: "tảo"
+}, {
+	zh: "藊",
+	vi: "biển"
+}, {
+	zh: "藎",
+	vi: "tẫn"
+}, {
+	zh: "藪",
+	vi: "tẩu"
+}, {
+	zh: "藺",
+	vi: "lận"
+}, {
+	zh: "藼",
+	vi: "huyên"
+}, {
+	zh: "藾",
+	vi: "lại"
+}, {
+	zh: "蘀",
+	vi: "thác"
+}, {
+	zh: "蘂",
+	vi: "nhị"
+}, {
+	zh: "蘄",
+	vi: "kỳ"
+}, {
+	zh: "蘋",
+	vi: "bình"
+}, {
+	zh: "蘐",
+	vi: "huyên"
+}, {
+	zh: "蘖",
+	vi: "nghiệt"
+}, {
+	zh: "蘚",
+	vi: "tiển"
+}, {
+	zh: "蘞",
+	vi: "liêm"
+}, {
+	zh: "虀",
+	vi: "tê"
+}, {
+	zh: "虆",
+	vi: "luy"
+}, {
+	zh: "虓",
+	vi: "hao"
+}, {
+	zh: "虯",
+	vi: "cầu"
+}, {
+	zh: "蟥",
+	vi: "hoàng"
+}, {
+	zh: "蚑",
+	vi: "kỳ"
+}, {
+	zh: "蚘",
+	vi: "hồi"
+}, {
+	zh: "蚜",
+	vi: "nha"
+}, {
+	zh: "蚦",
+	vi: "nhiêm"
+}, {
+	zh: "蚧",
+	vi: "giới"
+}, {
+	zh: "蚺",
+	vi: "nhiêm"
+}, {
+	zh: "蚿",
+	vi: "huyền"
+}, {
+	zh: "蛉",
+	vi: "linh"
+}, {
+	zh: "蛑",
+	vi: "mâu"
+}, {
+	zh: "蛕",
+	vi: "hồi"
+}, {
+	zh: "蛘",
+	vi: "dạng"
+}, {
+	zh: "蛞",
+	vi: "khoát"
+}, {
+	zh: "蜣",
+	vi: "khương"
+}, {
+	zh: "蛱",
+	vi: "kiệp"
+}, {
+	zh: "蛳",
+	vi: "si"
+}, {
+	zh: "蛸",
+	vi: "sao"
+}, {
+	zh: "蛹",
+	vi: "dũng"
+}, {
+	zh: "蛺",
+	vi: "kiệp"
+}, {
+	zh: "蛻",
+	vi: "thuế"
+}, {
+	zh: "蛼",
+	vi: "xa"
+}, {
+	zh: "蝣",
+	vi: "du"
+}, {
+	zh: "蜋",
+	vi: "lang"
+}, {
+	zh: "蜍",
+	vi: "thừ"
+}, {
+	zh: "蜑",
+	vi: "đản"
+}, {
+	zh: "蠊",
+	vi: "liêm"
+}, {
+	zh: "鐮",
+	vi: "liêm"
+}, {
+	zh: "餞",
+	vi: "tiễn"
+}, {
+	zh: "蜞",
+	vi: "kỳ"
+}, {
+	zh: "蜨",
+	vi: "điệp"
+}, {
+	zh: "蜰",
+	vi: "phì"
+}, {
+	zh: "蜹",
+	vi: "nhuế"
+}, {
+	zh: "蜾",
+	vi: "quả"
+}, {
+	zh: "蝀",
+	vi: "đông"
+}, {
+	zh: "蝃",
+	vi: "đế"
+}, {
+	zh: "蝆",
+	vi: "dạng"
+}, {
+	zh: "蝘",
+	vi: "yển"
+}, {
+	zh: "蝡",
+	vi: "nhuyễn"
+}, {
+	zh: "蝤",
+	vi: "tù"
+}, {
+	zh: "蝨",
+	vi: "sắt"
+}, {
+	zh: "蝱",
+	vi: "manh"
+}, {
+	zh: "蝻",
+	vi: "nam"
+}, {
+	zh: "蝾",
+	vi: "vinh"
+}, {
+	zh: "螈",
+	vi: "nguyên"
+}, {
+	zh: "螄",
+	vi: "si"
+}, {
+	zh: "螉",
+	vi: "ông"
+}, {
+	zh: "螋",
+	vi: "sưu"
+}, {
+	zh: "螗",
+	vi: "đường"
+}, {
+	zh: "螘",
+	vi: "nghĩ"
+}, {
+	zh: "螙",
+	vi: "đố"
+}, {
+	zh: "螡",
+	vi: "văn"
+}, {
+	zh: "螢",
+	vi: "huỳnh"
+}, {
+	zh: "螣",
+	vi: "đằng"
+}, {
+	zh: "螮",
+	vi: "đế"
+}, {
+	zh: "螵",
+	vi: "phiêu"
+}, {
+	zh: "螻",
+	vi: "lâu"
+}, {
+	zh: "蟈",
+	vi: "quắc"
+}, {
+	zh: "螽",
+	vi: "chung"
+}, {
+	zh: "蟁",
+	vi: "văn"
+}, {
+	zh: "蟄",
+	vi: "trập"
+}, {
+	zh: "蟊",
+	vi: "mâu"
+}, {
+	zh: "蟏",
+	vi: "tiêu"
+}, {
+	zh: "蟕",
+	vi: "chủy"
+}, {
+	zh: "蠵",
+	vi: "huề"
+}, {
+	zh: "蟛",
+	vi: "bành"
+}, {
+	zh: "蟣",
+	vi: "kỷ"
+}, {
+	zh: "蟫",
+	vi: "đàm"
+}, {
+	zh: "蟮",
+	vi: "thiện"
+}, {
+	zh: "蟯",
+	vi: "nhiêu"
+}, {
+	zh: "蟶",
+	vi: "sanh"
+}, {
+	zh: "蟺",
+	vi: "thiện"
+}, {
+	zh: "蠆",
+	vi: "sái"
+}, {
+	zh: "蠍",
+	vi: "hiết"
+}, {
+	zh: "蠐",
+	vi: "tề"
+}, {
+	zh: "蠑",
+	vi: "vinh"
+}, {
+	zh: "蠘",
+	vi: "tiệt"
+}, {
+	zh: "蠟",
+	vi: "lạp"
+}, {
+	zh: "蠧",
+	vi: "đố"
+}, {
+	zh: "蠨",
+	vi: "tiêu"
+}, {
+	zh: "蠭",
+	vi: "phong"
+}, {
+	zh: "蠶",
+	vi: "tàm"
+}, {
+	zh: "蠺",
+	vi: "tàm"
+}, {
+	zh: "衁",
+	vi: "hoang"
+}, {
+	zh: "衂",
+	vi: "nục"
+}, {
+	zh: "衆",
+	vi: "chúng"
+}, {
+	zh: "衇",
+	vi: "mạch"
+}, {
+	zh: "衊",
+	vi: "miệt"
+}, {
+	zh: "衋",
+	vi: "hực"
+}, {
+	zh: "衕",
+	vi: "đồng"
+}, {
+	zh: "衖",
+	vi: "hạng"
+}, {
+	zh: "衚",
+	vi: "hồ"
+}, {
+	zh: "衩",
+	vi: "xái"
+}, {
+	zh: "衹",
+	vi: "chỉ"
+}, {
+	zh: "衺",
+	vi: "tà"
+}, {
+	zh: "袆",
+	vi: "huy"
+}, {
+	zh: "袌",
+	vi: "bão"
+}, {
+	zh: "袗",
+	vi: "chẩn"
+}, {
+	zh: "袞",
+	vi: "cổn"
+}, {
+	zh: "袟",
+	vi: "dật"
+}, {
+	zh: "袠",
+	vi: "trật"
+}, {
+	zh: "袯",
+	vi: "bát"
+}, {
+	zh: "襫",
+	vi: "thích"
+}, {
+	zh: "袴",
+	vi: "khố"
+}, {
+	zh: "袵",
+	vi: "nhẫm"
+}, {
+	zh: "袺",
+	vi: "kết"
+}, {
+	zh: "袽",
+	vi: "như"
+}, {
+	zh: "袿",
+	vi: "khuê"
+}, {
+	zh: "裀",
+	vi: "nhân"
+}, {
+	zh: "裏",
+	vi: "lý"
+}, {
+	zh: "裛",
+	vi: "ấp"
+}, {
+	zh: "飭",
+	vi: "sức"
+}, {
+	zh: "裠",
+	vi: "quần"
+}, {
+	zh: "襠",
+	vi: "đang"
+}, {
+	zh: "褌",
+	vi: "côn"
+}, {
+	zh: "褏",
+	vi: "tụ"
+}, {
+	zh: "褘",
+	vi: "huy"
+}, {
+	zh: "褙",
+	vi: "bối"
+}, {
+	zh: "褞",
+	vi: "ôn"
+}, {
+	zh: "褳",
+	vi: "liên"
+}, {
+	zh: "褦",
+	vi: "nại"
+}, {
+	zh: "褧",
+	vi: "quýnh"
+}, {
+	zh: "褱",
+	vi: "hoài"
+}, {
+	zh: "褵",
+	vi: "ly"
+}, {
+	zh: "褻",
+	vi: "tiết"
+}, {
+	zh: "襃",
+	vi: "bao"
+}, {
+	zh: "襆",
+	vi: "bộc"
+}, {
+	zh: "襇",
+	vi: "cán"
+}, {
+	zh: "襌",
+	vi: "đan"
+}, {
+	zh: "襍",
+	vi: "tập"
+}, {
+	zh: "襏",
+	vi: "bát"
+}, {
+	zh: "襛",
+	vi: "nùng"
+}, {
+	zh: "襝",
+	vi: "liêm"
+}, {
+	zh: "襪",
+	vi: "miệt"
+}, {
+	zh: "襬",
+	vi: "bi"
+}, {
+	zh: "襭",
+	vi: "hiệt"
+}, {
+	zh: "襮",
+	vi: "bộc"
+}, {
+	zh: "襴",
+	vi: "lan"
+}, {
+	zh: "襶",
+	vi: "đái"
+}, {
+	zh: "襻",
+	vi: "phán"
+}, {
+	zh: "襼",
+	vi: "nghệ"
+}, {
+	zh: "襾",
+	vi: "á"
+}, {
+	zh: "覈",
+	vi: "hạch"
+}, {
+	zh: "覉",
+	vi: "ki"
+}, {
+	zh: "覊",
+	vi: "ki"
+}, {
+	zh: "覔",
+	vi: "mịch"
+}, {
+	zh: "覘",
+	vi: "siêm"
+}, {
+	zh: "覡",
+	vi: "hích"
+}, {
+	zh: "覥",
+	vi: "điễn"
+}, {
+	zh: "覧",
+	vi: "lãm"
+}, {
+	zh: "覩",
+	vi: "đổ"
+}, {
+	zh: "覬",
+	vi: "ký"
+}, {
+	zh: "覯",
+	vi: "cấu"
+}, {
+	zh: "覰",
+	vi: "thứ"
+}, {
+	zh: "覲",
+	vi: "cận"
+}, {
+	zh: "覶",
+	vi: "la"
+}, {
+	zh: "覻",
+	vi: "thứ"
+}, {
+	zh: "覼",
+	vi: "la"
+}, {
+	zh: "覿",
+	vi: "địch"
+}, {
+	zh: "觍",
+	vi: "điễn"
+}, {
+	zh: "鴟",
+	vi: "si"
+}, {
+	zh: "觝",
+	vi: "để"
+}, {
+	zh: "觱",
+	vi: "tất"
+}, {
+	zh: "觵",
+	vi: "quang"
+}, {
+	zh: "觶",
+	vi: "chí"
+}, {
+	zh: "訌",
+	vi: "hồng"
+}, {
+	zh: "訏",
+	vi: "hu"
+}, {
+	zh: "訐",
+	vi: "kiết"
+}, {
+	zh: "訒",
+	vi: "nhẫn"
+}, {
+	zh: "訕",
+	vi: "san"
+}, {
+	zh: "訖",
+	vi: "cật"
+}, {
+	zh: "誦",
+	vi: "tụng"
+}, {
+	zh: "訛",
+	vi: "ngoa"
+}, {
+	zh: "訟",
+	vi: "tụng"
+}, {
+	zh: "訥",
+	vi: "nột"
+}, {
+	zh: "訩",
+	vi: "hung"
+}, {
+	zh: "訶",
+	vi: "ha"
+}, {
+	zh: "詁",
+	vi: "cổ"
+}, {
+	zh: "詆",
+	vi: "để"
+}, {
+	zh: "詎",
+	vi: "cự"
+}, {
+	zh: "詒",
+	vi: "di"
+}, {
+	zh: "詖",
+	vi: "bí"
+}, {
+	zh: "詗",
+	vi: "huýnh"
+}, {
+	zh: "詘",
+	vi: "truất"
+}, {
+	zh: "詡",
+	vi: "hủ"
+}, {
+	zh: "詧",
+	vi: "sát"
+}, {
+	zh: "詬",
+	vi: "cấu"
+}, {
+	zh: "詮",
+	vi: "thuyên"
+}, {
+	zh: "詰",
+	vi: "cật"
+}, {
+	zh: "詵",
+	vi: "sân"
+}, {
+	zh: "詼",
+	vi: "khôi"
+}, {
+	zh: "詾",
+	vi: "hung"
+}, {
+	zh: "詿",
+	vi: "quái"
+}, {
+	zh: "誄",
+	vi: "lụy"
+}, {
+	zh: "誆",
+	vi: "cuống"
+}, {
+	zh: "誇",
+	vi: "khoa"
+}, {
+	zh: "誚",
+	vi: "tiếu"
+}, {
+	zh: "誣",
+	vi: "vu"
+}, {
+	zh: "説",
+	vi: "thuyết"
+}, {
+	zh: "誶",
+	vi: "tối"
+}, {
+	zh: "諂",
+	vi: "siểm"
+}, {
+	zh: "諄",
+	vi: "truân"
+}, {
+	zh: "諍",
+	vi: "tránh"
+}, {
+	zh: "諏",
+	vi: "tưu"
+}, {
+	zh: "諑",
+	vi: "trác"
+}, {
+	zh: "諗",
+	vi: "thẩm"
+}, {
+	zh: "諜",
+	vi: "điệp"
+}, {
+	zh: "諝",
+	vi: "tư"
+}, {
+	zh: "諞",
+	vi: "biển"
+}, {
+	zh: "諟",
+	vi: "thị"
+}, {
+	zh: "諡",
+	vi: "thụy"
+}, {
+	zh: "諢",
+	vi: "ngộn"
+}, {
+	zh: "諤",
+	vi: "ngạc"
+}, {
+	zh: "諩",
+	vi: "phổ"
+}, {
+	zh: "諭",
+	vi: "dụ"
+}, {
+	zh: "諮",
+	vi: "ti"
+}, {
+	zh: "諶",
+	vi: "kham"
+}, {
+	zh: "諼",
+	vi: "huyên"
+}, {
+	zh: "謁",
+	vi: "yết"
+}, {
+	zh: "謄",
+	vi: "đằng"
+}, {
+	zh: "謅",
+	vi: "sưu"
+}, {
+	zh: "謆",
+	vi: "phiến"
+}, {
+	zh: "謇",
+	vi: "kiển"
+}, {
+	zh: "謋",
+	vi: "hoạch"
+}, {
+	zh: "謌",
+	vi: "ca"
+}, {
+	zh: "謔",
+	vi: "hước"
+}, {
+	zh: "謖",
+	vi: "tắc"
+}, {
+	zh: "謡",
+	vi: "dao"
+}, {
+	zh: "謦",
+	vi: "khánh"
+}, {
+	zh: "謨",
+	vi: "mô"
+}, {
+	zh: "謬",
+	vi: "mậu"
+}, {
+	zh: "謯",
+	vi: "trớ"
+}, {
+	zh: "謳",
+	vi: "âu"
+}, {
+	zh: "謷",
+	vi: "ngao"
+}, {
+	zh: "謻",
+	vi: "di"
+}, {
+	zh: "謼",
+	vi: "hô"
+}, {
+	zh: "謾",
+	vi: "mạn"
+}, {
+	zh: "譁",
+	vi: "hoa"
+}, {
+	zh: "譅",
+	vi: "sáp"
+}, {
+	zh: "譆",
+	vi: "hi"
+}, {
+	zh: "譈",
+	vi: "đỗi"
+}, {
+	zh: "譊",
+	vi: "nao"
+}, {
+	zh: "譍",
+	vi: "ưng"
+}, {
+	zh: "譎",
+	vi: "quyệt"
+}, {
+	zh: "譖",
+	vi: "trấm"
+}, {
+	zh: "譙",
+	vi: "tiếu"
+}, {
+	zh: "譛",
+	vi: "trấm"
+}, {
+	zh: "譟",
+	vi: "táo"
+}, {
+	zh: "譫",
+	vi: "chiêm"
+}, {
+	zh: "譯",
+	vi: "dịch"
+}, {
+	zh: "譱",
+	vi: "thiện"
+}, {
+	zh: "譴",
+	vi: "khiển"
+}, {
+	zh: "譸",
+	vi: "trù"
+}, {
+	zh: "譾",
+	vi: "tiễn"
+}, {
+	zh: "讁",
+	vi: "trích"
+}, {
+	zh: "讅",
+	vi: "thẩm"
+}, {
+	zh: "讋",
+	vi: "triệp"
+}, {
+	zh: "讌",
+	vi: "yên"
+}, {
+	zh: "讎",
+	vi: "thù"
+}, {
+	zh: "讕",
+	vi: "lan"
+}, {
+	zh: "讖",
+	vi: "sấm"
+}, {
+	zh: "讜",
+	vi: "đảng"
+}, {
+	zh: "讞",
+	vi: "nghiện"
+}, {
+	zh: "讟",
+	vi: "độc"
+}, {
+	zh: "讻",
+	vi: "hung"
+}, {
+	zh: "诜",
+	vi: "sân"
+}, {
+	zh: "谂",
+	vi: "thẩm"
+}, {
+	zh: "谞",
+	vi: "tư"
+}, {
+	zh: "谿",
+	vi: "khê"
+}, {
+	zh: "豋",
+	vi: "đăng"
+}, {
+	zh: "豒",
+	vi: "trật"
+}, {
+	zh: "豗",
+	vi: "hôi"
+}, {
+	zh: "豝",
+	vi: "ba"
+}, {
+	zh: "貃",
+	vi: "mạch"
+}, {
+	zh: "貆",
+	vi: "hoan"
+}, {
+	zh: "貍",
+	vi: "ly"
+}, {
+	zh: "貛",
+	vi: "hoan"
+}, {
+	zh: "貟",
+	vi: "viên"
+}, {
+	zh: "貤",
+	vi: "dị"
+}, {
+	zh: "貭",
+	vi: "chất"
+}, {
+	zh: "貰",
+	vi: "thế"
+}, {
+	zh: "貲",
+	vi: "ti"
+}, {
+	zh: "貳",
+	vi: "nhị"
+}, {
+	zh: "貶",
+	vi: "biếm"
+}, {
+	zh: "貸",
+	vi: "thải"
+}, {
+	zh: "貺",
+	vi: "huống"
+}, {
+	zh: "賃",
+	vi: "nhẫm"
+}, {
+	zh: "賅",
+	vi: "cai"
+}, {
+	zh: "賍",
+	vi: "tang"
+}, {
+	zh: "賑",
+	vi: "chẩn"
+}, {
+	zh: "賒",
+	vi: "xa"
+}, {
+	zh: "賕",
+	vi: "cầu"
+}, {
+	zh: "賙",
+	vi: "chu"
+}, {
+	zh: "賚",
+	vi: "lãi"
+}, {
+	zh: "賛",
+	vi: "tán"
+}, {
+	zh: "賝",
+	vi: "sâm"
+}, {
+	zh: "賡",
+	vi: "canh"
+}, {
+	zh: "賨",
+	vi: "tung"
+}, {
+	zh: "賬",
+	vi: "trướng"
+}, {
+	zh: "賮",
+	vi: "tẫn"
+}, {
+	zh: "賵",
+	vi: "phúng"
+}, {
+	zh: "賻",
+	vi: "phụ"
+}, {
+	zh: "賾",
+	vi: "trách"
+}, {
+	zh: "贄",
+	vi: "chí"
+}, {
+	zh: "贅",
+	vi: "chuế"
+}, {
+	zh: "贉",
+	vi: "đảm"
+}, {
+	zh: "頌",
+	vi: "tụng"
+}, {
+	zh: "贋",
+	vi: "nhạn"
+}, {
+	zh: "贍",
+	vi: "thiệm"
+}, {
+	zh: "贐",
+	vi: "tẫn"
+}, {
+	zh: "贑",
+	vi: "cống"
+}, {
+	zh: "贒",
+	vi: "hiền"
+}, {
+	zh: "贓",
+	vi: "tang"
+}, {
+	zh: "贔",
+	vi: "bí"
+}, {
+	zh: "贗",
+	vi: "nhạn"
+}, {
+	zh: "贛",
+	vi: "cống"
+}, {
+	zh: "贜",
+	vi: "tang"
+}, {
+	zh: "贠",
+	vi: "viên"
+}, {
+	zh: "贶",
+	vi: "huống"
+}, {
+	zh: "赅",
+	vi: "cai"
+}, {
+	zh: "赑",
+	vi: "bí"
+}, {
+	zh: "赒",
+	vi: "chu"
+}, {
+	zh: "赓",
+	vi: "canh"
+}, {
+	zh: "赗",
+	vi: "phúng"
+}, {
+	zh: "赩",
+	vi: "hách"
+}, {
+	zh: "赪",
+	vi: "xanh"
+}, {
+	zh: "赬",
+	vi: "xanh"
+}, {
+	zh: "赯",
+	vi: "đường"
+}, {
+	zh: "趂",
+	vi: "sấn"
+}, {
+	zh: "趦",
+	vi: "tư"
+}, {
+	zh: "趲",
+	vi: "toản"
+}, {
+	zh: "趵",
+	vi: "bác"
+}, {
+	zh: "趿",
+	vi: "táp"
+}, {
+	zh: "跁",
+	vi: "bả"
+}, {
+	zh: "跅",
+	vi: "thác"
+}, {
+	zh: "跞",
+	vi: "lịch"
+}, {
+	zh: "跦",
+	vi: "trù"
+}, {
+	zh: "跧",
+	vi: "thuyên"
+}, {
+	zh: "跫",
+	vi: "cung"
+}, {
+	zh: "跲",
+	vi: "cấp"
+}, {
+	zh: "跴",
+	vi: "thải"
+}, {
+	zh: "跼",
+	vi: "cục"
+}, {
+	zh: "踁",
+	vi: "hĩnh"
+}, {
+	zh: "蹡",
+	vi: "thương"
+}, {
+	zh: "踖",
+	vi: "tích"
+}, {
+	zh: "躊",
+	vi: "trù"
+}, {
+	zh: "躕",
+	vi: "trù"
+}, {
+	zh: "踥",
+	vi: "thiếp"
+}, {
+	zh: "踦",
+	vi: "khi"
+}, {
+	zh: "踯",
+	vi: "trịch"
+}, {
+	zh: "踳",
+	vi: "suyễn"
+}, {
+	zh: "踴",
+	vi: "dũng"
+}, {
+	zh: "蹁",
+	vi: "biên"
+}, {
+	zh: "蹍",
+	vi: "niễn"
+}, {
+	zh: "蹎",
+	vi: "điên"
+}, {
+	zh: "蹏",
+	vi: "đề"
+}, {
+	zh: "蹐",
+	vi: "tích"
+}, {
+	zh: "蹕",
+	vi: "tất"
+}, {
+	zh: "蹜",
+	vi: "súc"
+}, {
+	zh: "蹝",
+	vi: "sỉ"
+}, {
+	zh: "蹞",
+	vi: "khuế"
+}, {
+	zh: "蹠",
+	vi: "chích"
+}, {
+	zh: "蹵",
+	vi: "xúc"
+}, {
+	zh: "躃",
+	vi: "tích"
+}, {
+	zh: "躉",
+	vi: "độn"
+}, {
+	zh: "躋",
+	vi: "tễ"
+}, {
+	zh: "躑",
+	vi: "trịch"
+}, {
+	zh: "躒",
+	vi: "lịch"
+}, {
+	zh: "躔",
+	vi: "triền"
+}, {
+	zh: "躗",
+	vi: "vệ"
+}, {
+	zh: "躚",
+	vi: "tiên"
+}, {
+	zh: "躞",
+	vi: "tiệp"
+}, {
+	zh: "躧",
+	vi: "sỉ"
+}, {
+	zh: "躭",
+	vi: "đam"
+}, {
+	zh: "躰",
+	vi: "thể"
+}, {
+	zh: "躱",
+	vi: "đóa"
+}, {
+	zh: "躳",
+	vi: "cung"
+}, {
+	zh: "軏",
+	vi: "nguyệt"
+}, {
+	zh: "軔",
+	vi: "nhận"
+}, {
+	zh: "軛",
+	vi: "ách"
+}, {
+	zh: "軨",
+	vi: "linh"
+}, {
+	zh: "軫",
+	vi: "chẩn"
+}, {
+	zh: "軹",
+	vi: "chỉ"
+}, {
+	zh: "軺",
+	vi: "diêu"
+}, {
+	zh: "軻",
+	vi: "kha"
+}, {
+	zh: "軼",
+	vi: "dật"
+}, {
+	zh: "軾",
+	vi: "thức"
+}, {
+	zh: "輀",
+	vi: "nhi"
+}, {
+	zh: "輅",
+	vi: "lộ"
+}, {
+	zh: "輇",
+	vi: "thuyên"
+}, {
+	zh: "輈",
+	vi: "chu"
+}, {
+	zh: "輊",
+	vi: "chí"
+}, {
+	zh: "輓",
+	vi: "vãn"
+}, {
+	zh: "輗",
+	vi: "nghê"
+}, {
+	zh: "輘",
+	vi: "lăng"
+}, {
+	zh: "輙",
+	vi: "triếp"
+}, {
+	zh: "輜",
+	vi: "truy"
+}, {
+	zh: "輞",
+	vi: "võng"
+}, {
+	zh: "輟",
+	vi: "xuyết"
+}, {
+	zh: "輧",
+	vi: "bình"
+}, {
+	zh: "輭",
+	vi: "nhuyễn"
+}, {
+	zh: "輳",
+	vi: "thấu"
+}, {
+	zh: "輶",
+	vi: "du"
+}, {
+	zh: "輹",
+	vi: "phúc"
+}, {
+	zh: "輻",
+	vi: "phúc"
+}, {
+	zh: "轤",
+	vi: "lô"
+}, {
+	zh: "轕",
+	vi: "cát"
+}, {
+	zh: "轊",
+	vi: "duệ"
+}, {
+	zh: "轔",
+	vi: "lân"
+}, {
+	zh: "轖",
+	vi: "sắc"
+}, {
+	zh: "轗",
+	vi: "khảm"
+}, {
+	zh: "轡",
+	vi: "bí"
+}, {
+	zh: "轢",
+	vi: "lịch"
+}, {
+	zh: "辀",
+	vi: "chu"
+}, {
+	zh: "辁",
+	vi: "thuyên"
+}, {
+	zh: "辠",
+	vi: "tội"
+}, {
+	zh: "辡",
+	vi: "biện"
+}, {
+	zh: "辢",
+	vi: "lạt"
+}, {
+	zh: "辤",
+	vi: "từ"
+}, {
+	zh: "辥",
+	vi: "tiết"
+}, {
+	zh: "辵",
+	vi: "sước"
+}, {
+	zh: "辶",
+	vi: "sước"
+}, {
+	zh: "迆",
+	vi: "dĩ"
+}, {
+	zh: "迍",
+	vi: "truân"
+}, {
+	zh: "迒",
+	vi: "hàng"
+}, {
+	zh: "迺",
+	vi: "nãi"
+}, {
+	zh: "迻",
+	vi: "di"
+}, {
+	zh: "逈",
+	vi: "huýnh"
+}, {
+	zh: "逕",
+	vi: "kính"
+}, {
+	zh: "逬",
+	vi: "bính"
+}, {
+	zh: "逭",
+	vi: "hoán"
+}, {
+	zh: "遅",
+	vi: "trì"
+}, {
+	zh: "遉",
+	vi: "trình"
+}, {
+	zh: "遌",
+	vi: "ngạc"
+}, {
+	zh: "遝",
+	vi: "đạp"
+}, {
+	zh: "遡",
+	vi: "tố"
+}, {
+	zh: "遴",
+	vi: "lấn"
+}, {
+	zh: "遹",
+	vi: "duật"
+}, {
+	zh: "邅",
+	vi: "chiên"
+}, {
+	zh: "邇",
+	vi: "nhĩ"
+}, {
+	zh: "邉",
+	vi: "biên"
+}, {
+	zh: "邨",
+	vi: "thôn"
+}, {
+	zh: "邲",
+	vi: "bật"
+}, {
+	zh: "郃",
+	vi: "cáp"
+}, {
+	zh: "郉",
+	vi: "hình"
+}, {
+	zh: "郞",
+	vi: "lang"
+}, {
+	zh: "郟",
+	vi: "giáp"
+}, {
+	zh: "鄆",
+	vi: "vận"
+}, {
+	zh: "鄊",
+	vi: "hương"
+}, {
+	zh: "鄔",
+	vi: "ổ"
+}, {
+	zh: "鄕",
+	vi: "hương"
+}, {
+	zh: "鄖",
+	vi: "vân"
+}, {
+	zh: "鄘",
+	vi: "dung"
+}, {
+	zh: "鄞",
+	vi: "ngân"
+}, {
+	zh: "鄴",
+	vi: "nghiệp"
+}, {
+	zh: "鄺",
+	vi: "quảng"
+}, {
+	zh: "酦",
+	vi: "bát"
+}, {
+	zh: "酧",
+	vi: "thù"
+}, {
+	zh: "酮",
+	vi: "đồng"
+}, {
+	zh: "酯",
+	vi: "chỉ"
+}, {
+	zh: "醾",
+	vi: "mi"
+}, {
+	zh: "釄",
+	vi: "mi"
+}, {
+	zh: "酵",
+	vi: "diếu"
+}, {
+	zh: "醁",
+	vi: "lục"
+}, {
+	zh: "醃",
+	vi: "yêm"
+}, {
+	zh: "醄",
+	vi: "đào"
+}, {
+	zh: "醕",
+	vi: "thuần"
+}, {
+	zh: "醝",
+	vi: "ta"
+}, {
+	zh: "醰",
+	vi: "đàm"
+}, {
+	zh: "醲",
+	vi: "nùng"
+}, {
+	zh: "醻",
+	vi: "trù"
+}, {
+	zh: "醼",
+	vi: "yến"
+}, {
+	zh: "醽",
+	vi: "linh"
+}, {
+	zh: "釁",
+	vi: "hấn"
+}, {
+	zh: "釂",
+	vi: "tiếu"
+}, {
+	zh: "釃",
+	vi: "si"
+}, {
+	zh: "釅",
+	vi: "nghiệm"
+}, {
+	zh: "釣",
+	vi: "điếu"
+}, {
+	zh: "釤",
+	vi: "sám"
+}, {
+	zh: "釷",
+	vi: "thổ"
+}, {
+	zh: "鈀",
+	vi: "ba"
+}, {
+	zh: "鈈",
+	vi: "bất"
+}, {
+	zh: "鈉",
+	vi: "nột"
+}, {
+	zh: "鈎",
+	vi: "câu"
+}, {
+	zh: "鈐",
+	vi: "kiềm"
+}, {
+	zh: "鈔",
+	vi: "sao"
+}, {
+	zh: "鈕",
+	vi: "nữu"
+}, {
+	zh: "鈣",
+	vi: "cái"
+}, {
+	zh: "鈸",
+	vi: "bạt"
+}, {
+	zh: "鈹",
+	vi: "phi"
+}, {
+	zh: "鈺",
+	vi: "ngọc"
+}, {
+	zh: "鈾",
+	vi: "do"
+}, {
+	zh: "鉀",
+	vi: "giáp"
+}, {
+	zh: "鉄",
+	vi: "thiết"
+}, {
+	zh: "鉅",
+	vi: "cự"
+}, {
+	zh: "鉉",
+	vi: "huyễn"
+}, {
+	zh: "鉋",
+	vi: "bào"
+}, {
+	zh: "鋙",
+	vi: "ngữ"
+}, {
+	zh: "鉑",
+	vi: "bạc"
+}, {
+	zh: "鉞",
+	vi: "việt"
+}, {
+	zh: "鉢",
+	vi: "bát"
+}, {
+	zh: "鉥",
+	vi: "thuật"
+}, {
+	zh: "鉦",
+	vi: "chinh"
+}, {
+	zh: "鉶",
+	vi: "hình"
+}, {
+	zh: "鉸",
+	vi: "giảo"
+}, {
+	zh: "銃",
+	vi: "súng"
+}, {
+	zh: "銓",
+	vi: "thuyên"
+}, {
+	zh: "銚",
+	vi: "diêu"
+}, {
+	zh: "銛",
+	vi: "tiêm"
+}, {
+	zh: "銲",
+	vi: "hãn"
+}, {
+	zh: "銹",
+	vi: "tú"
+}, {
+	zh: "銻",
+	vi: "đễ"
+}, {
+	zh: "銼",
+	vi: "tỏa"
+}, {
+	zh: "鋀",
+	vi: "đậu"
+}, {
+	zh: "鋁",
+	vi: "lữ"
+}, {
+	zh: "鋃",
+	vi: "lang"
+}, {
+	zh: "鋅",
+	vi: "tử"
+}, {
+	zh: "鋇",
+	vi: "bối"
+}, {
+	zh: "鋈",
+	vi: "ốc"
+}, {
+	zh: "鋌",
+	vi: "đĩnh"
+}, {
+	zh: "鋏",
+	vi: "kiệp"
+}, {
+	zh: "鋝",
+	vi: "luyệt"
+}, {
+	zh: "鋟",
+	vi: "tẩm"
+}, {
+	zh: "鋤",
+	vi: "sừ"
+}, {
+	zh: "鋩",
+	vi: "mang"
+}, {
+	zh: "鋭",
+	vi: "duệ"
+}, {
+	zh: "錁",
+	vi: "quả"
+}, {
+	zh: "錞",
+	vi: "thuần"
+}, {
+	zh: "錡",
+	vi: "kỹ"
+}, {
+	zh: "錮",
+	vi: "cố"
+}, {
+	zh: "錳",
+	vi: "mạnh"
+}, {
+	zh: "鍇",
+	vi: "khải"
+}, {
+	zh: "鍊",
+	vi: "luyện"
+}, {
+	zh: "鍍",
+	vi: "độ"
+}, {
+	zh: "鍔",
+	vi: "ngạc"
+}, {
+	zh: "鍘",
+	vi: "trát"
+}, {
+	zh: "鍚",
+	vi: "dương"
+}, {
+	zh: "鍤",
+	vi: "tráp"
+}, {
+	zh: "鍥",
+	vi: "khiết"
+}, {
+	zh: "鍫",
+	vi: "thiêu"
+}, {
+	zh: "鍬",
+	vi: "thiêu"
+}, {
+	zh: "鍳",
+	vi: "giám"
+}, {
+	zh: "鍼",
+	vi: "châm"
+}, {
+	zh: "鍿",
+	vi: "truy"
+}, {
+	zh: "鎂",
+	vi: "mỹ"
+}, {
+	zh: "鎋",
+	vi: "hạt"
+}, {
+	zh: "鎔",
+	vi: "dong"
+}, {
+	zh: "鎛",
+	vi: "bác"
+}, {
+	zh: "鎞",
+	vi: "bề"
+}, {
+	zh: "鎡",
+	vi: "tư"
+}, {
+	zh: "鎩",
+	vi: "sát"
+}, {
+	zh: "鎪",
+	vi: "sưu"
+}, {
+	zh: "鎬",
+	vi: "hạo"
+}, {
+	zh: "鎭",
+	vi: "trấn"
+}, {
+	zh: "鎰",
+	vi: "dật"
+}, {
+	zh: "鎲",
+	vi: "đảng"
+}, {
+	zh: "鎳",
+	vi: "niết"
+}, {
+	zh: "鏁",
+	vi: "tỏa"
+}, {
+	zh: "鏃",
+	vi: "thốc"
+}, {
+	zh: "鏇",
+	vi: "tuyền"
+}, {
+	zh: "鏐",
+	vi: "lưu"
+}, {
+	zh: "鏑",
+	vi: "đích"
+}, {
+	zh: "鏜",
+	vi: "thang"
+}, {
+	zh: "鏞",
+	vi: "dong"
+}, {
+	zh: "鏤",
+	vi: "lũ"
+}, {
+	zh: "鏨",
+	vi: "tạm"
+}, {
+	zh: "鏹",
+	vi: "cưỡng"
+}, {
+	zh: "鐂",
+	vi: "lưu"
+}, {
+	zh: "鐃",
+	vi: "nao"
+}, {
+	zh: "鐋",
+	vi: "thảng"
+}, {
+	zh: "鐍",
+	vi: "quyết"
+}, {
+	zh: "鐏",
+	vi: "tỗn"
+}, {
+	zh: "鐐",
+	vi: "liêu"
+}, {
+	zh: "鐓",
+	vi: "đối"
+}, {
+	zh: "鐙",
+	vi: "đăng"
+}, {
+	zh: "鐧",
+	vi: "giản"
+}, {
+	zh: "鐫",
+	vi: "tuyên"
+}, {
+	zh: "鐳",
+	vi: "lôi"
+}, {
+	zh: "鐸",
+	vi: "đạc"
+}, {
+	zh: "鑊",
+	vi: "hoạch"
+}, {
+	zh: "鑌",
+	vi: "tấn"
+}, {
+	zh: "鑕",
+	vi: "chất"
+}, {
+	zh: "鑛",
+	vi: "khoáng"
+}, {
+	zh: "鑞",
+	vi: "lạp"
+}, {
+	zh: "鑢",
+	vi: "lự"
+}, {
+	zh: "鑣",
+	vi: "tiêu"
+}, {
+	zh: "鑤",
+	vi: "bào"
+}, {
+	zh: "鑪",
+	vi: "lô"
+}, {
+	zh: "鑱",
+	vi: "sàm"
+}, {
+	zh: "鑴",
+	vi: "huề"
+}, {
+	zh: "鑵",
+	vi: "quán"
+}, {
+	zh: "鑷",
+	vi: "nhiếp"
+}, {
+	zh: "鑼",
+	vi: "la"
+}, {
+	zh: "鑾",
+	vi: "loan"
+}, {
+	zh: "钁",
+	vi: "quắc"
+}, {
+	zh: "钾",
+	vi: "giáp"
+}, {
+	zh: "铂",
+	vi: "bạc"
+}, {
+	zh: "铇",
+	vi: "bào"
+}, {
+	zh: "铓",
+	vi: "mang"
+}, {
+	zh: "铳",
+	vi: "súng"
+}, {
+	zh: "铴",
+	vi: "thảng"
+}, {
+	zh: "铻",
+	vi: "ngữ"
+}, {
+	zh: "锑",
+	vi: "đễ"
+}, {
+	zh: "锧",
+	vi: "chất"
+}, {
+	zh: "锴",
+	vi: "khải"
+}, {
+	zh: "镁",
+	vi: "mỹ"
+}, {
+	zh: "镃",
+	vi: "tư"
+}, {
+	zh: "镈",
+	vi: "bác"
+}, {
+	zh: "镋",
+	vi: "đảng"
+}, {
+	zh: "镍",
+	vi: "niết"
+}, {
+	zh: "镕",
+	vi: "dung"
+}, {
+	zh: "镗",
+	vi: "thang"
+}, {
+	zh: "镟",
+	vi: "tuyền"
+}, {
+	zh: "镦",
+	vi: "đối"
+}, {
+	zh: "镮",
+	vi: "hoàn"
+}, {
+	zh: "镴",
+	vi: "lạp"
+}, {
+	zh: "閂",
+	vi: "soan"
+}, {
+	zh: "閈",
+	vi: "hãn"
+}, {
+	zh: "閬",
+	vi: "lãng"
+}, {
+	zh: "閎",
+	vi: "hoành"
+}, {
+	zh: "閑",
+	vi: "nhàn"
+}, {
+	zh: "閔",
+	vi: "mẫn"
+}, {
+	zh: "閟",
+	vi: "bí"
+}, {
+	zh: "閥",
+	vi: "phiệt"
+}, {
+	zh: "閧",
+	vi: "hống"
+}, {
+	zh: "閩",
+	vi: "mân"
+}, {
+	zh: "閫",
+	vi: "khổn"
+}, {
+	zh: "閶",
+	vi: "xương"
+}, {
+	zh: "閹",
+	vi: "yêm"
+}, {
+	zh: "閼",
+	vi: "át"
+}, {
+	zh: "閽",
+	vi: "hôn"
+}, {
+	zh: "閾",
+	vi: "quắc"
+}, {
+	zh: "閿",
+	vi: "văn"
+}, {
+	zh: "闃",
+	vi: "khuých"
+}, {
+	zh: "闆",
+	vi: "bản"
+}, {
+	zh: "闈",
+	vi: "vi"
+}, {
+	zh: "闉",
+	vi: "nhân"
+}, {
+	zh: "闍",
+	vi: "đồ"
+}, {
+	zh: "闋",
+	vi: "khuyết"
+}, {
+	zh: "闐",
+	vi: "điền"
+}, {
+	zh: "闑",
+	vi: "niết"
+}, {
+	zh: "闒",
+	vi: "tháp"
+}, {
+	zh: "闓",
+	vi: "khải"
+}, {
+	zh: "闘",
+	vi: "đấu"
+}, {
+	zh: "闚",
+	vi: "khuy"
+}, {
+	zh: "闞",
+	vi: "hám"
+}, {
+	zh: "闠",
+	vi: "hội"
+}, {
+	zh: "闢",
+	vi: "tịch"
+}, {
+	zh: "闤",
+	vi: "hoàn"
+}, {
+	zh: "闥",
+	vi: "thát"
+}, {
+	zh: "闬",
+	vi: "hãn"
+}, {
+	zh: "阓",
+	vi: "hội"
+}, {
+	zh: "阛",
+	vi: "hoàn"
+}, {
+	zh: "阬",
+	vi: "khanh"
+}, {
+	zh: "阸",
+	vi: "ách"
+}, {
+	zh: "阽",
+	vi: "diêm"
+}, {
+	zh: "陔",
+	vi: "cai"
+}, {
+	zh: "陝",
+	vi: "thiểm"
+}, {
+	zh: "陻",
+	vi: "nhân"
+}, {
+	zh: "陿",
+	vi: "hiệp"
+}, {
+	zh: "隁",
+	vi: "yển"
+}, {
+	zh: "隂",
+	vi: "ẩm"
+}, {
+	zh: "隄",
+	vi: "đê"
+}, {
+	zh: "隖",
+	vi: "ổ"
+}, {
+	zh: "隠",
+	vi: "ẩn"
+}, {
+	zh: "隲",
+	vi: "chất"
+}, {
+	zh: "隷",
+	vi: "lệ"
+}, {
+	zh: "隻",
+	vi: "chích"
+}, {
+	zh: "雋",
+	vi: "tuyển"
+}, {
+	zh: "雘",
+	vi: "hoạch"
+}, {
+	zh: "雟",
+	vi: "huề"
+}, {
+	zh: "雱",
+	vi: "bàng"
+}, {
+	zh: "霂",
+	vi: "mộc"
+}, {
+	zh: "霅",
+	vi: "tráp"
+}, {
+	zh: "霈",
+	vi: "bái"
+}, {
+	zh: "霑",
+	vi: "triêm"
+}, {
+	zh: "霙",
+	vi: "anh"
+}, {
+	zh: "霛",
+	vi: "linh"
+}, {
+	zh: "霡",
+	vi: "mạch"
+}, {
+	zh: "霢",
+	vi: "mạch"
+}, {
+	zh: "霤",
+	vi: "lựu"
+}, {
+	zh: "霱",
+	vi: "duật"
+}, {
+	zh: "霶",
+	vi: "bàng"
+}, {
+	zh: "靁",
+	vi: "lôi"
+}, {
+	zh: "靄",
+	vi: "ái"
+}, {
+	zh: "靆",
+	vi: "đãi"
+}, {
+	zh: "靉",
+	vi: "ái"
+}, {
+	zh: "靚",
+	vi: "tịnh"
+}, {
+	zh: "靝",
+	vi: "thiên"
+}, {
+	zh: "靧",
+	vi: "hối"
+}, {
+	zh: "靨",
+	vi: "yếp"
+}, {
+	zh: "靮",
+	vi: "đích"
+}, {
+	zh: "靿",
+	vi: "áo"
+}, {
+	zh: "鞀",
+	vi: "đào"
+}, {
+	zh: "鞔",
+	vi: "man"
+}, {
+	zh: "鞦",
+	vi: "thu"
+}, {
+	zh: "韆",
+	vi: "thiên"
+}, {
+	zh: "鞯",
+	vi: "tiên"
+}, {
+	zh: "鞲",
+	vi: "câu"
+}, {
+	zh: "鞳",
+	vi: "tháp"
+}, {
+	zh: "鞵",
+	vi: "hài"
+}, {
+	zh: "鞸",
+	vi: "tất"
+}, {
+	zh: "鞹",
+	vi: "khuếch"
+}, {
+	zh: "鞺",
+	vi: "thang"
+}, {
+	zh: "鞾",
+	vi: "ngoa"
+}, {
+	zh: "韈",
+	vi: "vạt"
+}, {
+	zh: "韉",
+	vi: "tiên"
+}, {
+	zh: "韍",
+	vi: "phất"
+}, {
+	zh: "韔",
+	vi: "sướng"
+}, {
+	zh: "韘",
+	vi: "thiếp"
+}, {
+	zh: "韙",
+	vi: "vĩ"
+}, {
+	zh: "韛",
+	vi: "bị"
+}, {
+	zh: "韝",
+	vi: "câu"
+}, {
+	zh: "韞",
+	vi: "uẩn"
+}, {
+	zh: "韠",
+	vi: "tất"
+}, {
+	zh: "韡",
+	vi: "vĩ"
+}, {
+	zh: "韤",
+	vi: "vạt"
+}, {
+	zh: "韨",
+	vi: "phất"
+}, {
+	zh: "韮",
+	vi: "phỉ"
+}, {
+	zh: "頇",
+	vi: "han"
+}, {
+	zh: "頊",
+	vi: "húc"
+}, {
+	zh: "頏",
+	vi: "hàng"
+}, {
+	zh: "頖",
+	vi: "phán"
+}, {
+	zh: "頡",
+	vi: "hiệt"
+}, {
+	zh: "頤",
+	vi: "di"
+}, {
+	zh: "頦",
+	vi: "hài"
+}, {
+	zh: "頫",
+	vi: "phủ"
+}, {
+	zh: "顱",
+	vi: "lô"
+}, {
+	zh: "頮",
+	vi: "hối"
+}, {
+	zh: "頴",
+	vi: "dĩnh"
+}, {
+	zh: "顇",
+	vi: "tụy"
+}, {
+	zh: "顋",
+	vi: "tai"
+}, {
+	zh: "顎",
+	vi: "ngạc"
+}, {
+	zh: "顒",
+	vi: "ngung"
+}, {
+	zh: "顓",
+	vi: "chuyên"
+}, {
+	zh: "顙",
+	vi: "tảng"
+}, {
+	zh: "顚",
+	vi: "điên"
+}, {
+	zh: "顢",
+	vi: "man"
+}, {
+	zh: "顣",
+	vi: "túc"
+}, {
+	zh: "顥",
+	vi: "hạo"
+}, {
+	zh: "顦",
+	vi: "tiều"
+}, {
+	zh: "顬",
+	vi: "nhu"
+}, {
+	zh: "顰",
+	vi: "tần"
+}, {
+	zh: "顳",
+	vi: "nhiếp"
+}, {
+	zh: "颃",
+	vi: "hàng"
+}, {
+	zh: "颎",
+	vi: "quýnh"
+}, {
+	zh: "颒",
+	vi: "hối"
+}, {
+	zh: "颕",
+	vi: "dĩnh"
+}, {
+	zh: "颞",
+	vi: "nhiếp"
+}, {
+	zh: "颥",
+	vi: "nhu"
+}, {
+	zh: "颭",
+	vi: "triển"
+}, {
+	zh: "颯",
+	vi: "táp"
+}, {
+	zh: "颱",
+	vi: "đài"
+}, {
+	zh: "颳",
+	vi: "quát"
+}, {
+	zh: "颶",
+	vi: "cụ"
+}, {
+	zh: "颸",
+	vi: "ti"
+}, {
+	zh: "颺",
+	vi: "dương"
+}, {
+	zh: "颻",
+	vi: "diêu"
+}, {
+	zh: "飅",
+	vi: "lưu"
+}, {
+	zh: "飂",
+	vi: "liêu"
+}, {
+	zh: "飃",
+	vi: "phiêu"
+}, {
+	zh: "飆",
+	vi: "tiêu"
+}, {
+	zh: "飏",
+	vi: "dương"
+}, {
+	zh: "飐",
+	vi: "triển"
+}, {
+	zh: "飔",
+	vi: "ti"
+}, {
+	zh: "飖",
+	vi: "diêu"
+}, {
+	zh: "飜",
+	vi: "phiên"
+}, {
+	zh: "飠",
+	vi: "thực"
+}, {
+	zh: "飢",
+	vi: "cơ"
+}, {
+	zh: "飣",
+	vi: "đính"
+}, {
+	zh: "飥",
+	vi: "thác"
+}, {
+	zh: "飩",
+	vi: "đồn"
+}, {
+	zh: "飪",
+	vi: "nhẫm"
+}, {
+	zh: "飫",
+	vi: "ứ"
+}, {
+	zh: "飮",
+	vi: "ẩm"
+}, {
+	zh: "飱",
+	vi: "san"
+}, {
+	zh: "飴",
+	vi: "di"
+}, {
+	zh: "餂",
+	vi: "thiểm"
+}, {
+	zh: "餃",
+	vi: "giáo"
+}, {
+	zh: "餅",
+	vi: "bính"
+}, {
+	zh: "餈",
+	vi: "tư"
+}, {
+	zh: "餉",
+	vi: "hướng"
+}, {
+	zh: "餌",
+	vi: "nhị"
+}, {
+	zh: "餑",
+	vi: "bột"
+}, {
+	zh: "餕",
+	vi: "tuấn"
+}, {
+	zh: "餖",
+	vi: "đậu"
+}, {
+	zh: "餗",
+	vi: "tốc"
+}, {
+	zh: "餙",
+	vi: "sức"
+}, {
+	zh: "餚",
+	vi: "hào"
+}, {
+	zh: "餛",
+	vi: "hồn"
+}, {
+	zh: "餠",
+	vi: "bính"
+}, {
+	zh: "餡",
+	vi: "hãm"
+}, {
+	zh: "餱",
+	vi: "hầu"
+}, {
+	zh: "餲",
+	vi: "ế"
+}, {
+	zh: "餳",
+	vi: "đường"
+}, {
+	zh: "餵",
+	vi: "ủy"
+}, {
+	zh: "餺",
+	vi: "bác"
+}, {
+	zh: "餻",
+	vi: "cao"
+}, {
+	zh: "餼",
+	vi: "hí"
+}, {
+	zh: "餽",
+	vi: "quỹ"
+}, {
+	zh: "餾",
+	vi: "lựu"
+}, {
+	zh: "餿",
+	vi: "sưu"
+}, {
+	zh: "饁",
+	vi: "diệp"
+}, {
+	zh: "饅",
+	vi: "man"
+}, {
+	zh: "饇",
+	vi: "ốc"
+}, {
+	zh: "饈",
+	vi: "tu"
+}, {
+	zh: "饉",
+	vi: "cận"
+}, {
+	zh: "饊",
+	vi: "tản"
+}, {
+	zh: "饋",
+	vi: "quỹ"
+}, {
+	zh: "饌",
+	vi: "soạn"
+}, {
+	zh: "饎",
+	vi: "sí"
+}, {
+	zh: "饐",
+	vi: "ý"
+}, {
+	zh: "饗",
+	vi: "hưởng"
+}, {
+	zh: "饜",
+	vi: "yếm"
+}, {
+	zh: "饝",
+	vi: "ma"
+}, {
+	zh: "饞",
+	vi: "sàm"
+}, {
+	zh: "饢",
+	vi: "nang"
+}, {
+	zh: "饤",
+	vi: "đính"
+}, {
+	zh: "饦",
+	vi: "thác"
+}, {
+	zh: "饾",
+	vi: "đậu"
+}, {
+	zh: "馂",
+	vi: "tuấn"
+}, {
+	zh: "馌",
+	vi: "diệp"
+}, {
+	zh: "馎",
+	vi: "bác"
+}, {
+	zh: "馡",
+	vi: "phỉ"
+}, {
+	zh: "馱",
+	vi: "đà"
+}, {
+	zh: "馹",
+	vi: "nhật"
+}, {
+	zh: "駈",
+	vi: "khu"
+}, {
+	zh: "駉",
+	vi: "quynh"
+}, {
+	zh: "駔",
+	vi: "tảng"
+}, {
+	zh: "駘",
+	vi: "đài"
+}, {
+	zh: "駙",
+	vi: "phụ"
+}, {
+	zh: "駡",
+	vi: "mạ"
+}, {
+	zh: "駢",
+	vi: "biền"
+}, {
+	zh: "駬",
+	vi: "nhĩ"
+}, {
+	zh: "駰",
+	vi: "nhân"
+}, {
+	zh: "駸",
+	vi: "xâm"
+}, {
+	zh: "騂",
+	vi: "tuynh"
+}, {
+	zh: "騃",
+	vi: "ngãi"
+}, {
+	zh: "騈",
+	vi: "biền"
+}, {
+	zh: "騌",
+	vi: "tông"
+}, {
+	zh: "騏",
+	vi: "kỳ"
+}, {
+	zh: "驎",
+	vi: "lân"
+}, {
+	zh: "騐",
+	vi: "nghiệm"
+}, {
+	zh: "騖",
+	vi: "vụ"
+}, {
+	zh: "騣",
+	vi: "tông"
+}, {
+	zh: "騫",
+	vi: "khiên"
+}, {
+	zh: "騭",
+	vi: "chất"
+}, {
+	zh: "騮",
+	vi: "lưu"
+}, {
+	zh: "騶",
+	vi: "sô"
+}, {
+	zh: "騸",
+	vi: "phiến"
+}, {
+	zh: "驁",
+	vi: "ngao"
+}, {
+	zh: "驂",
+	vi: "tham"
+}, {
+	zh: "驃",
+	vi: "phiếu"
+}, {
+	zh: "驄",
+	vi: "thông"
+}, {
+	zh: "驊",
+	vi: "hoa"
+}, {
+	zh: "驌",
+	vi: "túc"
+}, {
+	zh: "驦",
+	vi: "sương"
+}, {
+	zh: "驑",
+	vi: "lưu"
+}, {
+	zh: "驖",
+	vi: "thiết"
+}, {
+	zh: "驘",
+	vi: "loa"
+}, {
+	zh: "驛",
+	vi: "dịch"
+}, {
+	zh: "驝",
+	vi: "thác"
+}, {
+	zh: "驢",
+	vi: "lư"
+}, {
+	zh: "驤",
+	vi: "tương"
+}, {
+	zh: "驥",
+	vi: "ký"
+}, {
+	zh: "驲",
+	vi: "nhật"
+}, {
+	zh: "骎",
+	vi: "xâm"
+}, {
+	zh: "骔",
+	vi: "tông"
+}, {
+	zh: "骦",
+	vi: "sương"
+}, {
+	zh: "骳",
+	vi: "bí"
+}, {
+	zh: "髏",
+	vi: "lâu"
+}, {
+	zh: "骽",
+	vi: "thối"
+}, {
+	zh: "骾",
+	vi: "ngạnh"
+}, {
+	zh: "髕",
+	vi: "bận"
+}, {
+	zh: "髙",
+	vi: "cao"
+}, {
+	zh: "髟",
+	vi: "tiêu"
+}, {
+	zh: "髠",
+	vi: "khôn"
+}, {
+	zh: "髢",
+	vi: "thế"
+}, {
+	zh: "髣",
+	vi: "phảng"
+}, {
+	zh: "髴",
+	vi: "phất"
+}, {
+	zh: "髤",
+	vi: "hưu"
+}, {
+	zh: "髥",
+	vi: "nhiêm"
+}, {
+	zh: "髧",
+	vi: "đãm"
+}, {
+	zh: "髩",
+	vi: "tấn"
+}, {
+	zh: "髼",
+	vi: "bồng"
+}, {
+	zh: "髽",
+	vi: "qua"
+}, {
+	zh: "鬁",
+	vi: "lỵ"
+}, {
+	zh: "鬎",
+	vi: "thích"
+}, {
+	zh: "鬄",
+	vi: "thế"
+}, {
+	zh: "鬙",
+	vi: "man"
+}, {
+	zh: "鬉",
+	vi: "tông"
+}, {
+	zh: "鬋",
+	vi: "tiên"
+}, {
+	zh: "鬌",
+	vi: "đỏa"
+}, {
+	zh: "鬍",
+	vi: "hồ"
+}, {
+	zh: "鬐",
+	vi: "kỳ"
+}, {
+	zh: "鬒",
+	vi: "chẩn"
+}, {
+	zh: "鬘",
+	vi: "man"
+}, {
+	zh: "鬝",
+	vi: "gian"
+}, {
+	zh: "鬨",
+	vi: "hống"
+}, {
+	zh: "鬩",
+	vi: "huých"
+}, {
+	zh: "鬪",
+	vi: "đấu"
+}, {
+	zh: "鬫",
+	vi: "hám"
+}, {
+	zh: "鬮",
+	vi: "cưu"
+}, {
+	zh: "鬴",
+	vi: "phũ"
+}, {
+	zh: "鬵",
+	vi: "tẩm"
+}, {
+	zh: "魊",
+	vi: "vực"
+}, {
+	zh: "魎",
+	vi: "lượng"
+}, {
+	zh: "魕",
+	vi: "kỳ"
+}, {
+	zh: "魨",
+	vi: "đồn"
+}, {
+	zh: "魴",
+	vi: "phường"
+}, {
+	zh: "魷",
+	vi: "vưu"
+}, {
+	zh: "鮀",
+	vi: "đà"
+}, {
+	zh: "鮎",
+	vi: "niêm"
+}, {
+	zh: "鮑",
+	vi: "bảo"
+}, {
+	zh: "鮒",
+	vi: "phụ"
+}, {
+	zh: "鮓",
+	vi: "trả"
+}, {
+	zh: "鮝",
+	vi: "tưởng"
+}, {
+	zh: "鮠",
+	vi: "ngôi"
+}, {
+	zh: "鮪",
+	vi: "vị"
+}, {
+	zh: "鮫",
+	vi: "giao"
+}, {
+	zh: "鮭",
+	vi: "khuê"
+}, {
+	zh: "鮿",
+	vi: "triếp"
+}, {
+	zh: "鯀",
+	vi: "cổn"
+}, {
+	zh: "鯁",
+	vi: "ngạnh"
+}, {
+	zh: "鯖",
+	vi: "chinh"
+}, {
+	zh: "鯗",
+	vi: "tưởng"
+}, {
+	zh: "鯚",
+	vi: "quý"
+}, {
+	zh: "鯛",
+	vi: "điêu"
+}, {
+	zh: "鯠",
+	vi: "lai"
+}, {
+	zh: "鯢",
+	vi: "nghê"
+}, {
+	zh: "鯤",
+	vi: "côn"
+}, {
+	zh: "鯧",
+	vi: "xương"
+}, {
+	zh: "鯪",
+	vi: "lăng"
+}, {
+	zh: "鯫",
+	vi: "tưu"
+}, {
+	zh: "鯰",
+	vi: "niêm"
+}, {
+	zh: "鯶",
+	vi: "hỗn"
+}, {
+	zh: "鯽",
+	vi: "tức"
+}, {
+	zh: "鯿",
+	vi: "biên"
+}, {
+	zh: "鰈",
+	vi: "điệp"
+}, {
+	zh: "鰉",
+	vi: "hoàng"
+}, {
+	zh: "鰋",
+	vi: "yển"
+}, {
+	zh: "鰐",
+	vi: "ngạc"
+}, {
+	zh: "鰒",
+	vi: "phục"
+}, {
+	zh: "鰓",
+	vi: "tai"
+}, {
+	zh: "鰕",
+	vi: "hà"
+}, {
+	zh: "鰜",
+	vi: "kiêm"
+}, {
+	zh: "鰣",
+	vi: "thì"
+}, {
+	zh: "鰥",
+	vi: "quan"
+}, {
+	zh: "鰨",
+	vi: "tháp"
+}, {
+	zh: "鰩",
+	vi: "diêu"
+}, {
+	zh: "鰭",
+	vi: "kỳ"
+}, {
+	zh: "鰱",
+	vi: "liên"
+}, {
+	zh: "鰲",
+	vi: "ngao"
+}, {
+	zh: "鰳",
+	vi: "lặc"
+}, {
+	zh: "鰵",
+	vi: "mẫn"
+}, {
+	zh: "鰷",
+	vi: "điều"
+}, {
+	zh: "鰻",
+	vi: "man"
+}, {
+	zh: "鱺",
+	vi: "ly"
+}, {
+	zh: "鰾",
+	vi: "phiêu"
+}, {
+	zh: "鱅",
+	vi: "dong"
+}, {
+	zh: "鱈",
+	vi: "tuyết"
+}, {
+	zh: "鱉",
+	vi: "miết"
+}, {
+	zh: "鱒",
+	vi: "tỗn"
+}, {
+	zh: "鱓",
+	vi: "thiện"
+}, {
+	zh: "鱔",
+	vi: "thiện"
+}, {
+	zh: "鱖",
+	vi: "quyết"
+}, {
+	zh: "鱘",
+	vi: "tầm"
+}, {
+	zh: "鱟",
+	vi: "hấu"
+}, {
+	zh: "鱠",
+	vi: "quái"
+}, {
+	zh: "鱣",
+	vi: "chiên"
+}, {
+	zh: "鱧",
+	vi: "lễ"
+}, {
+	zh: "鱨",
+	vi: "thường"
+}, {
+	zh: "鱭",
+	vi: "tễ"
+}, {
+	zh: "鱮",
+	vi: "tự"
+}, {
+	zh: "鱵",
+	vi: "châm"
+}, {
+	zh: "鱷",
+	vi: "ngạc"
+}, {
+	zh: "鱸",
+	vi: "lư"
+}, {
+	zh: "鱻",
+	vi: "tiên"
+}, {
+	zh: "鲀",
+	vi: "đồn"
+}, {
+	zh: "鲊",
+	vi: "trả"
+}, {
+	zh: "鲚",
+	vi: "tễ"
+}, {
+	zh: "鲡",
+	vi: "ly"
+}, {
+	zh: "鲥",
+	vi: "thì"
+}, {
+	zh: "鲭",
+	vi: "chinh"
+}, {
+	zh: "鲮",
+	vi: "lăng"
+}, {
+	zh: "鲳",
+	vi: "xương"
+}, {
+	zh: "鲶",
+	vi: "niêm"
+}, {
+	zh: "鲿",
+	vi: "thường"
+}, {
+	zh: "鳆",
+	vi: "phục"
+}, {
+	zh: "鳊",
+	vi: "biên"
+}, {
+	zh: "鳐",
+	vi: "diêu"
+}, {
+	zh: "鳒",
+	vi: "kiêm"
+}, {
+	zh: "鳓",
+	vi: "lặc"
+}, {
+	zh: "鳔",
+	vi: "phiêu"
+}, {
+	zh: "鳕",
+	vi: "tuyết"
+}, {
+	zh: "鳘",
+	vi: "mẫn"
+}, {
+	zh: "鳙",
+	vi: "dung"
+}, {
+	zh: "鳜",
+	vi: "quyết"
+}, {
+	zh: "鳟",
+	vi: "tỗn"
+}, {
+	zh: "鳧",
+	vi: "phù"
+}, {
+	zh: "鳬",
+	vi: "phù"
+}, {
+	zh: "鳲",
+	vi: "thi"
+}, {
+	zh: "鳸",
+	vi: "hỗ"
+}, {
+	zh: "鴂",
+	vi: "quyết"
+}, {
+	zh: "鴆",
+	vi: "chậm"
+}, {
+	zh: "鴇",
+	vi: "bảo"
+}, {
+	zh: "鴒",
+	vi: "linh"
+}, {
+	zh: "鴕",
+	vi: "đà"
+}, {
+	zh: "鴝",
+	vi: "cù"
+}, {
+	zh: "鵒",
+	vi: "dục"
+}, {
+	zh: "鴞",
+	vi: "hào"
+}, {
+	zh: "鴣",
+	vi: "cô"
+}, {
+	zh: "鴯",
+	vi: "nhi"
+}, {
+	zh: "鴰",
+	vi: "quát"
+}, {
+	zh: "鴽",
+	vi: "như"
+}, {
+	zh: "鵂",
+	vi: "hưu"
+}, {
+	zh: "鶹",
+	vi: "lưu"
+}, {
+	zh: "鵓",
+	vi: "bột"
+}, {
+	zh: "鵙",
+	vi: "quyết"
+}, {
+	zh: "鵜",
+	vi: "đề"
+}, {
+	zh: "鶘",
+	vi: "hồ"
+}, {
+	zh: "鵠",
+	vi: "hộc"
+}, {
+	zh: "鵪",
+	vi: "am"
+}, {
+	zh: "鶉",
+	vi: "thuần"
+}, {
+	zh: "鵬",
+	vi: "bằng"
+}, {
+	zh: "鵶",
+	vi: "nha"
+}, {
+	zh: "鵷",
+	vi: "uyên"
+}, {
+	zh: "鵻",
+	vi: "giai"
+}, {
+	zh: "鵾",
+	vi: "côn"
+}, {
+	zh: "鶃",
+	vi: "nghịch"
+}, {
+	zh: "鶊",
+	vi: "canh"
+}, {
+	zh: "鶒",
+	vi: "xích"
+}, {
+	zh: "鶚",
+	vi: "ngạc"
+}, {
+	zh: "鶡",
+	vi: "hạt"
+}, {
+	zh: "鶬",
+	vi: "thương"
+}, {
+	zh: "鶺",
+	vi: "tích"
+}, {
+	zh: "鶻",
+	vi: "cốt"
+}, {
+	zh: "鶼",
+	vi: "kiêm"
+}, {
+	zh: "鷀",
+	vi: "từ"
+}, {
+	zh: "鷁",
+	vi: "nghịch"
+}, {
+	zh: "鷂",
+	vi: "diêu"
+}, {
+	zh: "鷃",
+	vi: "yến"
+}, {
+	zh: "鷄",
+	vi: "kê"
+}, {
+	zh: "鷖",
+	vi: "ê"
+}, {
+	zh: "鷙",
+	vi: "chí"
+}, {
+	zh: "鷞",
+	vi: "sương"
+}, {
+	zh: "鷟",
+	vi: "trạc"
+}, {
+	zh: "鷥",
+	vi: "tư"
+}, {
+	zh: "鷦",
+	vi: "tiêu"
+}, {
+	zh: "鷯",
+	vi: "liêu"
+}, {
+	zh: "鷫",
+	vi: "túc"
+}, {
+	zh: "鷲",
+	vi: "thứu"
+}, {
+	zh: "鷳",
+	vi: "nhàn"
+}, {
+	zh: "鷴",
+	vi: "nhàn"
+}, {
+	zh: "鷸",
+	vi: "duật"
+}, {
+	zh: "鷽",
+	vi: "hạc"
+}, {
+	zh: "鷾",
+	vi: "ý"
+}, {
+	zh: "鸂",
+	vi: "khê"
+}, {
+	zh: "鸇",
+	vi: "chiên"
+}, {
+	zh: "鸋",
+	vi: "ninh"
+}, {
+	zh: "鸎",
+	vi: "oanh"
+}, {
+	zh: "鸑",
+	vi: "nhạc"
+}, {
+	zh: "鸕",
+	vi: "lô"
+}, {
+	zh: "鸛",
+	vi: "quán"
+}, {
+	zh: "鸜",
+	vi: "cù"
+}, {
+	zh: "鸞",
+	vi: "loan"
+}, {
+	zh: "鸤",
+	vi: "thi"
+}, {
+	zh: "鹒",
+	vi: "canh"
+}, {
+	zh: "鸶",
+	vi: "tư"
+}, {
+	zh: "鸰",
+	vi: "linh"
+}, {
+	zh: "鸲",
+	vi: "cù"
+}, {
+	zh: "鸴",
+	vi: "hạc"
+}, {
+	zh: "鸵",
+	vi: "đà"
+}, {
+	zh: "鸺",
+	vi: "hưu"
+}, {
+	zh: "鹠",
+	vi: "lưu"
+}, {
+	zh: "鹁",
+	vi: "bột"
+}, {
+	zh: "鹇",
+	vi: "nhàn"
+}, {
+	zh: "鹈",
+	vi: "đề"
+}, {
+	zh: "鹍",
+	vi: "côn"
+}, {
+	zh: "鹡",
+	vi: "tích"
+}, {
+	zh: "鹩",
+	vi: "liêu"
+}, {
+	zh: "鹯",
+	vi: "chiên"
+}, {
+	zh: "鹺",
+	vi: "ta"
+}, {
+	zh: "鹻",
+	vi: "dảm"
+}, {
+	zh: "麄",
+	vi: "thô"
+}, {
+	zh: "麅",
+	vi: "bào"
+}, {
+	zh: "麌",
+	vi: "ngu"
+}, {
+	zh: "麕",
+	vi: "quân"
+}, {
+	zh: "麞",
+	vi: "chương"
+}, {
+	zh: "麩",
+	vi: "phu"
+}, {
+	zh: "麪",
+	vi: "miển"
+}, {
+	zh: "麫",
+	vi: "miến"
+}, {
+	zh: "麯",
+	vi: "khúc"
+}, {
+	zh: "麰",
+	vi: "mâu"
+}, {
+	zh: "麴",
+	vi: "khúc"
+}, {
+	zh: "麸",
+	vi: "phu"
+}, {
+	zh: "黌",
+	vi: "huỳnh"
+}, {
+	zh: "黐",
+	vi: "ly"
+}, {
+	zh: "黓",
+	vi: "dặc"
+}, {
+	zh: "黟",
+	vi: "y"
+}, {
+	zh: "黤",
+	vi: "yểm"
+}, {
+	zh: "黦",
+	vi: "uất"
+}, {
+	zh: "黰",
+	vi: "chẩn"
+}, {
+	zh: "黴",
+	vi: "mi"
+}, {
+	zh: "黶",
+	vi: "yểm"
+}, {
+	zh: "黷",
+	vi: "độc"
+}, {
+	zh: "黽",
+	vi: "mãnh"
+}, {
+	zh: "黿",
+	vi: "ngoan"
+}, {
+	zh: "鼂",
+	vi: "trào"
+}, {
+	zh: "鼃",
+	vi: "oa"
+}, {
+	zh: "鼇",
+	vi: "ngao"
+}, {
+	zh: "鼈",
+	vi: "miết"
+}, {
+	zh: "鼉",
+	vi: "đà"
+}, {
+	zh: "鼏",
+	vi: "mịch"
+}, {
+	zh: "鼕",
+	vi: "đông"
+}, {
+	zh: "鼥",
+	vi: "bạt"
+}, {
+	zh: "鼦",
+	vi: "điêu"
+}, {
+	zh: "鼧",
+	vi: "đà"
+}, {
+	zh: "鼪",
+	vi: "sinh"
+}, {
+	zh: "鼬",
+	vi: "dứu"
+}, {
+	zh: "鼮",
+	vi: "đình"
+}, {
+	zh: "鼴",
+	vi: "yển"
+}, {
+	zh: "鼷",
+	vi: "hề"
+}, {
+	zh: "齁",
+	vi: "hầu"
+}, {
+	zh: "齅",
+	vi: "khứu"
+}, {
+	zh: "齆",
+	vi: "úng"
+}, {
+	zh: "齇",
+	vi: "tra"
+}, {
+	zh: "齈",
+	vi: "nông"
+}, {
+	zh: "齋",
+	vi: "trai"
+}, {
+	zh: "齌",
+	vi: "tễ"
+}, {
+	zh: "齎",
+	vi: "tê"
+}, {
+	zh: "齏",
+	vi: "tê"
+}, {
+	zh: "齔",
+	vi: "sấn"
+}, {
+	zh: "齕",
+	vi: "hột"
+}, {
+	zh: "齗",
+	vi: "ngân"
+}, {
+	zh: "齘",
+	vi: "giới"
+}, {
+	zh: "齚",
+	vi: "trách"
+}, {
+	zh: "齟",
+	vi: "trở"
+}, {
+	zh: "齠",
+	vi: "điều"
+}, {
+	zh: "齣",
+	vi: "xích"
+}, {
+	zh: "齦",
+	vi: "ngân"
+}, {
+	zh: "齧",
+	vi: "niết"
+}, {
+	zh: "齩",
+	vi: "giảo"
+}, {
+	zh: "齪",
+	vi: "xúc"
+}, {
+	zh: "齲",
+	vi: "củ"
+}, {
+	zh: "齷",
+	vi: "ác"
+}, {
+	zh: "龔",
+	vi: "cung"
+}, {
+	zh: "龝",
+	vi: "thu"
+}, {
+	zh: "龡",
+	vi: "xúy"
+}, {
+	zh: "龢",
+	vi: "hòa"
+}, {
+	zh: "譭",
+	vi: "hủy"
+}, {
+	zh: "巹",
+	vi: "cẩn"
+}, {
+	zh: "珅",
+	vi: "thân"
+}, {
+	zh: "頽",
+	vi: "đồi"
+}, {
+	zh: "揾",
+	vi: "uấn"
+}, {
+	zh: "礻",
+	vi: "thị"
+}, {
+	zh: "屟",
+	vi: "tiệp"
+}, {
+	zh: "璺",
+	vi: "vấn"
+}, {
+	zh: "圢",
+	vi: "đinh"
+}, {
+	zh: "閗",
+	vi: "đấu"
+}, {
+	zh: "冣",
+	vi: "tối"
+}, {
+	zh: "爟",
+	vi: "quán"
+}, {
+	zh: "镚",
+	vi: "băng"
+}, {
+	zh: "亊",
+	vi: "sự"
+}, {
+	zh: "鑭",
+	vi: "lan"
+}, {
+	zh: "腲",
+	vi: "uỷ"
+}, {
+	zh: "鈮",
+	vi: "ni"
+}, {
+	zh: "淠",
+	vi: "tụy"
+}, {
+	zh: "鰆",
+	vi: "xuân"
+}, {
+	zh: "鈰",
+	vi: "thị"
+}, {
+	zh: "袎",
+	vi: "áo"
+}, {
+	zh: "兙",
+	vi: "thập"
+}, {
+	zh: "関",
+	vi: "quan"
+}, {
+	zh: "爥",
+	vi: "chúc"
+}, {
+	zh: "龎",
+	vi: "bàng"
+}, {
+	zh: "饍",
+	vi: "thiện"
+}, {
+	zh: "墫",
+	vi: "tôn"
+}, {
+	zh: "円",
+	vi: "viên"
+}, {
+	zh: "耲",
+	vi: "hoài"
+}, {
+	zh: "铋",
+	vi: "bí"
+}, {
+	zh: "寜",
+	vi: "ninh"
+}, {
+	zh: "翄",
+	vi: "sí"
+}, {
+	zh: "茓",
+	vi: "huyệt"
+}, {
+	zh: "讐",
+	vi: "thù"
+}, {
+	zh: "唗",
+	vi: "đâu"
+}, {
+	zh: "钛",
+	vi: "thái"
+}, {
+	zh: "痖",
+	vi: "á"
+}, {
+	zh: "钂",
+	vi: "đảng"
+}, {
+	zh: "棰",
+	vi: "trùy"
+}, {
+	zh: "鼖",
+	vi: "phần"
+}, {
+	zh: "鎷",
+	vi: "mã"
+}, {
+	zh: "鑹",
+	vi: "thoản"
+}, {
+	zh: "軆",
+	vi: "thể"
+}, {
+	zh: "庁",
+	vi: "sảnh"
+}, {
+	zh: "嘠",
+	vi: "dát"
+}, {
+	zh: "侜",
+	vi: "chu"
+}, {
+	zh: "酶",
+	vi: "môi"
+}, {
+	zh: "冹",
+	vi: "phu"
+}, {
+	zh: "醿",
+	vi: "my"
+}, {
+	zh: "锽",
+	vi: "hoàng"
+}, {
+	zh: "貈",
+	vi: "mạch"
+}, {
+	zh: "閆",
+	vi: "diêm"
+}, {
+	zh: "禓",
+	vi: "thương"
+}, {
+	zh: "閌",
+	vi: "khang"
+}, {
+	zh: "躜",
+	vi: "toàn"
+}, {
+	zh: "貘",
+	vi: "mô"
+}, {
+	zh: "貎",
+	vi: "nghê"
+}, {
+	zh: "諆",
+	vi: "khi"
+}, {
+	zh: "簆",
+	vi: "khấu"
+}, {
+	zh: "铪",
+	vi: "cáp"
+}, {
+	zh: "翙",
+	vi: "kiều"
+}, {
+	zh: "庼",
+	vi: "khoảnh"
+}, {
+	zh: "鄫",
+	vi: "tằng"
+}, {
+	zh: "靪",
+	vi: "đinh"
+}, {
+	zh: "鼔",
+	vi: "cổ"
+}, {
+	zh: "豶",
+	vi: "phần"
+}, {
+	zh: "丗",
+	vi: "thế"
+}, {
+	zh: "椴",
+	vi: "đoạn"
+}, {
+	zh: "鼚",
+	vi: "xương"
+}, {
+	zh: "絻",
+	vi: "miễn"
+}, {
+	zh: "鎵",
+	vi: "gia"
+}, {
+	zh: "冇",
+	vi: "mão"
+}, {
+	zh: "赟",
+	vi: "uân"
+}, {
+	zh: "僴",
+	vi: "giản"
+}, {
+	zh: "缐",
+	vi: "tuyến"
+}, {
+	zh: "銒",
+	vi: "bính"
+}, {
+	zh: "墖",
+	vi: "tháp"
+}, {
+	zh: "頟",
+	vi: "ngạch"
+}, {
+	zh: "鐿",
+	vi: "ý"
+}, {
+	zh: "騤",
+	vi: "quỳ"
+}, {
+	zh: "铔",
+	vi: "a"
+}, {
+	zh: "鲩",
+	vi: "cán"
+}, {
+	zh: "麐",
+	vi: "lân"
+}, {
+	zh: "齼",
+	vi: "sở"
+}, {
+	zh: "溓",
+	vi: "liễm"
+}, {
+	zh: "莚",
+	vi: "diên"
+}, {
+	zh: "翤",
+	vi: "sí"
+}, {
+	zh: "屄",
+	vi: "bi"
+}, {
+	zh: "腇",
+	vi: "nỗi"
+}, {
+	zh: "屃",
+	vi: "hý"
+}, {
+	zh: "稬",
+	vi: "nhu"
+}, {
+	zh: "脒",
+	vi: "mễ"
+}, {
+	zh: "恌",
+	vi: "khiêu"
+}, {
+	zh: "恓",
+	vi: "tây"
+}, {
+	zh: "塃",
+	vi: "hoang"
+}, {
+	zh: "塙",
+	vi: "xác"
+}, {
+	zh: "塽",
+	vi: "sảng"
+}, {
+	zh: "胗",
+	vi: "truân"
+}, {
+	zh: "胨",
+	vi: "đống"
+}, {
+	zh: "骻",
+	vi: "khóa"
+}, {
+	zh: "傈",
+	vi: "lật"
+}, {
+	zh: "庤",
+	vi: "chí"
+}, {
+	zh: "鷰",
+	vi: "yến"
+}, {
+	zh: "僄",
+	vi: "phiêu"
+}, {
+	zh: "閛",
+	vi: "phanh"
+}, {
+	zh: "锠",
+	vi: "xương"
+}, {
+	zh: "黈",
+	vi: "thẩu"
+}, {
+	zh: "缞",
+	vi: "thôi"
+}, {
+	zh: "稨",
+	vi: "biển"
+}, {
+	zh: "呧",
+	vi: "để"
+}, {
+	zh: "膻",
+	vi: "thiên"
+}, {
+	zh: "吥",
+	vi: "bất"
+}, {
+	zh: "堿",
+	vi: "kiềm"
+}, {
+	zh: "兛",
+	vi: "thiên"
+}, {
+	zh: "崌",
+	vi: "cư"
+}, {
+	zh: "婼",
+	vi: "xúc"
+}, {
+	zh: "寉",
+	vi: "hạc"
+}, {
+	zh: "剠",
+	vi: "kình"
+}, {
+	zh: "鲐",
+	vi: "thai"
+}, {
+	zh: "卋",
+	vi: "thế"
+}, {
+	zh: "絙",
+	vi: "căng"
+}, {
+	zh: "娯",
+	vi: "ngu"
+}, {
+	zh: "髐",
+	vi: "hiêu"
+}, {
+	zh: "咊",
+	vi: "hòa"
+}, {
+	zh: "蓨",
+	vi: "điệu"
+}, {
+	zh: "勔",
+	vi: "miễn"
+}, {
+	zh: "鬑",
+	vi: "liêm"
+}, {
+	zh: "峱",
+	vi: "nạo"
+}, {
+	zh: "笯",
+	vi: "nô"
+}, {
+	zh: "轱",
+	vi: "cô"
+}, {
+	zh: "璁",
+	vi: "thông"
+}, {
+	zh: "媭",
+	vi: "tu"
+}, {
+	zh: "瑷",
+	vi: "ái"
+}, {
+	zh: "猨",
+	vi: "viên"
+}, {
+	zh: "獚",
+	vi: "hoàng"
+}, {
+	zh: "菂",
+	vi: "đích"
+}, {
+	zh: "蠪",
+	vi: "long"
+}, {
+	zh: "玍",
+	vi: "ca"
+}, {
+	zh: "怓",
+	vi: "nao"
+}, {
+	zh: "寁",
+	vi: "toản"
+}, {
+	zh: "咑",
+	vi: "đát"
+}, {
+	zh: "羠",
+	vi: "di"
+}, {
+	zh: "嶌",
+	vi: "đảo"
+}, {
+	zh: "吢",
+	vi: "khấm"
+}, {
+	zh: "嫿",
+	vi: "họa"
+}, {
+	zh: "崁",
+	vi: "khám"
+}, {
+	zh: "咅",
+	vi: "phôi"
+}, {
+	zh: "艪",
+	vi: "lỗ"
+}, {
+	zh: "濎",
+	vi: "đỉnh"
+}, {
+	zh: "劚",
+	vi: "chủ"
+}, {
+	zh: "墈",
+	vi: "khám"
+}, {
+	zh: "鶂",
+	vi: "nghịch"
+}, {
+	zh: "噷",
+	vi: "hâm"
+}, {
+	zh: "厀",
+	vi: "tất"
+}, {
+	zh: "咡",
+	vi: "nhị"
+}, {
+	zh: "僲",
+	vi: "tiên"
+}, {
+	zh: "昝",
+	vi: "tảm"
+}, {
+	zh: "笭",
+	vi: "linh"
+}, {
+	zh: "鼄",
+	vi: "chu"
+}, {
+	zh: "豭",
+	vi: "gia"
+}, {
+	zh: "鄇",
+	vi: "hậu"
+}, {
+	zh: "昪",
+	vi: "biện"
+}, {
+	zh: "骙",
+	vi: "quỳ"
+}, {
+	zh: "垵",
+	vi: "am"
+}, {
+	zh: "橚",
+	vi: "thu"
+}, {
+	zh: "厛",
+	vi: "sảnh"
+}, {
+	zh: "棂",
+	vi: "linh"
+}, {
+	zh: "呑",
+	vi: "thôn"
+}, {
+	zh: "絸",
+	vi: "kiển"
+}, {
+	zh: "鹴",
+	vi: "sương"
+}, {
+	zh: "鲏",
+	vi: "bì"
+}, {
+	zh: "岋",
+	vi: "ngập"
+}, {
+	zh: "趔",
+	vi: "liệt"
+}, {
+	zh: "剣",
+	vi: "kiếm"
+}, {
+	zh: "鯆",
+	vi: "phô"
+}, {
+	zh: "嵷",
+	vi: "tung"
+}, {
+	zh: "聧",
+	vi: "khuê"
+}, {
+	zh: "艒",
+	vi: "mục"
+}, {
+	zh: "峫",
+	vi: "da"
+}, {
+	zh: "攗",
+	vi: "quấn"
+}, {
+	zh: "琎",
+	vi: "tấn"
+}, {
+	zh: "掰",
+	vi: "bài"
+}, {
+	zh: "蒕",
+	vi: "uân"
+}, {
+	zh: "肰",
+	vi: "nhiên"
+}, {
+	zh: "黀",
+	vi: "tưu"
+}, {
+	zh: "縗",
+	vi: "thôi"
+}, {
+	zh: "鬛",
+	vi: "liệp"
+}, {
+	zh: "鯡",
+	vi: "phi"
+}, {
+	zh: "隣",
+	vi: "lân"
+}, {
+	zh: "朆",
+	vi: "phân"
+}, {
+	zh: "峿",
+	vi: "ngô"
+}, {
+	zh: "氡",
+	vi: "đông"
+}, {
+	zh: "剨",
+	vi: "lưu"
+}, {
+	zh: "醎",
+	vi: "hàm"
+}, {
+	zh: "氙",
+	vi: "tiên"
+}, {
+	zh: "剹",
+	vi: "lục"
+}, {
+	zh: "稑",
+	vi: "lục"
+}, {
+	zh: "礹",
+	vi: "nham"
+}, {
+	zh: "鑥",
+	vi: "lỗ"
+}, {
+	zh: "荘",
+	vi: "trang"
+}, {
+	zh: "匰",
+	vi: "đơn"
+}, {
+	zh: "撖",
+	vi: "hàn"
+}, {
+	zh: "鼌",
+	vi: "trào"
+}, {
+	zh: "葓",
+	vi: "hồng"
+}, {
+	zh: "潨",
+	vi: "tùng"
+}, {
+	zh: "孬",
+	vi: "nạo"
+}, {
+	zh: "仫",
+	vi: "mu"
+}, {
+	zh: "氪",
+	vi: "khắc"
+}, {
+	zh: "倯",
+	vi: "tùng"
+}, {
+	zh: "葊",
+	vi: "am"
+}, {
+	zh: "鬇",
+	vi: "tranh"
+}, {
+	zh: "蟟",
+	vi: "liêu"
+}, {
+	zh: "兊",
+	vi: "đoài"
+}, {
+	zh: "叧",
+	vi: "lánh"
+}, {
+	zh: "嚜",
+	vi: "muội"
+}, {
+	zh: "噣",
+	vi: "trác"
+}, {
+	zh: "倷",
+	vi: "nãi"
+}, {
+	zh: "劖",
+	vi: "thiền"
+}, {
+	zh: "劋",
+	vi: "giảo"
+}, {
+	zh: "偺",
+	vi: "cha"
+}, {
+	zh: "剱",
+	vi: "kiếm"
+}, {
+	zh: "侭",
+	vi: "tận"
+}, {
+	zh: "嚛",
+	vi: "hộ"
+}, {
+	zh: "霣",
+	vi: "vẫn"
+}, {
+	zh: "庿",
+	vi: "miếu"
+}, {
+	zh: "悕",
+	vi: "hy"
+}, {
+	zh: "俍",
+	vi: "lương"
+}, {
+	zh: "襱",
+	vi: "lũng"
+}, {
+	zh: "耝",
+	vi: "thư"
+}, {
+	zh: "佹",
+	vi: "quỷ"
+}, {
+	zh: "妐",
+	vi: "chung"
+}, {
+	zh: "鮚",
+	vi: "cát"
+}, {
+	zh: "戺",
+	vi: "sĩ"
+}, {
+	zh: "冐",
+	vi: "mạo"
+}, {
+	zh: "鏭",
+	vi: "tất"
+}, {
+	zh: "蹓",
+	vi: "lựu"
+}, {
+	zh: "鹸",
+	vi: "kiềm"
+}, {
+	zh: "瘚",
+	vi: "quyết"
+}, {
+	zh: "圕",
+	vi: "đồ"
+}, {
+	zh: "旪",
+	vi: "hiệp"
+}, {
+	zh: "吋",
+	vi: "thốn"
+}, {
+	zh: "鮻",
+	vi: "toa"
+}, {
+	zh: "魛",
+	vi: "đao"
+}, {
+	zh: "癈",
+	vi: "phết"
+}, {
+	zh: "躥",
+	vi: "hoan"
+}, {
+	zh: "劒",
+	vi: "kiếm"
+}, {
+	zh: "盋",
+	vi: "bát"
+}, {
+	zh: "鑔",
+	vi: "sát"
+}, {
+	zh: "匼",
+	vi: "hạp"
+}, {
+	zh: "詅",
+	vi: "linh"
+}, {
+	zh: "攵",
+	vi: "phác"
+}, {
+	zh: "砳",
+	vi: "lặc"
+}, {
+	zh: "厳",
+	vi: "nghiêm"
+}, {
+	zh: "藚",
+	vi: "tục"
+}, {
+	zh: "鼅",
+	vi: "tri"
+}, {
+	zh: "螨",
+	vi: "mãn"
+}, {
+	zh: "钖",
+	vi: "dương"
+}, {
+	zh: "脶",
+	vi: "loa"
+}, {
+	zh: "剙",
+	vi: "sang"
+}, {
+	zh: "墑",
+	vi: "thương"
+}, {
+	zh: "傛",
+	vi: "dung"
+}, {
+	zh: "薖",
+	vi: "oa"
+}, {
+	zh: "佅",
+	vi: "mại"
+}, {
+	zh: "儓",
+	vi: "đài"
+}, {
+	zh: "凖",
+	vi: "chuẩn"
+}, {
+	zh: "嗝",
+	vi: "cách"
+}, {
+	zh: "淴",
+	vi: "hốt"
+}, {
+	zh: "羴",
+	vi: "thiên"
+}, {
+	zh: "滺",
+	vi: "du"
+}, {
+	zh: "鲒",
+	vi: "cát"
+}, {
+	zh: "隮",
+	vi: "tê"
+}, {
+	zh: "諐",
+	vi: "khiên"
+}, {
+	zh: "籢",
+	vi: "liêm"
+}, {
+	zh: "瞙",
+	vi: "mạc"
+}, {
+	zh: "剅",
+	vi: "lâu"
+}, {
+	zh: "勽",
+	vi: "câu"
+}, {
+	zh: "糂",
+	vi: "tảm"
+}, {
+	zh: "勼",
+	vi: "cưu"
+}, {
+	zh: "嗞",
+	vi: "chi"
+}, {
+	zh: "勌",
+	vi: "quyện"
+}, {
+	zh: "黇",
+	vi: "chiêm"
+}, {
+	zh: "剒",
+	vi: "thố"
+}, {
+	zh: "崪",
+	vi: "tụy"
+}, {
+	zh: "駞",
+	vi: "đà"
+}, {
+	zh: "蹿",
+	vi: "thoan"
+}, {
+	zh: "膍",
+	vi: "tỳ"
+}, {
+	zh: "蒭",
+	vi: "sô"
+}, {
+	zh: "銩",
+	vi: "đâu"
+}, {
+	zh: "綂",
+	vi: "thống"
+}, {
+	zh: "轙",
+	vi: "nghĩ"
+}, {
+	zh: "瀁",
+	vi: "dưỡng"
+}, {
+	zh: "礩",
+	vi: "chí"
+}, {
+	zh: "怹",
+	vi: "than"
+}, {
+	zh: "玓",
+	vi: "đích"
+}, {
+	zh: "蝄",
+	vi: "võng"
+}, {
+	zh: "炝",
+	vi: "sang"
+}, {
+	zh: "蹚",
+	vi: "thang"
+}, {
+	zh: "焊",
+	vi: "hạn"
+}, {
+	zh: "枒",
+	vi: "nha"
+}, {
+	zh: "蛐",
+	vi: "khúc"
+}, {
+	zh: "焯",
+	vi: "trác"
+}, {
+	zh: "啰",
+	vi: "la"
+}, {
+	zh: "僈",
+	vi: "mạn"
+}, {
+	zh: "咭",
+	vi: "kê"
+}, {
+	zh: "妺",
+	vi: "muội"
+}, {
+	zh: "晢",
+	vi: "triết"
+}, {
+	zh: "砢",
+	vi: "kha"
+}, {
+	zh: "薾",
+	vi: "nhĩ"
+}, {
+	zh: "铱",
+	vi: "y"
+}, {
+	zh: "闶",
+	vi: "khang"
+}, {
+	zh: "硪",
+	vi: "ngã"
+}, {
+	zh: "螅",
+	vi: "tức"
+}, {
+	zh: "焐",
+	vi: "ngộ"
+}, {
+	zh: "啵",
+	vi: "ba"
+}, {
+	zh: "崮",
+	vi: "cố"
+}, {
+	zh: "芏",
+	vi: "đỗ"
+}, {
+	zh: "俣",
+	vi: "vũ"
+}, {
+	zh: "嘣",
+	vi: "băng"
+}, {
+	zh: "氩",
+	vi: "á"
+}, {
+	zh: "鶱",
+	vi: "hiên"
+}, {
+	zh: "邗",
+	vi: "hàn"
+}, {
+	zh: "笤",
+	vi: "điều"
+}, {
+	zh: "龅",
+	vi: "bao"
+}, {
+	zh: "苷",
+	vi: "đại"
+}, {
+	zh: "鉼",
+	vi: "bính"
+}, {
+	zh: "潲",
+	vi: "sảo"
+}, {
+	zh: "嘧",
+	vi: "mật"
+}, {
+	zh: "庹",
+	vi: "thỏa"
+}, {
+	zh: "蚵",
+	vi: "hà"
+}, {
+	zh: "痫",
+	vi: "giản"
+}, {
+	zh: "呲",
+	vi: "thử"
+}, {
+	zh: "猡",
+	vi: "la"
+}, {
+	zh: "裉",
+	vi: "khẳng"
+}, {
+	zh: "谥",
+	vi: "thụy"
+}, {
+	zh: "镧",
+	vi: "lan"
+}, {
+	zh: "碲",
+	vi: "đế"
+}, {
+	zh: "矸",
+	vi: "canh"
+}, {
+	zh: "儇",
+	vi: "uyên"
+}, {
+	zh: "呒",
+	vi: "mô"
+}, {
+	zh: "浠",
+	vi: "hy"
+}, {
+	zh: "孢",
+	vi: "bào"
+}, {
+	zh: "僳",
+	vi: "túc"
+}, {
+	zh: "硌",
+	vi: "các"
+}, {
+	zh: "镆",
+	vi: "mạc"
+}, {
+	zh: "坜",
+	vi: "lịch"
+}, {
+	zh: "敨",
+	vi: "thầu"
+}, {
+	zh: "慬",
+	vi: "cận"
+}, {
+	zh: "匉",
+	vi: "phanh"
+}, {
+	zh: "啈",
+	vi: "hanh"
+}, {
+	zh: "浯",
+	vi: "ngô"
+}, {
+	zh: "瑮",
+	vi: "lật"
+}, {
+	zh: "潙",
+	vi: "vi"
+}, {
+	zh: "瑨",
+	vi: "tấn"
+}, {
+	zh: "硅",
+	vi: "khuê"
+}, {
+	zh: "歯",
+	vi: "xỉ"
+}, {
+	zh: "瑳",
+	vi: "tha"
+}, {
+	zh: "氠",
+	vi: "tiên"
+}, {
+	zh: "扡",
+	vi: "thiên"
+}, {
+	zh: "敩",
+	vi: "hiệu"
+}, {
+	zh: "獴",
+	vi: "mông"
+}, {
+	zh: "獢",
+	vi: "kiêu"
+}, {
+	zh: "慭",
+	vi: "ngận"
+}, {
+	zh: "湉",
+	vi: "điềm"
+}, {
+	zh: "汳",
+	vi: "biện"
+}, {
+	zh: "敫",
+	vi: "kiểu"
+}, {
+	zh: "戭",
+	vi: "diễn"
+}, {
+	zh: "慦",
+	vi: "ngận"
+}, {
+	zh: "獁",
+	vi: "mã"
+}, {
+	zh: "眭",
+	vi: "khôi"
+}, {
+	zh: "畇",
+	vi: "vận"
+}, {
+	zh: "漰",
+	vi: "bằng"
+}, {
+	zh: "捁",
+	vi: "giảo"
+}, {
+	zh: "晩",
+	vi: "vãn"
+}, {
+	zh: "楩",
+	vi: "tiện"
+}, {
+	zh: "咩",
+	vi: "mị"
+}, {
+	zh: "忪",
+	vi: "chung"
+}, {
+	zh: "啮",
+	vi: "ngão"
+}, {
+	zh: "滢",
+	vi: "huỳnh"
+}, {
+	zh: "茬",
+	vi: "tra"
+}, {
+	zh: "貙",
+	vi: "sơ"
+}, {
+	zh: "螾",
+	vi: "dẫn"
+}, {
+	zh: "毨",
+	vi: "tiển"
+}, {
+	zh: "儵",
+	vi: "thúc"
+}, {
+	zh: "淢",
+	vi: "vực"
+}, {
+	zh: "箘",
+	vi: "duẩn"
+}, {
+	zh: "硖",
+	vi: "giáp"
+}, {
+	zh: "沣",
+	vi: "phong"
+}, {
+	zh: "岍",
+	vi: "khiên"
+}, {
+	zh: "泲",
+	vi: "tể"
+}, {
+	zh: "曶",
+	vi: "hốt"
+}, {
+	zh: "礶",
+	vi: "quán"
+}, {
+	zh: "鬷",
+	vi: "tông"
+}, {
+	zh: "菆",
+	vi: "tưu"
+}, {
+	zh: "笮",
+	vi: "trách"
+}, {
+	zh: "漦",
+	vi: "ly"
+}, {
+	zh: "翚",
+	vi: "huy"
+}, {
+	zh: "毐",
+	vi: "ải"
+}, {
+	zh: "鳦",
+	vi: "yến"
+}, {
+	zh: "潏",
+	vi: "quyết"
+}, {
+	zh: "湼",
+	vi: "niết"
+}, {
+	zh: "騕",
+	vi: "yểu"
+}, {
+	zh: "褭",
+	vi: "niểu"
+}, {
+	zh: "邽",
+	vi: "khê"
+}, {
+	zh: "郄",
+	vi: "khích"
+}, {
+	zh: "郕",
+	vi: "thành"
+}, {
+	zh: "郐",
+	vi: "cối"
+}, {
+	zh: "陉",
+	vi: "hình"
+}, {
+	zh: "鼟",
+	vi: "thăng"
+}, {
+	zh: "詟",
+	vi: "triệp"
+}, {
+	zh: "舋",
+	vi: "hấn"
+}, {
+	zh: "羰",
+	vi: "thang"
+}, {
+	zh: "嶲",
+	vi: "tây"
+}, {
+	zh: "薆",
+	vi: "ái"
+}, {
+	zh: "铵",
+	vi: "an"
+}, {
+	zh: "仨",
+	vi: "ba"
+}, {
+	zh: "棓",
+	vi: "bang"
+}, {
+	zh: "袚",
+	vi: "bát"
+}, {
+	zh: "铬",
+	vi: "các"
+}, {
+	zh: "餟",
+	vi: "chuyết"
+}, {
+	zh: "牿",
+	vi: "cố"
+}, {
+	zh: "臌",
+	vi: "cổ"
+}, {
+	zh: "辊",
+	vi: "cổn"
+}, {
+	zh: "捄",
+	vi: "cứu"
+}, {
+	zh: "噔",
+	vi: "đăng"
+}, {
+	zh: "耷",
+	vi: "đạp"
+}, {
+	zh: "枓",
+	vi: "đấu"
+}, {
+	zh: "磾",
+	vi: "đê"
+}, {
+	zh: "釱",
+	vi: "đệ"
+}, {
+	zh: "嚭",
+	vi: "dĩ"
+}, {
+	zh: "圛",
+	vi: "dịch"
+}, {
+	zh: "帟",
+	vi: "diệc"
+}, {
+	zh: "铞",
+	vi: "điếu"
+}, {
+	zh: "耵",
+	vi: "đinh"
+}, {
+	zh: "逌",
+	vi: "do"
+}, {
+	zh: "殰",
+	vi: "độc"
+}, {
+	zh: "鋊",
+	vi: "dụ"
+}, {
+	zh: "坱",
+	vi: "dưỡng"
+}, {
+	zh: "蝝",
+	vi: "duyên"
+}, {
+	zh: "囏",
+	vi: "gian"
+}, {
+	zh: "鬜",
+	vi: "gian"
+}, {
+	zh: "唊",
+	vi: "giáp"
+}, {
+	zh: "唶",
+	vi: "giới"
+}, {
+	zh: "駻",
+	vi: "hãn"
+}, {
+	zh: "绗",
+	vi: "hàng"
+}, {
+	zh: "缿",
+	vi: "hạng"
+}, {
+	zh: "秏",
+	vi: "hạo"
+}, {
+	zh: "韅",
+	vi: "hiển"
+}, {
+	zh: "铧",
+	vi: "hoa"
+}, {
+	zh: "懁",
+	vi: "hoài"
+}, {
+	zh: "圂",
+	vi: "hoạn"
+}, {
+	zh: "偟",
+	vi: "hoàng"
+}, {
+	zh: "嚄",
+	vi: "hoát"
+}, {
+	zh: "胲",
+	vi: "hợi"
+}, {
+	zh: "焄",
+	vi: "hôn"
+}, {
+	zh: "憓",
+	vi: "huệ"
+}, {
+	zh: "酅",
+	vi: "hy"
+}, {
+	zh: "侉",
+	vi: "khoa"
+}, {
+	zh: "蝰",
+	vi: "khuê"
+}, {
+	zh: "掔",
+	vi: "kiên"
+}, {
+	zh: "禨",
+	vi: "ky"
+}, {
+	zh: "蔇",
+	vi: "ký"
+}, {
+	zh: "埼",
+	vi: "kỳ"
+}, {
+	zh: "郲",
+	vi: "lai"
+}, {
+	zh: "盭",
+	vi: "lệ"
+}, {
+	zh: "瓅",
+	vi: "lịch"
+}, {
+	zh: "皪",
+	vi: "lịch"
+}, {
+	zh: "钌",
+	vi: "liễu"
+}, {
+	zh: "璙",
+	vi: "liệu"
+}, {
+	zh: "漻",
+	vi: "liệu"
+}, {
+	zh: "尥",
+	vi: "liệu"
+}, {
+	zh: "酃",
+	vi: "linh"
+}, {
+	zh: "嵂",
+	vi: "luật"
+}, {
+	zh: "茏",
+	vi: "lung"
+}, {
+	zh: "巃",
+	vi: "lung"
+}, {
+	zh: "辌",
+	vi: "lương"
+}, {
+	zh: "熘",
+	vi: "lựu"
+}, {
+	zh: "唛",
+	vi: "mạ"
+}, {
+	zh: "幎",
+	vi: "mạc"
+}, {
+	zh: "甿",
+	vi: "manh"
+}, {
+	zh: "虻",
+	vi: "manh"
+}, {
+	zh: "鄚",
+	vi: "mạo"
+}, {
+	zh: "馍",
+	vi: "mô"
+}, {
+	zh: "枬",
+	vi: "nam"
+}, {
+	zh: "咢",
+	vi: "ngạc"
+}, {
+	zh: "腭",
+	vi: "ngạc"
+}, {
+	zh: "苅",
+	vi: "ngải"
+}, {
+	zh: "耏",
+	vi: "nhi"
+}, {
+	zh: "蕠",
+	vi: "như"
+}, {
+	zh: "堧",
+	vi: "nhuyên"
+}, {
+	zh: "聍",
+	vi: "ninh"
+}, {
+	zh: "嫈",
+	vi: "oanh"
+}, {
+	zh: "畈",
+	vi: "phán"
+}, {
+	zh: "袢",
+	vi: "phán"
+}, {
+	zh: "羒",
+	vi: "phần"
+}, {
+	zh: "蚡",
+	vi: "phẫn"
+}, {
+	zh: "岪",
+	vi: "phất"
+}, {
+	zh: "沨",
+	vi: "phong"
+}, {
+	zh: "鍑",
+	vi: "phúc"
+}, {
+	zh: "摓",
+	vi: "phùng"
+}, {
+	zh: "钫",
+	vi: "phương"
+}, {
+	zh: "猓",
+	vi: "quả"
+}, {
+	zh: "絓",
+	vi: "quái"
+}, {
+	zh: "廥",
+	vi: "quái"
+}, {
+	zh: "瓘",
+	vi: "quán"
+}, {
+	zh: "垝",
+	vi: "quỷ"
+}, {
+	zh: "睠",
+	vi: "quyến"
+}, {
+	zh: "婘",
+	vi: "quyền"
+}, {
+	zh: "璚",
+	vi: "quỳnh"
+}, {
+	zh: "濇",
+	vi: "sắc"
+}, {
+	zh: "铯",
+	vi: "sắc"
+}, {
+	zh: "毚",
+	vi: "sàm"
+}, {
+	zh: "瀺",
+	vi: "sàm"
+}, {
+	zh: "姺",
+	vi: "sâm"
+}, {
+	zh: "碜",
+	vi: "sầm"
+}, {
+	zh: "箾",
+	vi: "sao"
+}, {
+	zh: "胵",
+	vi: "si"
+}, {
+	zh: "跮",
+	vi: "sí"
+}, {
+	zh: "鄋",
+	vi: "sưu"
+}, {
+	zh: "艚",
+	vi: "tào"
+}, {
+	zh: "潗",
+	vi: "tập"
+}, {
+	zh: "桚",
+	vi: "tạt"
+}, {
+	zh: "巂",
+	vi: "tây"
+}, {
+	zh: "貣",
+	vi: "thắc"
+}, {
+	zh: "肽",
+	vi: "thái"
+}, {
+	zh: "惝",
+	vi: "thảng"
+}, {
+	zh: "郪",
+	vi: "thê"
+}, {
+	zh: "掭",
+	vi: "thiệm"
+}, {
+	zh: "钎",
+	vi: "thiên"
+}, {
+	zh: "怗",
+	vi: "thiếp"
+}, {
+	zh: "钍",
+	vi: "thổ"
+}, {
+	zh: "涒",
+	vi: "thôn"
+}, {
+	zh: "鬏",
+	vi: "thu"
+}, {
+	zh: "鏦",
+	vi: "thung"
+}, {
+	zh: "孅",
+	vi: "tiêm"
+}, {
+	zh: "蹮",
+	vi: "tiên"
+}, {
+	zh: "滗",
+	vi: "tiết"
+}, {
+	zh: "猋",
+	vi: "tiêu"
+}, {
+	zh: "灂",
+	vi: "tiếu"
+}, {
+	zh: "拃",
+	vi: "tra"
+}, {
+	zh: "碴",
+	vi: "tra"
+}, {
+	zh: "奓",
+	vi: "trá"
+}, {
+	zh: "紩",
+	vi: "trật"
+}, {
+	zh: "咮",
+	vi: "trụ"
+}, {
+	zh: "孖",
+	vi: "tư"
+}, {
+	zh: "蝍",
+	vi: "tức"
+}, {
+	zh: "廧",
+	vi: "tường"
+}, {
+	zh: "咺",
+	vi: "tuyên"
+}, {
+	zh: "頾",
+	vi: "tỳ"
+}, {
+	zh: "辒",
+	vi: "uân"
+}, {
+	zh: "妘",
+	vi: "vân"
+}, {
+	zh: "沕",
+	vi: "vật"
+}, {
+	zh: "薳",
+	vi: "vĩ"
+}, {
+	zh: "栄",
+	vi: "vinh"
+}, {
+	zh: "迋",
+	vi: "vương"
+}, {
+	zh: "埆",
+	vi: "xác"
+}, {
+	zh: "啴",
+	vi: "xiển"
+}, {
+	zh: "歜",
+	vi: "xúc"
+}, {
+	zh: "斶",
+	vi: "xúc"
+}, {
+	zh: "猲",
+	vi: "yết"
+}, {
+	zh: "祅",
+	vi: "yêu"
+}, {
+	zh: "獦",
+	vi: "cát"
+}, {
+	zh: "鞞",
+	vi: "bỉ"
+}, {
+	zh: "斸",
+	vi: "trọc"
+}, {
+	zh: "慞",
+	vi: "chương"
+}, {
+	zh: "滉",
+	vi: "hoảng"
+}, {
+	zh: "掜",
+	vi: "nghễ"
+}, {
+	zh: "鬖",
+	vi: "tam"
+}, {
+	zh: "彔",
+	vi: "lục"
+}, {
+	zh: "諕",
+	vi: "hách"
+}, {
+	zh: "鉆",
+	vi: "kiềm"
+}, {
+	zh: "啀",
+	vi: "nhai"
+}, {
+	zh: "喍",
+	vi: "sài"
+}, {
+	zh: "媯",
+	vi: "quy"
+}, {
+	zh: "欞",
+	vi: "linh"
+}, {
+	zh: "慱",
+	vi: "đoàn"
+}, {
+	zh: "躘",
+	vi: "long"
+}, {
+	zh: "繂",
+	vi: "luật"
+}, {
+	zh: "檃",
+	vi: "ổn"
+}, {
+	zh: "揌",
+	vi: "tai"
+}, {
+	zh: "跱",
+	vi: "trĩ"
+}, {
+	zh: "噁",
+	vi: "ác"
+}, {
+	zh: "禠",
+	vi: "ti"
+}, {
+	zh: "縳",
+	vi: "truyện"
+}, {
+	zh: "夌",
+	vi: "lăng"
+}, {
+	zh: "楄",
+	vi: "biên"
+}, {
+	zh: "鶿",
+	vi: "từ"
+}, {
+	zh: "灕",
+	vi: "ly"
+}, {
+	zh: "黲",
+	vi: "thảm"
+}, {
+	zh: "焂",
+	vi: "thúc"
+}, {
+	zh: "紏",
+	vi: "củ"
+}, {
+	zh: "祴",
+	vi: "cai"
+}, {
+	zh: "捘",
+	vi: "tuấn"
+}, {
+	zh: "狚",
+	vi: "đán"
+}, {
+	zh: "唅",
+	vi: "hám"
+}, {
+	zh: "屴",
+	vi: "lực"
+}, {
+	zh: "蔪",
+	vi: "tiêm"
+}, {
+	zh: "渻",
+	vi: "tỉnh"
+}, {
+	zh: "戯",
+	vi: "hí"
+}, {
+	zh: "晫",
+	vi: "trác"
+}, {
+	zh: "剳",
+	vi: "tráp"
+}, {
+	zh: "犟",
+	vi: "cưỡng"
+}, {
+	zh: "咝",
+	vi: "ti"
+}, {
+	zh: "俉",
+	vi: "ngộ"
+}, {
+	zh: "媱",
+	vi: "dao"
+}, {
+	zh: "罏",
+	vi: "lô"
+}, {
+	zh: "溈",
+	vi: "quy"
+}, {
+	zh: "茍",
+	vi: "cẩu"
+}, {
+	zh: "祂",
+	vi: "tha"
+}, {
+	zh: "瘺",
+	vi: "lũ"
+}, {
+	zh: "噒",
+	vi: "liên"
+}, {
+	zh: "瘨",
+	vi: "điên"
+}, {
+	zh: "嬢",
+	vi: "nương"
+}, {
+	zh: "穪",
+	vi: "xưng"
+}, {
+	zh: "唭",
+	vi: "cức"
+}, {
+	zh: "緑",
+	vi: "lục"
+}, {
+	zh: "玄",
+	vi: "huyền"
+}, {
+	zh: "锕",
+	vi: "a"
+}, {
+	zh: "锿",
+	vi: "ai"
+}, {
+	zh: "砹",
+	vi: "ngải"
+}, {
+	zh: "媕",
+	vi: "am"
+}, {
+	zh: "腤",
+	vi: "am"
+}, {
+	zh: "鞌",
+	vi: "an"
+}, {
+	zh: "鮟",
+	vi: "an"
+}, {
+	zh: "隞",
+	vi: "ngao"
+}, {
+	zh: "嶅",
+	vi: "ngao"
+}, {
+	zh: "锛",
+	vi: "bôn"
+}, {
+	zh: "琫",
+	vi: "bổng"
+}, {
+	zh: "甏",
+	vi: "bảnh"
+}, {
+	zh: "鲾",
+	vi: "bức"
+}, {
+	zh: "佊",
+	vi: "bỉ"
+}, {
+	zh: "吡",
+	vi: "ti"
+}, {
+	zh: "沘",
+	vi: "tỉ"
+}, {
+	zh: "舭",
+	vi: "tỉ"
+}, {
+	zh: "珌",
+	vi: "tất"
+}, {
+	zh: "湢",
+	vi: "bức"
+}, {
+	zh: "皕",
+	vi: "bức"
+}, {
+	zh: "髲",
+	vi: "bị"
+}, {
+	zh: "奰",
+	vi: "bị"
+}, {
+	zh: "煸",
+	vi: "biên"
+}, {
+	zh: "惼",
+	vi: "biển"
+}, {
+	zh: "碥",
+	vi: "biển"
+}, {
+	zh: "苄",
+	vi: "biện"
+}, {
+	zh: "艑",
+	vi: "biển"
+}, {
+	zh: "飑",
+	vi: "tiêu"
+}, {
+	zh: "幖",
+	vi: "tiêu"
+}, {
+	zh: "滮",
+	vi: "bưu"
+}, {
+	zh: "瀌",
+	vi: "phiêu"
+}, {
+	zh: "穮",
+	vi: "phiêu"
+}, {
+	zh: "砵",
+	vi: "bát"
+}, {
+	zh: "鲌",
+	vi: "bạch"
+}, {
+	zh: "僰",
+	vi: "bặc"
+}, {
+	zh: "髆",
+	vi: "bác"
+}, {
+	zh: "峬",
+	vi: "bô"
+}, {
+	zh: "庯",
+	vi: "bô"
+}, {
+	zh: "卟",
+	vi: "bổ"
+}, {
+	zh: "鵏",
+	vi: "bổ"
+}, {
+	zh: "篰",
+	vi: "bộ"
+}, {
+	zh: "礤",
+	vi: "sát"
+}, {
+	zh: "噆",
+	vi: "thảm"
+}, {
+	zh: "憯",
+	vi: "thảm"
+}, {
+	zh: "黪",
+	vi: "thảm"
+}, {
+	zh: "懆",
+	vi: "tháo"
+}, {
+	zh: "箣",
+	vi: "sách"
+}, {
+	zh: "噌",
+	vi: "tăng"
+}, {
+	zh: "馇",
+	vi: "tra"
+}, {
+	zh: "艖",
+	vi: "sa"
+}, {
+	zh: "垞",
+	vi: "tra"
+}, {
+	zh: "嵖",
+	vi: "tra"
+}, {
+	zh: "猹",
+	vi: "tra"
+}, {
+	zh: "檫",
+	vi: "sát"
+}, {
+	zh: "蹅",
+	vi: "tra"
+}, {
+	zh: "辿",
+	vi: "siêm"
+}, {
+	zh: "鋋",
+	vi: "thiền"
+}, {
+	zh: "镡",
+	vi: "sàm"
+}, {
+	zh: "浐",
+	vi: "sản"
+}, {
+	zh: "韂",
+	vi: "xiếm"
+}, {
+	zh: "鋹",
+	vi: "sưởng"
+}, {
+	zh: "玚",
+	vi: "sướng"
+}, {
+	zh: "弨",
+	vi: "siêu"
+}, {
+	zh: "怊",
+	vi: "siêu"
+}, {
+	zh: "麨",
+	vi: "siêu"
+}, {
+	zh: "耖",
+	vi: "sao"
+}, {
+	zh: "伡",
+	vi: "xa"
+}, {
+	zh: "唓",
+	vi: "xa"
+}, {
+	zh: "奲",
+	vi: "đả"
+}, {
+	zh: "抻",
+	vi: "thân"
+}, {
+	zh: "趻",
+	vi: "sẩm"
+}, {
+	zh: "磣",
+	vi: "sầm"
+}, {
+	zh: "踸",
+	vi: "sẩm"
+}, {
+	zh: "宬",
+	vi: "thành"
+}, {
+	zh: "铖",
+	vi: "thành"
+}, {
+	zh: "翀",
+	vi: "xung"
+}, {
+	zh: "犨",
+	vi: "trừu"
+}, {
+	zh: "侴",
+	vi: "sửu"
+}, {
+	zh: "殠",
+	vi: "xú"
+}, {
+	zh: "滀",
+	vi: "súc"
+}, {
+	zh: "諔",
+	vi: "xúc"
+}, {
+	zh: "憷",
+	vi: "sở"
+}, {
+	zh: "搋",
+	vi: "trĩ"
+}, {
+	zh: "膗",
+	vi: "soài"
+}, {
+	zh: "氚",
+	vi: "xuyên"
+}, {
+	zh: "篅",
+	vi: "thuyên"
+}, {
+	zh: "噇",
+	vi: "trảng"
+}, {
+	zh: "堾",
+	vi: "xuân"
+}, {
+	zh: "蝽",
+	vi: "xuân"
+}, {
+	zh: "輴",
+	vi: "thuân"
+}, {
+	zh: "娖",
+	vi: "xúc"
+}, {
+	zh: "惙",
+	vi: "tuyết"
+}, {
+	zh: "玼",
+	vi: "tần"
+}, {
+	zh: "糍",
+	vi: "từ"
+}, {
+	zh: "薋",
+	vi: "từ"
+}, {
+	zh: "跐",
+	vi: "thử"
+}, {
+	zh: "熜",
+	vi: "thông"
+}, {
+	zh: "憱",
+	vi: "xúc"
+}, {
+	zh: "镩",
+	vi: "thoản"
+}, {
+	zh: "獕",
+	vi: "thôi"
+}, {
+	zh: "刌",
+	vi: "thổn"
+}, {
+	zh: "鎝",
+	vi: "đáp"
+}, {
+	zh: "垯",
+	vi: "đáp"
+}, {
+	zh: "炟",
+	vi: "đát"
+}, {
+	zh: "溚",
+	vi: "tháp"
+}, {
+	zh: "繨",
+	vi: "đáp"
+}, {
+	zh: "呔",
+	vi: "thái"
+}, {
+	zh: "汏",
+	vi: "đại"
+}, {
+	zh: "轪",
+	vi: "đại"
+}, {
+	zh: "甙",
+	vi: "đại"
+}, {
+	zh: "黱",
+	vi: "đại"
+}, {
+	zh: "褝",
+	vi: "đan"
+}, {
+	zh: "黕",
+	vi: "đảm"
+}, {
+	zh: "疍",
+	vi: "đản"
+}, {
+	zh: "甔",
+	vi: "đam"
+}, {
+	zh: "蟷",
+	vi: "đang"
+}, {
+	zh: "凼",
+	vi: "đãng"
+}, {
+	zh: "垱",
+	vi: "đáng"
+}, {
+	zh: "氘",
+	vi: "đao"
+}, {
+	zh: "鱽",
+	vi: "đao"
+}, {
+	zh: "嘚",
+	vi: "đắc"
+}, {
+	zh: "頔",
+	vi: "địch"
+}, {
+	zh: "骶",
+	vi: "đế"
+}, {
+	zh: "俤",
+	vi: "đệ"
+}, {
+	zh: "墬",
+	vi: "địa"
+}, {
+	zh: "嗲",
+	vi: "đà"
+}, {
+	zh: "攧",
+	vi: "điên"
+}, {
+	zh: "汈",
+	vi: "điêu"
+}, {
+	zh: "蛁",
+	vi: "điêu"
+}, {
+	zh: "惵",
+	vi: "điệt"
+}, {
+	zh: "嵽",
+	vi: "điệt"
+}, {
+	zh: "艓",
+	vi: "điệp"
+}, {
+	zh: "玎",
+	vi: "đinh"
+}, {
+	zh: "啶",
+	vi: "định"
+}, {
+	zh: "铥",
+	vi: "đu"
+}, {
+	zh: "岽",
+	vi: "đông"
+}, {
+	zh: "鸫",
+	vi: "đông"
+}, {
+	zh: "垌",
+	vi: "động"
+}, {
+	zh: "蔸",
+	vi: "đâu"
+}, {
+	zh: "阧",
+	vi: "đẩu"
+}, {
+	zh: "钭",
+	vi: "thẩu"
+}, {
+	zh: "酘",
+	vi: "đậu"
+}, {
+	zh: "厾",
+	vi: "đốc"
+}, {
+	zh: "塅",
+	vi: "đoạn"
+}, {
+	zh: "碫",
+	vi: "đoạn"
+}, {
+	zh: "撴",
+	vi: "đôn"
+}, {
+	zh: "蹾",
+	vi: "đôn"
+}, {
+	zh: "驐",
+	vi: "đôn"
+}, {
+	zh: "砘",
+	vi: "đôn"
+}, {
+	zh: "敚",
+	vi: "đoạt"
+}, {
+	zh: "哚",
+	vi: "đoá"
+}, {
+	zh: "饳",
+	vi: "đốt"
+}, {
+	zh: "娿",
+	vi: "a"
+}, {
+	zh: "涐",
+	vi: "nga"
+}, {
+	zh: "锇",
+	vi: "nga"
+}, {
+	zh: "苊",
+	vi: "ách"
+}, {
+	zh: "奀",
+	vi: "ân"
+}, {
+	zh: "蒽",
+	vi: "ân"
+}, {
+	zh: "摁",
+	vi: "ân"
+}, {
+	zh: "洏",
+	vi: "nhi"
+}, {
+	zh: "铒",
+	vi: "nhĩ"
+}, {
+	zh: "垡",
+	vi: "phạt"
+}, {
+	zh: "灋",
+	vi: "pháp"
+}, {
+	zh: "颿",
+	vi: "phàm"
+}, {
+	zh: "鷭",
+	vi: "phiên"
+}, {
+	zh: "嬔",
+	vi: "phiêm"
+}, {
+	zh: "蚄",
+	vi: "phương"
+}, {
+	zh: "鲱",
+	vi: "phi"
+}, {
+	zh: "胐",
+	vi: "phỉ"
+}, {
+	zh: "镄",
+	vi: "phí"
+}, {
+	zh: "玢",
+	vi: "phân"
+}, {
+	zh: "棻",
+	vi: "phân"
+}, {
+	zh: "酚",
+	vi: "phân"
+}, {
+	zh: "豮",
+	vi: "phần"
+}, {
+	zh: "坋",
+	vi: "phận"
+}, {
+	zh: "鲼",
+	vi: "phẫn"
+}, {
+	zh: "瀵",
+	vi: "phẫn"
+}, {
+	zh: "砜",
+	vi: "phong"
+}, {
+	zh: "甮",
+	vi: "phụng"
+}, {
+	zh: "呋",
+	vi: "phu"
+}, {
+	zh: "刜",
+	vi: "phất"
+}, {
+	zh: "栿",
+	vi: "phục"
+}, {
+	zh: "砩",
+	vi: "phất"
+}, {
+	zh: "箙",
+	vi: "phục"
+}, {
+	zh: "鮄",
+	vi: "phất"
+}, {
+	zh: "蝜",
+	vi: "phụ"
+}, {
+	zh: "旮",
+	vi: "ca"
+}, {
+	zh: "钆",
+	vi: "ca"
+}, {
+	zh: "尜",
+	vi: "giát"
+}, {
+	zh: "尕",
+	vi: "ca"
+}, {
+	zh: "隑",
+	vi: "cái"
+}, {
+	zh: "匄",
+	vi: "cái"
+}, {
+	zh: "忓",
+	vi: "can"
+}, {
+	zh: "酐",
+	vi: "can"
+}, {
+	zh: "漧",
+	vi: "can"
+}, {
+	zh: "笴",
+	vi: "cảm"
+}, {
+	zh: "澉",
+	vi: "cảm"
+}, {
+	zh: "擀",
+	vi: "can"
+}, {
+	zh: "鳡",
+	vi: "cảm"
+}, {
+	zh: "冮",
+	vi: "giang"
+}, {
+	zh: "掆",
+	vi: "giang"
+}, {
+	zh: "堽",
+	vi: "canh"
+}, {
+	zh: "筻",
+	vi: "cánh"
+}, {
+	zh: "锆",
+	vi: "cáo"
+}, {
+	zh: "暠",
+	vi: "cảo"
+}, {
+	zh: "圪",
+	vi: "khất"
+}, {
+	zh: "袼",
+	vi: "cách"
+}, {
+	zh: "茖",
+	vi: "các"
+}, {
+	zh: "塥",
+	vi: "cách"
+}, {
+	zh: "滆",
+	vi: "cách"
+}, {
+	zh: "镉",
+	vi: "cách"
+}, {
+	zh: "虼",
+	vi: "khát"
+}, {
+	zh: "哏",
+	vi: "ngân"
+}, {
+	zh: "茛",
+	vi: "cấn"
+}, {
+	zh: "縆",
+	vi: "hằng"
+}, {
+	zh: "堩",
+	vi: "hằng"
+}, {
+	zh: "塨",
+	vi: "cung"
+}, {
+	zh: "唝",
+	vi: "cống"
+}, {
+	zh: "軱",
+	vi: "cô"
+}, {
+	zh: "钴",
+	vi: "cỗ"
+}, {
+	zh: "馉",
+	vi: "cốt"
+}, {
+	zh: "濲",
+	vi: "cốc"
+}, {
+	zh: "堌",
+	vi: "cố"
+}, {
+	zh: "鲴",
+	vi: "cố"
+}, {
+	zh: "胍",
+	vi: "qua"
+}, {
+	zh: "劀",
+	vi: "qua"
+}, {
+	zh: "緺",
+	vi: "oa"
+}, {
+	zh: "痯",
+	vi: "quản"
+}, {
+	zh: "輨",
+	vi: "quản"
+}, {
+	zh: "鳤",
+	vi: "quản"
+}, {
+	zh: "毌",
+	vi: "quán"
+}, {
+	zh: "咣",
+	vi: "quang"
+}, {
+	zh: "珖",
+	vi: "quang"
+}, {
+	zh: "鬶",
+	vi: "quy"
+}, {
+	zh: "瓌",
+	vi: "khôi"
+}, {
+	zh: "氿",
+	vi: "cửu"
+}, {
+	zh: "姽",
+	vi: "quỹ"
+}, {
+	zh: "炅",
+	vi: "cảnh"
+}, {
+	zh: "筀",
+	vi: "quế"
+}, {
+	zh: "磙",
+	vi: "cổn"
+}, {
+	zh: "呙",
+	vi: "oa"
+}, {
+	zh: "啯",
+	vi: "quắc"
+}, {
+	zh: "腘",
+	vi: "quắc"
+}, {
+	zh: "漍",
+	vi: "quốc"
+}, {
+	zh: "馃",
+	vi: "quả"
+}, {
+	zh: "氦",
+	vi: "hợi"
+}, {
+	zh: "嗐",
+	vi: "hại"
+}, {
+	zh: "浛",
+	vi: "hàm"
+}, {
+	zh: "焓",
+	vi: "hàm"
+}, {
+	zh: "垾",
+	vi: "hàn"
+}, {
+	zh: "淏",
+	vi: "hạo"
+}, {
+	zh: "暤",
+	vi: "hao"
+}, {
+	zh: "澔",
+	vi: "hạo"
+}, {
+	zh: "饸",
+	vi: "hợp"
+}, {
+	zh: "盉",
+	vi: "hoà"
+}, {
+	zh: "訸",
+	vi: "hoà"
+}, {
+	zh: "佫",
+	vi: "hạc"
+}, {
+	zh: "翯",
+	vi: "hạc"
+}, {
+	zh: "鸻",
+	vi: "hằng"
+}, {
+	zh: "吰",
+	vi: "hồng"
+}, {
+	zh: "竑",
+	vi: "hồng"
+}, {
+	zh: "荭",
+	vi: "hồng"
+}, {
+	zh: "鈜",
+	vi: "hồng"
+}, {
+	zh: "鉷",
+	vi: "hồng"
+}, {
+	zh: "魟",
+	vi: "hồng"
+}, {
+	zh: "骺",
+	vi: "hậu"
+}, {
+	zh: "犼",
+	vi: "hống"
+}, {
+	zh: "垕",
+	vi: "hậu"
+}, {
+	zh: "鲘",
+	vi: "hậu"
+}, {
+	zh: "烀",
+	vi: "hồ"
+}, {
+	zh: "轷",
+	vi: "hô"
+}, {
+	zh: "唿",
+	vi: "hốt"
+}, {
+	zh: "幠",
+	vi: "hô"
+}, {
+	zh: "煳",
+	vi: "hồ"
+}, {
+	zh: "嘝",
+	vi: "hộc"
+}, {
+	zh: "鳠",
+	vi: "hộ"
+}, {
+	zh: "婳",
+	vi: "họa"
+}, {
+	zh: "澴",
+	vi: "hoàn"
+}, {
+	zh: "瓛",
+	vi: "hiến"
+}, {
+	zh: "艎",
+	vi: "hoàng"
+}, {
+	zh: "癀",
+	vi: "hoàng"
+}, {
+	zh: "餭",
+	vi: "hoàng"
+}, {
+	zh: "皩",
+	vi: "hoàng"
+}, {
+	zh: "榥",
+	vi: "hoảng"
+}, {
+	zh: "皝",
+	vi: "hoàng"
+}, {
+	zh: "咴",
+	vi: "khôi"
+}, {
+	zh: "僡",
+	vi: "huệ"
+}, {
+	zh: "潓",
+	vi: "huệ"
+}, {
+	zh: "嚖",
+	vi: "huệ"
+}, {
+	zh: "惽",
+	vi: "hôn"
+}, {
+	zh: "棔",
+	vi: "hôn"
+}, {
+	zh: "耠",
+	vi: "hoát"
+}, {
+	zh: "锪",
+	vi: "hốt"
+}, {
+	zh: "劐",
+	vi: "hoạch"
+}, {
+	zh: "攉",
+	vi: "hoắc"
+}, {
+	zh: "騞",
+	vi: "hoạch"
+}, {
+	zh: "钬",
+	vi: "hoả"
+}, {
+	zh: "漷",
+	vi: "quách"
+}, {
+	zh: "嚯",
+	vi: "hoắc"
+}, {
+	zh: "敧",
+	vi: "khi"
+}, {
+	zh: "觭",
+	vi: "ki"
+}, {
+	zh: "忣",
+	vi: "cấp"
+}, {
+	zh: "蕺",
+	vi: "trấp"
+}, {
+	zh: "垍",
+	vi: "ký"
+}, {
+	zh: "穊",
+	vi: "ký"
+}, {
+	zh: "襀",
+	vi: "tích"
+}, {
+	zh: "檵",
+	vi: "kỷ"
+}, {
+	zh: "鰶",
+	vi: "kê"
+}, {
+	zh: "镓",
+	vi: "gia"
+}, {
+	zh: "靬",
+	vi: "kiền"
+}, {
+	zh: "搛",
+	vi: "kiêm"
+}, {
+	zh: "瑊",
+	vi: "giam"
+}, {
+	zh: "鲣",
+	vi: "kiên"
+}, {
+	zh: "櫼",
+	vi: "tiêm"
+}, {
+	zh: "枧",
+	vi: "kiển"
+}, {
+	zh: "暕",
+	vi: "giản"
+}, {
+	zh: "瀽",
+	vi: "kiển"
+}, {
+	zh: "楗",
+	vi: "kiện"
+}, {
+	zh: "諓",
+	vi: "tiễn"
+}, {
+	zh: "踺",
+	vi: "kiện"
+}, {
+	zh: "茳",
+	vi: "giang"
+}, {
+	zh: "螀",
+	vi: "tương"
+}, {
+	zh: "鳉",
+	vi: "tương"
+}, {
+	zh: "礓",
+	vi: "cương"
+}, {
+	zh: "耩",
+	vi: "giảng"
+}, {
+	zh: "膙",
+	vi: "cưỡng"
+}, {
+	zh: "弶",
+	vi: "cương"
+}, {
+	zh: "糨",
+	vi: "cưỡng"
+}, {
+	zh: "峧",
+	vi: "giao"
+}, {
+	zh: "珓",
+	vi: "giao"
+}, {
+	zh: "滘",
+	vi: "khiếu"
+}, {
+	zh: "嘦",
+	vi: "chiếu"
+}, {
+	zh: "漖",
+	vi: "giáo"
+}, {
+	zh: "藠",
+	vi: "hiểu"
+}, {
+	zh: "湝",
+	vi: "giai"
+}, {
+	zh: "疌",
+	vi: "tiệp"
+}, {
+	zh: "蜐",
+	vi: "kiếp"
+}, {
+	zh: "玠",
+	vi: "giới"
+}, {
+	zh: "褯",
+	vi: "giải"
+}, {
+	zh: "紟",
+	vi: "kim"
+}, {
+	zh: "浕",
+	vi: "tận"
+}, {
+	zh: "巠",
+	vi: "kinh"
+}, {
+	zh: "猄",
+	vi: "kình"
+}, {
+	zh: "麖",
+	vi: "kinh"
+}, {
+	zh: "鼱",
+	vi: "tinh"
+}, {
+	zh: "汫",
+	vi: "tỉnh"
+}, {
+	zh: "肼",
+	vi: "tỉnh"
+}, {
+	zh: "璟",
+	vi: "cảnh"
+}, {
+	zh: "弪",
+	vi: "kính"
+}, {
+	zh: "倞",
+	vi: "kình"
+}, {
+	zh: "婧",
+	vi: "tịnh"
+}, {
+	zh: "冏",
+	vi: "quýnh"
+}, {
+	zh: "浻",
+	vi: "quýnh"
+}, {
+	zh: "煚",
+	vi: "cảnh"
+}, {
+	zh: "泃",
+	vi: "cù"
+}, {
+	zh: "挶",
+	vi: "cục"
+}, {
+	zh: "梮",
+	vi: "cục"
+}, {
+	zh: "腒",
+	vi: "cư"
+}, {
+	zh: "跔",
+	vi: "câu"
+}, {
+	zh: "焗",
+	vi: "cục"
+}, {
+	zh: "湨",
+	vi: "cừ"
+}, {
+	zh: "粔",
+	vi: "cự"
+}, {
+	zh: "犋",
+	vi: "cụ"
+}, {
+	zh: "澽",
+	vi: "cự"
+}, {
+	zh: "帣",
+	vi: "quyển"
+}, {
+	zh: "锩",
+	vi: "quyển"
+}, {
+	zh: "桊",
+	vi: "quyên"
+}, {
+	zh: "砄",
+	vi: "quyết"
+}, {
+	zh: "鴃",
+	vi: "quyết"
+}, {
+	zh: "焌",
+	vi: "tuấn"
+}, {
+	zh: "珺",
+	vi: "quân"
+}, {
+	zh: "佧",
+	vi: "kha"
+}, {
+	zh: "胩",
+	vi: "ca"
+}, {
+	zh: "蒈",
+	vi: "khải"
+}, {
+	zh: "莰",
+	vi: "khảm"
+}, {
+	zh: "顑",
+	vi: "khảm"
+}, {
+	zh: "槺",
+	vi: "khang"
+}, {
+	zh: "鱇",
+	vi: "khang"
+}, {
+	zh: "钪",
+	vi: "cang"
+}, {
+	zh: "骒",
+	vi: "khoả"
+}, {
+	zh: "緙",
+	vi: "khắc"
+}, {
+	zh: "芤",
+	vi: "khâu"
+}, {
+	zh: "眍",
+	vi: "khu"
+}, {
+	zh: "筘",
+	vi: "khấu"
+}, {
+	zh: "圐",
+	vi: "khố"
+}, {
+	zh: "髋",
+	vi: "khoan"
+}, {
+	zh: "洭",
+	vi: "khuông"
+}, {
+	zh: "鵟",
+	vi: "cuồng"
+}, {
+	zh: "夼",
+	vi: "khoảng"
+}, {
+	zh: "喹",
+	vi: "khuê"
+}, {
+	zh: "戣",
+	vi: "khôi"
+}, {
+	zh: "櫆",
+	vi: "khôi"
+}, {
+	zh: "醌",
+	vi: "côn"
+}, {
+	zh: "筈",
+	vi: "quát"
+}, {
+	zh: "鞟",
+	vi: "khoát"
+}, {
+	zh: "旯",
+	vi: "lạp"
+}, {
+	zh: "砬",
+	vi: "lạp"
+}, {
+	zh: "揦",
+	vi: "lạt"
+}, {
+	zh: "蝲",
+	vi: "lạt"
+}, {
+	zh: "鯻",
+	vi: "lạt"
+}, {
+	zh: "鞡",
+	vi: "lạp"
+}, {
+	zh: "梾",
+	vi: "lai"
+}, {
+	zh: "铼",
+	vi: "lai"
+}, {
+	zh: "鶆",
+	vi: "lai"
+}, {
+	zh: "唻",
+	vi: "lai"
+}, {
+	zh: "襕",
+	vi: "lan"
+}, {
+	zh: "籣",
+	vi: "lan"
+}, {
+	zh: "漤",
+	vi: "lãm"
+}, {
+	zh: "硠",
+	vi: "lang"
+}, {
+	zh: "鎯",
+	vi: "lang"
+}, {
+	zh: "悢",
+	vi: "lượng"
+}, {
+	zh: "烺",
+	vi: "lãng"
+}, {
+	zh: "埌",
+	vi: "lãng"
+}, {
+	zh: "崀",
+	vi: "lương"
+}, {
+	zh: "蒗",
+	vi: "lang"
+}, {
+	zh: "崂",
+	vi: "lao"
+}, {
+	zh: "铹",
+	vi: "lao"
+}, {
+	zh: "铑",
+	vi: "lão"
+}, {
+	zh: "耢",
+	vi: "lạo"
+}, {
+	zh: "嫪",
+	vi: "lạc"
+}, {
+	zh: "仂",
+	vi: "lặc"
+}, {
+	zh: "玏",
+	vi: "lặc"
+}, {
+	zh: "簕",
+	vi: "lặc"
+}, {
+	zh: "饹",
+	vi: "hợp"
+}, {
+	zh: "欙",
+	vi: "luy"
+}, {
+	zh: "儽",
+	vi: "lỗi"
+}, {
+	zh: "颣",
+	vi: "loại"
+}, {
+	zh: "嘞",
+	vi: "lặc"
+}, {
+	zh: "塄",
+	vi: "lăng"
+}, {
+	zh: "堎",
+	vi: "lăng"
+}, {
+	zh: "喱",
+	vi: "li"
+}, {
+	zh: "鵹",
+	vi: "li"
+}, {
+	zh: "锂",
+	vi: "lí"
+}, {
+	zh: "梿",
+	vi: "liên"
+}, {
+	zh: "裢",
+	vi: "liên"
+}, {
+	zh: "磏",
+	vi: "liêm"
+}, {
+	zh: "臁",
+	vi: "liêm"
+}, {
+	zh: "鰊",
+	vi: "liễm"
+}, {
+	zh: "椋",
+	vi: "lương"
+}, {
+	zh: "墚",
+	vi: "lương"
+}, {
+	zh: "唡",
+	vi: "lưỡng"
+}, {
+	zh: "裲",
+	vi: "lưỡng"
+}, {
+	zh: "蹽",
+	vi: "liêu"
+}, {
+	zh: "憭",
+	vi: "liêu"
+}, {
+	zh: "簝",
+	vi: "liêu"
+}, {
+	zh: "髎",
+	vi: "liêu"
+}, {
+	zh: "鱲",
+	vi: "liệp"
+}, {
+	zh: "啉",
+	vi: "lâm"
+}, {
+	zh: "潾",
+	vi: "lân"
+}, {
+	zh: "璘",
+	vi: "lân"
+}, {
+	zh: "瞵",
+	vi: "lân"
+}, {
+	zh: "皊",
+	vi: "linh"
+}, {
+	zh: "祾",
+	vi: "lăng"
+}, {
+	zh: "呤",
+	vi: "lánh"
+}, {
+	zh: "飗",
+	vi: "lưu"
+}, {
+	zh: "罶",
+	vi: "liễu"
+}, {
+	zh: "磟",
+	vi: "lưu"
+}, {
+	zh: "鹨",
+	vi: "lưu"
+}, {
+	zh: "眬",
+	vi: "lung"
+}, {
+	zh: "溇",
+	vi: "lâu"
+}, {
+	zh: "耧",
+	vi: "lâu"
+}, {
+	zh: "撸",
+	vi: "lỗ"
+}, {
+	zh: "镥",
+	vi: "lỗ"
+}, {
+	zh: "睩",
+	vi: "lục"
+}, {
+	zh: "蕗",
+	vi: "lộ"
+}, {
+	zh: "氇",
+	vi: "lỗ"
+}, {
+	zh: "稆",
+	vi: "lữ"
+}, {
+	zh: "埨",
+	vi: "luân"
+}, {
+	zh: "摞",
+	vi: "loa"
+}, {
+	zh: "呣",
+	vi: "mô"
+}, {
+	zh: "杩",
+	vi: "mã"
+}, {
+	zh: "祃",
+	vi: "mã"
+}, {
+	zh: "荬",
+	vi: "mại"
+}, {
+	zh: "劢",
+	vi: "mại"
+}, {
+	zh: "杧",
+	vi: "mang"
+}, {
+	zh: "牻",
+	vi: "mang"
+}, {
+	zh: "硭",
+	vi: "mang"
+}, {
+	zh: "漭",
+	vi: "mãng"
+}, {
+	zh: "髳",
+	vi: "mâu"
+}, {
+	zh: "峁",
+	vi: "mão"
+}, {
+	zh: "铆",
+	vi: "mão"
+}, {
+	zh: "猸",
+	vi: "mi"
+}, {
+	zh: "鹛",
+	vi: "mi"
+}, {
+	zh: "钔",
+	vi: "môn"
+}, {
+	zh: "勐",
+	vi: "mãnh"
+}, {
+	zh: "锰",
+	vi: "mãnh"
+}, {
+	zh: "醚",
+	vi: "mê"
+}, {
+	zh: "沵",
+	vi: "nhĩ"
+}, {
+	zh: "丏",
+	vi: "miễn"
+}, {
+	zh: "愐",
+	vi: "miến"
+}, {
+	zh: "喵",
+	vi: "miêu"
+}, {
+	zh: "鹋",
+	vi: "miêu"
+}, {
+	zh: "乜",
+	vi: "khiết"
+}, {
+	zh: "忞",
+	vi: "mân"
+}, {
+	zh: "苠",
+	vi: "mân"
+}, {
+	zh: "慜",
+	vi: "mẫn"
+}, {
+	zh: "礳",
+	vi: "ma"
+}, {
+	zh: "耱",
+	vi: "ma"
+}, {
+	zh: "哞",
+	vi: "mu"
+}, {
+	zh: "毪",
+	vi: "mâu"
+}, {
+	zh: "娒",
+	vi: "mai"
+}, {
+	zh: "坶",
+	vi: "mẫu"
+}, {
+	zh: "钼",
+	vi: "mục"
+}, {
+	zh: "镎",
+	vi: "nã"
+}, {
+	zh: "乸",
+	vi: "nả"
+}, {
+	zh: "萘",
+	vi: "nại"
+}, {
+	zh: "齉",
+	vi: "nãng"
+}, {
+	zh: "夒",
+	vi: "nao"
+}, {
+	zh: "巎",
+	vi: "nao"
+}, {
+	zh: "垴",
+	vi: "não"
+}, {
+	zh: "铌",
+	vi: "ni"
+}, {
+	zh: "伲",
+	vi: "ní"
+}, {
+	zh: "鉨",
+	vi: "tỉ"
+}, {
+	zh: "脲",
+	vi: "niệu"
+}, {
+	zh: "嵲",
+	vi: "niệt"
+}, {
+	zh: "鬡",
+	vi: "ninh"
+}, {
+	zh: "胬",
+	vi: "nỗ"
+}, {
+	zh: "傉",
+	vi: "nộc"
+}, {
+	zh: "钕",
+	vi: "nữ"
+}, {
+	zh: "籹",
+	vi: "nữ"
+}, {
+	zh: "锘",
+	vi: "nặc"
+}, {
+	zh: "掱",
+	vi: "vát"
+}, {
+	zh: "潖",
+	vi: "bà"
+}, {
+	zh: "帊",
+	vi: "bạc"
+}, {
+	zh: "棑",
+	vi: "bài"
+}, {
+	zh: "簰",
+	vi: "bài"
+}, {
+	zh: "哌",
+	vi: "phái"
+}, {
+	zh: "蒎",
+	vi: "phái"
+}, {
+	zh: "坢",
+	vi: "bán"
+}, {
+	zh: "鋬",
+	vi: "phạn"
+}, {
+	zh: "鳑",
+	vi: "bàng"
+}, {
+	zh: "嗙",
+	vi: "bảnh"
+}, {
+	zh: "耪",
+	vi: "bảnh"
+}, {
+	zh: "髈",
+	vi: "phảng"
+}, {
+	zh: "狍",
+	vi: "bào"
+}, {
+	zh: "奅",
+	vi: "pháo"
+}, {
+	zh: "毰",
+	vi: "bồi"
+}, {
+	zh: "锫",
+	vi: "bầu"
+}, {
+	zh: "抨",
+	vi: "phanh"
+}, {
+	zh: "嘭",
+	vi: "bành"
+}, {
+	zh: "堋",
+	vi: "bằng"
+}, {
+	zh: "鬅",
+	vi: "bằng"
+}, {
+	zh: "椪",
+	vi: "bàng"
+}, {
+	zh: "伾",
+	vi: "phi"
+}, {
+	zh: "悂",
+	vi: "phi"
+}, {
+	zh: "釽",
+	vi: "tịch"
+}, {
+	zh: "鈚",
+	vi: "phi"
+}, {
+	zh: "噼",
+	vi: "tích"
+}, {
+	zh: "椑",
+	vi: "ti"
+}, {
+	zh: "蜱",
+	vi: "tỳ"
+}, {
+	zh: "鮍",
+	vi: "bì"
+}, {
+	zh: "犏",
+	vi: "thiên"
+}, {
+	zh: "嘌",
+	vi: "phiêu"
+}, {
+	zh: "氕",
+	vi: "ách"
+}, {
+	zh: "嫳",
+	vi: "phách"
+}, {
+	zh: "玭",
+	vi: "tần"
+}, {
+	zh: "榀",
+	vi: "phẩm"
+}, {
+	zh: "帡",
+	vi: "bình"
+}, {
+	zh: "幈",
+	vi: "bình"
+}, {
+	zh: "鲆",
+	vi: "bình"
+}, {
+	zh: "钋",
+	vi: "bộc"
+}, {
+	zh: "钷",
+	vi: "phả"
+}, {
+	zh: "笸",
+	vi: "phả"
+}, {
+	zh: "哱",
+	vi: "hao"
+}, {
+	zh: "镤",
+	vi: "mộc"
+}, {
+	zh: "潽",
+	vi: "phô"
+}, {
+	zh: "氆",
+	vi: "phổ"
+}, {
+	zh: "镨",
+	vi: "phổ"
+}, {
+	zh: "桤",
+	vi: "khởi"
+}, {
+	zh: "桼",
+	vi: "tất"
+}, {
+	zh: "磎",
+	vi: "khê"
+}, {
+	zh: "魌",
+	vi: "kỳ"
+}, {
+	zh: "亓",
+	vi: "kỳ"
+}, {
+	zh: "疧",
+	vi: "kỳ"
+}, {
+	zh: "鲯",
+	vi: "kỳ"
+}, {
+	zh: "碶",
+	vi: "thế"
+}, {
+	zh: "磜",
+	vi: "thế"
+}, {
+	zh: "葜",
+	vi: "kháp"
+}, {
+	zh: "拤",
+	vi: "tạp"
+}, {
+	zh: "髂",
+	vi: "khá"
+}, {
+	zh: "鹐",
+	vi: "kham"
+}, {
+	zh: "墘",
+	vi: "kiền"
+}, {
+	zh: "肷",
+	vi: "hàm"
+}, {
+	zh: "綪",
+	vi: "khiếm"
+}, {
+	zh: "戗",
+	vi: "thương"
+}, {
+	zh: "锖",
+	vi: "thương"
+}, {
+	zh: "羟",
+	vi: "thưởng"
+}, {
+	zh: "瓩",
+	vi: "thiên"
+}, {
+	zh: "劁",
+	vi: "tiêu"
+}, {
+	zh: "荍",
+	vi: "kiều"
+}, {
+	zh: "硚",
+	vi: "kiều"
+}, {
+	zh: "鞒",
+	vi: "kiều"
+}, {
+	zh: "撽",
+	vi: "khiếu"
+}, {
+	zh: "躈",
+	vi: "khiếu"
+}, {
+	zh: "嵚",
+	vi: "khâm"
+}, {
+	zh: "捦",
+	vi: "cầm"
+}, {
+	zh: "嗪",
+	vi: "tần"
+}, {
+	zh: "吣",
+	vi: "tẩm"
+}, {
+	zh: "氰",
+	vi: "tình"
+}, {
+	zh: "苘",
+	vi: "khoảnh"
+}, {
+	zh: "藑",
+	vi: "quỳnh"
+}, {
+	zh: "鹙",
+	vi: "thu"
+}, {
+	zh: "訄",
+	vi: "cừu"
+}, {
+	zh: "巯",
+	vi: "khưu"
+}, {
+	zh: "銶",
+	vi: "cầu"
+}, {
+	zh: "鼽",
+	vi: "cừu"
+}, {
+	zh: "麹",
+	vi: "khúc"
+}, {
+	zh: "黢",
+	vi: "xuất"
+}, {
+	zh: "鼩",
+	vi: "cù"
+}, {
+	zh: "欋",
+	vi: "cù"
+}, {
+	zh: "牷",
+	vi: "toàn"
+}, {
+	zh: "醛",
+	vi: "thuyên"
+}, {
+	zh: "鳈",
+	vi: "tuyền"
+}, {
+	zh: "宭",
+	vi: "quần"
+}, {
+	zh: "儴",
+	vi: "nhương"
+}, {
+	zh: "瑢",
+	vi: "dung"
+}, {
+	zh: "鞣",
+	vi: "nhu"
+}, {
+	zh: "煣",
+	vi: "nhu"
+}, {
+	zh: "铷",
+	vi: "như"
+}, {
+	zh: "朊",
+	vi: "nguyễn"
+}, {
+	zh: "潵",
+	vi: "tán"
+}, {
+	zh: "毸",
+	vi: "tai"
+}, {
+	zh: "噻",
+	vi: "tắc"
+}, {
+	zh: "瘙",
+	vi: "tao"
+}, {
+	zh: "篸",
+	vi: "trâm"
+}, {
+	zh: "赸",
+	vi: "sán"
+}, {
+	zh: "墒",
+	vi: "thương"
+}, {
+	zh: "熵",
+	vi: "thương"
+}, {
+	zh: "垧",
+	vi: "thưởng"
+}, {
+	zh: "绱",
+	vi: "thượng"
+}, {
+	zh: "畲",
+	vi: "xa"
+}, {
+	zh: "輋",
+	vi: "xa"
+}, {
+	zh: "滠",
+	vi: "nhiếp"
+}, {
+	zh: "屾",
+	vi: "sằn"
+}, {
+	zh: "燊",
+	vi: "sân"
+}, {
+	zh: "駪",
+	vi: "sằn"
+}, {
+	zh: "鲹",
+	vi: "sâm"
+}, {
+	zh: "瞫",
+	vi: "thẩm"
+}, {
+	zh: "胂",
+	vi: "thân"
+}, {
+	zh: "眘",
+	vi: "thận"
+}, {
+	zh: "瘆",
+	vi: "thẩm"
+}, {
+	zh: "湦",
+	vi: "sanh"
+}, {
+	zh: "嵊",
+	vi: "thặng"
+}, {
+	zh: "浉",
+	vi: "sư"
+}, {
+	zh: "鲺",
+	vi: "sắt"
+}, {
+	zh: "鰤",
+	vi: "sư"
+}, {
+	zh: "辻",
+	vi: "thập"
+}, {
+	zh: "炻",
+	vi: "thạch"
+}, {
+	zh: "祏",
+	vi: "thạch"
+}, {
+	zh: "昰",
+	vi: "thị"
+}, {
+	zh: "栻",
+	vi: "thức"
+}, {
+	zh: "铈",
+	vi: "thị"
+}, {
+	zh: "鄃",
+	vi: "du"
+}, {
+	zh: "腧",
+	vi: "thú"
+}, {
+	zh: "騻",
+	vi: "sương"
+}, {
+	zh: "礵",
+	vi: "sương"
+}, {
+	zh: "嗍",
+	vi: "sóc"
+}, {
+	zh: "佀",
+	vi: "tự"
+}, {
+	zh: "骕",
+	vi: "túc"
+}, {
+	zh: "濉",
+	vi: "tuy"
+}, {
+	zh: "穟",
+	vi: "tuỵ"
+}, {
+	zh: "睃",
+	vi: "thoa"
+}, {
+	zh: "羧",
+	vi: "thoa"
+}, {
+	zh: "溻",
+	vi: "thạp"
+}, {
+	zh: "褟",
+	vi: "thạp"
+}, {
+	zh: "嚃",
+	vi: "đạp"
+}, {
+	zh: "酞",
+	vi: "thai"
+}, {
+	zh: "倓",
+	vi: "đàm"
+}, {
+	zh: "榃",
+	vi: "đàm"
+}, {
+	zh: "锬",
+	vi: "đàm"
+}, {
+	zh: "钽",
+	vi: "đán"
+}, {
+	zh: "埮",
+	vi: "đàm"
+}, {
+	zh: "赕",
+	vi: "đạm"
+}, {
+	zh: "嘡",
+	vi: "thang"
+}, {
+	zh: "鄌",
+	vi: "đường"
+}, {
+	zh: "樘",
+	vi: "đường"
+}, {
+	zh: "餹",
+	vi: "đường"
+}, {
+	zh: "耥",
+	vi: "thang"
+}, {
+	zh: "匋",
+	vi: "đào"
+}, {
+	zh: "脦",
+	vi: "thắc"
+}, {
+	zh: "铽",
+	vi: "thác"
+}, {
+	zh: "蟘",
+	vi: "đạc"
+}, {
+	zh: "遆",
+	vi: "đề"
+}, {
+	zh: "鳀",
+	vi: "đề"
+}, {
+	zh: "鶗",
+	vi: "đề"
+}, {
+	zh: "畑",
+	vi: "điền"
+}, {
+	zh: "畠",
+	vi: "điền"
+}, {
+	zh: "脁",
+	vi: "thiểu"
+}, {
+	zh: "萜",
+	vi: "thiếp"
+}, {
+	zh: "桯",
+	vi: "thỉnh"
+}, {
+	zh: "侹",
+	vi: "đĩnh"
+}, {
+	zh: "珽",
+	vi: "đĩnh"
+}, {
+	zh: "颋",
+	vi: "đĩnh"
+}, {
+	zh: "嗵",
+	vi: "thông"
+}, {
+	zh: "峂",
+	vi: "đồng"
+}, {
+	zh: "烔",
+	vi: "đồng"
+}, {
+	zh: "砼",
+	vi: "đồng"
+}, {
+	zh: "鲖",
+	vi: "đồng"
+}, {
+	zh: "朣",
+	vi: "đồng"
+}, {
+	zh: "穜",
+	vi: "chủng"
+}, {
+	zh: "斢",
+	vi: "điều"
+}, {
+	zh: "疃",
+	vi: "thoản"
+}, {
+	zh: "煺",
+	vi: "thoái"
+}, {
+	zh: "氽",
+	vi: "thỗn"
+}, {
+	zh: "乇",
+	vi: "thác"
+}, {
+	zh: "侂",
+	vi: "thác"
+}, {
+	zh: "侻",
+	vi: "thoái"
+}, {
+	zh: "捝",
+	vi: "thoát"
+}, {
+	zh: "陁",
+	vi: "đà"
+}, {
+	zh: "坨",
+	vi: "đà"
+}, {
+	zh: "萚",
+	vi: "thác"
+}, {
+	zh: "佤",
+	vi: "ngoã"
+}, {
+	zh: "塆",
+	vi: "loan"
+}, {
+	zh: "忨",
+	vi: "ngoạn"
+}, {
+	zh: "抏",
+	vi: "ngoan"
+}, {
+	zh: "鳂",
+	vi: "ôi"
+}, {
+	zh: "廆",
+	vi: "hội"
+}, {
+	zh: "艉",
+	vi: "vĩ"
+}, {
+	zh: "霨",
+	vi: "uý"
+}, {
+	zh: "讏",
+	vi: "vệ"
+}, {
+	zh: "鳁",
+	vi: "ôn"
+}, {
+	zh: "炆",
+	vi: "văn"
+}, {
+	zh: "鹟",
+	vi: "ông"
+}, {
+	zh: "塕",
+	vi: "ổng"
+}, {
+	zh: "肟",
+	vi: "ốc"
+}, {
+	zh: "钨",
+	vi: "ô"
+}, {
+	zh: "郚",
+	vi: "ngô"
+}, {
+	zh: "鵐",
+	vi: "vu"
+}, {
+	zh: "阢",
+	vi: "ngột"
+}, {
+	zh: "扤",
+	vi: "ngột"
+}, {
+	zh: "芴",
+	vi: "vật"
+}, {
+	zh: "饻",
+	vi: "thi"
+}, {
+	zh: "娭",
+	vi: "ai"
+}, {
+	zh: "硒",
+	vi: "tây"
+}, {
+	zh: "舾",
+	vi: "tây"
+}, {
+	zh: "瘜",
+	vi: "tức"
+}, {
+	zh: "觽",
+	vi: "huề"
+}, {
+	zh: "郋",
+	vi: "hề"
+}, {
+	zh: "鳛",
+	vi: "tập"
+}, {
+	zh: "鱚",
+	vi: "hỉ"
+}, {
+	zh: "隟",
+	vi: "khích"
+}, {
+	zh: "虩",
+	vi: "khích"
+}, {
+	zh: "忺",
+	vi: "hiêm"
+}, {
+	zh: "酰",
+	vi: "tiên"
+}, {
+	zh: "冼",
+	vi: "tiển"
+}, {
+	zh: "崄",
+	vi: "hiểm"
+}, {
+	zh: "晛",
+	vi: "hiện"
+}, {
+	zh: "猇",
+	vi: "hao"
+}, {
+	zh: "灺",
+	vi: "tã"
+}, {
+	zh: "卨",
+	vi: "tiết"
+}, {
+	zh: "塮",
+	vi: "tạ"
+}, {
+	zh: "伈",
+	vi: "tầm"
+}, {
+	zh: "炘",
+	vi: "hân"
+}, {
+	zh: "箵",
+	vi: "tinh"
+}, {
+	zh: "钘",
+	vi: "hình"
+}, {
+	zh: "擤",
+	vi: "hanh"
+}, {
+	zh: "婞",
+	vi: "hanh"
+}, {
+	zh: "魆",
+	vi: "huất"
+}, {
+	zh: "盨",
+	vi: "sử"
+}, {
+	zh: "垿",
+	vi: "tự"
+}, {
+	zh: "晅",
+	vi: "huyên"
+}, {
+	zh: "禤",
+	vi: "huyên"
+}, {
+	zh: "譞",
+	vi: "huyên"
+}, {
+	zh: "暅",
+	vi: "hằng"
+}, {
+	zh: "昡",
+	vi: "huyền"
+}, {
+	zh: "碹",
+	vi: "toàn"
+}, {
+	zh: "峃",
+	vi: "học"
+}, {
+	zh: "栒",
+	vi: "tuân"
+}, {
+	zh: "鄩",
+	vi: "tầm"
+}, {
+	zh: "噚",
+	vi: "tầm"
+}, {
+	zh: "伢",
+	vi: "nha"
+}, {
+	zh: "岈",
+	vi: "nha"
+}, {
+	zh: "玡",
+	vi: "nha"
+}, {
+	zh: "垭",
+	vi: "ô"
+}, {
+	zh: "挜",
+	vi: "á"
+}, {
+	zh: "猰",
+	vi: "áp"
+}, {
+	zh: "蔫",
+	vi: "yên"
+}, {
+	zh: "扊",
+	vi: "diễm"
+}, {
+	zh: "棪",
+	vi: "diễm"
+}, {
+	zh: "縯",
+	vi: "diễn"
+}, {
+	zh: "鼹",
+	vi: "yển"
+}, {
+	zh: "觃",
+	vi: "nghiện"
+}, {
+	zh: "垟",
+	vi: "dương"
+}, {
+	zh: "垚",
+	vi: "nghiêu"
+}, {
+	zh: "倻",
+	vi: "da"
+}, {
+	zh: "铘",
+	vi: "gia"
+}, {
+	zh: "嫛",
+	vi: "ê"
+}, {
+	zh: "柂",
+	vi: "đà"
+}, {
+	zh: "宧",
+	vi: "di"
+}, {
+	zh: "扅",
+	vi: "di"
+}, {
+	zh: "酏",
+	vi: "di"
+}, {
+	zh: "簃",
+	vi: "di"
+}, {
+	zh: "觺",
+	vi: "nghi"
+}, {
+	zh: "钇",
+	vi: "ất"
+}, {
+	zh: "晹",
+	vi: "dương"
+}, {
+	zh: "嫕",
+	vi: "ế"
+}, {
+	zh: "廙",
+	vi: "dực"
+}, {
+	zh: "潩",
+	vi: "dị"
+}, {
+	zh: "鹝",
+	vi: "nghịch"
+}, {
+	zh: "燚",
+	vi: "diệc"
+}, {
+	zh: "螠",
+	vi: "ế"
+}, {
+	zh: "寱",
+	vi: "nghệ"
+}, {
+	zh: "鮨",
+	vi: "nghệ"
+}, {
+	zh: "癔",
+	vi: "ý"
+}, {
+	zh: "镱",
+	vi: "ý"
+}, {
+	zh: "虉",
+	vi: "dị"
+}, {
+	zh: "洇",
+	vi: "nhân"
+}, {
+	zh: "铟",
+	vi: "nhân"
+}, {
+	zh: "歅",
+	vi: "nhân"
+}, {
+	zh: "溵",
+	vi: "ân"
+}, {
+	zh: "唫",
+	vi: "ngậm"
+}, {
+	zh: "訚",
+	vi: "ngân"
+}, {
+	zh: "吲",
+	vi: "dẫn"
+}, {
+	zh: "讔",
+	vi: "ẩn"
+}, {
+	zh: "茚",
+	vi: "ấn"
+}, {
+	zh: "垽",
+	vi: "ngận"
+}, {
+	zh: "鮣",
+	vi: "ấn"
+}, {
+	zh: "媖",
+	vi: "anh"
+}, {
+	zh: "煐",
+	vi: "anh"
+}, {
+	zh: "锳",
+	vi: "anh"
+}, {
+	zh: "溁",
+	vi: "oanh"
+}, {
+	zh: "蓥",
+	vi: "oanh"
+}, {
+	zh: "籝",
+	vi: "doanh"
+}, {
+	zh: "嗈",
+	vi: "ung"
+}, {
+	zh: "埇",
+	vi: "dũng"
+}, {
+	zh: "鲬",
+	vi: "dũng"
+}, {
+	zh: "鄾",
+	vi: "ưu"
+}, {
+	zh: "莜",
+	vi: "du"
+}, {
+	zh: "鲉",
+	vi: "du"
+}, {
+	zh: "牗",
+	vi: "dũ"
+}, {
+	zh: "蚴",
+	vi: "ấu"
+}, {
+	zh: "玙",
+	vi: "dư"
+}, {
+	zh: "狳",
+	vi: "dư"
+}, {
+	zh: "嵛",
+	vi: "du"
+}, {
+	zh: "艅",
+	vi: "dư"
+}, {
+	zh: "髃",
+	vi: "ngung"
+}, {
+	zh: "騟",
+	vi: "du"
+}, {
+	zh: "偊",
+	vi: "vũ"
+}, {
+	zh: "鄅",
+	vi: "vũ"
+}, {
+	zh: "貐",
+	vi: "du"
+}, {
+	zh: "堉",
+	vi: "dục"
+}, {
+	zh: "淯",
+	vi: "dục"
+}, {
+	zh: "滪",
+	vi: "dự"
+}, {
+	zh: "薁",
+	vi: "áo"
+}, {
+	zh: "燏",
+	vi: "duật"
+}, {
+	zh: "鴥",
+	vi: "duật"
+}, {
+	zh: "箢",
+	vi: "uyên"
+}, {
+	zh: "塬",
+	vi: "nguyên"
+}, {
+	zh: "羱",
+	vi: "nguyên"
+}, {
+	zh: "垸",
+	vi: "viện"
+}, {
+	zh: "衏",
+	vi: "viện"
+}, {
+	zh: "彟",
+	vi: "ược"
+}, {
+	zh: "抈",
+	vi: "nguyệt"
+}, {
+	zh: "玥",
+	vi: "nguyệt"
+}, {
+	zh: "籆",
+	vi: "dược"
+}, {
+	zh: "熅",
+	vi: "huân"
+}, {
+	zh: "沄",
+	vi: "vân"
+}, {
+	zh: "涢",
+	vi: "vân"
+}, {
+	zh: "鋆",
+	vi: "vân"
+}, {
+	zh: "甾",
+	vi: "tai"
+}, {
+	zh: "傤",
+	vi: "tái"
+}, {
+	zh: "糌",
+	vi: "ta"
+}, {
+	zh: "蹔",
+	vi: "tạm"
+}, {
+	zh: "酂",
+	vi: "tán"
+}, {
+	zh: "灒",
+	vi: "tiễn"
+}, {
+	zh: "唣",
+	vi: "tao"
+}, {
+	zh: "迮",
+	vi: "trách"
+}, {
+	zh: "挓",
+	vi: "tra"
+}, {
+	zh: "溠",
+	vi: "trá"
+}, {
+	zh: "苲",
+	vi: "trả"
+}, {
+	zh: "砟",
+	vi: "tra"
+}, {
+	zh: "鲝",
+	vi: "trả"
+}, {
+	zh: "膪",
+	vi: "troại"
+}, {
+	zh: "醡",
+	vi: "trá"
+}, {
+	zh: "飦",
+	vi: "chiên"
+}, {
+	zh: "搌",
+	vi: "triển"
+}, {
+	zh: "黵",
+	vi: "đảm"
+}, {
+	zh: "骣",
+	vi: "sản"
+}, {
+	zh: "餦",
+	vi: "trương"
+}, {
+	zh: "礃",
+	vi: "chưởng"
+}, {
+	zh: "樀",
+	vi: "đích"
+}, {
+	zh: "嗻",
+	vi: "già"
+}, {
+	zh: "禛",
+	vi: "chân"
+}, {
+	zh: "纼",
+	vi: "dẫn"
+}, {
+	zh: "椥",
+	vi: "tri"
+}, {
+	zh: "榰",
+	vi: "chi"
+}, {
+	zh: "汦",
+	vi: "chi"
+}, {
+	zh: "狾",
+	vi: "chế"
+}, {
+	zh: "梽",
+	vi: "chí"
+}, {
+	zh: "铚",
+	vi: "trất"
+}, {
+	zh: "滍",
+	vi: "trĩ"
+}, {
+	zh: "稙",
+	vi: "trắc"
+}, {
+	zh: "膣",
+	vi: "chất"
+}, {
+	zh: "螲",
+	vi: "chất"
+}, {
+	zh: "蚛",
+	vi: "trọng"
+}, {
+	zh: "鸼",
+	vi: "châu"
+}, {
+	zh: "喌",
+	vi: "châu"
+}, {
+	zh: "伷",
+	vi: "trụ"
+}, {
+	zh: "荮",
+	vi: "trụ"
+}, {
+	zh: "槠",
+	vi: "chử"
+}, {
+	zh: "砫",
+	vi: "trụ"
+}, {
+	zh: "詝",
+	vi: "chủ"
+}, {
+	zh: "檛",
+	vi: "qua"
+}, {
+	zh: "跩",
+	vi: "duệ"
+}, {
+	zh: "膇",
+	vi: "truy"
+}, {
+	zh: "錣",
+	vi: "xuyết"
+}, {
+	zh: "衠",
+	vi: "truân"
+}, {
+	zh: "埻",
+	vi: "đôn"
+}, {
+	zh: "禚",
+	vi: "chước"
+}, {
+	zh: "鲻",
+	vi: "tri"
+}, {
+	zh: "虸",
+	vi: "tử"
+}, {
+	zh: "啙",
+	vi: "tử"
+}, {
+	zh: "腙",
+	vi: "tông"
+}, {
+	zh: "朘",
+	vi: "thuyên"
+}, {
+	zh: "岞",
+	vi: "tạc"
+}, {
+	zh: "唑",
+	vi: "tọa"
+}, {
+	zh: "豼",
+	vi: "tỳ"
+}, {
+	zh: "沏",
+	vi: "thế"
+}, {
+	zh: "敇",
+	vi: "sách"
+}, {
+	zh: "梹",
+	vi: "tân"
+}, {
+	zh: "碕",
+	vi: "kỳ"
+}, {
+	zh: "熋",
+	vi: "hùng"
+}, {
+	zh: "澯",
+	vi: "xán"
+}, {
+	zh: "禇",
+	vi: "chử"
+}, {
+	zh: "媺",
+	vi: "mỹ"
+}, {
+	zh: "欶",
+	vi: "sách"
+}, {
+	zh: "絶",
+	vi: "tuyệt"
+}, {
+	zh: "鞥",
+	vi: "ưng"
+}, {
+	zh: "闫",
+	vi: "diêm"
+}, {
+	zh: "逩",
+	vi: "bôn"
+}, {
+	zh: "岜",
+	vi: "bát"
+}, {
+	zh: "堗",
+	vi: "đột"
+}, {
+	zh: "淸",
+	vi: "thanh"
+}, {
+	zh: "婇",
+	vi: "thải"
+}, {
+	zh: "媞",
+	vi: "đề"
+}, {
+	zh: "樤",
+	vi: "điều"
+}, {
+	zh: "炑",
+	vi: "mục"
+}, {
+	zh: "菈",
+	vi: "lạp"
+}, {
+	zh: "翷",
+	vi: "lâm"
+}, {
+	zh: "爕",
+	vi: "tiếp"
+}, {
+	zh: "枈",
+	vi: "bí"
+}, {
+	zh: "塓",
+	vi: "bí"
+}, {
+	zh: "摎",
+	vi: "lưu"
+}, {
+	zh: "珝",
+	vi: "hủ"
+}, {
+	zh: "洐",
+	vi: "diễn"
+}, {
+	zh: "㧿",
+	vi: "song"
+}, {
+	zh: "鈅",
+	vi: "nguyệt"
+}, {
+	zh: "珜",
+	vi: "dương"
+}, {
+	zh: "嶋",
+	vi: "đảo"
+}, {
+	zh: "楪",
+	vi: "điệp"
+}, {
+	zh: "砕",
+	vi: "toái"
+}, {
+	zh: "姫",
+	vi: "cơ"
+}, {
+	zh: "覇",
+	vi: "bá"
+}, {
+	zh: "叒",
+	vi: "nhược"
+}, {
+	zh: "葢",
+	vi: "cái"
+}, {
+	zh: "仈",
+	vi: "bát"
+}, {
+	zh: "赱",
+	vi: "tẩu"
+}, {
+	zh: "拝",
+	vi: "bái"
+}, {
+	zh: "暁",
+	vi: "hiểu"
+}, {
+	zh: "藴",
+	vi: "uẩn"
+}, {
+	zh: "蓘",
+	vi: "cổn"
+}, {
+	zh: "蟭",
+	vi: "tiêu"
+}, {
+	zh: "潕",
+	vi: "vũ"
+}, {
+	zh: "咵",
+	vi: "khoa"
+}, {
+	zh: "骲",
+	vi: "bạo"
+}, {
+	zh: "懹",
+	vi: "hoài"
+}, {
+	zh: "喆",
+	vi: "triết"
+}, {
+	zh: "黒",
+	vi: "hắc"
+}, {
+	zh: "緈",
+	vi: "trực"
+}, {
+	zh: "鶸",
+	vi: "nhược"
+}, {
+	zh: "崈",
+	vi: "sùng"
+}, {
+	zh: "埑",
+	vi: "triết"
+}, {
+	zh: "僙",
+	vi: "quang"
+}, {
+	zh: "喴",
+	vi: "uy"
+}, {
+	zh: "嚒",
+	vi: "sao"
+}, {
+	zh: "媍",
+	vi: "phụ"
+}, {
+	zh: "斈",
+	vi: "học"
+}, {
+	zh: "壆",
+	vi: "học"
+}, {
+	zh: "嶨",
+	vi: "học"
+}, {
+	zh: "廞",
+	vi: "hân"
+}, {
+	zh: "嶔",
+	vi: "hâm"
+}, {
+	zh: "䵋",
+	vi: "hối"
+}, {
+	zh: "乄",
+	vi: "ngũ"
+}, {
+	zh: "曡",
+	vi: "long"
+}, {
+	zh: "剭",
+	vi: "ốc"
+}, {
+	zh: "啎",
+	vi: "ngỗ"
+}, {
+	zh: "䵐",
+	vi: "ngộ"
+}, {
+	zh: "䵎",
+	vi: "ngộ"
+}, {
+	zh: "娪",
+	vi: "ngư"
+}, {
+	zh: "岉",
+	vi: "vật"
+}, {
+	zh: "弾",
+	vi: "đạn"
+}, {
+	zh: "葇",
+	vi: "nhu"
+}, {
+	zh: "痦",
+	vi: "ngộ"
+}, {
+	zh: "邟",
+	vi: "kháng"
+}, {
+	zh: "籓",
+	vi: "phiên"
+}, {
+	zh: "瑠",
+	vi: "lưu"
+}, {
+	zh: "転",
+	vi: "chuyển"
+}, {
+	zh: "冴",
+	vi: "hô"
+}, {
+	zh: "灜",
+	vi: "doanh"
+}, {
+	zh: "熺",
+	vi: "hi"
+}, {
+	zh: "摥",
+	vi: "thương"
+}, {
+	zh: "霫",
+	vi: "tập"
+}, {
+	zh: "玘",
+	vi: "kỷ"
+}, {
+	zh: "亖",
+	vi: "tứ"
+}, {
+	zh: "丼",
+	vi: "đan"
+}, {
+	zh: "姧",
+	vi: "gian"
+}, {
+	zh: "刕",
+	vi: "lê"
+}, {
+	zh: "尛",
+	vi: "ma"
+}, {
+	zh: "仐",
+	vi: "tán/kim"
+}, {
+	zh: "槤",
+	vi: "liên"
+}, {
+	zh: "濶",
+	vi: "khoát"
+}, {
+	zh: "鄷",
+	vi: "phong"
+}, {
+	zh: "喦",
+	vi: "nham"
+}, {
+	zh: "鱞",
+	vi: "quan"
+}, {
+	zh: "観",
+	vi: "quán"
+}, {
+	zh: "闗",
+	vi: "quan"
+}, {
+	zh: "麏",
+	vi: "quân"
+}, {
+	zh: "麎",
+	vi: "thần"
+}, {
+	zh: "汮",
+	vi: "quân"
+}, {
+	zh: "圴",
+	vi: "quân"
+}, {
+	zh: "袀",
+	vi: "quân"
+}, {
+	zh: "鮶",
+	vi: "quân"
+}, {
+	zh: "銞",
+	vi: "quân"
+}, {
+	zh: "龞",
+	vi: "quy"
+}, {
+	zh: "峮",
+	vi: "quân"
+}, {
+	zh: "錧",
+	vi: "quản"
+}, {
+	zh: "䦎",
+	vi: "kháng"
+}, {
+	zh: "䘾",
+	vi: "quản"
+}, {
+	zh: "诶",
+	vi: "ai"
+}, {
+	zh: "吔",
+	vi: "dã"
+}, {
+	zh: "悆",
+	vi: "dự"
+}, {
+	zh: "祋",
+	vi: "thù"
+}, {
+	zh: "祤",
+	vi: "vũ"
+}, {
+	zh: "袛",
+	vi: "chi"
+}, {
+	zh: "滶",
+	vi: "ngao"
+}, {
+	zh: "荗",
+	vi: "mậu"
+}, {
+	zh: "綝",
+	vi: "lâm"
+}, {
+	zh: "佷",
+	vi: "ngận"
+}, {
+	zh: "衜",
+	vi: "đạo"
+}, {
+	zh: "璝",
+	vi: "hội"
+}, {
+	zh: "鄳",
+	vi: "mãnh"
+}, {
+	zh: "晙",
+	vi: "tuấn"
+}, {
+	zh: "暟",
+	vi: "khai"
+}, {
+	zh: "曒",
+	vi: "thôn"
+}, {
+	zh: "晊",
+	vi: "chí"
+}, {
+	zh: "莋",
+	vi: "tạc"
+}, {
+	zh: "毦",
+	vi: "nhĩ"
+}, {
+	zh: "齢",
+	vi: "linh"
+}, {
+	zh: "伝",
+	vi: "truyền"
+}, {
+	zh: "疈",
+	vi: "phúc"
+}, {
+	zh: "継",
+	vi: "kế"
+}, {
+	zh: "晧",
+	vi: "hạo"
+}, {
+	zh: "騊",
+	vi: "câu"
+}, {
+	zh: "駼",
+	vi: "dư"
+}, {
+	zh: "厷",
+	vi: "quăng"
+}, {
+	zh: "霬",
+	vi: "lựu"
+}, {
+	zh: "汔",
+	vi: "khất"
+}, {
+	zh: "瓬",
+	vi: "phường"
+}, {
+	zh: "歂",
+	vi: "suyễn"
+}, {
+	zh: "瀬",
+	vi: "lại"
+}, {
+	zh: "驒",
+	vi: "đàn"
+}, {
+	zh: "柃",
+	vi: "linh"
+}, {
+	zh: "緖",
+	vi: "tự"
+}, {
+	zh: "庲",
+	vi: "lai"
+}, {
+	zh: "廮",
+	vi: "anh"
+}, {
+	zh: "羕",
+	vi: "dạng"
+}, {
+	zh: "逷",
+	vi: "địch"
+}, {
+	zh: "憺",
+	vi: "đảm"
+}, {
+	zh: "甝",
+	vi: "hàm"
+}, {
+	zh: "麙",
+	vi: "hàm"
+}, {
+	zh: "蜬",
+	vi: "hàm"
+}, {
+	zh: "顄",
+	vi: "hàm"
+}, {
+	zh: "崡",
+	vi: "hàm"
+}, {
+	zh: "妠",
+	vi: "nạp"
+}, {
+	zh: "玹",
+	vi: "xuân"
+}, {
+	zh: "頠",
+	vi: "ngỗi"
+}, {
+	zh: "㻞",
+	vi: "biên"
+}, {
+	zh: "巻",
+	vi: "quyển"
+}, {
+	zh: "羂",
+	vi: "quyển"
+}, {
+	zh: "蔨",
+	vi: "quyển"
+}, {
+	zh: "劵",
+	vi: "quyển"
+}, {
+	zh: "璹",
+	vi: "thụ"
+}, {
+	zh: "璥",
+	vi: "kính"
+}, {
+	zh: "頵",
+	vi: "quần"
+}, {
+	zh: "鸓",
+	vi: "linh"
+}, {
+	zh: "騩",
+	vi: "quỷ"
+}, {
+	zh: "齾",
+	vi: "át"
+}, {
+	zh: "歭",
+	vi: "trĩ"
+}, {
+	zh: "茿",
+	vi: "trúc"
+}, {
+	zh: "矖",
+	vi: "thị"
+}, {
+	zh: "姶",
+	vi: "thủy"
+}, {
+	zh: "妌",
+	vi: "tịnh"
+}, {
+	zh: "篯",
+	vi: "tiên"
+}, {
+	zh: "礄",
+	vi: "kiều"
+}, {
+	zh: "瀩",
+	vi: "đội"
+}, {
+	zh: "銊",
+	vi: "việt"
+}, {
+	zh: "鋥",
+	vi: "xiềng"
+}, {
+	zh: "瞘",
+	vi: "khu"
+}, {
+	zh: "瞜",
+	vi: "lâu"
+}, {
+	zh: "禢",
+	vi: "y"
+}, {
+	zh: "軲",
+	vi: "cô"
+}, {
+	zh: "鳯",
+	vi: "phượng"
+}, {
+	zh: "鐩",
+	vi: "tùy"
+}, {
+	zh: "鐆",
+	vi: "trụy"
+}, {
+	zh: "錂",
+	vi: "tiễn"
+}, {
+	zh: "茞",
+	vi: "thần"
+}, {
+	zh: "舓",
+	vi: "chỉ"
+}, {
+	zh: "琍",
+	vi: "ly"
+}, {
+	zh: "愰",
+	vi: "hoảng"
+}, {
+	zh: "畵",
+	vi: "họa"
+}, {
+	zh: "靑",
+	vi: "thanh"
+}, {
+	zh: "犽",
+	vi: "nha"
+}, {
+	zh: "喧",
+	vi: "huyên"
+}, {
+	zh: "霊",
+	vi: "linh"
+}, {
+	zh: "獣",
+	vi: "thú"
+}, {
+	zh: "抩",
+	vi: "thú"
+}, {
+	zh: "垨",
+	vi: "thú"
+}, {
+	zh: "趫",
+	vi: "kiều"
+}, {
+	zh: "暰",
+	vi: "hiệp"
+}, {
+	zh: "騺",
+	vi: "chí"
+}, {
+	zh: "豊",
+	vi: "phong"
+}, {
+	zh: "碸",
+	vi: "phong"
+}, {
+	zh: "蘴",
+	vi: "phong"
+}, {
+	zh: "禑",
+	vi: "vũ"
+}, {
+	zh: "柺",
+	vi: "quải"
+}, {
+	zh: "睧",
+	vi: "thị"
+}, {
+	zh: "眂",
+	vi: "thị"
+}, {
+	zh: "摐",
+	vi: "song"
+}, {
+	zh: "愯",
+	vi: "song"
+}, {
+	zh: "牎",
+	vi: "song"
+}, {
+	zh: "杬",
+	vi: "ngoạn"
+}, {
+	zh: "崘",
+	vi: "luân"
+}, {
+	zh: "婨",
+	vi: "luân"
+}, {
+	zh: "惀",
+	vi: "luân"
+}, {
+	zh: "溣",
+	vi: "luân"
+}, {
+	zh: "菕",
+	vi: "hoa"
+}, {
+	zh: "蜦",
+	vi: "luân"
+}, {
+	zh: "錀",
+	vi: "luân"
+}, {
+	zh: "陯",
+	vi: "luân"
+}, {
+	zh: "鯩",
+	vi: "lân"
+}, {
+	zh: "鑨",
+	vi: "lung"
+}, {
+	zh: "圁",
+	vi: "ngân"
+}, {
+	zh: "獂",
+	vi: "hoàn"
+}, {
+	zh: "沢",
+	vi: "trạch"
+}, {
+	zh: "珃",
+	vi: "hán"
+}, {
+	zh: "竂",
+	vi: "liêu"
+}, {
+	zh: "羷",
+	vi: "liêm"
+}, {
+	zh: "琙",
+	vi: "vực"
+}, {
+	zh: "蕥",
+	vi: "nhã"
+}, {
+	zh: "儊",
+	vi: "sở"
+}, {
+	zh: "樰",
+	vi: "tuyết"
+}, {
+	zh: "赮",
+	vi: "hạp"
+}, {
+	zh: "虵",
+	vi: "xà"
+}, {
+	zh: "蠸",
+	vi: "thuyên"
+}, {
+	zh: "壷",
+	vi: "hồ"
+}, {
+	zh: "譩",
+	vi: "y"
+}, {
+	zh: "劥",
+	vi: "khanh"
+}, {
+	zh: "叄",
+	vi: "tham"
+}, {
+	zh: "堺",
+	vi: "giới"
+}, {
+	zh: "嫙",
+	vi: "toàn"
+}, {
+	zh: "鴋",
+	vi: "phương"
+}, {
+	zh: "犉",
+	vi: "thuần"
+}, {
+	zh: "乢",
+	vi: "cái"
+}, {
+	zh: "荓",
+	vi: "bình"
+}, {
+	zh: "枂",
+	vi: "nguyệt"
+}, {
+	zh: "姳",
+	vi: "minh"
+}, {
+	zh: "狪",
+	vi: "thông"
+}, {
+	zh: "壃",
+	vi: "cương"
+}, {
+	zh: "棝",
+	vi: "cố"
+}, {
+	zh: "珹",
+	vi: "thành"
+}, {
+	zh: "犸",
+	vi: "mã"
+}, {
+	zh: "褔",
+	vi: "phúc"
+}, {
+	zh: "洰",
+	vi: "cư"
+}, {
+	zh: "煓",
+	vi: "sủy"
+}, {
+	zh: "峳",
+	vi: "du"
+}, {
+	zh: "鶋",
+	vi: "cư"
+}, {
+	zh: "佖",
+	vi: "tất"
+}, {
+	zh: "楶",
+	vi: "tiết"
+}, {
+	zh: "勄",
+	vi: "mẫn"
+}, {
+	zh: "轓",
+	vi: "phiên"
+}, {
+	zh: "鸁",
+	vi: "la"
+}, {
+	zh: "痋",
+	vi: "đông"
+}, {
+	zh: "瓽",
+	vi: "đáng"
+}, {
+	zh: "雼",
+	vi: "đáng"
+}, {
+	zh: "礑",
+	vi: "đáng"
+}, {
+	zh: "瞊",
+	vi: "đáng"
+}, {
+	zh: "簜",
+	vi: "đáng"
+}, {
+	zh: "愓",
+	vi: "đáng"
+}, {
+	zh: "嵣",
+	vi: "đáng"
+}, {
+	zh: "崵",
+	vi: "đáng"
+}, {
+	zh: "圵",
+	vi: "đáng"
+}, {
+	zh: "壋",
+	vi: "đáng"
+}, {
+	zh: "潒",
+	vi: "đáng"
+}, {
+	zh: "偒",
+	vi: "đáng"
+}, {
+	zh: "蘯",
+	vi: "đáng"
+}, {
+	zh: "婸",
+	vi: "đáng"
+}, {
+	zh: "逿",
+	vi: "đáng"
+}, {
+	zh: "闣",
+	vi: "đáng"
+}, {
+	zh: "趤",
+	vi: "đáng"
+}, {
+	zh: "鷔",
+	vi: "ngao"
+}, {
+	zh: "矒",
+	vi: "mông"
+}, {
+	zh: "桖",
+	vi: "huyết"
+}, {
+	zh: "嫰",
+	vi: "nộn"
+}, {
+	zh: "仸",
+	vi: "yêu"
+}, {
+	zh: "囧",
+	vi: "quýnh"
+}, {
+	zh: "渃",
+	vi: "nhược"
+}, {
+	zh: "沷",
+	vi: "phát"
+}, {
+	zh: "嬅",
+	vi: "hóa"
+}, {
+	zh: "龘",
+	vi: "đạp"
+}, {
+	zh: "媣",
+	vi: "nhiên"
+}, {
+	zh: "濙",
+	vi: "oanh"
+}, {
+	zh: "鹮",
+	vi: "hoàn"
+}, {
+	zh: "喰",
+	vi: "xan"
+}, {
+	zh: "圗",
+	vi: "đồ"
+}, {
+	zh: "潳",
+	vi: "đồ"
+}, {
+	zh: "児",
+	vi: "nhi"
+}, {
+	zh: "葎",
+	vi: "luật"
+}, {
+	zh: "柲",
+	vi: "bí"
+}];
+
+window.PhienAm = PhienAm;
+export default PhienAm;
