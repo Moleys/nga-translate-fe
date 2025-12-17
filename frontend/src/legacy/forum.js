@@ -5,15 +5,125 @@ const ForumApp = {
     loading: false,
     hasMorePages: true,
     observer: null,
+    cachedHtml: null,
 
     init() {
         const forumPage = document.getElementById('forum-threads');
         if (forumPage) {
             this.currentFid = forumPage.dataset.fid;
-            this.loadThreads();
+            
+            // Try to restore from cache first
+            if (this.restoreFromCache()) {
+                console.log('[ForumApp] Restored from cache');
+            } else {
+                this.loadThreads();
+            }
+            
             this.attachFilterListeners();
             this.setupInfiniteScroll();
+            this.setupScrollSaving();
         }
+    },
+
+    /**
+     * Setup scroll position saving before navigation
+     */
+    setupScrollSaving() {
+        // Save scroll position periodically and on navigation
+        let scrollSaveTimer = null;
+        const saveScroll = () => {
+            if (scrollSaveTimer) clearTimeout(scrollSaveTimer);
+            scrollSaveTimer = setTimeout(() => {
+                if (window.ForumCache && this.currentFid) {
+                    window.ForumCache.saveScrollPosition(this.currentFid);
+                }
+            }, 200); // Debounce scroll saving
+        };
+
+        window.addEventListener('scroll', saveScroll);
+
+        // Save on clicking thread links
+        document.addEventListener('click', (e) => {
+            const threadLink = e.target.closest('a[href^="/thread/"]');
+            if (threadLink && this.currentFid) {
+                // Save current state before navigating
+                this.saveCurrentState();
+            }
+        });
+
+        // Save on beforeunload
+        window.addEventListener('beforeunload', () => {
+            if (this.currentFid) {
+                this.saveCurrentState();
+            }
+        });
+    },
+
+    /**
+     * Save current forum state to cache
+     */
+    saveCurrentState() {
+        if (!window.ForumCache || !this.currentFid) return;
+
+        const state = {
+            currentPage: this.currentPage,
+            currentAct: this.currentAct,
+            hasMorePages: this.hasMorePages,
+            threadsHtml: document.getElementById('threads-list')?.innerHTML || '',
+            forumName: document.getElementById('forum-name')?.textContent || '',
+            subforumHtml: document.getElementById('subforum-list')?.innerHTML || ''
+        };
+
+        window.ForumCache.saveForumState(this.currentFid, this.currentAct, state);
+        window.ForumCache.saveScrollPosition(this.currentFid);
+        console.log('[ForumApp] Saved forum state and scroll position');
+    },
+
+    /**
+     * Restore forum state from cache
+     */
+    restoreFromCache() {
+        if (!window.ForumCache || !this.currentFid) return false;
+
+        const cachedState = window.ForumCache.getForumState(this.currentFid, this.currentAct);
+        if (!cachedState) return false;
+
+        // Restore state
+        this.currentPage = cachedState.currentPage || 1;
+        this.currentAct = cachedState.currentAct || 'list';
+        this.hasMorePages = cachedState.hasMorePages !== false;
+
+        // Restore HTML
+        if (cachedState.threadsHtml) {
+            document.getElementById('threads-list').innerHTML = cachedState.threadsHtml;
+        }
+        if (cachedState.forumName) {
+            document.getElementById('forum-name').textContent = cachedState.forumName;
+        }
+        if (cachedState.subforumHtml) {
+            const subforumList = document.getElementById('subforum-list');
+            if (subforumList) {
+                subforumList.innerHTML = cachedState.subforumHtml;
+                document.getElementById('subforum-container').style.display = 'block';
+            }
+        }
+
+        // Update filter button states
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.dataset.act === this.currentAct) {
+                btn.classList.add('active');
+            }
+        });
+
+        // Hide loading, show content
+        document.getElementById('threads-list').style.display = 'block';
+        document.getElementById('loading-state').style.display = 'none';
+
+        // Restore scroll position
+        window.ForumCache.restoreScrollPosition(this.currentFid);
+
+        return true;
     },
 
     attachFilterListeners() {

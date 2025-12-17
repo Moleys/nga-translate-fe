@@ -20,6 +20,7 @@ import './legacy/main.js';
 import './legacy/favorite-forums.js';
 import './legacy/forum-list.js';
 import './legacy/forum-page.js';
+import './legacy/forum-cache.js';
 import './legacy/forum.js';
 import './legacy/history-page.js';
 import './legacy/bookmarks-page.js';
