@@ -1,4 +1,4 @@
-const API_BASE = 'https://nga.nhimmeo.ovh';
+const API_BASE = 'https://nga-api-worker.dorew.workers.dev';
 const API_PREFIX = '/api';
 const originalFetch = window.fetch.bind(window);
 
