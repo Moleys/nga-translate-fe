@@ -626,12 +626,22 @@ const ThreadReader = {
             }
         });
 
-        // Delegate click on any line to open edit modal (use line's own data-raw)
+        // Delegate click on any line or h1 title to open edit modal (use element's own data-raw)
         document.addEventListener('click', (e) => {
             // Don't intercept clicks inside modals
             if (e.target.closest('.modal')) return;
             // If clicking on an image, let OCR handler handle it
             if (e.target && (e.target.tagName === 'IMG' || e.target.closest('img'))) return;
+            
+            // Check if clicked on thread title (h1)
+            const titleEl = e.target.closest('#thread-title');
+            if (titleEl) {
+                const raw = titleEl.getAttribute('data-raw') || '';
+                if (raw) this.openGlossaryModal(raw);
+                return;
+            }
+            
+            // Check if clicked on comment line
             const lineEl = e.target.closest('.comment-line');
             if (!lineEl) return;
             const raw = lineEl.getAttribute('data-raw') || '';

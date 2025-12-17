@@ -464,6 +464,18 @@ footer {
     background-color: rgba(90, 157, 138, 0.08);
 }
 
+/* Clickable thread title for glossary editing */
+#thread-title {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+#thread-title:hover {
+    background-color: rgba(90, 157, 138, 0.08);
+}
+
 /* Word segmentation tooltip (zuro class from translate.php) */
 .zuro {
     position: relative;
